@@ -1,1 +1,61 @@
-aW1wb3J0IHsgQWN0aXZpdHkgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgewogIFN0YXR1c0JhZGdlLAogIHRvbmVGb3JTZXZlcml0eSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvU3RhdHVzQmFkZ2UiOwppbXBvcnQgeyBTZWN0aW9uQ2FyZCB9IGZyb20gIi4vX1NlY3Rpb25DYXJkIjsKaW1wb3J0IHsgZm9ybWF0UmVsYXRpdmUgfSBmcm9tICJAL2xpYi91dGlscy9kYXRlcyI7CmltcG9ydCB0eXBlIHsgSGVhbHRoTG9nIH0gZnJvbSAiQC9saWIvbm90aW9uL2hlYWx0aCI7CgpleHBvcnQgZnVuY3Rpb24gSGVhbHRoU2VjdGlvbih7CiAgZW50cmllcywKICBsZWFkSWQ6IF9sZWFkSWQsCn06IHsKICBlbnRyaWVzOiBIZWFsdGhMb2dbXTsKICBsZWFkSWQ6IHN0cmluZzsKfSkgewogIGlmIChlbnRyaWVzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIG51bGw7CgogIHJldHVybiAoCiAgICA8U2VjdGlvbkNhcmQKICAgICAgaWNvbj17QWN0aXZpdHl9CiAgICAgIHRpdGxlPSJTeXN0ZW0gSGVhbHRoIgogICAgICBjb3VudD17ZW50cmllcy5sZW5ndGh9CiAgICAgIHRvbmU9ImRhbmdlciIKICAgID4KICAgICAgPHVsIGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICB7ZW50cmllcy5tYXAoKGxvZykgPT4gKAogICAgICAgICAgPGxpCiAgICAgICAgICAgIGtleT17bG9nLmlkfQogICAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctYmcvNDAgcC0zIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICB7bG9nLnNldmVyaXR5ICYmICgKICAgICAgICAgICAgICAgIDxTdGF0dXNCYWRnZQogICAgICAgICAgICAgICAgICBsYWJlbD17bG9nLnNldmVyaXR5fQogICAgICAgICAgICAgICAgICB0b25lPXt0b25lRm9yU2V2ZXJpdHkobG9nLnNldmVyaXR5KX0KICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICB7bG9nLmFnZW50ICYmICgKICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibGFiZWwtY2FwcyB0ZXh0LXRleHQtbXV0ZWQiPntsb2cuYWdlbnR9PC9zcGFuPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAge2xvZy5ldmVudFR5cGUgJiYgKAogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgICAgICAgICB7bG9nLmV2ZW50VHlwZX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWwtYXV0byB0ZXh0LXhzIHRleHQtdGV4dC1tdXRlZCI+CiAgICAgICAgICAgICAgICB7Zm9ybWF0UmVsYXRpdmUobG9nLnRpbWVzdGFtcCl9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAge2xvZy5lcnJvck1lc3NhZ2UgJiYgKAogICAgICAgICAgICAgIDxwcmUgY2xhc3NOYW1lPSJtdC0yIHdoaXRlc3BhY2UtcHJlLXdyYXAgZm9udC1tb25vIHRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAgICB7bG9nLmVycm9yTWVzc2FnZX0KICAgICAgICAgICAgICA8L3ByZT4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvbGk+CiAgICAgICAgKSl9CiAgICAgIDwvdWw+CiAgICA8L1NlY3Rpb25DYXJkPgogICk7Cn0K
+import { Activity } from "lucide-react";
+import {
+  StatusBadge,
+  toneForSeverity,
+} from "@/components/ui/StatusBadge";
+import { SectionCard } from "./_SectionCard";
+import { formatRelative } from "@/lib/utils/dates";
+import type { HealthLog } from "@/lib/notion/health";
+
+export function HealthSection({
+  entries,
+  leadId: _leadId,
+}: {
+  entries: HealthLog[];
+  leadId: string;
+}) {
+  if (entries.length === 0) return null;
+
+  return (
+    <SectionCard
+      icon={Activity}
+      title="System Health"
+      count={entries.length}
+      tone="danger"
+    >
+      <ul className="space-y-2">
+        {entries.map((log) => (
+          <li
+            key={log.id}
+            className="rounded-lg border border-border bg-bg/40 p-3"
+          >
+            <div className="flex flex-wrap items-center gap-2">
+              {log.severity && (
+                <StatusBadge
+                  label={log.severity}
+                  tone={toneForSeverity(log.severity)}
+                />
+              )}
+              {log.agent && (
+                <span className="label-caps text-text-muted">{log.agent}</span>
+              )}
+              {log.eventType && (
+                <span className="text-xs text-text-secondary">
+                  {log.eventType}
+                </span>
+              )}
+              <span className="ml-auto text-xs text-text-muted">
+                {formatRelative(log.timestamp)}
+              </span>
+            </div>
+            {log.errorMessage && (
+              <pre className="mt-2 whitespace-pre-wrap font-mono text-xs text-text-secondary">
+                {log.errorMessage}
+              </pre>
+            )}
+          </li>
+        ))}
+      </ul>
+    </SectionCard>
+  );
+}

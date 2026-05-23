@@ -1,1 +1,208 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB0eXBlIHsKICBEYXRhYmFzZU9iamVjdFJlc3BvbnNlLAogIFBhZ2VPYmplY3RSZXNwb25zZSwKICBQYXJ0aWFsRGF0YWJhc2VPYmplY3RSZXNwb25zZSwKICBQYXJ0aWFsUGFnZU9iamVjdFJlc3BvbnNlLAp9IGZyb20gIkBub3Rpb25ocS9jbGllbnQvYnVpbGQvc3JjL2FwaS1lbmRwb2ludHMiOwoKLyoqCiAqIEdlbmVyaWMsIGRlZmVuc2l2ZSBwYXJzZXJzIGZvciBOb3Rpb24gcHJvcGVydHkgdmFsdWVzLgogKiBFdmVyeSBoZWxwZXIgcmV0dXJucyBudWxsL2VtcHR5IG9uIG1pc3Npbmcgb3Igd3JvbmctdHlwZWQgcHJvcGVydGllcyDigJQgbmV2ZXIgdGhyb3dzLgogKiBUaGUgY2FsbGVyIGFscmVhZHkgdHJ1c3RzIHRoZSBwYWdlIGNhbWUgZnJvbSBhIGtub3duIERCOyB0aGVzZSBoZWxwZXJzIGFic29yYiBzaGFwZSBkcmlmdC4KICovCgpleHBvcnQgdHlwZSBQYWdlID0gUGFnZU9iamVjdFJlc3BvbnNlOwoKdHlwZSBBbnlSZXNwb25zZSA9CiAgfCBQYWdlT2JqZWN0UmVzcG9uc2UKICB8IFBhcnRpYWxQYWdlT2JqZWN0UmVzcG9uc2UKICB8IERhdGFiYXNlT2JqZWN0UmVzcG9uc2UKICB8IFBhcnRpYWxEYXRhYmFzZU9iamVjdFJlc3BvbnNlOwoKZXhwb3J0IGZ1bmN0aW9uIGlzRnVsbFBhZ2UocGFnZTogQW55UmVzcG9uc2UpOiBwYWdlIGlzIFBhZ2VPYmplY3RSZXNwb25zZSB7CiAgcmV0dXJuIHBhZ2Uub2JqZWN0ID09PSAicGFnZSIgJiYgInByb3BlcnRpZXMiIGluIHBhZ2U7Cn0KCmZ1bmN0aW9uIHByb3AocGFnZTogUGFnZSwgbmFtZTogc3RyaW5nKTogdW5rbm93biB7CiAgcmV0dXJuIChwYWdlLnByb3BlcnRpZXMgYXMgUmVjb3JkPHN0cmluZywgdW5rbm93bj4pW25hbWVdOwp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0VGl0bGUocGFnZTogUGFnZSwgbmFtZTogc3RyaW5nKTogc3RyaW5nIHsKICBjb25zdCBwID0gcHJvcChwYWdlLCBuYW1lKSBhcyB7IHR5cGU/OiBzdHJpbmc7IHRpdGxlPzogeyBwbGFpbl90ZXh0OiBzdHJpbmcgfVtdIH07CiAgaWYgKHA/LnR5cGUgIT09ICJ0aXRsZSIpIHJldHVybiAiIjsKICByZXR1cm4gKHAudGl0bGUgPz8gW10pLm1hcCgodCkgPT4gdC5wbGFpbl90ZXh0KS5qb2luKCIiKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldFJpY2hUZXh0KHBhZ2U6IFBhZ2UsIG5hbWU6IHN0cmluZyk6IHN0cmluZyB7CiAgY29uc3QgcCA9IHByb3AocGFnZSwgbmFtZSkgYXMgewogICAgdHlwZT86IHN0cmluZzsKICAgIHJpY2hfdGV4dD86IHsgcGxhaW5fdGV4dDogc3RyaW5nIH1bXTsKICB9OwogIGlmIChwPy50eXBlICE9PSAicmljaF90ZXh0IikgcmV0dXJuICIiOwogIHJldHVybiAocC5yaWNoX3RleHQgPz8gW10pLm1hcCgodCkgPT4gdC5wbGFpbl90ZXh0KS5qb2luKCIiKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldE51bWJlcihwYWdlOiBQYWdlLCBuYW1lOiBzdHJpbmcpOiBudW1iZXIgfCBudWxsIHsKICBjb25zdCBwID0gcHJvcChwYWdlLCBuYW1lKSBhcyB7IHR5cGU/OiBzdHJpbmc7IG51bWJlcj86IG51bWJlciB8IG51bGwgfTsKICBpZiAocD8udHlwZSAhPT0gIm51bWJlciIpIHJldHVybiBudWxsOwogIHJldHVybiBwLm51bWJlciA/PyBudWxsOwp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0U2VsZWN0KHBhZ2U6IFBhZ2UsIG5hbWU6IHN0cmluZyk6IHN0cmluZyB8IG51bGwgewogIGNvbnN0IHAgPSBwcm9wKHBhZ2UsIG5hbWUpIGFzIHsKICAgIHR5cGU/OiBzdHJpbmc7CiAgICBzZWxlY3Q/OiB7IG5hbWU6IHN0cmluZyB9IHwgbnVsbDsKICB9OwogIGlmIChwPy50eXBlICE9PSAic2VsZWN0IikgcmV0dXJuIG51bGw7CiAgcmV0dXJuIHAuc2VsZWN0Py5uYW1lID8/IG51bGw7Cn0KCmV4cG9ydCBmdW5jdGlvbiBnZXRNdWx0aVNlbGVjdChwYWdlOiBQYWdlLCBuYW1lOiBzdHJpbmcpOiBzdHJpbmdbXSB7CiAgY29uc3QgcCA9IHByb3AocGFnZSwgbmFtZSkgYXMgewogICAgdHlwZT86IHN0cmluZzsKICAgIG11bHRpX3NlbGVjdD86IHsgbmFtZTogc3RyaW5nIH1bXTsKICB9OwogIGlmIChwPy50eXBlICE9PSAibXVsdGlfc2VsZWN0IikgcmV0dXJuIFtdOwogIHJldHVybiAocC5tdWx0aV9zZWxlY3QgPz8gW10pLm1hcCgocykgPT4gcy5uYW1lKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldENoZWNrYm94KHBhZ2U6IFBhZ2UsIG5hbWU6IHN0cmluZyk6IGJvb2xlYW4gewogIGNvbnN0IHAgPSBwcm9wKHBhZ2UsIG5hbWUpIGFzIHsgdHlwZT86IHN0cmluZzsgY2hlY2tib3g/OiBib29sZWFuIH07CiAgaWYgKHA/LnR5cGUgIT09ICJjaGVja2JveCIpIHJldHVybiBmYWxzZTsKICByZXR1cm4gQm9vbGVhbihwLmNoZWNrYm94KTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldERhdGUocGFnZTogUGFnZSwgbmFtZTogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCB7CiAgY29uc3QgcCA9IHByb3AocGFnZSwgbmFtZSkgYXMgewogICAgdHlwZT86IHN0cmluZzsKICAgIGRhdGU/OiB7IHN0YXJ0OiBzdHJpbmcgfSB8IG51bGw7CiAgfTsKICBpZiAocD8udHlwZSAhPT0gImRhdGUiKSByZXR1cm4gbnVsbDsKICByZXR1cm4gcC5kYXRlPy5zdGFydCA/PyBudWxsOwp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0RW1haWwocGFnZTogUGFnZSwgbmFtZTogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCB7CiAgY29uc3QgcCA9IHByb3AocGFnZSwgbmFtZSkgYXMgeyB0eXBlPzogc3RyaW5nOyBlbWFpbD86IHN0cmluZyB8IG51bGwgfTsKICBpZiAocD8udHlwZSAhPT0gImVtYWlsIikgcmV0dXJuIG51bGw7CiAgcmV0dXJuIHAuZW1haWwgPz8gbnVsbDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldFBob25lKHBhZ2U6IFBhZ2UsIG5hbWU6IHN0cmluZyk6IHN0cmluZyB8IG51bGwgewogIGNvbnN0IHAgPSBwcm9wKHBhZ2UsIG5hbWUpIGFzIHsgdHlwZT86IHN0cmluZzsgcGhvbmVfbnVtYmVyPzogc3RyaW5nIHwgbnVsbCB9OwogIGlmIChwPy50eXBlICE9PSAicGhvbmVfbnVtYmVyIikgcmV0dXJuIG51bGw7CiAgcmV0dXJuIHAucGhvbmVfbnVtYmVyID8/IG51bGw7Cn0KCmV4cG9ydCBmdW5jdGlvbiBnZXRVcmwocGFnZTogUGFnZSwgbmFtZTogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCB7CiAgY29uc3QgcCA9IHByb3AocGFnZSwgbmFtZSkgYXMgeyB0eXBlPzogc3RyaW5nOyB1cmw/OiBzdHJpbmcgfCBudWxsIH07CiAgaWYgKHA/LnR5cGUgIT09ICJ1cmwiKSByZXR1cm4gbnVsbDsKICByZXR1cm4gcC51cmwgPz8gbnVsbDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldFJlbGF0aW9uSWRzKHBhZ2U6IFBhZ2UsIG5hbWU6IHN0cmluZyk6IHN0cmluZ1tdIHsKICBjb25zdCBwID0gcHJvcChwYWdlLCBuYW1lKSBhcyB7CiAgICB0eXBlPzogc3RyaW5nOwogICAgcmVsYXRpb24/OiB7IGlkOiBzdHJpbmcgfVtdOwogIH07CiAgaWYgKHA/LnR5cGUgIT09ICJyZWxhdGlvbiIpIHJldHVybiBbXTsKICByZXR1cm4gKHAucmVsYXRpb24gPz8gW10pLm1hcCgocikgPT4gci5pZCk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBnZXRDcmVhdGVkVGltZShwYWdlOiBQYWdlLCBuYW1lOiBzdHJpbmcpOiBzdHJpbmcgfCBudWxsIHsKICBjb25zdCBwID0gcHJvcChwYWdlLCBuYW1lKSBhcyB7IHR5cGU/OiBzdHJpbmc7IGNyZWF0ZWRfdGltZT86IHN0cmluZyB9OwogIGlmIChwPy50eXBlICE9PSAiY3JlYXRlZF90aW1lIikgcmV0dXJuIG51bGw7CiAgcmV0dXJuIHAuY3JlYXRlZF90aW1lID8/IG51bGw7Cn0KCi8qKgogKiBSb2xsdXAgdGhhdCByZXR1cm5zIGEgc2luZ2xlIHNlbGVjdC1saWtlIHZhbHVlIChlLmcuLCB0aGUgYFByaW9yaXR5YCByb2xsdXAKICogb3ZlciBQaXBlbGluZSdzIFByaW9yaXR5IHNlbGVjdCB3aXRoIGBzaG93X29yaWdpbmFsYCkuCiAqCiAqIE5vdGlvbiByZXR1cm5zIHJvbGx1cCByZXN1bHRzIGFzIGBhcnJheWAgb2YgcHJvcGVydHkgdmFsdWVzIHdoZW4gc291cmNlIGlzCiAqIGEgc2VsZWN0IOKAlCB3ZSBleHRyYWN0IHRoZSBmaXJzdCBvbmUncyBuYW1lLgogKi8KZXhwb3J0IGZ1bmN0aW9uIGdldFJvbGx1cFNlbGVjdChwYWdlOiBQYWdlLCBuYW1lOiBzdHJpbmcpOiBzdHJpbmcgfCBudWxsIHsKICBjb25zdCBwID0gcHJvcChwYWdlLCBuYW1lKSBhcyB7CiAgICB0eXBlPzogc3RyaW5nOwogICAgcm9sbHVwPzogewogICAgICB0eXBlOiBzdHJpbmc7CiAgICAgIGFycmF5PzogeyB0eXBlOiBzdHJpbmc7IHNlbGVjdD86IHsgbmFtZTogc3RyaW5nIH0gfCBudWxsIH1bXTsKICAgICAgbnVtYmVyPzogbnVtYmVyOwogICAgfTsKICB9OwogIGlmIChwPy50eXBlICE9PSAicm9sbHVwIikgcmV0dXJuIG51bGw7CiAgY29uc3QgYXJyID0gcC5yb2xsdXA/LmFycmF5ID8/IFtdOwogIGZvciAoY29uc3QgaXRlbSBvZiBhcnIpIHsKICAgIGlmIChpdGVtLnR5cGUgPT09ICJzZWxlY3QiICYmIGl0ZW0uc2VsZWN0Py5uYW1lKSByZXR1cm4gaXRlbS5zZWxlY3QubmFtZTsKICB9CiAgcmV0dXJuIG51bGw7Cn0KCi8qKgogKiBSb2xsdXAgdGhhdCByZXR1cm5zIGEgcmljaF90ZXh0IGFnZ3JlZ2F0ZSAoZS5nLiBgQ29tcGFueWAgcm9sbGVkIHVwIGZyb20KICogdGhlIHJlbGF0ZWQgTGVhZCdzIGBDb21wYW55YCByaWNoX3RleHQgZmllbGQpLiBSZXR1cm5zIHRoZSBmaXJzdCBub24tZW1wdHkKICogc3RyaW5nIGZyb20gdGhlIHJvbGx1cCBhcnJheS4KICovCmV4cG9ydCBmdW5jdGlvbiBnZXRSb2xsdXBSaWNoVGV4dChwYWdlOiBQYWdlLCBuYW1lOiBzdHJpbmcpOiBzdHJpbmcgewogIGNvbnN0IHAgPSBwcm9wKHBhZ2UsIG5hbWUpIGFzIHsKICAgIHR5cGU/OiBzdHJpbmc7CiAgICByb2xsdXA/OiB7CiAgICAgIHR5cGU6IHN0cmluZzsKICAgICAgYXJyYXk/OiB7IHR5cGU6IHN0cmluZzsgcmljaF90ZXh0PzogeyBwbGFpbl90ZXh0OiBzdHJpbmcgfVtdIH1bXTsKICAgICAgc3RyaW5nPzogc3RyaW5nOwogICAgfTsKICB9OwogIGlmIChwPy50eXBlICE9PSAicm9sbHVwIikgcmV0dXJuICIiOwogIGlmIChwLnJvbGx1cD8uc3RyaW5nKSByZXR1cm4gcC5yb2xsdXAuc3RyaW5nOwogIGNvbnN0IGFyciA9IHAucm9sbHVwPy5hcnJheSA/PyBbXTsKICBmb3IgKGNvbnN0IGl0ZW0gb2YgYXJyKSB7CiAgICBpZiAoaXRlbS50eXBlID09PSAicmljaF90ZXh0IikgewogICAgICBjb25zdCB0ZXh0ID0gKGl0ZW0ucmljaF90ZXh0ID8/IFtdKS5tYXAoKHQpID0+IHQucGxhaW5fdGV4dCkuam9pbigiIik7CiAgICAgIGlmICh0ZXh0KSByZXR1cm4gdGV4dDsKICAgIH0KICB9CiAgcmV0dXJuICIiOwp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0Um9sbHVwTnVtYmVyKHBhZ2U6IFBhZ2UsIG5hbWU6IHN0cmluZyk6IG51bWJlciB8IG51bGwgewogIGNvbnN0IHAgPSBwcm9wKHBhZ2UsIG5hbWUpIGFzIHsKICAgIHR5cGU/OiBzdHJpbmc7CiAgICByb2xsdXA/OiB7CiAgICAgIHR5cGU6IHN0cmluZzsKICAgICAgbnVtYmVyPzogbnVtYmVyIHwgbnVsbDsKICAgICAgYXJyYXk/OiB7IHR5cGU6IHN0cmluZzsgbnVtYmVyPzogbnVtYmVyIHwgbnVsbCB9W107CiAgICB9OwogIH07CiAgaWYgKHA/LnR5cGUgIT09ICJyb2xsdXAiKSByZXR1cm4gbnVsbDsKICBpZiAodHlwZW9mIHAucm9sbHVwPy5udW1iZXIgPT09ICJudW1iZXIiKSByZXR1cm4gcC5yb2xsdXAubnVtYmVyOwogIGNvbnN0IGFyciA9IHAucm9sbHVwPy5hcnJheSA/PyBbXTsKICBsZXQgc3VtID0gMDsKICBsZXQgYW55ID0gZmFsc2U7CiAgZm9yIChjb25zdCBpdGVtIG9mIGFycikgewogICAgaWYgKGl0ZW0udHlwZSA9PT0gIm51bWJlciIgJiYgdHlwZW9mIGl0ZW0ubnVtYmVyID09PSAibnVtYmVyIikgewogICAgICBzdW0gKz0gaXRlbS5udW1iZXI7CiAgICAgIGFueSA9IHRydWU7CiAgICB9CiAgfQogIHJldHVybiBhbnkgPyBzdW0gOiBudWxsOwp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0VW5pcXVlSWQocGFnZTogUGFnZSwgbmFtZTogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCB7CiAgY29uc3QgcCA9IHByb3AocGFnZSwgbmFtZSkgYXMgewogICAgdHlwZT86IHN0cmluZzsKICAgIHVuaXF1ZV9pZD86IHsgcHJlZml4OiBzdHJpbmcgfCBudWxsOyBudW1iZXI6IG51bWJlciB9OwogIH07CiAgaWYgKHA/LnR5cGUgIT09ICJ1bmlxdWVfaWQiKSByZXR1cm4gbnVsbDsKICBjb25zdCB1ID0gcC51bmlxdWVfaWQ7CiAgaWYgKCF1KSByZXR1cm4gbnVsbDsKICByZXR1cm4gdS5wcmVmaXggPyBgJHt1LnByZWZpeH0tJHt1Lm51bWJlcn1gIDogYCR7dS5udW1iZXJ9YDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldExhc3RFZGl0ZWRUaW1lKHBhZ2U6IFBhZ2UpOiBzdHJpbmcgewogIHJldHVybiBwYWdlLmxhc3RfZWRpdGVkX3RpbWU7Cn0KCmV4cG9ydCBmdW5jdGlvbiBnZXRDcmVhdGVkVGltZVBhZ2UocGFnZTogUGFnZSk6IHN0cmluZyB7CiAgcmV0dXJuIHBhZ2UuY3JlYXRlZF90aW1lOwp9Cg==
+import "server-only";
+import type {
+  DatabaseObjectResponse,
+  PageObjectResponse,
+  PartialDatabaseObjectResponse,
+  PartialPageObjectResponse,
+} from "@notionhq/client/build/src/api-endpoints";
+
+/**
+ * Generic, defensive parsers for Notion property values.
+ * Every helper returns null/empty on missing or wrong-typed properties — never throws.
+ * The caller already trusts the page came from a known DB; these helpers absorb shape drift.
+ */
+
+export type Page = PageObjectResponse;
+
+type AnyResponse =
+  | PageObjectResponse
+  | PartialPageObjectResponse
+  | DatabaseObjectResponse
+  | PartialDatabaseObjectResponse;
+
+export function isFullPage(page: AnyResponse): page is PageObjectResponse {
+  return page.object === "page" && "properties" in page;
+}
+
+function prop(page: Page, name: string): unknown {
+  return (page.properties as Record<string, unknown>)[name];
+}
+
+export function getTitle(page: Page, name: string): string {
+  const p = prop(page, name) as { type?: string; title?: { plain_text: string }[] };
+  if (p?.type !== "title") return "";
+  return (p.title ?? []).map((t) => t.plain_text).join("");
+}
+
+export function getRichText(page: Page, name: string): string {
+  const p = prop(page, name) as {
+    type?: string;
+    rich_text?: { plain_text: string }[];
+  };
+  if (p?.type !== "rich_text") return "";
+  return (p.rich_text ?? []).map((t) => t.plain_text).join("");
+}
+
+export function getNumber(page: Page, name: string): number | null {
+  const p = prop(page, name) as { type?: string; number?: number | null };
+  if (p?.type !== "number") return null;
+  return p.number ?? null;
+}
+
+export function getSelect(page: Page, name: string): string | null {
+  const p = prop(page, name) as {
+    type?: string;
+    select?: { name: string } | null;
+  };
+  if (p?.type !== "select") return null;
+  return p.select?.name ?? null;
+}
+
+export function getMultiSelect(page: Page, name: string): string[] {
+  const p = prop(page, name) as {
+    type?: string;
+    multi_select?: { name: string }[];
+  };
+  if (p?.type !== "multi_select") return [];
+  return (p.multi_select ?? []).map((s) => s.name);
+}
+
+export function getCheckbox(page: Page, name: string): boolean {
+  const p = prop(page, name) as { type?: string; checkbox?: boolean };
+  if (p?.type !== "checkbox") return false;
+  return Boolean(p.checkbox);
+}
+
+export function getDate(page: Page, name: string): string | null {
+  const p = prop(page, name) as {
+    type?: string;
+    date?: { start: string } | null;
+  };
+  if (p?.type !== "date") return null;
+  return p.date?.start ?? null;
+}
+
+export function getEmail(page: Page, name: string): string | null {
+  const p = prop(page, name) as { type?: string; email?: string | null };
+  if (p?.type !== "email") return null;
+  return p.email ?? null;
+}
+
+export function getPhone(page: Page, name: string): string | null {
+  const p = prop(page, name) as { type?: string; phone_number?: string | null };
+  if (p?.type !== "phone_number") return null;
+  return p.phone_number ?? null;
+}
+
+export function getUrl(page: Page, name: string): string | null {
+  const p = prop(page, name) as { type?: string; url?: string | null };
+  if (p?.type !== "url") return null;
+  return p.url ?? null;
+}
+
+export function getRelationIds(page: Page, name: string): string[] {
+  const p = prop(page, name) as {
+    type?: string;
+    relation?: { id: string }[];
+  };
+  if (p?.type !== "relation") return [];
+  return (p.relation ?? []).map((r) => r.id);
+}
+
+export function getCreatedTime(page: Page, name: string): string | null {
+  const p = prop(page, name) as { type?: string; created_time?: string };
+  if (p?.type !== "created_time") return null;
+  return p.created_time ?? null;
+}
+
+/**
+ * Rollup that returns a single select-like value (e.g., the `Priority` rollup
+ * over Pipeline's Priority select with `show_original`).
+ *
+ * Notion returns rollup results as `array` of property values when source is
+ * a select — we extract the first one's name.
+ */
+export function getRollupSelect(page: Page, name: string): string | null {
+  const p = prop(page, name) as {
+    type?: string;
+    rollup?: {
+      type: string;
+      array?: { type: string; select?: { name: string } | null }[];
+      number?: number;
+    };
+  };
+  if (p?.type !== "rollup") return null;
+  const arr = p.rollup?.array ?? [];
+  for (const item of arr) {
+    if (item.type === "select" && item.select?.name) return item.select.name;
+  }
+  return null;
+}
+
+/**
+ * Rollup that returns a rich_text aggregate (e.g. `Company` rolled up from
+ * the related Lead's `Company` rich_text field). Returns the first non-empty
+ * string from the rollup array.
+ */
+export function getRollupRichText(page: Page, name: string): string {
+  const p = prop(page, name) as {
+    type?: string;
+    rollup?: {
+      type: string;
+      array?: { type: string; rich_text?: { plain_text: string }[] }[];
+      string?: string;
+    };
+  };
+  if (p?.type !== "rollup") return "";
+  if (p.rollup?.string) return p.rollup.string;
+  const arr = p.rollup?.array ?? [];
+  for (const item of arr) {
+    if (item.type === "rich_text") {
+      const text = (item.rich_text ?? []).map((t) => t.plain_text).join("");
+      if (text) return text;
+    }
+  }
+  return "";
+}
+
+export function getRollupNumber(page: Page, name: string): number | null {
+  const p = prop(page, name) as {
+    type?: string;
+    rollup?: {
+      type: string;
+      number?: number | null;
+      array?: { type: string; number?: number | null }[];
+    };
+  };
+  if (p?.type !== "rollup") return null;
+  if (typeof p.rollup?.number === "number") return p.rollup.number;
+  const arr = p.rollup?.array ?? [];
+  let sum = 0;
+  let any = false;
+  for (const item of arr) {
+    if (item.type === "number" && typeof item.number === "number") {
+      sum += item.number;
+      any = true;
+    }
+  }
+  return any ? sum : null;
+}
+
+export function getUniqueId(page: Page, name: string): string | null {
+  const p = prop(page, name) as {
+    type?: string;
+    unique_id?: { prefix: string | null; number: number };
+  };
+  if (p?.type !== "unique_id") return null;
+  const u = p.unique_id;
+  if (!u) return null;
+  return u.prefix ? `${u.prefix}-${u.number}` : `${u.number}`;
+}
+
+export function getLastEditedTime(page: Page): string {
+  return page.last_edited_time;
+}
+
+export function getCreatedTimePage(page: Page): string {
+  return page.created_time;
+}

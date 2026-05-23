@@ -1,1 +1,54 @@
-aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsKICBjcmVhdGVDb250ZW50LAogIHR5cGUgQ29udGVudFBsYXRmb3JtLAogIHR5cGUgQ29udGVudFN0YXR1cywKICB0eXBlIENvbnRlbnRUeXBlLAp9IGZyb20gIkAvbGliL25vdGlvbi9jb250ZW50IjsKaW1wb3J0IHsgSHR0cEVycm9yLCByZXF1aXJlUm9sZSB9IGZyb20gIkAvbGliL2F1dGgvc2Vzc2lvbiI7CmltcG9ydCB7IGJ1c3QsIFRBRyB9IGZyb20gIkAvbGliL3V0aWxzL3JldmFsaWRhdGUiOwoKY29uc3QgQm9keSA9IHoub2JqZWN0KHsKICB0aXRsZTogei5zdHJpbmcoKS5taW4oMSkubWF4KDIwMCksCiAgdG9waWM6IHouc3RyaW5nKCkubWF4KDUwMCkub3B0aW9uYWwoKSwKICBjb250ZW50VHlwZTogegogICAgLmVudW0oWyJMaW5rZWRJbiBQb3N0IiwgIlN1YnN0YWNrIEFydGljbGUiLCAiVmlkZW8gU2NyaXB0IiwgIkFkIENvcHkiXSkKICAgIC5vcHRpb25hbCgpLAogIHN0YXR1czogegogICAgLmVudW0oWyJEcmFmdCIsICJSZWFkeSB0byBQdWJsaXNoIiwgIlB1Ymxpc2hlZCIsICJBcmNoaXZlZCJdKQogICAgLm9wdGlvbmFsKCksCiAgcHVibGlzaERhdGU6IHouc3RyaW5nKCkubnVsbGFibGUoKS5vcHRpb25hbCgpLAogIHBsYXRmb3JtOiB6LmVudW0oWyJMaW5rZWRJbiIsICJTdWJzdGFjayIsICJZb3VUdWJlIiwgIk90aGVyIl0pLm9wdGlvbmFsKCksCiAgdXRtTGluazogei5zdHJpbmcoKS51cmwoKS5udWxsYWJsZSgpLm9wdGlvbmFsKCksCn0pOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QocmVxOiBSZXF1ZXN0KSB7CiAgdHJ5IHsKICAgIGF3YWl0IHJlcXVpcmVSb2xlKFsiQWRtaW4iLCAiU3RhZmYiXSk7CiAgICBjb25zdCBib2R5ID0gQm9keS5zYWZlUGFyc2UoYXdhaXQgcmVxLmpzb24oKS5jYXRjaCgoKSA9PiAoe30pKSk7CiAgICBpZiAoIWJvZHkuc3VjY2VzcykgewogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgICAgeyBlcnJvcjogIkludmFsaWQgYm9keSIsIGlzc3VlczogYm9keS5lcnJvci5pc3N1ZXMgfSwKICAgICAgICB7IHN0YXR1czogNDAwIH0sCiAgICAgICk7CiAgICB9CiAgICBjb25zdCBpZCA9IGF3YWl0IGNyZWF0ZUNvbnRlbnQoewogICAgICB0aXRsZTogYm9keS5kYXRhLnRpdGxlLAogICAgICB0b3BpYzogYm9keS5kYXRhLnRvcGljLAogICAgICBjb250ZW50VHlwZTogYm9keS5kYXRhLmNvbnRlbnRUeXBlIGFzIENvbnRlbnRUeXBlIHwgdW5kZWZpbmVkLAogICAgICBzdGF0dXM6IChib2R5LmRhdGEuc3RhdHVzID8/ICJEcmFmdCIpIGFzIENvbnRlbnRTdGF0dXMsCiAgICAgIHB1Ymxpc2hEYXRlOiBib2R5LmRhdGEucHVibGlzaERhdGUgPz8gbnVsbCwKICAgICAgcGxhdGZvcm06IGJvZHkuZGF0YS5wbGF0Zm9ybSBhcyBDb250ZW50UGxhdGZvcm0gfCB1bmRlZmluZWQsCiAgICAgIHV0bUxpbms6IGJvZHkuZGF0YS51dG1MaW5rID8/IG51bGwsCiAgICB9KTsKICAgIGJ1c3QoVEFHLmNvbnRlbnQsIFRBRy5hY3Rpdml0eSk7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBvazogdHJ1ZSwgaWQgfSk7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICBpZiAoZXJyIGluc3RhbmNlb2YgSHR0cEVycm9yKSB7CiAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiBlcnIubWVzc2FnZSB9LCB7IHN0YXR1czogZXJyLnN0YXR1cyB9KTsKICAgIH0KICAgIGNvbnNvbGUuZXJyb3IoIlsvYXBpL2NvbnRlbnRdIiwgZXJyKTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiSW50ZXJuYWwgZXJyb3IiIH0sIHsgc3RhdHVzOiA1MDAgfSk7CiAgfQp9Cg==
+import { NextResponse } from "next/server";
+import { z } from "zod";
+import {
+  createContent,
+  type ContentPlatform,
+  type ContentStatus,
+  type ContentType,
+} from "@/lib/notion/content";
+import { HttpError, requireRole } from "@/lib/auth/session";
+import { bust, TAG } from "@/lib/utils/revalidate";
+
+const Body = z.object({
+  title: z.string().min(1).max(200),
+  topic: z.string().max(500).optional(),
+  contentType: z
+    .enum(["LinkedIn Post", "Substack Article", "Video Script", "Ad Copy"])
+    .optional(),
+  status: z
+    .enum(["Draft", "Ready to Publish", "Published", "Archived"])
+    .optional(),
+  publishDate: z.string().nullable().optional(),
+  platform: z.enum(["LinkedIn", "Substack", "YouTube", "Other"]).optional(),
+  utmLink: z.string().url().nullable().optional(),
+});
+
+export async function POST(req: Request) {
+  try {
+    await requireRole(["Admin", "Staff"]);
+    const body = Body.safeParse(await req.json().catch(() => ({})));
+    if (!body.success) {
+      return NextResponse.json(
+        { error: "Invalid body", issues: body.error.issues },
+        { status: 400 },
+      );
+    }
+    const id = await createContent({
+      title: body.data.title,
+      topic: body.data.topic,
+      contentType: body.data.contentType as ContentType | undefined,
+      status: (body.data.status ?? "Draft") as ContentStatus,
+      publishDate: body.data.publishDate ?? null,
+      platform: body.data.platform as ContentPlatform | undefined,
+      utmLink: body.data.utmLink ?? null,
+    });
+    bust(TAG.content, TAG.activity);
+    return NextResponse.json({ ok: true, id });
+  } catch (err) {
+    if (err instanceof HttpError) {
+      return NextResponse.json({ error: err.message }, { status: err.status });
+    }
+    console.error("[/api/content]", err);
+    return NextResponse.json({ error: "Internal error" }, { status: 500 });
+  }
+}

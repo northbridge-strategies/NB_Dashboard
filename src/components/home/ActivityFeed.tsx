@@ -1,1 +1,127 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IHsKICBDaXJjbGVVc2VyLAogIEZpbGVUZXh0LAogIExpc3RDaGVja3MsCiAgRG9sbGFyU2lnbiwKICBCcmllZmNhc2UsCiAgdHlwZSBMdWNpZGVJY29uLAp9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB0eXBlIHsgQWN0aXZpdHlJdGVtLCBBY3Rpdml0eVNvdXJjZSB9IGZyb20gIkAvbGliL3R5cGVzL2RvbWFpbiI7CmltcG9ydCB7IGZvcm1hdFJlbGF0aXZlIH0gZnJvbSAiQC9saWIvdXRpbHMvZGF0ZXMiOwppbXBvcnQgeyBFbXB0eVN0YXRlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N0YXRlcyI7CgovKioKICogU291cmNlLXNwZWNpZmljIHN0eWxpbmcuIEVhY2ggcm93IGdldHM6CiAqICAtIGEgY29sb3JlZCBpY29uIGJ1YmJsZSBtYXRjaGluZyB0aGUgc291cmNlIERCCiAqICAtIGEgbGVmdCBhY2NlbnQgc3RyaXBlIGluIHRoZSBzYW1lIGh1ZQogKiAgLSBhIGxhYmVsZWQgY2hpcCAoIkxFQUQiLCAiU0NPUkUiLCBldGMuKSBjYXJyeWluZyB0aGUgc2FtZSBjb2xvcgogKgogKiBUaGlzIGlzIHRoZSBzaW5nbGUgc291cmNlIG9mIHRydXRoIGZvciBhY3Rpdml0eS1mZWVkIGJyYW5kLWNvbG9ycyDigJQKICogb3RoZXIgc3VyZmFjZXMgKGNoYXJ0cywgYmFkZ2VzKSBrZWVwIHRoZWlyIG93biBjb2xvciBsb2dpYy4KICovCmNvbnN0IFNPVVJDRV9TVFlMRTogUmVjb3JkPAogIEFjdGl2aXR5U291cmNlLAogIHsKICAgIGljb246IEx1Y2lkZUljb247CiAgICBsYWJlbDogc3RyaW5nOwogICAgYnViYmxlOiBzdHJpbmc7CiAgICBzdHJpcGU6IHN0cmluZzsKICAgIGNoaXA6IHN0cmluZzsKICB9Cj4gPSB7CiAgbGVhZDogewogICAgaWNvbjogQ2lyY2xlVXNlciwKICAgIGxhYmVsOiAiTGVhZCIsCiAgICBidWJibGU6ICJiZy1icmFuZC1wcmltYXJ5LzEwIHRleHQtYnJhbmQtcHJpbWFyeSIsCiAgICBzdHJpcGU6ICJiZy1icmFuZC1wcmltYXJ5IiwKICAgIGNoaXA6ICJiZy1icmFuZC1wcmltYXJ5LzEwIHRleHQtYnJhbmQtcHJpbWFyeSBib3JkZXItYnJhbmQtcHJpbWFyeS8zMCIsCiAgfSwKICBzY29yZTogewogICAgaWNvbjogRmlsZVRleHQsCiAgICBsYWJlbDogIlNjb3JlIiwKICAgIGJ1YmJsZTogImJnLWJyYW5kLWluZm8vMTUgdGV4dC1icmFuZC1pbmZvIiwKICAgIHN0cmlwZTogImJnLWJyYW5kLWluZm8iLAogICAgY2hpcDogImJnLWJyYW5kLWluZm8vMTUgdGV4dC1icmFuZC1pbmZvIGJvcmRlci1icmFuZC1pbmZvLzMwIiwKICB9LAogIHBpcGVsaW5lOiB7CiAgICBpY29uOiBMaXN0Q2hlY2tzLAogICAgbGFiZWw6ICJQaXBlbGluZSIsCiAgICBidWJibGU6ICJiZy1icmFuZC1hY2NlbnQvMTUgdGV4dC1icmFuZC1hY2NlbnQiLAogICAgc3RyaXBlOiAiYmctYnJhbmQtYWNjZW50IiwKICAgIGNoaXA6ICJiZy1icmFuZC1hY2NlbnQvMTUgdGV4dC1icmFuZC1hY2NlbnQgYm9yZGVyLWJyYW5kLWFjY2VudC8zMCIsCiAgfSwKICByZXZlbnVlOiB7CiAgICBpY29uOiBEb2xsYXJTaWduLAogICAgbGFiZWw6ICJSZXZlbnVlIiwKICAgIGJ1YmJsZTogImJnLWJyYW5kLXN1Y2Nlc3MvMTAgdGV4dC1icmFuZC1zdWNjZXNzIiwKICAgIHN0cmlwZTogImJnLWJyYW5kLXN1Y2Nlc3MiLAogICAgY2hpcDogImJnLWJyYW5kLXN1Y2Nlc3MvMTAgdGV4dC1icmFuZC1zdWNjZXNzIGJvcmRlci1icmFuZC1zdWNjZXNzLzMwIiwKICB9LAogIGxpbmtlZGluOiB7CiAgICBpY29uOiBCcmllZmNhc2UsCiAgICBsYWJlbDogIkxpbmtlZEluIiwKICAgIGJ1YmJsZTogImJnLWJyYW5kLXdhcm5pbmcvMTUgdGV4dC1icmFuZC13YXJuaW5nIiwKICAgIHN0cmlwZTogImJnLWJyYW5kLXdhcm5pbmciLAogICAgY2hpcDogImJnLWJyYW5kLXdhcm5pbmcvMTUgdGV4dC1icmFuZC13YXJuaW5nIGJvcmRlci1icmFuZC13YXJuaW5nLzMwIiwKICB9LAp9OwoKZXhwb3J0IGZ1bmN0aW9uIEFjdGl2aXR5RmVlZCh7IGl0ZW1zIH06IHsgaXRlbXM6IEFjdGl2aXR5SXRlbVtdIH0pIHsKICBpZiAoaXRlbXMubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gKAogICAgICA8RW1wdHlTdGF0ZQogICAgICAgIHRpdGxlPSJObyByZWNlbnQgYWN0aXZpdHkiCiAgICAgICAgZGVzY3JpcHRpb249IkFjdGl2aXR5IHdpbGwgYXBwZWFyIGhlcmUgYXMgYWdlbnRzIGFuZCBEb3VnIHVwZGF0ZSB0aGUgc3lzdGVtLiIKICAgICAgLz4KICAgICk7CiAgfQoKICByZXR1cm4gKAogICAgPHVsIGNsYXNzTmFtZT0iZGl2aWRlLXkgZGl2aWRlLWJvcmRlciBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1zdXJmYWNlIj4KICAgICAge2l0ZW1zLm1hcCgoaXRlbSkgPT4gewogICAgICAgIGNvbnN0IHN0eWxlID0gU09VUkNFX1NUWUxFW2l0ZW0uc291cmNlXTsKICAgICAgICBjb25zdCBJY29uID0gc3R5bGUuaWNvbjsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgPGxpIGtleT17YCR7aXRlbS5zb3VyY2V9LSR7aXRlbS5pZH1gfT4KICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICBocmVmPXtpdGVtLmhyZWZ9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJncm91cCByZWxhdGl2ZSBmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zIHAtNCBwbC01IHRyYW5zaXRpb24gaG92ZXI6Ymctc3VyZmFjZS1lbGV2YXRlZCIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHsvKiBDb2xvciBzdHJpcGUgKi99CiAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIGFyaWEtaGlkZGVuCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2BhYnNvbHV0ZSBpbnNldC15LTAgbGVmdC0wIHctMSAke3N0eWxlLnN0cmlwZX0gb3BhY2l0eS02MCB0cmFuc2l0aW9uIGdyb3VwLWhvdmVyOm9wYWNpdHktMTAwYH0KICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YG10LTAuNSBmbGV4IGgtOSB3LTkgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbGcgJHtzdHlsZS5idWJibGV9YH0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8SWNvbiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAgZmxleC0xIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRydW5jYXRlIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAgICAgIHtpdGVtLnRpdGxlfQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ic2hyaW5rLTAgdGV4dC14cyB0ZXh0LXRleHQtbXV0ZWQiPgogICAgICAgICAgICAgICAgICAgIHtmb3JtYXRSZWxhdGl2ZShpdGVtLnRpbWVzdGFtcCl9CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YGxhYmVsLWNhcHMgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHJvdW5kZWQtZnVsbCBib3JkZXIgcHgtMS41IHB5LTAuNSB0ZXh0LVsxMHB4XSAke3N0eWxlLmNoaXB9YH0KICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHtzdHlsZS5sYWJlbH0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRydW5jYXRlIHRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAgICAgICAge2l0ZW0uZGV0YWlsfQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgPC9saT4KICAgICAgICApOwogICAgICB9KX0KICAgIDwvdWw+CiAgKTsKfQo=
+import Link from "next/link";
+import {
+  CircleUser,
+  FileText,
+  ListChecks,
+  DollarSign,
+  Briefcase,
+  type LucideIcon,
+} from "lucide-react";
+import type { ActivityItem, ActivitySource } from "@/lib/types/domain";
+import { formatRelative } from "@/lib/utils/dates";
+import { EmptyState } from "@/components/ui/states";
+
+/**
+ * Source-specific styling. Each row gets:
+ *  - a colored icon bubble matching the source DB
+ *  - a left accent stripe in the same hue
+ *  - a labeled chip ("LEAD", "SCORE", etc.) carrying the same color
+ *
+ * This is the single source of truth for activity-feed brand-colors —
+ * other surfaces (charts, badges) keep their own color logic.
+ */
+const SOURCE_STYLE: Record<
+  ActivitySource,
+  {
+    icon: LucideIcon;
+    label: string;
+    bubble: string;
+    stripe: string;
+    chip: string;
+  }
+> = {
+  lead: {
+    icon: CircleUser,
+    label: "Lead",
+    bubble: "bg-brand-primary/10 text-brand-primary",
+    stripe: "bg-brand-primary",
+    chip: "bg-brand-primary/10 text-brand-primary border-brand-primary/30",
+  },
+  score: {
+    icon: FileText,
+    label: "Score",
+    bubble: "bg-brand-info/15 text-brand-info",
+    stripe: "bg-brand-info",
+    chip: "bg-brand-info/15 text-brand-info border-brand-info/30",
+  },
+  pipeline: {
+    icon: ListChecks,
+    label: "Pipeline",
+    bubble: "bg-brand-accent/15 text-brand-accent",
+    stripe: "bg-brand-accent",
+    chip: "bg-brand-accent/15 text-brand-accent border-brand-accent/30",
+  },
+  revenue: {
+    icon: DollarSign,
+    label: "Revenue",
+    bubble: "bg-brand-success/10 text-brand-success",
+    stripe: "bg-brand-success",
+    chip: "bg-brand-success/10 text-brand-success border-brand-success/30",
+  },
+  linkedin: {
+    icon: Briefcase,
+    label: "LinkedIn",
+    bubble: "bg-brand-warning/15 text-brand-warning",
+    stripe: "bg-brand-warning",
+    chip: "bg-brand-warning/15 text-brand-warning border-brand-warning/30",
+  },
+};
+
+export function ActivityFeed({ items }: { items: ActivityItem[] }) {
+  if (items.length === 0) {
+    return (
+      <EmptyState
+        title="No recent activity"
+        description="Activity will appear here as agents and Doug update the system."
+      />
+    );
+  }
+
+  return (
+    <ul className="divide-y divide-border overflow-hidden rounded-xl border border-border bg-surface">
+      {items.map((item) => {
+        const style = SOURCE_STYLE[item.source];
+        const Icon = style.icon;
+        return (
+          <li key={`${item.source}-${item.id}`}>
+            <Link
+              href={item.href}
+              className="group relative flex items-start gap-3 p-4 pl-5 transition hover:bg-surface-elevated"
+            >
+              {/* Color stripe */}
+              <span
+                aria-hidden
+                className={`absolute inset-y-0 left-0 w-1 ${style.stripe} opacity-60 transition group-hover:opacity-100`}
+              />
+              <div
+                className={`mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg ${style.bubble}`}
+              >
+                <Icon className="h-4 w-4" />
+              </div>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center justify-between gap-3">
+                  <span className="truncate text-sm font-medium text-text-primary">
+                    {item.title}
+                  </span>
+                  <span className="shrink-0 text-xs text-text-muted">
+                    {formatRelative(item.timestamp)}
+                  </span>
+                </div>
+                <div className="mt-1 flex items-center gap-2">
+                  <span
+                    className={`label-caps inline-flex items-center rounded-full border px-1.5 py-0.5 text-[10px] ${style.chip}`}
+                  >
+                    {style.label}
+                  </span>
+                  <span className="truncate text-xs text-text-secondary">
+                    {item.detail}
+                  </span>
+                </div>
+              </div>
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}

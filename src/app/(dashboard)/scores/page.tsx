@@ -1,1 +1,48 @@
-aW1wb3J0IHsgbGlzdFNjb3JlcyB9IGZyb20gIkAvbGliL25vdGlvbi9zY29yZXMiOwppbXBvcnQgeyBsaXN0QWxsTGVhZHMgfSBmcm9tICJAL2xpYi9ub3Rpb24vbGVhZHMiOwppbXBvcnQgeyBFcnJvclN0YXRlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N0YXRlcyI7CmltcG9ydCB7IFNjb3Jlc1RhYmxlLCB0eXBlIFNjb3JlUm93IH0gZnJvbSAiLi9fU2NvcmVzVGFibGUiOwoKZXhwb3J0IGNvbnN0IHJldmFsaWRhdGUgPSAzMDsKCmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIFNjb3Jlc1BhZ2UoKSB7CiAgY29uc3QgW3Njb3Jlc1IsIGxlYWRzUl0gPSBhd2FpdCBQcm9taXNlLmFsbFNldHRsZWQoW2xpc3RTY29yZXMoKSwgbGlzdEFsbExlYWRzKCldKTsKICBpZiAoc2NvcmVzUi5zdGF0dXMgPT09ICJyZWplY3RlZCIpIHsKICAgIHJldHVybiAoCiAgICAgIDxFcnJvclN0YXRlCiAgICAgICAgdGl0bGU9IkRpYWdub3N0aWMgU2NvcmVzIGZhaWxlZCB0byBsb2FkIgogICAgICAgIGRlc2NyaXB0aW9uPXsoc2NvcmVzUi5yZWFzb24gYXMgRXJyb3IpPy5tZXNzYWdlfQogICAgICAvPgogICAgKTsKICB9CgogIGNvbnN0IHNjb3JlcyA9IHNjb3Jlc1IudmFsdWU7CiAgY29uc3QgbGVhZHMgPSBsZWFkc1Iuc3RhdHVzID09PSAiZnVsZmlsbGVkIiA/IGxlYWRzUi52YWx1ZSA6IFtdOwogIGNvbnN0IGxlYWRCeUlkID0gbmV3IE1hcChsZWFkcy5tYXAoKGwpID0+IFtsLmlkLCBsXSkpOwoKICBjb25zdCByb3dzOiBTY29yZVJvd1tdID0gc2NvcmVzLm1hcCgocykgPT4gewogICAgY29uc3QgbGVhZCA9IHMubGVhZElkID8gbGVhZEJ5SWQuZ2V0KHMubGVhZElkKSA6IHVuZGVmaW5lZDsKICAgIHJldHVybiB7CiAgICAgIGlkOiBzLmlkLAogICAgICBsZWFkSWQ6IHMubGVhZElkLAogICAgICBsZWFkTmFtZTogbGVhZD8ubmFtZSA/PyBzLnRpdGxlID8/ICLigJQiLAogICAgICBjb21wYW55OiBsZWFkPy5jb21wYW55ID8/ICIiLAogICAgICByYXdTY29yZTogcy5yYXdTY29yZSwKICAgICAgc2NvcmVQY3Q6IHMuc2NvcmVQY3QsCiAgICAgIGNsYXNzaWZpY2F0aW9uOiBzLmNsYXNzaWZpY2F0aW9uLAogICAgICBhdXRob3JpdHk6IHMuYXV0aG9yaXR5LAogICAgICBwcm9jZXNzOiBzLnByb2Nlc3MsCiAgICAgIHByaWNpbmc6IHMucHJpY2luZywKICAgICAgcmV2ZW51ZTogcy5yZXZlbnVlLAogICAgICBmaW5hbmNpYWw6IHMuZmluYW5jaWFsLAogICAgICBmbGFnczogcy5mbGFncywKICAgICAgbWFudWFsUmV2aWV3Tm90ZXM6IHMubWFudWFsUmV2aWV3Tm90ZXMsCiAgICAgIHJlcG9ydERyYWZ0R2VuZXJhdGVkOiBzLnJlcG9ydERyYWZ0R2VuZXJhdGVkLAogICAgICByZXBvcnREcmFmdFVybDogcy5yZXBvcnREcmFmdFVybCwKICAgICAgaGl0bEFjdGlvbjogcy5oaXRsQWN0aW9uLAogICAgICBkYXRlQ29tcGxldGVkOiBzLmRhdGVDb21wbGV0ZWQsCiAgICB9OwogIH0pOwoKICByZXR1cm4gPFNjb3Jlc1RhYmxlIHJvd3M9e3Jvd3N9IC8+Owp9Cg==
+import { listScores } from "@/lib/notion/scores";
+import { listAllLeads } from "@/lib/notion/leads";
+import { ErrorState } from "@/components/ui/states";
+import { ScoresTable, type ScoreRow } from "./_ScoresTable";
+
+export const revalidate = 30;
+
+export default async function ScoresPage() {
+  const [scoresR, leadsR] = await Promise.allSettled([listScores(), listAllLeads()]);
+  if (scoresR.status === "rejected") {
+    return (
+      <ErrorState
+        title="Diagnostic Scores failed to load"
+        description={(scoresR.reason as Error)?.message}
+      />
+    );
+  }
+
+  const scores = scoresR.value;
+  const leads = leadsR.status === "fulfilled" ? leadsR.value : [];
+  const leadById = new Map(leads.map((l) => [l.id, l]));
+
+  const rows: ScoreRow[] = scores.map((s) => {
+    const lead = s.leadId ? leadById.get(s.leadId) : undefined;
+    return {
+      id: s.id,
+      leadId: s.leadId,
+      leadName: lead?.name ?? s.title ?? "—",
+      company: lead?.company ?? "",
+      rawScore: s.rawScore,
+      scorePct: s.scorePct,
+      classification: s.classification,
+      authority: s.authority,
+      process: s.process,
+      pricing: s.pricing,
+      revenue: s.revenue,
+      financial: s.financial,
+      flags: s.flags,
+      manualReviewNotes: s.manualReviewNotes,
+      reportDraftGenerated: s.reportDraftGenerated,
+      reportDraftUrl: s.reportDraftUrl,
+      hitlAction: s.hitlAction,
+      dateCompleted: s.dateCompleted,
+    };
+  });
+
+  return <ScoresTable rows={rows} />;
+}

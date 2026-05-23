@@ -1,1 +1,19 @@
-aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyBhcHByb3ZlQnJva2VyIH0gZnJvbSAiQC9saWIvbm90aW9uL2Jyb2tlcnMiOwppbXBvcnQgeyBIdHRwRXJyb3IsIHJlcXVpcmVSb2xlIH0gZnJvbSAiQC9saWIvYXV0aC9zZXNzaW9uIjsKaW1wb3J0IHsgYnVzdCwgVEFHIH0gZnJvbSAiQC9saWIvdXRpbHMvcmV2YWxpZGF0ZSI7CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gUE9TVChfcmVxOiBSZXF1ZXN0LCB7IHBhcmFtcyB9OiB7IHBhcmFtczogeyBpZDogc3RyaW5nIH0gfSkgewogIHRyeSB7CiAgICBhd2FpdCByZXF1aXJlUm9sZShbIkFkbWluIiwgIlN0YWZmIl0pOwogICAgYXdhaXQgYXBwcm92ZUJyb2tlcihwYXJhbXMuaWQpOwogICAgYnVzdChUQUcuYnJva2VycywgVEFHLmFjdGl2aXR5KTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IG9rOiB0cnVlIH0pOwogIH0gY2F0Y2ggKGVycikgewogICAgaWYgKGVyciBpbnN0YW5jZW9mIEh0dHBFcnJvcikgewogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogZXJyLm1lc3NhZ2UgfSwgeyBzdGF0dXM6IGVyci5zdGF0dXMgfSk7CiAgICB9CiAgICBjb25zb2xlLmVycm9yKCJbL2FwaS9icm9rZXJzL2FwcHJvdmVdIiwgZXJyKTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiSW50ZXJuYWwgZXJyb3IiIH0sIHsgc3RhdHVzOiA1MDAgfSk7CiAgfQp9Cg==
+import { NextResponse } from "next/server";
+import { approveBroker } from "@/lib/notion/brokers";
+import { HttpError, requireRole } from "@/lib/auth/session";
+import { bust, TAG } from "@/lib/utils/revalidate";
+
+export async function POST(_req: Request, { params }: { params: { id: string } }) {
+  try {
+    await requireRole(["Admin", "Staff"]);
+    await approveBroker(params.id);
+    bust(TAG.brokers, TAG.activity);
+    return NextResponse.json({ ok: true });
+  } catch (err) {
+    if (err instanceof HttpError) {
+      return NextResponse.json({ error: err.message }, { status: err.status });
+    }
+    console.error("[/api/brokers/approve]", err);
+    return NextResponse.json({ error: "Internal error" }, { status: 500 });
+  }
+}

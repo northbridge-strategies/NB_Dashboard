@@ -1,1 +1,36 @@
-LyoqIFJldHVybnMgYSBEYXRlIE4gZGF5cyBhZ28gYXQgc3RhcnQgb2YgVVRDIGRheS4gKi8KZXhwb3J0IGZ1bmN0aW9uIGRheXNBZ28objogbnVtYmVyLCByZWY6IERhdGUgPSBuZXcgRGF0ZSgpKTogRGF0ZSB7CiAgY29uc3QgZCA9IG5ldyBEYXRlKHJlZik7CiAgZC5zZXRVVENEYXRlKGQuZ2V0VVRDRGF0ZSgpIC0gbik7CiAgcmV0dXJuIGQ7Cn0KCmV4cG9ydCBmdW5jdGlvbiB0b0lTTyhkOiBEYXRlKTogc3RyaW5nIHsKICByZXR1cm4gZC50b0lTT1N0cmluZygpOwp9CgpleHBvcnQgZnVuY3Rpb24gc3RhcnRPZk1vbnRoWVlZWU1NKHJlZjogRGF0ZSA9IG5ldyBEYXRlKCkpOiBzdHJpbmcgewogIGNvbnN0IHl5eXkgPSByZWYuZ2V0VVRDRnVsbFllYXIoKTsKICBjb25zdCBtbSA9IFN0cmluZyhyZWYuZ2V0VVRDTW9udGgoKSArIDEpLnBhZFN0YXJ0KDIsICIwIik7CiAgcmV0dXJuIGAke3l5eXl9LSR7bW19YDsKfQoKLyoqIEh1bWFuLXJlYWRhYmxlIHJlbGF0aXZlIHRpbWUuICIybSBhZ28iLCAiM2ggYWdvIiwgInllc3RlcmRheSIsICJNYXIgMTIiLiAqLwpleHBvcnQgZnVuY3Rpb24gZm9ybWF0UmVsYXRpdmUoaXNvOiBzdHJpbmcsIHJlZjogRGF0ZSA9IG5ldyBEYXRlKCkpOiBzdHJpbmcgewogIGNvbnN0IHRoZW4gPSBuZXcgRGF0ZShpc28pOwogIGNvbnN0IGRpZmZNcyA9IHJlZi5nZXRUaW1lKCkgLSB0aGVuLmdldFRpbWUoKTsKICBjb25zdCBzZWMgPSBNYXRoLmZsb29yKGRpZmZNcyAvIDEwMDApOwogIGlmIChzZWMgPCA2MCkgcmV0dXJuICJqdXN0IG5vdyI7CiAgY29uc3QgbWluID0gTWF0aC5mbG9vcihzZWMgLyA2MCk7CiAgaWYgKG1pbiA8IDYwKSByZXR1cm4gYCR7bWlufW0gYWdvYDsKICBjb25zdCBociA9IE1hdGguZmxvb3IobWluIC8gNjApOwogIGlmIChociA8IDI0KSByZXR1cm4gYCR7aHJ9aCBhZ29gOwogIGNvbnN0IGRheSA9IE1hdGguZmxvb3IoaHIgLyAyNCk7CiAgaWYgKGRheSA9PT0gMSkgcmV0dXJuICJ5ZXN0ZXJkYXkiOwogIGlmIChkYXkgPCA3KSByZXR1cm4gYCR7ZGF5fWQgYWdvYDsKICByZXR1cm4gdGhlbi50b0xvY2FsZURhdGVTdHJpbmcodW5kZWZpbmVkLCB7IG1vbnRoOiAic2hvcnQiLCBkYXk6ICJudW1lcmljIiB9KTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGRheXNCZXR3ZWVuKGFJU086IHN0cmluZywgYklTTzogc3RyaW5nID0gbmV3IERhdGUoKS50b0lTT1N0cmluZygpKTogbnVtYmVyIHsKICByZXR1cm4gTWF0aC5mbG9vcigobmV3IERhdGUoYklTTykuZ2V0VGltZSgpIC0gbmV3IERhdGUoYUlTTykuZ2V0VGltZSgpKSAvIDg2XzQwMF8wMDApOwp9Cg==
+/** Returns a Date N days ago at start of UTC day. */
+export function daysAgo(n: number, ref: Date = new Date()): Date {
+  const d = new Date(ref);
+  d.setUTCDate(d.getUTCDate() - n);
+  return d;
+}
+
+export function toISO(d: Date): string {
+  return d.toISOString();
+}
+
+export function startOfMonthYYYYMM(ref: Date = new Date()): string {
+  const yyyy = ref.getUTCFullYear();
+  const mm = String(ref.getUTCMonth() + 1).padStart(2, "0");
+  return `${yyyy}-${mm}`;
+}
+
+/** Human-readable relative time. "2m ago", "3h ago", "yesterday", "Mar 12". */
+export function formatRelative(iso: string, ref: Date = new Date()): string {
+  const then = new Date(iso);
+  const diffMs = ref.getTime() - then.getTime();
+  const sec = Math.floor(diffMs / 1000);
+  if (sec < 60) return "just now";
+  const min = Math.floor(sec / 60);
+  if (min < 60) return `${min}m ago`;
+  const hr = Math.floor(min / 60);
+  if (hr < 24) return `${hr}h ago`;
+  const day = Math.floor(hr / 24);
+  if (day === 1) return "yesterday";
+  if (day < 7) return `${day}d ago`;
+  return then.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+}
+
+export function daysBetween(aISO: string, bISO: string = new Date().toISOString()): number {
+  return Math.floor((new Date(bISO).getTime() - new Date(aISO).getTime()) / 86_400_000);
+}

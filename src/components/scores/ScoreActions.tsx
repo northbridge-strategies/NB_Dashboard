@@ -1,1 +1,78 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENoZWNrLCBYIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgdXNlQWN0aW9uIH0gZnJvbSAiQC9saWIvaG9va3MvdXNlQWN0aW9uIjsKaW1wb3J0IHsgQ29uZmlybURpYWxvZyB9IGZyb20gIkAvY29tcG9uZW50cy91aS9Db25maXJtRGlhbG9nIjsKCmV4cG9ydCBmdW5jdGlvbiBTY29yZUFjdGlvbnMoeyBpZCB9OiB7IGlkOiBzdHJpbmcgfSkgewogIGNvbnN0IFtyZWplY3RPcGVuLCBzZXRSZWplY3RPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbbm90ZXMsIHNldE5vdGVzXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBhcHByb3ZlID0gdXNlQWN0aW9uKCk7CiAgY29uc3QgcmVqZWN0ID0gdXNlQWN0aW9uKCk7CgogIHJldHVybiAoCiAgICA8PgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWVuZCBnYXAtMS41Ij4KICAgICAgICA8YnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBvbkNsaWNrPXsoZSkgPT4gewogICAgICAgICAgICBlLnN0b3BQcm9wYWdhdGlvbigpOwogICAgICAgICAgICB2b2lkIGFwcHJvdmUucnVuKGAvYXBpL3Njb3Jlcy8ke2lkfS9hcHByb3ZlYCk7CiAgICAgICAgICB9fQogICAgICAgICAgZGlzYWJsZWQ9e2FwcHJvdmUuc3RhdGUgPT09ICJwZW5kaW5nIiB8fCBhcHByb3ZlLnN0YXRlID09PSAic3VjY2VzcyJ9CiAgICAgICAgICBhcmlhLWxhYmVsPSJBcHByb3ZlIgogICAgICAgICAgdGl0bGU9IkFwcHJvdmUgcmVwb3J0IgogICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBoLTcgdy03IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYnJhbmQtc3VjY2Vzcy80MCBiZy1icmFuZC1zdWNjZXNzLzEwIHRleHQtYnJhbmQtc3VjY2VzcyBob3ZlcjpiZy1icmFuZC1zdWNjZXNzLzIwIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwIgogICAgICAgID4KICAgICAgICAgIDxDaGVjayBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPgogICAgICAgIDwvYnV0dG9uPgogICAgICAgIDxidXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIG9uQ2xpY2s9eyhlKSA9PiB7CiAgICAgICAgICAgIGUuc3RvcFByb3BhZ2F0aW9uKCk7CiAgICAgICAgICAgIHNldFJlamVjdE9wZW4odHJ1ZSk7CiAgICAgICAgICB9fQogICAgICAgICAgYXJpYS1sYWJlbD0iUmVqZWN0IgogICAgICAgICAgdGl0bGU9IlJlamVjdCBhbmQgc2VuZCB0byBNYW51YWwgUmV2aWV3IgogICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBoLTcgdy03IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYnJhbmQtZGFuZ2VyLzQwIGJnLWJyYW5kLWRhbmdlci8xMCB0ZXh0LWJyYW5kLWRhbmdlciBob3ZlcjpiZy1icmFuZC1kYW5nZXIvMjAiCiAgICAgICAgPgogICAgICAgICAgPFggY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICA8L2J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICB7KGFwcHJvdmUuZXJyb3IgfHwgcmVqZWN0LmVycm9yKSAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgdGV4dC14cyB0ZXh0LWJyYW5kLWRhbmdlciI+CiAgICAgICAgICB7YXBwcm92ZS5lcnJvciB8fCByZWplY3QuZXJyb3J9CiAgICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICA8Q29uZmlybURpYWxvZwogICAgICAgIG9wZW49e3JlamVjdE9wZW59CiAgICAgICAgdGl0bGU9IlJlamVjdCByZXBvcnQgZHJhZnQiCiAgICAgICAgZGVzY3JpcHRpb249IlRoZSBzY29yZSB3aWxsIG1vdmUgdG8gTWFudWFsIFJldmlldy4gQWRkIGEgbm90ZSBleHBsYWluaW5nIHdoeSAob3B0aW9uYWwpLiIKICAgICAgICBkZXN0cnVjdGl2ZQogICAgICAgIGNvbmZpcm1MYWJlbD0iUmVqZWN0IgogICAgICAgIHBlbmRpbmc9e3JlamVjdC5zdGF0ZSA9PT0gInBlbmRpbmcifQogICAgICAgIG9uQ2FuY2VsPXsoKSA9PiBzZXRSZWplY3RPcGVuKGZhbHNlKX0KICAgICAgICBvbkNvbmZpcm09e2FzeW5jICgpID0+IHsKICAgICAgICAgIGNvbnN0IHIgPSBhd2FpdCByZWplY3QucnVuKGAvYXBpL3Njb3Jlcy8ke2lkfS9yZWplY3RgLCB7CiAgICAgICAgICAgIGJvZHk6IG5vdGVzID8geyBub3RlcyB9IDogdW5kZWZpbmVkLAogICAgICAgICAgfSk7CiAgICAgICAgICBpZiAoci5vaykgewogICAgICAgICAgICBzZXRSZWplY3RPcGVuKGZhbHNlKTsKICAgICAgICAgICAgc2V0Tm90ZXMoIiIpOwogICAgICAgICAgfQogICAgICAgIH19CiAgICAgID4KICAgICAgICA8dGV4dGFyZWEKICAgICAgICAgIHZhbHVlPXtub3Rlc30KICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0Tm90ZXMoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgcm93cz17NH0KICAgICAgICAgIHBsYWNlaG9sZGVyPSJXaHkgaXMgdGhpcyBkcmFmdCBiZWluZyByZWplY3RlZD8iCiAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJnIHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtdGV4dC1wcmltYXJ5IHBsYWNlaG9sZGVyOnRleHQtdGV4dC1tdXRlZCBmb2N1czpib3JkZXItYnJhbmQtcHJpbWFyeSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0xIGZvY3VzOnJpbmctYnJhbmQtcHJpbWFyeSIKICAgICAgICAvPgogICAgICA8L0NvbmZpcm1EaWFsb2c+CiAgICA8Lz4KICApOwp9Cg==
+"use client";
+
+import { useState } from "react";
+import { Check, X } from "lucide-react";
+import { useAction } from "@/lib/hooks/useAction";
+import { ConfirmDialog } from "@/components/ui/ConfirmDialog";
+
+export function ScoreActions({ id }: { id: string }) {
+  const [rejectOpen, setRejectOpen] = useState(false);
+  const [notes, setNotes] = useState("");
+  const approve = useAction();
+  const reject = useAction();
+
+  return (
+    <>
+      <div className="flex justify-end gap-1.5">
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            void approve.run(`/api/scores/${id}/approve`);
+          }}
+          disabled={approve.state === "pending" || approve.state === "success"}
+          aria-label="Approve"
+          title="Approve report"
+          className="inline-flex h-7 w-7 items-center justify-center rounded-md border border-brand-success/40 bg-brand-success/10 text-brand-success hover:bg-brand-success/20 disabled:cursor-not-allowed disabled:opacity-50"
+        >
+          <Check className="h-3.5 w-3.5" />
+        </button>
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            setRejectOpen(true);
+          }}
+          aria-label="Reject"
+          title="Reject and send to Manual Review"
+          className="inline-flex h-7 w-7 items-center justify-center rounded-md border border-brand-danger/40 bg-brand-danger/10 text-brand-danger hover:bg-brand-danger/20"
+        >
+          <X className="h-3.5 w-3.5" />
+        </button>
+      </div>
+
+      {(approve.error || reject.error) && (
+        <div className="mt-1 text-xs text-brand-danger">
+          {approve.error || reject.error}
+        </div>
+      )}
+
+      <ConfirmDialog
+        open={rejectOpen}
+        title="Reject report draft"
+        description="The score will move to Manual Review. Add a note explaining why (optional)."
+        destructive
+        confirmLabel="Reject"
+        pending={reject.state === "pending"}
+        onCancel={() => setRejectOpen(false)}
+        onConfirm={async () => {
+          const r = await reject.run(`/api/scores/${id}/reject`, {
+            body: notes ? { notes } : undefined,
+          });
+          if (r.ok) {
+            setRejectOpen(false);
+            setNotes("");
+          }
+        }}
+      >
+        <textarea
+          value={notes}
+          onChange={(e) => setNotes(e.target.value)}
+          rows={4}
+          placeholder="Why is this draft being rejected?"
+          className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary placeholder:text-text-muted focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+        />
+      </ConfirmDialog>
+    </>
+  );
+}

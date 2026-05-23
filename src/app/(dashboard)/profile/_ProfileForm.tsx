@@ -1,1 +1,179 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IFNhdmUsIExvYWRlcjIsIEltYWdlSWNvbiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IHVzZUFjdGlvbiB9IGZyb20gIkAvbGliL2hvb2tzL3VzZUFjdGlvbiI7CmltcG9ydCB7CiAgU3RhdHVzQmFkZ2UsCiAgdG9uZUZvckxpZmVjeWNsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvU3RhdHVzQmFkZ2UiOwppbXBvcnQgeyBmb3JtYXRSZWxhdGl2ZSB9IGZyb20gIkAvbGliL3V0aWxzL2RhdGVzIjsKCmV4cG9ydCBpbnRlcmZhY2UgUHJvZmlsZUluaXRpYWwgewogIG5hbWU6IHN0cmluZzsKICBlbWFpbDogc3RyaW5nOwogIHJvbGU6ICJBZG1pbiIgfCAiU3RhZmYiIHwgIkNsaWVudCI7CiAgYXZhdGFyVXJsOiBzdHJpbmcgfCBudWxsOwogIGNyZWF0ZWRUaW1lOiBzdHJpbmc7CiAgbGFzdFNpZ25Jbjogc3RyaW5nIHwgbnVsbDsKfQoKZnVuY3Rpb24gaW5pdGlhbHMobmFtZTogc3RyaW5nLCBlbWFpbDogc3RyaW5nKTogc3RyaW5nIHsKICBjb25zdCBzcmMgPSAobmFtZSB8fCBlbWFpbCkudHJpbSgpOwogIHJldHVybiAoCiAgICBzcmMKICAgICAgLnNwbGl0KC9ccyt8QHxcLi8pCiAgICAgIC5maWx0ZXIoQm9vbGVhbikKICAgICAgLnNsaWNlKDAsIDIpCiAgICAgIC5tYXAoKHApID0+IHBbMF0/LnRvVXBwZXJDYXNlKCkgPz8gIiIpCiAgICAgIC5qb2luKCIiKSB8fCAiPyIKICApOwp9CgpleHBvcnQgZnVuY3Rpb24gUHJvZmlsZUZvcm0oeyBpbml0aWFsIH06IHsgaW5pdGlhbDogUHJvZmlsZUluaXRpYWwgfSkgewogIGNvbnN0IFtuYW1lLCBzZXROYW1lXSA9IHVzZVN0YXRlKGluaXRpYWwubmFtZSk7CiAgY29uc3QgW2F2YXRhclVybCwgc2V0QXZhdGFyVXJsXSA9IHVzZVN0YXRlKGluaXRpYWwuYXZhdGFyVXJsID8/ICIiKTsKICBjb25zdCBhY3Rpb24gPSB1c2VBY3Rpb24oKTsKCiAgY29uc3QgZGlydHkgPSBuYW1lICE9PSBpbml0aWFsLm5hbWUgfHwgKGF2YXRhclVybCB8fCBudWxsKSAhPT0gaW5pdGlhbC5hdmF0YXJVcmw7CgogIGFzeW5jIGZ1bmN0aW9uIHNhdmUoKSB7CiAgICBpZiAoIWRpcnR5KSByZXR1cm47CiAgICBhd2FpdCBhY3Rpb24ucnVuKCIvYXBpL3Byb2ZpbGUiLCB7CiAgICAgIG1ldGhvZDogIlBBVENIIiwKICAgICAgYm9keTogewogICAgICAgIG5hbWU6IG5hbWUudHJpbSgpIHx8IGluaXRpYWwubmFtZSwKICAgICAgICBhdmF0YXJVcmw6IGF2YXRhclVybC50cmltKCkgPyBhdmF0YXJVcmwudHJpbSgpIDogbnVsbCwKICAgICAgfSwKICAgIH0pOwogIH0KCiAgY29uc3QgcHJldmlld1NyYyA9IGF2YXRhclVybC50cmltKCkgfHwgbnVsbDsKCiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1zdXJmYWNlIHAtNiI+CiAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LXRleHQtcHJpbWFyeSI+QWNjb3VudCBpbmZvPC9oMz4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC01IGZsZXggaXRlbXMtc3RhcnQgZ2FwLTUiPgogICAgICAgIHsvKiBBdmF0YXIgcHJldmlldyAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMjAgdy0yMCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1mdWxsIj4KICAgICAgICAgICAge3ByZXZpZXdTcmMgPyAoCiAgICAgICAgICAgICAgLy8gVXNlIGEgcGxhaW4gPGltZz4gZm9yIGFyYml0cmFyeSByZW1vdGUgVVJMcyDigJQgTmV4dC9JbWFnZQogICAgICAgICAgICAgIC8vIHJlcXVpcmVzIHRoZSBob3N0IHRvIGJlIGluIG5leHQuY29uZmlnIHJlbW90ZVBhdHRlcm5zLgogICAgICAgICAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBAbmV4dC9uZXh0L25vLWltZy1lbGVtZW50CiAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgc3JjPXtwcmV2aWV3U3JjfQogICAgICAgICAgICAgICAgYWx0PXtuYW1lIHx8IGluaXRpYWwuZW1haWx9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImgtMjAgdy0yMCByb3VuZGVkLWZ1bGwgb2JqZWN0LWNvdmVyIgogICAgICAgICAgICAgICAgb25FcnJvcj17KGUpID0+IHsKICAgICAgICAgICAgICAgICAgKGUudGFyZ2V0IGFzIEhUTUxJbWFnZUVsZW1lbnQpLnN0eWxlLmRpc3BsYXkgPSAibm9uZSI7CiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaC0yMCB3LTIwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctYnJhbmQtcHJpbWFyeSB0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSI+CiAgICAgICAgICAgICAgICB7aW5pdGlhbHMobmFtZSwgaW5pdGlhbC5lbWFpbCl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZmxleC0xIGdyaWQtY29scy0xIGdhcC00IHNtOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxGaWVsZCBsYWJlbD0iTmFtZSI+CiAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgIHZhbHVlPXtuYW1lfQogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0TmFtZShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1iZyBweC0zIHB5LTIgdGV4dC1zbSB0ZXh0LXRleHQtcHJpbWFyeSBmb2N1czpib3JkZXItYnJhbmQtcHJpbWFyeSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0xIGZvY3VzOnJpbmctYnJhbmQtcHJpbWFyeSIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvRmllbGQ+CgogICAgICAgICAgPEZpZWxkIGxhYmVsPSJFbWFpbCI+CiAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgIHZhbHVlPXtpbml0aWFsLmVtYWlsfQogICAgICAgICAgICAgIHJlYWRPbmx5CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgY3Vyc29yLW5vdC1hbGxvd2VkIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctc3VyZmFjZS1lbGV2YXRlZCBweC0zIHB5LTIgdGV4dC1zbSB0ZXh0LXRleHQtc2Vjb25kYXJ5IgogICAgICAgICAgICAvPgogICAgICAgICAgPC9GaWVsZD4KCiAgICAgICAgICA8RmllbGQgbGFiZWw9IlJvbGUiIGhpbnQ9IkFkbWluIG9ubHkg4oCUIG1hbmFnZWQgaW4gU2V0dGluZ3MuIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB0LTIiPgogICAgICAgICAgICAgIDxTdGF0dXNCYWRnZSBsYWJlbD17aW5pdGlhbC5yb2xlfSB0b25lPXt0b25lRm9yTGlmZWN5Y2xlKGluaXRpYWwucm9sZSl9IC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9GaWVsZD4KCiAgICAgICAgICA8RmllbGQKICAgICAgICAgICAgbGFiZWw9Ikxhc3QgU2lnbi1JbiIKICAgICAgICAgICAgaGludD17aW5pdGlhbC5sYXN0U2lnbkluID8gbmV3IERhdGUoaW5pdGlhbC5sYXN0U2lnbkluKS50b0xvY2FsZVN0cmluZygpIDogIuKAlCJ9CiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwdC0yIHRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAge2luaXRpYWwubGFzdFNpZ25JbiA/IGZvcm1hdFJlbGF0aXZlKGluaXRpYWwubGFzdFNpZ25JbikgOiAiTmV2ZXIifQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvRmllbGQ+CgogICAgICAgICAgPEZpZWxkCiAgICAgICAgICAgIGxhYmVsPSJBdmF0YXIgVVJMIgogICAgICAgICAgICBoaW50PSJQYXN0ZSBhIHB1YmxpYyBVUkwgdG8gYSBzcXVhcmUgaW1hZ2UuIEZpbGUgdXBsb2FkIGNvbWluZyBpbiBQaGFzZSAyLiIKICAgICAgICAgICAgY2xhc3NOYW1lPSJzbTpjb2wtc3Bhbi0yIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxJbWFnZUljb24gY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtdGV4dC1tdXRlZCIgLz4KICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgIHR5cGU9InVybCIKICAgICAgICAgICAgICAgIHZhbHVlPXthdmF0YXJVcmx9CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldEF2YXRhclVybChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iaHR0cHM6Ly/igKYiCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXgtMSByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJnIHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtdGV4dC1wcmltYXJ5IHBsYWNlaG9sZGVyOnRleHQtdGV4dC1tdXRlZCBmb2N1czpib3JkZXItYnJhbmQtcHJpbWFyeSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0xIGZvY3VzOnJpbmctYnJhbmQtcHJpbWFyeSIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvRmllbGQ+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGJvcmRlci10IGJvcmRlci1ib3JkZXIgcHQtNCB0ZXh0LXhzIj4KICAgICAgICB7YWN0aW9uLmVycm9yID8gKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWRhbmdlciI+e2FjdGlvbi5lcnJvcn08L3NwYW4+CiAgICAgICAgKSA6IGFjdGlvbi5zdGF0ZSA9PT0gInN1Y2Nlc3MiICYmICFkaXJ0eSA/ICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1icmFuZC1zdWNjZXNzIj5TYXZlZC48L3NwYW4+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZXh0LW11dGVkIj4KICAgICAgICAgICAge2RpcnR5ID8gIlVuc2F2ZWQgY2hhbmdlcyIgOiAiVXAgdG8gZGF0ZSJ9CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgKX0KCiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgb25DbGljaz17c2F2ZX0KICAgICAgICAgIGRpc2FibGVkPXshZGlydHkgfHwgYWN0aW9uLnN0YXRlID09PSAicGVuZGluZyJ9CiAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQtbWQgYmctYnJhbmQtcHJpbWFyeSBweC0zIHB5LTEuNSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtd2hpdGUgdHJhbnNpdGlvbiBob3ZlcjpiZy1icmFuZC1wcmltYXJ5LWhvdmVyIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwIgogICAgICAgID4KICAgICAgICAgIHthY3Rpb24uc3RhdGUgPT09ICJwZW5kaW5nIiA/ICgKICAgICAgICAgICAgPExvYWRlcjIgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICApIDogKAogICAgICAgICAgICA8U2F2ZSBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgKX0KICAgICAgICAgIFNhdmUgUHJvZmlsZQogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9CgpmdW5jdGlvbiBGaWVsZCh7CiAgbGFiZWwsCiAgaGludCwKICBjaGlsZHJlbiwKICBjbGFzc05hbWUsCn06IHsKICBsYWJlbDogc3RyaW5nOwogIGhpbnQ/OiBzdHJpbmc7CiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTsKICBjbGFzc05hbWU/OiBzdHJpbmc7Cn0pIHsKICByZXR1cm4gKAogICAgPGxhYmVsIGNsYXNzTmFtZT17ImJsb2NrICIgKyAoY2xhc3NOYW1lID8/ICIiKX0+CiAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibGFiZWwtY2FwcyBtYi0xLjUgYmxvY2sgdGV4dC10ZXh0LXNlY29uZGFyeSI+e2xhYmVsfTwvc3Bhbj4KICAgICAge2NoaWxkcmVufQogICAgICB7aGludCAmJiA8c3BhbiBjbGFzc05hbWU9Im10LTEgYmxvY2sgdGV4dC14cyB0ZXh0LXRleHQtbXV0ZWQiPntoaW50fTwvc3Bhbj59CiAgICA8L2xhYmVsPgogICk7Cn0K
+"use client";
+
+import { useState } from "react";
+import { Save, Loader2, ImageIcon } from "lucide-react";
+import { useAction } from "@/lib/hooks/useAction";
+import {
+  StatusBadge,
+  toneForLifecycle,
+} from "@/components/ui/StatusBadge";
+import { formatRelative } from "@/lib/utils/dates";
+
+export interface ProfileInitial {
+  name: string;
+  email: string;
+  role: "Admin" | "Staff" | "Client";
+  avatarUrl: string | null;
+  createdTime: string;
+  lastSignIn: string | null;
+}
+
+function initials(name: string, email: string): string {
+  const src = (name || email).trim();
+  return (
+    src
+      .split(/\s+|@|\./)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((p) => p[0]?.toUpperCase() ?? "")
+      .join("") || "?"
+  );
+}
+
+export function ProfileForm({ initial }: { initial: ProfileInitial }) {
+  const [name, setName] = useState(initial.name);
+  const [avatarUrl, setAvatarUrl] = useState(initial.avatarUrl ?? "");
+  const action = useAction();
+
+  const dirty = name !== initial.name || (avatarUrl || null) !== initial.avatarUrl;
+
+  async function save() {
+    if (!dirty) return;
+    await action.run("/api/profile", {
+      method: "PATCH",
+      body: {
+        name: name.trim() || initial.name,
+        avatarUrl: avatarUrl.trim() ? avatarUrl.trim() : null,
+      },
+    });
+  }
+
+  const previewSrc = avatarUrl.trim() || null;
+
+  return (
+    <section className="rounded-xl border border-border bg-surface p-6">
+      <h3 className="text-sm font-semibold text-text-primary">Account info</h3>
+
+      <div className="mt-5 flex items-start gap-5">
+        {/* Avatar preview */}
+        <div className="flex flex-col items-center gap-2">
+          <div className="h-20 w-20 overflow-hidden rounded-full">
+            {previewSrc ? (
+              // Use a plain <img> for arbitrary remote URLs — Next/Image
+              // requires the host to be in next.config remotePatterns.
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={previewSrc}
+                alt={name || initial.email}
+                className="h-20 w-20 rounded-full object-cover"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).style.display = "none";
+                }}
+              />
+            ) : (
+              <div className="flex h-20 w-20 items-center justify-center rounded-full bg-brand-primary text-xl font-semibold text-white">
+                {initials(name, initial.email)}
+              </div>
+            )}
+          </div>
+        </div>
+
+        <div className="grid flex-1 grid-cols-1 gap-4 sm:grid-cols-2">
+          <Field label="Name">
+            <input
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+            />
+          </Field>
+
+          <Field label="Email">
+            <input
+              value={initial.email}
+              readOnly
+              className="w-full cursor-not-allowed rounded-md border border-border bg-surface-elevated px-3 py-2 text-sm text-text-secondary"
+            />
+          </Field>
+
+          <Field label="Role" hint="Admin only — managed in Settings.">
+            <div className="pt-2">
+              <StatusBadge label={initial.role} tone={toneForLifecycle(initial.role)} />
+            </div>
+          </Field>
+
+          <Field
+            label="Last Sign-In"
+            hint={initial.lastSignIn ? new Date(initial.lastSignIn).toLocaleString() : "—"}
+          >
+            <div className="pt-2 text-xs text-text-secondary">
+              {initial.lastSignIn ? formatRelative(initial.lastSignIn) : "Never"}
+            </div>
+          </Field>
+
+          <Field
+            label="Avatar URL"
+            hint="Paste a public URL to a square image. File upload coming in Phase 2."
+            className="sm:col-span-2"
+          >
+            <div className="flex items-center gap-2">
+              <ImageIcon className="h-4 w-4 text-text-muted" />
+              <input
+                type="url"
+                value={avatarUrl}
+                onChange={(e) => setAvatarUrl(e.target.value)}
+                placeholder="https://…"
+                className="flex-1 rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary placeholder:text-text-muted focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+              />
+            </div>
+          </Field>
+        </div>
+      </div>
+
+      <div className="mt-6 flex items-center justify-between border-t border-border pt-4 text-xs">
+        {action.error ? (
+          <span className="text-brand-danger">{action.error}</span>
+        ) : action.state === "success" && !dirty ? (
+          <span className="text-brand-success">Saved.</span>
+        ) : (
+          <span className="text-text-muted">
+            {dirty ? "Unsaved changes" : "Up to date"}
+          </span>
+        )}
+
+        <button
+          type="button"
+          onClick={save}
+          disabled={!dirty || action.state === "pending"}
+          className="inline-flex items-center gap-1.5 rounded-md bg-brand-primary px-3 py-1.5 text-xs font-medium text-white transition hover:bg-brand-primary-hover disabled:cursor-not-allowed disabled:opacity-50"
+        >
+          {action.state === "pending" ? (
+            <Loader2 className="h-3.5 w-3.5 animate-spin" />
+          ) : (
+            <Save className="h-3.5 w-3.5" />
+          )}
+          Save Profile
+        </button>
+      </div>
+    </section>
+  );
+}
+
+function Field({
+  label,
+  hint,
+  children,
+  className,
+}: {
+  label: string;
+  hint?: string;
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <label className={"block " + (className ?? "")}>
+      <span className="label-caps mb-1.5 block text-text-secondary">{label}</span>
+      {children}
+      {hint && <span className="mt-1 block text-xs text-text-muted">{hint}</span>}
+    </label>
+  );
+}

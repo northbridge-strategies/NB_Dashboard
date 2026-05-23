@@ -1,1 +1,41 @@
-ewogICJuYW1lIjogIm5vcnRoYnJpZGdlLWRhc2hib2FyZCIsCiAgInZlcnNpb24iOiAiMC4xLjAiLAogICJwcml2YXRlIjogdHJ1ZSwKICAic2NyaXB0cyI6IHsKICAgICJkZXYiOiAibmV4dCBkZXYiLAogICAgImJ1aWxkIjogIm5leHQgYnVpbGQiLAogICAgInN0YXJ0IjogIm5leHQgc3RhcnQiLAogICAgImxpbnQiOiAibmV4dCBsaW50IiwKICAgICJ0eXBlY2hlY2siOiAidHNjIC0tbm9FbWl0IiwKICAgICJoYXNoLXBhc3N3b3JkIjogIm5vZGUgc2NyaXB0cy9oYXNoLXBhc3N3b3JkLm1qcyIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAiQG5vdGlvbmhxL2NsaWVudCI6ICJeMi4yLjE1IiwKICAgICJiY3J5cHRqcyI6ICJeMi40LjMiLAogICAgImNsc3giOiAiXjIuMS4xIiwKICAgICJsdWNpZGUtcmVhY3QiOiAiXjAuNDYwLjAiLAogICAgIm5leHQiOiAiXjE0LjIuMzMiLAogICAgIm5leHQtYXV0aCI6ICJeNC4yNC4xMCIsCiAgICAibmV4dC10aGVtZXMiOiAiXjAuNC4zIiwKICAgICJyZWFjdCI6ICJeMTguMy4xIiwKICAgICJyZWFjdC1kb20iOiAiXjE4LjMuMSIsCiAgICAicmVjaGFydHMiOiAiXjIuMTMuMyIsCiAgICAic2VydmVyLW9ubHkiOiAiXjAuMC4xIiwKICAgICJzd3IiOiAiXjIuMi41IiwKICAgICJ0YWlsd2luZC1tZXJnZSI6ICJeMi41LjQiLAogICAgInpvZCI6ICJeMy4yMy44IgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdHlwZXMvYmNyeXB0anMiOiAiXjIuNC42IiwKICAgICJAdHlwZXMvbm9kZSI6ICJeMjIuOS4zIiwKICAgICJAdHlwZXMvcmVhY3QiOiAiXjE4LjMuMTIiLAogICAgIkB0eXBlcy9yZWFjdC1kb20iOiAiXjE4LjMuMSIsCiAgICAiYXV0b3ByZWZpeGVyIjogIl4xMC40LjIwIiwKICAgICJlc2xpbnQiOiAiXjguNTcuMSIsCiAgICAiZXNsaW50LWNvbmZpZy1uZXh0IjogIl4xNC4yLjMzIiwKICAgICJwb3N0Y3NzIjogIl44LjQuNDkiLAogICAgInRhaWx3aW5kY3NzIjogIl4zLjQuMTUiLAogICAgInR5cGVzY3JpcHQiOiAiXjUuNi4zIgogIH0KfQo=
+{
+  "name": "northbridge-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "hash-password": "node scripts/hash-password.mjs"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.460.0",
+    "next": "^14.2.33",
+    "next-auth": "^4.24.10",
+    "next-themes": "^0.4.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.13.3",
+    "server-only": "^0.0.1",
+    "swr": "^2.2.5",
+    "tailwind-merge": "^2.5.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.9.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.33",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
+  }
+}

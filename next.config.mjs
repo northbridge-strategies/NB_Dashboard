@@ -1,1 +1,9 @@
-LyoqIEB0eXBlIHtpbXBvcnQoJ25leHQnKS5OZXh0Q29uZmlnfSAqLwpjb25zdCBuZXh0Q29uZmlnID0gewogIHJlYWN0U3RyaWN0TW9kZTogdHJ1ZSwKICBleHBlcmltZW50YWw6IHsKICAgIHR5cGVkUm91dGVzOiBmYWxzZSwKICB9LAp9OwoKZXhwb3J0IGRlZmF1bHQgbmV4dENvbmZpZzsK
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  experimental: {
+    typedRoutes: false,
+  },
+};
+
+export default nextConfig;

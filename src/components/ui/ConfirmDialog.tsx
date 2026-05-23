@@ -1,1 +1,94 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSwgdHlwZSBSZWFjdE5vZGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMvY2xhc3NuYW1lcyI7CgpleHBvcnQgZnVuY3Rpb24gQ29uZmlybURpYWxvZyh7CiAgb3BlbiwKICB0aXRsZSwKICBkZXNjcmlwdGlvbiwKICBjb25maXJtTGFiZWwgPSAiQ29uZmlybSIsCiAgY2FuY2VsTGFiZWwgPSAiQ2FuY2VsIiwKICBkZXN0cnVjdGl2ZSA9IGZhbHNlLAogIG9uQ29uZmlybSwKICBvbkNhbmNlbCwKICBjaGlsZHJlbiwKICBwZW5kaW5nID0gZmFsc2UsCn06IHsKICBvcGVuOiBib29sZWFuOwogIHRpdGxlOiBzdHJpbmc7CiAgZGVzY3JpcHRpb24/OiBzdHJpbmc7CiAgY29uZmlybUxhYmVsPzogc3RyaW5nOwogIGNhbmNlbExhYmVsPzogc3RyaW5nOwogIGRlc3RydWN0aXZlPzogYm9vbGVhbjsKICBvbkNvbmZpcm06ICgpID0+IHZvaWQ7CiAgb25DYW5jZWw6ICgpID0+IHZvaWQ7CiAgY2hpbGRyZW4/OiBSZWFjdE5vZGU7CiAgcGVuZGluZz86IGJvb2xlYW47Cn0pIHsKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFvcGVuKSByZXR1cm47CiAgICBjb25zdCBvbktleSA9IChlOiBLZXlib2FyZEV2ZW50KSA9PiB7CiAgICAgIGlmIChlLmtleSA9PT0gIkVzY2FwZSIpIG9uQ2FuY2VsKCk7CiAgICB9OwogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoImtleWRvd24iLCBvbktleSk7CiAgICByZXR1cm4gKCkgPT4gd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoImtleWRvd24iLCBvbktleSk7CiAgfSwgW29wZW4sIG9uQ2FuY2VsXSk7CgogIGlmICghb3BlbikgcmV0dXJuIG51bGw7CgogIHJldHVybiAoCiAgICA8ZGl2CiAgICAgIHJvbGU9ImRpYWxvZyIKICAgICAgYXJpYS1tb2RhbD0idHJ1ZSIKICAgICAgY2xhc3NOYW1lPSJmaXhlZCBpbnNldC0wIHotNTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYmctYmxhY2svNTAgcC00IgogICAgICBvbkNsaWNrPXtvbkNhbmNlbH0KICAgID4KICAgICAgPGRpdgogICAgICAgIHJvbGU9ImRvY3VtZW50IgogICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIG1heC13LW1kIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctc3VyZmFjZSBwLTYgc2hhZG93LXhsIgogICAgICAgIG9uQ2xpY2s9eyhlKSA9PiBlLnN0b3BQcm9wYWdhdGlvbigpfQogICAgICA+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQgdGV4dC10ZXh0LXByaW1hcnkiPnt0aXRsZX08L2gyPgogICAgICAgIHtkZXNjcmlwdGlvbiAmJiAoCiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1zbSB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij57ZGVzY3JpcHRpb259PC9wPgogICAgICAgICl9CiAgICAgICAge2NoaWxkcmVuICYmIDxkaXYgY2xhc3NOYW1lPSJtdC00Ij57Y2hpbGRyZW59PC9kaXY+fQoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNiBmbGV4IGp1c3RpZnktZW5kIGdhcC0yIj4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICBvbkNsaWNrPXtvbkNhbmNlbH0KICAgICAgICAgICAgZGlzYWJsZWQ9e3BlbmRpbmd9CiAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBweC0zIHB5LTIgdGV4dC1zbSB0ZXh0LXRleHQtc2Vjb25kYXJ5IGhvdmVyOmJnLXN1cmZhY2UtZWxldmF0ZWQgaG92ZXI6dGV4dC10ZXh0LXByaW1hcnkgZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIGRpc2FibGVkOm9wYWNpdHktNjAiCiAgICAgICAgICA+CiAgICAgICAgICAgIHtjYW5jZWxMYWJlbH0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIG9uQ2xpY2s9e29uQ29uZmlybX0KICAgICAgICAgICAgZGlzYWJsZWQ9e3BlbmRpbmd9CiAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgInJvdW5kZWQtbWQgcHgtMyBweS0yIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC13aGl0ZSB0cmFuc2l0aW9uIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTYwIiwKICAgICAgICAgICAgICBkZXN0cnVjdGl2ZQogICAgICAgICAgICAgICAgPyAiYmctYnJhbmQtZGFuZ2VyIGhvdmVyOm9wYWNpdHktOTAiCiAgICAgICAgICAgICAgICA6ICJiZy1icmFuZC1wcmltYXJ5IGhvdmVyOmJnLWJyYW5kLXByaW1hcnktaG92ZXIiLAogICAgICAgICAgICApfQogICAgICAgICAgPgogICAgICAgICAgICB7cGVuZGluZyA/ICJXb3JraW5n4oCmIiA6IGNvbmZpcm1MYWJlbH0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0KCi8qKiBUaW55IGNvbnZlbmllbmNlIGhvb2sgZm9yIG1hbmFnaW5nIHRoZSBvcGVuIHN0YXRlLiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlQ29uZmlybSgpIHsKICBjb25zdCBbb3Blbiwgc2V0T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgcmV0dXJuIHsKICAgIG9wZW4sCiAgICBzaG93OiAoKSA9PiBzZXRPcGVuKHRydWUpLAogICAgaGlkZTogKCkgPT4gc2V0T3BlbihmYWxzZSksCiAgfTsKfQo=
+"use client";
+
+import { useEffect, useState, type ReactNode } from "react";
+import { cn } from "@/lib/utils/classnames";
+
+export function ConfirmDialog({
+  open,
+  title,
+  description,
+  confirmLabel = "Confirm",
+  cancelLabel = "Cancel",
+  destructive = false,
+  onConfirm,
+  onCancel,
+  children,
+  pending = false,
+}: {
+  open: boolean;
+  title: string;
+  description?: string;
+  confirmLabel?: string;
+  cancelLabel?: string;
+  destructive?: boolean;
+  onConfirm: () => void;
+  onCancel: () => void;
+  children?: ReactNode;
+  pending?: boolean;
+}) {
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onCancel();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open, onCancel]);
+
+  if (!open) return null;
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4"
+      onClick={onCancel}
+    >
+      <div
+        role="document"
+        className="w-full max-w-md rounded-xl border border-border bg-surface p-6 shadow-xl"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <h2 className="text-base font-semibold text-text-primary">{title}</h2>
+        {description && (
+          <p className="mt-2 text-sm text-text-secondary">{description}</p>
+        )}
+        {children && <div className="mt-4">{children}</div>}
+
+        <div className="mt-6 flex justify-end gap-2">
+          <button
+            type="button"
+            onClick={onCancel}
+            disabled={pending}
+            className="rounded-md border border-border px-3 py-2 text-sm text-text-secondary hover:bg-surface-elevated hover:text-text-primary disabled:cursor-not-allowed disabled:opacity-60"
+          >
+            {cancelLabel}
+          </button>
+          <button
+            type="button"
+            onClick={onConfirm}
+            disabled={pending}
+            className={cn(
+              "rounded-md px-3 py-2 text-sm font-medium text-white transition disabled:cursor-not-allowed disabled:opacity-60",
+              destructive
+                ? "bg-brand-danger hover:opacity-90"
+                : "bg-brand-primary hover:bg-brand-primary-hover",
+            )}
+          >
+            {pending ? "Working…" : confirmLabel}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/** Tiny convenience hook for managing the open state. */
+export function useConfirm() {
+  const [open, setOpen] = useState(false);
+  return {
+    open,
+    show: () => setOpen(true),
+    hide: () => setOpen(false),
+  };
+}

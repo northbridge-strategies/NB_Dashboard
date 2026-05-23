@@ -1,1 +1,67 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUsIHR5cGUgUmVhY3ROb2RlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzL2NsYXNzbmFtZXMiOwoKZXhwb3J0IGludGVyZmFjZSBUYWJEZWYgewogIGlkOiBzdHJpbmc7CiAgbGFiZWw6IHN0cmluZzsKICBjb3VudD86IG51bWJlcjsKICBjb250ZW50OiBSZWFjdE5vZGU7Cn0KCmV4cG9ydCBmdW5jdGlvbiBUYWJzKHsKICB0YWJzLAogIGRlZmF1bHRUYWIsCiAgY2xhc3NOYW1lLAp9OiB7CiAgdGFiczogVGFiRGVmW107CiAgZGVmYXVsdFRhYj86IHN0cmluZzsKICBjbGFzc05hbWU/OiBzdHJpbmc7Cn0pIHsKICBjb25zdCBbYWN0aXZlLCBzZXRBY3RpdmVdID0gdXNlU3RhdGUoZGVmYXVsdFRhYiA/PyB0YWJzWzBdPy5pZCA/PyAiIik7CiAgY29uc3QgY3VycmVudCA9IHRhYnMuZmluZCgodCkgPT4gdC5pZCA9PT0gYWN0aXZlKSA/PyB0YWJzWzBdOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9e2NuKCJzcGFjZS15LTQiLCBjbGFzc05hbWUpfT4KICAgICAgPGRpdiByb2xlPSJ0YWJsaXN0IiBjbGFzc05hbWU9ImZsZXggZ2FwLTEgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciI+CiAgICAgICAge3RhYnMubWFwKCh0KSA9PiB7CiAgICAgICAgICBjb25zdCBpc0FjdGl2ZSA9IHQuaWQgPT09IGFjdGl2ZTsKICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICBrZXk9e3QuaWR9CiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIHJvbGU9InRhYiIKICAgICAgICAgICAgICBhcmlhLXNlbGVjdGVkPXtpc0FjdGl2ZX0KICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRBY3RpdmUodC5pZCl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgICAgICJyZWxhdGl2ZSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBweC00IHB5LTIgdGV4dC1zbSBmb250LW1lZGl1bSB0cmFuc2l0aW9uIiwKICAgICAgICAgICAgICAgIGlzQWN0aXZlCiAgICAgICAgICAgICAgICAgID8gInRleHQtdGV4dC1wcmltYXJ5IgogICAgICAgICAgICAgICAgICA6ICJ0ZXh0LXRleHQtc2Vjb25kYXJ5IGhvdmVyOnRleHQtdGV4dC1wcmltYXJ5IiwKICAgICAgICAgICAgICApfQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHNwYW4+e3QubGFiZWx9PC9zcGFuPgogICAgICAgICAgICAgIHt0eXBlb2YgdC5jb3VudCA9PT0gIm51bWJlciIgJiYgKAogICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgICAgICAgICAicm91bmRlZC1mdWxsIHB4LTEuNSBweS0wLjUgdGV4dC14cyIsCiAgICAgICAgICAgICAgICAgICAgaXNBY3RpdmUKICAgICAgICAgICAgICAgICAgICAgID8gImJnLWJyYW5kLXByaW1hcnkgdGV4dC13aGl0ZSIKICAgICAgICAgICAgICAgICAgICAgIDogImJnLXN1cmZhY2UtZWxldmF0ZWQgdGV4dC10ZXh0LXNlY29uZGFyeSIsCiAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHt0LmNvdW50fQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAge2lzQWN0aXZlICYmICgKICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQteC0wIC1ib3R0b20tcHggaC0wLjUgYmctYnJhbmQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICk7CiAgICAgICAgfSl9CiAgICAgIDwvZGl2PgogICAgICA8ZGl2PntjdXJyZW50Py5jb250ZW50fTwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+"use client";
+
+import { useState, type ReactNode } from "react";
+import { cn } from "@/lib/utils/classnames";
+
+export interface TabDef {
+  id: string;
+  label: string;
+  count?: number;
+  content: ReactNode;
+}
+
+export function Tabs({
+  tabs,
+  defaultTab,
+  className,
+}: {
+  tabs: TabDef[];
+  defaultTab?: string;
+  className?: string;
+}) {
+  const [active, setActive] = useState(defaultTab ?? tabs[0]?.id ?? "");
+  const current = tabs.find((t) => t.id === active) ?? tabs[0];
+
+  return (
+    <div className={cn("space-y-4", className)}>
+      <div role="tablist" className="flex gap-1 border-b border-border">
+        {tabs.map((t) => {
+          const isActive = t.id === active;
+          return (
+            <button
+              key={t.id}
+              type="button"
+              role="tab"
+              aria-selected={isActive}
+              onClick={() => setActive(t.id)}
+              className={cn(
+                "relative flex items-center gap-2 px-4 py-2 text-sm font-medium transition",
+                isActive
+                  ? "text-text-primary"
+                  : "text-text-secondary hover:text-text-primary",
+              )}
+            >
+              <span>{t.label}</span>
+              {typeof t.count === "number" && (
+                <span
+                  className={cn(
+                    "rounded-full px-1.5 py-0.5 text-xs",
+                    isActive
+                      ? "bg-brand-primary text-white"
+                      : "bg-surface-elevated text-text-secondary",
+                  )}
+                >
+                  {t.count}
+                </span>
+              )}
+              {isActive && (
+                <span className="absolute inset-x-0 -bottom-px h-0.5 bg-brand-primary" />
+              )}
+            </button>
+          );
+        })}
+      </div>
+      <div>{current?.content}</div>
+    </div>
+  );
+}

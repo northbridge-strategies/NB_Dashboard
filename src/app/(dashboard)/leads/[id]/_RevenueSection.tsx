@@ -1,1 +1,84 @@
-aW1wb3J0IHsgRG9sbGFyU2lnbiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7CiAgU3RhdHVzQmFkZ2UsCiAgdHlwZSBCYWRnZVRvbmUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL1N0YXR1c0JhZGdlIjsKaW1wb3J0IHsgU2VjdGlvbkNhcmQsIEVtcHR5U2VjdGlvbiB9IGZyb20gIi4vX1NlY3Rpb25DYXJkIjsKaW1wb3J0IHsgZm9ybWF0Q3VycmVuY3kgfSBmcm9tICJAL2xpYi91dGlscy9mb3JtYXQiOwppbXBvcnQgdHlwZSB7IFJldmVudWVFbnRyeSB9IGZyb20gIkAvbGliL25vdGlvbi9yZXZlbnVlIjsKCmNvbnN0IFNUQVRVU19UT05FOiBSZWNvcmQ8c3RyaW5nLCBCYWRnZVRvbmU+ID0gewogIFBhaWQ6ICJzdWNjZXNzIiwKICBQZW5kaW5nOiAid2FybmluZyIsCiAgUmVmdW5kZWQ6ICJkYW5nZXIiLAp9OwoKZXhwb3J0IGZ1bmN0aW9uIFJldmVudWVTZWN0aW9uKHsKICBlbnRyaWVzLAogIGxlYWRJZDogX2xlYWRJZCwKfTogewogIGVudHJpZXM6IFJldmVudWVFbnRyeVtdOwogIGxlYWRJZDogc3RyaW5nOwp9KSB7CiAgaWYgKGVudHJpZXMubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gKAogICAgICA8U2VjdGlvbkNhcmQgaWNvbj17RG9sbGFyU2lnbn0gdGl0bGU9IlJldmVudWUiIHRvbmU9InN1Y2Nlc3MiPgogICAgICAgIDxFbXB0eVNlY3Rpb24gbWVzc2FnZT0iTm8gcGF5bWVudHMgcmVjb3JkZWQgZm9yIHRoaXMgbGVhZC4iIC8+CiAgICAgIDwvU2VjdGlvbkNhcmQ+CiAgICApOwogIH0KCiAgY29uc3QgdG90YWwgPSBlbnRyaWVzCiAgICAuZmlsdGVyKChlKSA9PiBlLnN0YXR1cyA9PT0gIlBhaWQiKQogICAgLnJlZHVjZSgoYWNjLCBlKSA9PiBhY2MgKyAoZS5hbW91bnQgPz8gMCksIDApOwoKICByZXR1cm4gKAogICAgPFNlY3Rpb25DYXJkCiAgICAgIGljb249e0RvbGxhclNpZ259CiAgICAgIHRpdGxlPSJSZXZlbnVlIgogICAgICBjb3VudD17ZW50cmllcy5sZW5ndGh9CiAgICAgIHRvbmU9InN1Y2Nlc3MiCiAgICA+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi00IGZsZXggaXRlbXMtYmFzZWxpbmUganVzdGlmeS1iZXR3ZWVuIGJvcmRlci1iIGJvcmRlci1ib3JkZXIgcGItMyI+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJsYWJlbC1jYXBzIHRleHQtdGV4dC1tdXRlZCI+VG90YWwgcGFpZDwvc3Bhbj4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtc2VtaWJvbGQgdGFidWxhci1udW1zIHRleHQtYnJhbmQtc3VjY2VzcyI+CiAgICAgICAgICB7Zm9ybWF0Q3VycmVuY3kodG90YWwpfQogICAgICAgIDwvc3Bhbj4KICAgICAgPC9kaXY+CgogICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgIHtlbnRyaWVzLm1hcCgoZSkgPT4gKAogICAgICAgICAgPGxpCiAgICAgICAgICAgIGtleT17ZS5pZH0KICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctYmcvNDAgcC0zIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgICAgIHtlLnNlcnZpY2UgJiYgPFN0YXR1c0JhZGdlIGxhYmVsPXtlLnNlcnZpY2V9IHRvbmU9ImluZm8iIC8+fQogICAgICAgICAgICAgIHtlLnN0YXR1cyAmJiAoCiAgICAgICAgICAgICAgICA8U3RhdHVzQmFkZ2UKICAgICAgICAgICAgICAgICAgbGFiZWw9e2Uuc3RhdHVzfQogICAgICAgICAgICAgICAgICB0b25lPXtTVEFUVVNfVE9ORVtlLnN0YXR1c10gPz8gIm5ldXRyYWwifQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIHtlLnBheW1lbnREYXRlICYmICgKICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXRleHQtbXV0ZWQiPgogICAgICAgICAgICAgICAgICB7bmV3IERhdGUoZS5wYXltZW50RGF0ZSkudG9Mb2NhbGVEYXRlU3RyaW5nKCl9CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgICAge2Uuc3RyaXBlUGF5bWVudElkICYmICgKICAgICAgICAgICAgICAgIDxjb2RlIGNsYXNzTmFtZT0iaGlkZGVuIHJvdW5kZWQgYmctc3VyZmFjZS1lbGV2YXRlZCBweC0xLjUgcHktMC41IHRleHQteHMgdGV4dC10ZXh0LW11dGVkIHNtOmlubGluZSI+CiAgICAgICAgICAgICAgICAgIHtlLnN0cmlwZVBheW1lbnRJZH0KICAgICAgICAgICAgICAgIDwvY29kZT4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0YWJ1bGFyLW51bXMgdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAge2Zvcm1hdEN1cnJlbmN5KGUuYW1vdW50KX0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9saT4KICAgICAgICApKX0KICAgICAgPC91bD4KICAgIDwvU2VjdGlvbkNhcmQ+CiAgKTsKfQo=
+import { DollarSign } from "lucide-react";
+import {
+  StatusBadge,
+  type BadgeTone,
+} from "@/components/ui/StatusBadge";
+import { SectionCard, EmptySection } from "./_SectionCard";
+import { formatCurrency } from "@/lib/utils/format";
+import type { RevenueEntry } from "@/lib/notion/revenue";
+
+const STATUS_TONE: Record<string, BadgeTone> = {
+  Paid: "success",
+  Pending: "warning",
+  Refunded: "danger",
+};
+
+export function RevenueSection({
+  entries,
+  leadId: _leadId,
+}: {
+  entries: RevenueEntry[];
+  leadId: string;
+}) {
+  if (entries.length === 0) {
+    return (
+      <SectionCard icon={DollarSign} title="Revenue" tone="success">
+        <EmptySection message="No payments recorded for this lead." />
+      </SectionCard>
+    );
+  }
+
+  const total = entries
+    .filter((e) => e.status === "Paid")
+    .reduce((acc, e) => acc + (e.amount ?? 0), 0);
+
+  return (
+    <SectionCard
+      icon={DollarSign}
+      title="Revenue"
+      count={entries.length}
+      tone="success"
+    >
+      <div className="mb-4 flex items-baseline justify-between border-b border-border pb-3">
+        <span className="label-caps text-text-muted">Total paid</span>
+        <span className="text-2xl font-semibold tabular-nums text-brand-success">
+          {formatCurrency(total)}
+        </span>
+      </div>
+
+      <ul className="space-y-2">
+        {entries.map((e) => (
+          <li
+            key={e.id}
+            className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-border bg-bg/40 p-3"
+          >
+            <div className="flex items-center gap-3">
+              {e.service && <StatusBadge label={e.service} tone="info" />}
+              {e.status && (
+                <StatusBadge
+                  label={e.status}
+                  tone={STATUS_TONE[e.status] ?? "neutral"}
+                />
+              )}
+              {e.paymentDate && (
+                <span className="text-xs text-text-muted">
+                  {new Date(e.paymentDate).toLocaleDateString()}
+                </span>
+              )}
+            </div>
+            <div className="flex items-center gap-3">
+              {e.stripePaymentId && (
+                <code className="hidden rounded bg-surface-elevated px-1.5 py-0.5 text-xs text-text-muted sm:inline">
+                  {e.stripePaymentId}
+                </code>
+              )}
+              <span className="font-semibold tabular-nums text-text-primary">
+                {formatCurrency(e.amount)}
+              </span>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </SectionCard>
+  );
+}

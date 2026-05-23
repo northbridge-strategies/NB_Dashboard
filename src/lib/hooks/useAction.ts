@@ -1,1 +1,67 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAibmV4dC9uYXZpZ2F0aW9uIjsKaW1wb3J0IHsgdXNlU3RhdGUsIHVzZVRyYW5zaXRpb24gfSBmcm9tICJyZWFjdCI7CgpleHBvcnQgdHlwZSBBY3Rpb25TdGF0ZSA9ICJpZGxlIiB8ICJwZW5kaW5nIiB8ICJzdWNjZXNzIiB8ICJlcnJvciI7CgovKioKICogVGlueSBob29rIGZvciB3cml0ZSBhY3Rpb25zIHRoYXQgUE9TVC9QQVRDSCBhIEpTT04gZW5kcG9pbnQuCiAqIC0gU3VyZmFjZXMgbG9hZGluZy9lcnJvciBzdGF0ZQogKiAtIENhbGxzIHJvdXRlci5yZWZyZXNoKCkgb24gc3VjY2VzcyBzbyBzZXJ2ZXIgY29tcG9uZW50cyByZS1wdWxsIHRhZ2dlZCBkYXRhCiAqIC0gQ2FsbGVyIGNhbiBwYXNzIGBvcHRpbWlzdGljOiAoKSA9PiB2b2lkYCB0byBmbGlwIGxvY2FsIHN0YXRlIGltbWVkaWF0ZWx5CiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlQWN0aW9uPFRCb2R5ID0gdW5rbm93bj4ob3B0cz86IHsKICBvblN1Y2Nlc3M/OiAoKSA9PiB2b2lkOwogIG9uRXJyb3I/OiAobXNnOiBzdHJpbmcpID0+IHZvaWQ7Cn0pIHsKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKICBjb25zdCBbc3RhdGUsIHNldFN0YXRlXSA9IHVzZVN0YXRlPEFjdGlvblN0YXRlPigiaWRsZSIpOwogIGNvbnN0IFtlcnJvciwgc2V0RXJyb3JdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2lzUGVuZGluZywgc3RhcnRUcmFuc2l0aW9uXSA9IHVzZVRyYW5zaXRpb24oKTsKCiAgYXN5bmMgZnVuY3Rpb24gcnVuKAogICAgZW5kcG9pbnQ6IHN0cmluZywKICAgIGluaXQ6IHsgbWV0aG9kPzogc3RyaW5nOyBib2R5PzogVEJvZHk7IG9wdGltaXN0aWM/OiAoKSA9PiB2b2lkIH0gPSB7fSwKICApIHsKICAgIHNldEVycm9yKG51bGwpOwogICAgc2V0U3RhdGUoInBlbmRpbmciKTsKICAgIGluaXQub3B0aW1pc3RpYz8uKCk7CgogICAgbGV0IHJlczogUmVzcG9uc2U7CiAgICB0cnkgewogICAgICByZXMgPSBhd2FpdCBmZXRjaChlbmRwb2ludCwgewogICAgICAgIG1ldGhvZDogaW5pdC5tZXRob2QgPz8gIlBPU1QiLAogICAgICAgIGhlYWRlcnM6IGluaXQuYm9keSA/IHsgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiB9IDogdW5kZWZpbmVkLAogICAgICAgIGJvZHk6IGluaXQuYm9keSA/IEpTT04uc3RyaW5naWZ5KGluaXQuYm9keSkgOiB1bmRlZmluZWQsCiAgICAgIH0pOwogICAgfSBjYXRjaCAoZSkgewogICAgICBjb25zdCBtc2cgPSAoZSBhcyBFcnJvcik/Lm1lc3NhZ2UgPz8gIk5ldHdvcmsgZXJyb3IiOwogICAgICBzZXRTdGF0ZSgiZXJyb3IiKTsKICAgICAgc2V0RXJyb3IobXNnKTsKICAgICAgb3B0cz8ub25FcnJvcj8uKG1zZyk7CiAgICAgIHJldHVybiB7IG9rOiBmYWxzZSwgZXJyb3I6IG1zZyB9OwogICAgfQoKICAgIGlmICghcmVzLm9rKSB7CiAgICAgIGxldCBtc2cgPSBgUmVxdWVzdCBmYWlsZWQgKCR7cmVzLnN0YXR1c30pYDsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCBqID0gKGF3YWl0IHJlcy5qc29uKCkpIGFzIHsgZXJyb3I/OiBzdHJpbmcgfTsKICAgICAgICBpZiAoaj8uZXJyb3IpIG1zZyA9IGouZXJyb3I7CiAgICAgIH0gY2F0Y2ggewogICAgICAgIC8vIGlnbm9yZQogICAgICB9CiAgICAgIHNldFN0YXRlKCJlcnJvciIpOwogICAgICBzZXRFcnJvcihtc2cpOwogICAgICBvcHRzPy5vbkVycm9yPy4obXNnKTsKICAgICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogbXNnIH07CiAgICB9CgogICAgc2V0U3RhdGUoInN1Y2Nlc3MiKTsKICAgIG9wdHM/Lm9uU3VjY2Vzcz8uKCk7CiAgICBzdGFydFRyYW5zaXRpb24oKCkgPT4gcm91dGVyLnJlZnJlc2goKSk7CiAgICByZXR1cm4geyBvazogdHJ1ZSB9OwogIH0KCiAgcmV0dXJuIHsgcnVuLCBzdGF0ZSwgZXJyb3IsIGlzUGVuZGluZyB9Owp9Cg==
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useState, useTransition } from "react";
+
+export type ActionState = "idle" | "pending" | "success" | "error";
+
+/**
+ * Tiny hook for write actions that POST/PATCH a JSON endpoint.
+ * - Surfaces loading/error state
+ * - Calls router.refresh() on success so server components re-pull tagged data
+ * - Caller can pass `optimistic: () => void` to flip local state immediately
+ */
+export function useAction<TBody = unknown>(opts?: {
+  onSuccess?: () => void;
+  onError?: (msg: string) => void;
+}) {
+  const router = useRouter();
+  const [state, setState] = useState<ActionState>("idle");
+  const [error, setError] = useState<string | null>(null);
+  const [isPending, startTransition] = useTransition();
+
+  async function run(
+    endpoint: string,
+    init: { method?: string; body?: TBody; optimistic?: () => void } = {},
+  ) {
+    setError(null);
+    setState("pending");
+    init.optimistic?.();
+
+    let res: Response;
+    try {
+      res = await fetch(endpoint, {
+        method: init.method ?? "POST",
+        headers: init.body ? { "Content-Type": "application/json" } : undefined,
+        body: init.body ? JSON.stringify(init.body) : undefined,
+      });
+    } catch (e) {
+      const msg = (e as Error)?.message ?? "Network error";
+      setState("error");
+      setError(msg);
+      opts?.onError?.(msg);
+      return { ok: false, error: msg };
+    }
+
+    if (!res.ok) {
+      let msg = `Request failed (${res.status})`;
+      try {
+        const j = (await res.json()) as { error?: string };
+        if (j?.error) msg = j.error;
+      } catch {
+        // ignore
+      }
+      setState("error");
+      setError(msg);
+      opts?.onError?.(msg);
+      return { ok: false, error: msg };
+    }
+
+    setState("success");
+    opts?.onSuccess?.();
+    startTransition(() => router.refresh());
+    return { ok: true };
+  }
+
+  return { run, state, error, isPending };
+}

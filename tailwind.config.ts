@@ -1,1 +1,47 @@
-aW1wb3J0IHR5cGUgeyBDb25maWcgfSBmcm9tICJ0YWlsd2luZGNzcyI7Cgpjb25zdCBjb25maWc6IENvbmZpZyA9IHsKICBkYXJrTW9kZTogImNsYXNzIiwKICBjb250ZW50OiBbCiAgICAiLi9zcmMvYXBwLyoqLyoue3RzLHRzeH0iLAogICAgIi4vc3JjL2NvbXBvbmVudHMvKiovKi57dHMsdHN4fSIsCiAgICAiLi9zcmMvbGliLyoqLyoue3RzLHRzeH0iLAogIF0sCiAgdGhlbWU6IHsKICAgIGV4dGVuZDogewogICAgICBmb250RmFtaWx5OiB7CiAgICAgICAgc2FuczogWyJ2YXIoLS1mb250LWludGVyKSIsICJzeXN0ZW0tdWkiLCAic2Fucy1zZXJpZiJdLAogICAgICB9LAogICAgICBjb2xvcnM6IHsKICAgICAgICAvLyBCcmFuZCBwYWxldHRlIChjb25zdGFudCBhY3Jvc3MgdGhlbWVzKQogICAgICAgIGJyYW5kOiB7CiAgICAgICAgICBwcmltYXJ5OiAiIzFCNUUzOCIsCiAgICAgICAgICAicHJpbWFyeS1ob3ZlciI6ICIjMkQ4QTRFIiwKICAgICAgICAgIGFjY2VudDogIiNFMDdCMjgiLAogICAgICAgICAgc2Vjb25kYXJ5OiAiIzJEOEE0RSIsCiAgICAgICAgICBza3k6ICIjN0VDOEQ4IiwKICAgICAgICAgIHN1Y2Nlc3M6ICIjMkQ4QTRFIiwKICAgICAgICAgIHdhcm5pbmc6ICIjRTA3QjI4IiwKICAgICAgICAgIGRhbmdlcjogIiNDMDM5MkIiLAogICAgICAgICAgaW5mbzogIiM3RUM4RDgiLAogICAgICAgIH0sCiAgICAgICAgLy8gVGhlbWUtYXdhcmUgc2VtYW50aWMgdG9rZW5zIChkcml2ZW4gYnkgQ1NTIHZhcmlhYmxlcyBpbiBnbG9iYWxzLmNzcykKICAgICAgICBiZzogInJnYih2YXIoLS1iZykgLyA8YWxwaGEtdmFsdWU+KSIsCiAgICAgICAgc3VyZmFjZTogInJnYih2YXIoLS1zdXJmYWNlKSAvIDxhbHBoYS12YWx1ZT4pIiwKICAgICAgICAic3VyZmFjZS1lbGV2YXRlZCI6ICJyZ2IodmFyKC0tc3VyZmFjZS1lbGV2YXRlZCkgLyA8YWxwaGEtdmFsdWU+KSIsCiAgICAgICAgYm9yZGVyOiAicmdiKHZhcigtLWJvcmRlcikgLyA8YWxwaGEtdmFsdWU+KSIsCiAgICAgICAgdGV4dDogewogICAgICAgICAgcHJpbWFyeTogInJnYih2YXIoLS10ZXh0LXByaW1hcnkpIC8gPGFscGhhLXZhbHVlPikiLAogICAgICAgICAgc2Vjb25kYXJ5OiAicmdiKHZhcigtLXRleHQtc2Vjb25kYXJ5KSAvIDxhbHBoYS12YWx1ZT4pIiwKICAgICAgICAgIG11dGVkOiAicmdiKHZhcigtLXRleHQtbXV0ZWQpIC8gPGFscGhhLXZhbHVlPikiLAogICAgICAgIH0sCiAgICAgIH0sCiAgICAgIGxldHRlclNwYWNpbmc6IHsKICAgICAgICB3aWRlcjogIjAuMDVlbSIsCiAgICAgIH0sCiAgICB9LAogIH0sCiAgcGx1Z2luczogW10sCn07CgpleHBvcnQgZGVmYXVsdCBjb25maWc7Cg==
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  darkMode: "class",
+  content: [
+    "./src/app/**/*.{ts,tsx}",
+    "./src/components/**/*.{ts,tsx}",
+    "./src/lib/**/*.{ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+      },
+      colors: {
+        // Brand palette (constant across themes)
+        brand: {
+          primary: "#1B5E38",
+          "primary-hover": "#2D8A4E",
+          accent: "#E07B28",
+          secondary: "#2D8A4E",
+          sky: "#7EC8D8",
+          success: "#2D8A4E",
+          warning: "#E07B28",
+          danger: "#C0392B",
+          info: "#7EC8D8",
+        },
+        // Theme-aware semantic tokens (driven by CSS variables in globals.css)
+        bg: "rgb(var(--bg) / <alpha-value>)",
+        surface: "rgb(var(--surface) / <alpha-value>)",
+        "surface-elevated": "rgb(var(--surface-elevated) / <alpha-value>)",
+        border: "rgb(var(--border) / <alpha-value>)",
+        text: {
+          primary: "rgb(var(--text-primary) / <alpha-value>)",
+          secondary: "rgb(var(--text-secondary) / <alpha-value>)",
+          muted: "rgb(var(--text-muted) / <alpha-value>)",
+        },
+      },
+      letterSpacing: {
+        wider: "0.05em",
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;

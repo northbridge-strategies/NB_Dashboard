@@ -1,1 +1,43 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IGNhY2hlZCwgVEFHIH0gZnJvbSAiLi9jYWNoZSI7CmltcG9ydCB7IHJlY2VudExlYWRBY3Rpdml0eSB9IGZyb20gIi4vbGVhZHMiOwppbXBvcnQgeyByZWNlbnRTY29yZUFjdGl2aXR5IH0gZnJvbSAiLi9zY29yZXMiOwppbXBvcnQgeyByZWNlbnRQaXBlbGluZUFjdGl2aXR5IH0gZnJvbSAiLi9waXBlbGluZSI7CmltcG9ydCB7IHJlY2VudFJldmVudWVBY3Rpdml0eSB9IGZyb20gIi4vcmV2ZW51ZSI7CmltcG9ydCB7IHJlY2VudE91dHJlYWNoQWN0aXZpdHkgfSBmcm9tICIuL2xpbmtlZGluIjsKaW1wb3J0IHR5cGUgeyBBY3Rpdml0eUl0ZW0gfSBmcm9tICJAL2xpYi90eXBlcy9kb21haW4iOwoKLyoqCiAqIEFnZ3JlZ2F0ZWQgcmVjZW50LWFjdGl2aXR5IGZlZWQgYWNyb3NzIHRoZSA1IGxlYWQtcmVsZXZhbnQgREJzLgogKiBFYWNoIHNvdXJjZSByZXR1cm5zIGl0cyB0b3AtTiBtb3N0LXJlY2VudGx5LWVkaXRlZCByZWNvcmRzOyB3ZSBtZXJnZSwKICogc29ydCBieSB0aW1lc3RhbXAgZGVzYywgYW5kIHNsaWNlLgogKi8KZXhwb3J0IGNvbnN0IHJlY2VudEFjdGl2aXR5ID0gY2FjaGVkKAogIGFzeW5jIChsaW1pdCA9IDEwKTogUHJvbWlzZTxBY3Rpdml0eUl0ZW1bXT4gPT4gewogICAgY29uc3QgcmVzdWx0cyA9IGF3YWl0IFByb21pc2UuYWxsU2V0dGxlZChbCiAgICAgIHJlY2VudExlYWRBY3Rpdml0eShsaW1pdCksCiAgICAgIHJlY2VudFNjb3JlQWN0aXZpdHkobGltaXQpLAogICAgICByZWNlbnRQaXBlbGluZUFjdGl2aXR5KGxpbWl0KSwKICAgICAgcmVjZW50UmV2ZW51ZUFjdGl2aXR5KGxpbWl0KSwKICAgICAgcmVjZW50T3V0cmVhY2hBY3Rpdml0eShsaW1pdCksCiAgICBdKTsKICAgIGNvbnN0IG1lcmdlZDogQWN0aXZpdHlJdGVtW10gPSBbXTsKICAgIGZvciAoY29uc3QgciBvZiByZXN1bHRzKSB7CiAgICAgIGlmIChyLnN0YXR1cyA9PT0gImZ1bGZpbGxlZCIpIG1lcmdlZC5wdXNoKC4uLnIudmFsdWUpOwogICAgICAvLyBGYWlsZWQgc291cmNlIGlzIHNpbGVudGx5IGRyb3BwZWQg4oCUIGZlZWQgZGVncmFkZXMgZ3JhY2VmdWxseS4KICAgIH0KICAgIG1lcmdlZC5zb3J0KChhLCBiKSA9PiBiLnRpbWVzdGFtcC5sb2NhbGVDb21wYXJlKGEudGltZXN0YW1wKSk7CiAgICByZXR1cm4gbWVyZ2VkLnNsaWNlKDAsIGxpbWl0KTsKICB9LAogIFsiYWN0aXZpdHk6cmVjZW50Il0sCiAgewogICAgdGFnczogWwogICAgICBUQUcuYWN0aXZpdHksCiAgICAgIFRBRy5sZWFkcywKICAgICAgVEFHLnNjb3JlcywKICAgICAgVEFHLnBpcGVsaW5lLAogICAgICBUQUcucmV2ZW51ZSwKICAgICAgVEFHLmxpbmtlZGluLAogICAgXSwKICB9LAopOwo=
+import "server-only";
+import { cached, TAG } from "./cache";
+import { recentLeadActivity } from "./leads";
+import { recentScoreActivity } from "./scores";
+import { recentPipelineActivity } from "./pipeline";
+import { recentRevenueActivity } from "./revenue";
+import { recentOutreachActivity } from "./linkedin";
+import type { ActivityItem } from "@/lib/types/domain";
+
+/**
+ * Aggregated recent-activity feed across the 5 lead-relevant DBs.
+ * Each source returns its top-N most-recently-edited records; we merge,
+ * sort by timestamp desc, and slice.
+ */
+export const recentActivity = cached(
+  async (limit = 10): Promise<ActivityItem[]> => {
+    const results = await Promise.allSettled([
+      recentLeadActivity(limit),
+      recentScoreActivity(limit),
+      recentPipelineActivity(limit),
+      recentRevenueActivity(limit),
+      recentOutreachActivity(limit),
+    ]);
+    const merged: ActivityItem[] = [];
+    for (const r of results) {
+      if (r.status === "fulfilled") merged.push(...r.value);
+      // Failed source is silently dropped — feed degrades gracefully.
+    }
+    merged.sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+    return merged.slice(0, limit);
+  },
+  ["activity:recent"],
+  {
+    tags: [
+      TAG.activity,
+      TAG.leads,
+      TAG.scores,
+      TAG.pipeline,
+      TAG.revenue,
+      TAG.linkedin,
+    ],
+  },
+);

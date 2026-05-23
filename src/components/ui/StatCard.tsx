@@ -1,1 +1,88 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IHsgQXJyb3dVcFJpZ2h0LCBBcnJvd0Rvd25SaWdodCwgTWludXMsIHR5cGUgTHVjaWRlSWNvbiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMvY2xhc3NuYW1lcyI7CgpleHBvcnQgaW50ZXJmYWNlIFN0YXRDYXJkUHJvcHMgewogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKICBocmVmOiBzdHJpbmc7CiAgaWNvbjogTHVjaWRlSWNvbjsKICAvKiogTnVtZXJpYyB0cmVuZCB2cyBwcmV2aW91cyBwZXJpb2QuIG51bGwgPSBubyBjb21wYXJpc29uIGF2YWlsYWJsZS4gKi8KICB0cmVuZD86IG51bWJlciB8IG51bGw7CiAgLyoqIE92ZXJyaWRlIHRoZSAidnMgbGFzdCB3ZWVrIiBzdWZmaXguICovCiAgdHJlbmRMYWJlbD86IHN0cmluZzsKICAvKiogVmlzdWFsIGFjY2VudCBmb3IgdGhlIHZhbHVlICsgaWNvbiBidWJibGUuICovCiAgYWNjZW50PzogImRlZmF1bHQiIHwgInN1Y2Nlc3MiIHwgIndhcm5pbmciIHwgImRhbmdlciI7Cn0KCmV4cG9ydCBmdW5jdGlvbiBTdGF0Q2FyZCh7CiAgbGFiZWwsCiAgdmFsdWUsCiAgaHJlZiwKICBpY29uOiBJY29uLAogIHRyZW5kLAogIHRyZW5kTGFiZWwgPSAidnMgbGFzdCB3ZWVrIiwKICBhY2NlbnQgPSAiZGVmYXVsdCIsCn06IFN0YXRDYXJkUHJvcHMpIHsKICBjb25zdCBhY2NlbnRWYWx1ZTogUmVjb3JkPE5vbk51bGxhYmxlPFN0YXRDYXJkUHJvcHNbImFjY2VudCJdPiwgc3RyaW5nPiA9IHsKICAgIGRlZmF1bHQ6ICJ0ZXh0LXRleHQtcHJpbWFyeSIsCiAgICBzdWNjZXNzOiAidGV4dC1icmFuZC1zdWNjZXNzIiwKICAgIHdhcm5pbmc6ICJ0ZXh0LWJyYW5kLXdhcm5pbmciLAogICAgZGFuZ2VyOiAidGV4dC1icmFuZC1kYW5nZXIiLAogIH07CiAgY29uc3QgYWNjZW50QnViYmxlOiBSZWNvcmQ8Tm9uTnVsbGFibGU8U3RhdENhcmRQcm9wc1siYWNjZW50Il0+LCBzdHJpbmc+ID0gewogICAgZGVmYXVsdDogImJnLWJyYW5kLXByaW1hcnkvMTAgdGV4dC1icmFuZC1wcmltYXJ5IiwKICAgIHN1Y2Nlc3M6ICJiZy1icmFuZC1zdWNjZXNzLzEwIHRleHQtYnJhbmQtc3VjY2VzcyIsCiAgICB3YXJuaW5nOiAiYmctYnJhbmQtd2FybmluZy8xNSB0ZXh0LWJyYW5kLXdhcm5pbmciLAogICAgZGFuZ2VyOiAiYmctYnJhbmQtZGFuZ2VyLzEwIHRleHQtYnJhbmQtZGFuZ2VyIiwKICB9OwoKICBjb25zdCB0cmVuZERpciA9IHRyZW5kID09IG51bGwgfHwgdHJlbmQgPT09IDAgPyAwIDogdHJlbmQgPiAwID8gMSA6IC0xOwogIGNvbnN0IFRyZW5kSWNvbiA9IHRyZW5kRGlyID09PSAxID8gQXJyb3dVcFJpZ2h0IDogdHJlbmREaXIgPT09IC0xID8gQXJyb3dEb3duUmlnaHQgOiBNaW51czsKICBjb25zdCB0cmVuZENvbG9yID0KICAgIHRyZW5kRGlyID09PSAxCiAgICAgID8gInRleHQtYnJhbmQtc3VjY2VzcyIKICAgICAgOiB0cmVuZERpciA9PT0gLTEKICAgICAgPyAidGV4dC1icmFuZC1kYW5nZXIiCiAgICAgIDogInRleHQtdGV4dC1tdXRlZCI7CgogIHJldHVybiAoCiAgICA8TGluawogICAgICBocmVmPXtocmVmfQogICAgICBjbGFzc05hbWU9Imdyb3VwIHJlbGF0aXZlIGZsZXggZmxleC1jb2wgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1zdXJmYWNlIHAtNSB0cmFuc2l0aW9uIGhvdmVyOi10cmFuc2xhdGUteS0wLjUgaG92ZXI6Ym9yZGVyLWJyYW5kLXByaW1hcnkvNDAgaG92ZXI6c2hhZG93LW1kIgogICAgPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibGFiZWwtY2FwcyBtaW4tdy0wIHRydW5jYXRlIHRleHQtdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAge2xhYmVsfQogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbgogICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgImZsZXggaC05IHctOSBzaHJpbmstMCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1sZyB0cmFuc2l0aW9uIGdyb3VwLWhvdmVyOnNjYWxlLTEwNSIsCiAgICAgICAgICAgIGFjY2VudEJ1YmJsZVthY2NlbnRdLAogICAgICAgICAgKX0KICAgICAgICA+CiAgICAgICAgICA8SWNvbiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KICAgICAgPGRpdgogICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAibXQtNCB0ZXh0LTN4bCBmb250LXNlbWlib2xkIHRhYnVsYXItbnVtcyB0cmFja2luZy10aWdodCIsCiAgICAgICAgICBhY2NlbnRWYWx1ZVthY2NlbnRdLAogICAgICAgICl9CiAgICAgID4KICAgICAgICB7dmFsdWV9CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHRleHQteHMiPgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT17Y24oImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMC41IGZvbnQtbWVkaXVtIiwgdHJlbmRDb2xvcil9PgogICAgICAgICAgPFRyZW5kSWNvbiBjbGFzc05hbWU9ImgtMyB3LTMiIC8+CiAgICAgICAgICB7dHJlbmQgPT0gbnVsbAogICAgICAgICAgICA/ICLigJQiCiAgICAgICAgICAgIDogdHJlbmREaXIgPT09IDAKICAgICAgICAgICAgPyAiMCUiCiAgICAgICAgICAgIDogYCR7dHJlbmQgPiAwID8gIisiIDogIiJ9JHt0cmVuZC50b0ZpeGVkKDApfSVgfQogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtdGV4dC1tdXRlZCI+e3RyZW5kTGFiZWx9PC9zcGFuPgogICAgICA8L2Rpdj4KICAgIDwvTGluaz4KICApOwp9Cg==
+import Link from "next/link";
+import { ArrowUpRight, ArrowDownRight, Minus, type LucideIcon } from "lucide-react";
+import { cn } from "@/lib/utils/classnames";
+
+export interface StatCardProps {
+  label: string;
+  value: string;
+  href: string;
+  icon: LucideIcon;
+  /** Numeric trend vs previous period. null = no comparison available. */
+  trend?: number | null;
+  /** Override the "vs last week" suffix. */
+  trendLabel?: string;
+  /** Visual accent for the value + icon bubble. */
+  accent?: "default" | "success" | "warning" | "danger";
+}
+
+export function StatCard({
+  label,
+  value,
+  href,
+  icon: Icon,
+  trend,
+  trendLabel = "vs last week",
+  accent = "default",
+}: StatCardProps) {
+  const accentValue: Record<NonNullable<StatCardProps["accent"]>, string> = {
+    default: "text-text-primary",
+    success: "text-brand-success",
+    warning: "text-brand-warning",
+    danger: "text-brand-danger",
+  };
+  const accentBubble: Record<NonNullable<StatCardProps["accent"]>, string> = {
+    default: "bg-brand-primary/10 text-brand-primary",
+    success: "bg-brand-success/10 text-brand-success",
+    warning: "bg-brand-warning/15 text-brand-warning",
+    danger: "bg-brand-danger/10 text-brand-danger",
+  };
+
+  const trendDir = trend == null || trend === 0 ? 0 : trend > 0 ? 1 : -1;
+  const TrendIcon = trendDir === 1 ? ArrowUpRight : trendDir === -1 ? ArrowDownRight : Minus;
+  const trendColor =
+    trendDir === 1
+      ? "text-brand-success"
+      : trendDir === -1
+      ? "text-brand-danger"
+      : "text-text-muted";
+
+  return (
+    <Link
+      href={href}
+      className="group relative flex flex-col rounded-xl border border-border bg-surface p-5 transition hover:-translate-y-0.5 hover:border-brand-primary/40 hover:shadow-md"
+    >
+      <div className="flex items-start justify-between gap-3">
+        <span className="label-caps min-w-0 truncate text-text-secondary">
+          {label}
+        </span>
+        <span
+          className={cn(
+            "flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition group-hover:scale-105",
+            accentBubble[accent],
+          )}
+        >
+          <Icon className="h-4 w-4" />
+        </span>
+      </div>
+      <div
+        className={cn(
+          "mt-4 text-3xl font-semibold tabular-nums tracking-tight",
+          accentValue[accent],
+        )}
+      >
+        {value}
+      </div>
+      <div className="mt-2 flex items-center gap-1.5 text-xs">
+        <span className={cn("inline-flex items-center gap-0.5 font-medium", trendColor)}>
+          <TrendIcon className="h-3 w-3" />
+          {trend == null
+            ? "—"
+            : trendDir === 0
+            ? "0%"
+            : `${trend > 0 ? "+" : ""}${trend.toFixed(0)}%`}
+        </span>
+        <span className="text-text-muted">{trendLabel}</span>
+      </div>
+    </Link>
+  );
+}

@@ -1,1 +1,143 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlUm91dGVyLCB1c2VTZWFyY2hQYXJhbXMgfSBmcm9tICJuZXh0L25hdmlnYXRpb24iOwppbXBvcnQgeyBEYXRhVGFibGUsIHR5cGUgQ29sdW1uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL0RhdGFUYWJsZSI7CmltcG9ydCB7IGZvcm1hdEN1cnJlbmN5LCBmb3JtYXROdW1iZXIsIGZvcm1hdFBlcmNlbnQgfSBmcm9tICJAL2xpYi91dGlscy9mb3JtYXQiOwoKZXhwb3J0IGludGVyZmFjZSBDaGFubmVsUm93IHsKICBjaGFubmVsOiBzdHJpbmc7CiAgdG90YWxMZWFkczogbnVtYmVyOwogIHF1YWxpZmllZDogbnVtYmVyOwogIHBhaWQ6IG51bWJlcjsKICByZXZlbnVlOiBudW1iZXI7CiAgY29udmVyc2lvblJhdGU6IG51bWJlcjsgLy8gcGVyY2VudAogIHJlbGF0aXZlRmlsbDogbnVtYmVyOyAgIC8vIDAtMTAwLCBmb3IgdGhlIHZpc3VhbCBiYXIKfQoKY29uc3QgUkFOR0VTOiB7IGlkOiAiNyIgfCAiMzAiIHwgIjkwIiB8ICJhbGwiOyBsYWJlbDogc3RyaW5nIH1bXSA9IFsKICB7IGlkOiAiNyIsIGxhYmVsOiAiN2QiIH0sCiAgeyBpZDogIjMwIiwgbGFiZWw6ICIzMGQiIH0sCiAgeyBpZDogIjkwIiwgbGFiZWw6ICI5MGQiIH0sCiAgeyBpZDogImFsbCIsIGxhYmVsOiAiQWxsIiB9LApdOwoKZXhwb3J0IGZ1bmN0aW9uIENoYW5uZWxzVGFibGUoewogIHJvd3MsCiAgcmFuZ2UsCn06IHsKICByb3dzOiBDaGFubmVsUm93W107CiAgcmFuZ2U6ICI3IiB8ICIzMCIgfCAiOTAiIHwgImFsbCI7Cn0pIHsKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKICBjb25zdCBwYXJhbXMgPSB1c2VTZWFyY2hQYXJhbXMoKTsKCiAgZnVuY3Rpb24gc2V0UmFuZ2UocjogdHlwZW9mIHJhbmdlKSB7CiAgICBjb25zdCBxID0gbmV3IFVSTFNlYXJjaFBhcmFtcyhwYXJhbXM/LnRvU3RyaW5nKCkpOwogICAgcS5zZXQoInJhbmdlIiwgcik7CiAgICByb3V0ZXIucmVwbGFjZShgL2NoYW5uZWxzPyR7cS50b1N0cmluZygpfWApOwogIH0KCiAgY29uc3QgY29sdW1uczogQ29sdW1uPENoYW5uZWxSb3c+W10gPSBbCiAgICB7CiAgICAgIGtleTogImNoYW5uZWwiLAogICAgICBoZWFkZXI6ICJDaGFubmVsIiwKICAgICAgc29ydDogKHIpID0+IHIuY2hhbm5lbCwKICAgICAgcmVuZGVyOiAocikgPT4gPHNwYW4gY2xhc3NOYW1lPSJmb250LW1lZGl1bSI+e3IuY2hhbm5lbH08L3NwYW4+LAogICAgfSwKICAgIHsKICAgICAga2V5OiAidm9sdW1lIiwKICAgICAgaGVhZGVyOiAiVm9sdW1lIiwKICAgICAgd2lkdGg6ICJ3LTQ4IiwKICAgICAgaGlkZU9uTW9iaWxlOiB0cnVlLAogICAgICByZW5kZXI6IChyKSA9PiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLTIgZmxleC0xIHJvdW5kZWQtZnVsbCBiZy1zdXJmYWNlLWVsZXZhdGVkIj4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC0yIHJvdW5kZWQtZnVsbCBiZy1icmFuZC1wcmltYXJ5IHRyYW5zaXRpb24tYWxsIgogICAgICAgICAgICAgIHN0eWxlPXt7IHdpZHRoOiBgJHtNYXRoLm1heCgyLCByLnJlbGF0aXZlRmlsbCl9JWAgfX0KICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICApLAogICAgfSwKICAgIHsKICAgICAga2V5OiAidG90YWxMZWFkcyIsCiAgICAgIGhlYWRlcjogIkxlYWRzIiwKICAgICAgc29ydDogKHIpID0+IHIudG90YWxMZWFkcywKICAgICAgYWxpZ246ICJyaWdodCIsCiAgICAgIHJlbmRlcjogKHIpID0+IGZvcm1hdE51bWJlcihyLnRvdGFsTGVhZHMpLAogICAgfSwKICAgIHsKICAgICAga2V5OiAicXVhbGlmaWVkIiwKICAgICAgaGVhZGVyOiAiUXVhbGlmaWVkIiwKICAgICAgc29ydDogKHIpID0+IHIucXVhbGlmaWVkLAogICAgICBhbGlnbjogInJpZ2h0IiwKICAgICAgaGlkZU9uVGFibGV0OiB0cnVlLAogICAgICByZW5kZXI6IChyKSA9PiBmb3JtYXROdW1iZXIoci5xdWFsaWZpZWQpLAogICAgfSwKICAgIHsKICAgICAga2V5OiAicGFpZCIsCiAgICAgIGhlYWRlcjogIlBhaWQiLAogICAgICBzb3J0OiAocikgPT4gci5wYWlkLAogICAgICBhbGlnbjogInJpZ2h0IiwKICAgICAgcmVuZGVyOiAocikgPT4gKAogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tZWRpdW0gdGV4dC1icmFuZC1zdWNjZXNzIj57Zm9ybWF0TnVtYmVyKHIucGFpZCl9PC9zcGFuPgogICAgICApLAogICAgfSwKICAgIHsKICAgICAga2V5OiAiY29udmVyc2lvbiIsCiAgICAgIGhlYWRlcjogIkNvbnZlcnNpb24iLAogICAgICBzb3J0OiAocikgPT4gci5jb252ZXJzaW9uUmF0ZSwKICAgICAgYWxpZ246ICJyaWdodCIsCiAgICAgIHJlbmRlcjogKHIpID0+IGZvcm1hdFBlcmNlbnQoci5jb252ZXJzaW9uUmF0ZSwgMSksCiAgICB9LAogICAgewogICAgICBrZXk6ICJyZXZlbnVlIiwKICAgICAgaGVhZGVyOiAiUmV2ZW51ZSIsCiAgICAgIHNvcnQ6IChyKSA9PiByLnJldmVudWUsCiAgICAgIGFsaWduOiAicmlnaHQiLAogICAgICByZW5kZXI6IChyKSA9PiAoCiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LW1lZGl1bSB0YWJ1bGFyLW51bXMgdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICAgICAge2Zvcm1hdEN1cnJlbmN5KHIucmV2ZW51ZSl9CiAgICAgICAgPC9zcGFuPgogICAgICApLAogICAgfSwKICBdOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0ZXh0LXRleHQtcHJpbWFyeSI+QnkgVHJhZmZpYyBTb3VyY2U8L2gyPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0wLjUgdGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAgTGVhZCB2b2x1bWUgYW5kIGNvbnZlcnNpb24gZ3JvdXBlZCBieSB0aGUgVHJhZmZpYyBTb3VyY2UgZmllbGQgb24gdGhlIExlYWRzIGRhdGFiYXNlLgogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLXN1cmZhY2UgcC0xIj4KICAgICAgICAgIHtSQU5HRVMubWFwKChyKSA9PiAoCiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICBrZXk9e3IuaWR9CiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldFJhbmdlKHIuaWQpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17CiAgICAgICAgICAgICAgICAicm91bmRlZCBweC0yLjUgcHktMSB0ZXh0LXhzICIgKwogICAgICAgICAgICAgICAgKHJhbmdlID09PSByLmlkCiAgICAgICAgICAgICAgICAgID8gImJnLWJyYW5kLXByaW1hcnkgdGV4dC13aGl0ZSIKICAgICAgICAgICAgICAgICAgOiAidGV4dC10ZXh0LXNlY29uZGFyeSBob3Zlcjp0ZXh0LXRleHQtcHJpbWFyeSIpCiAgICAgICAgICAgICAgfQogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3IubGFiZWx9CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPERhdGFUYWJsZQogICAgICAgIHJvd3M9e3Jvd3N9CiAgICAgICAgY29sdW1ucz17Y29sdW1uc30KICAgICAgICByb3dLZXk9eyhyKSA9PiByLmNoYW5uZWx9CiAgICAgICAgZW1wdHlUaXRsZT0iTm8gbGVhZHMgaW4gdGhpcyBkYXRlIHJhbmdlIgogICAgICAvPgogICAgPC9kaXY+CiAgKTsKfQo=
+"use client";
+
+import { useRouter, useSearchParams } from "next/navigation";
+import { DataTable, type Column } from "@/components/ui/DataTable";
+import { formatCurrency, formatNumber, formatPercent } from "@/lib/utils/format";
+
+export interface ChannelRow {
+  channel: string;
+  totalLeads: number;
+  qualified: number;
+  paid: number;
+  revenue: number;
+  conversionRate: number; // percent
+  relativeFill: number;   // 0-100, for the visual bar
+}
+
+const RANGES: { id: "7" | "30" | "90" | "all"; label: string }[] = [
+  { id: "7", label: "7d" },
+  { id: "30", label: "30d" },
+  { id: "90", label: "90d" },
+  { id: "all", label: "All" },
+];
+
+export function ChannelsTable({
+  rows,
+  range,
+}: {
+  rows: ChannelRow[];
+  range: "7" | "30" | "90" | "all";
+}) {
+  const router = useRouter();
+  const params = useSearchParams();
+
+  function setRange(r: typeof range) {
+    const q = new URLSearchParams(params?.toString());
+    q.set("range", r);
+    router.replace(`/channels?${q.toString()}`);
+  }
+
+  const columns: Column<ChannelRow>[] = [
+    {
+      key: "channel",
+      header: "Channel",
+      sort: (r) => r.channel,
+      render: (r) => <span className="font-medium">{r.channel}</span>,
+    },
+    {
+      key: "volume",
+      header: "Volume",
+      width: "w-48",
+      hideOnMobile: true,
+      render: (r) => (
+        <div className="flex items-center gap-2">
+          <div className="h-2 flex-1 rounded-full bg-surface-elevated">
+            <div
+              className="h-2 rounded-full bg-brand-primary transition-all"
+              style={{ width: `${Math.max(2, r.relativeFill)}%` }}
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
+      key: "totalLeads",
+      header: "Leads",
+      sort: (r) => r.totalLeads,
+      align: "right",
+      render: (r) => formatNumber(r.totalLeads),
+    },
+    {
+      key: "qualified",
+      header: "Qualified",
+      sort: (r) => r.qualified,
+      align: "right",
+      hideOnTablet: true,
+      render: (r) => formatNumber(r.qualified),
+    },
+    {
+      key: "paid",
+      header: "Paid",
+      sort: (r) => r.paid,
+      align: "right",
+      render: (r) => (
+        <span className="font-medium text-brand-success">{formatNumber(r.paid)}</span>
+      ),
+    },
+    {
+      key: "conversion",
+      header: "Conversion",
+      sort: (r) => r.conversionRate,
+      align: "right",
+      render: (r) => formatPercent(r.conversionRate, 1),
+    },
+    {
+      key: "revenue",
+      header: "Revenue",
+      sort: (r) => r.revenue,
+      align: "right",
+      render: (r) => (
+        <span className="font-medium tabular-nums text-text-primary">
+          {formatCurrency(r.revenue)}
+        </span>
+      ),
+    },
+  ];
+
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <div>
+          <h2 className="text-base font-semibold text-text-primary">By Traffic Source</h2>
+          <p className="mt-0.5 text-xs text-text-secondary">
+            Lead volume and conversion grouped by the Traffic Source field on the Leads database.
+          </p>
+        </div>
+        <div className="flex items-center gap-1 rounded-md border border-border bg-surface p-1">
+          {RANGES.map((r) => (
+            <button
+              key={r.id}
+              type="button"
+              onClick={() => setRange(r.id)}
+              className={
+                "rounded px-2.5 py-1 text-xs " +
+                (range === r.id
+                  ? "bg-brand-primary text-white"
+                  : "text-text-secondary hover:text-text-primary")
+              }
+            >
+              {r.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <DataTable
+        rows={rows}
+        columns={columns}
+        rowKey={(r) => r.channel}
+        emptyTitle="No leads in this date range"
+      />
+    </div>
+  );
+}

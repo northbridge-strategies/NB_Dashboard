@@ -1,1 +1,174 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IFBsdXMgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB1c2VBY3Rpb24gfSBmcm9tICJAL2xpYi9ob29rcy91c2VBY3Rpb24iOwppbXBvcnQgeyBDb25maXJtRGlhbG9nIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL0NvbmZpcm1EaWFsb2ciOwoKY29uc3QgVFlQRVMgPSBbIkxpbmtlZEluIFBvc3QiLCAiU3Vic3RhY2sgQXJ0aWNsZSIsICJWaWRlbyBTY3JpcHQiLCAiQWQgQ29weSJdIGFzIGNvbnN0Owpjb25zdCBTVEFUVVNFUyA9IFsiRHJhZnQiLCAiUmVhZHkgdG8gUHVibGlzaCIsICJQdWJsaXNoZWQiLCAiQXJjaGl2ZWQiXSBhcyBjb25zdDsKY29uc3QgUExBVEZPUk1TID0gWyJMaW5rZWRJbiIsICJTdWJzdGFjayIsICJZb3VUdWJlIiwgIk90aGVyIl0gYXMgY29uc3Q7CgpleHBvcnQgZnVuY3Rpb24gQWRkQ29udGVudEZvcm0oKSB7CiAgY29uc3QgW29wZW4sIHNldE9wZW5dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFt0aXRsZSwgc2V0VGl0bGVdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFt0b3BpYywgc2V0VG9waWNdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtjb250ZW50VHlwZSwgc2V0Q29udGVudFR5cGVdID0gdXNlU3RhdGU8KHR5cGVvZiBUWVBFUylbbnVtYmVyXSB8ICIiPigiIik7CiAgY29uc3QgW3N0YXR1cywgc2V0U3RhdHVzXSA9IHVzZVN0YXRlPCh0eXBlb2YgU1RBVFVTRVMpW251bWJlcl0+KCJEcmFmdCIpOwogIGNvbnN0IFtwbGF0Zm9ybSwgc2V0UGxhdGZvcm1dID0gdXNlU3RhdGU8KHR5cGVvZiBQTEFURk9STVMpW251bWJlcl0gfCAiIj4oIiIpOwogIGNvbnN0IFtwdWJsaXNoRGF0ZSwgc2V0UHVibGlzaERhdGVdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFt1dG1MaW5rLCBzZXRVdG1MaW5rXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBhY3Rpb24gPSB1c2VBY3Rpb24oKTsKCiAgZnVuY3Rpb24gcmVzZXQoKSB7CiAgICBzZXRUaXRsZSgiIik7CiAgICBzZXRUb3BpYygiIik7CiAgICBzZXRDb250ZW50VHlwZSgiIik7CiAgICBzZXRTdGF0dXMoIkRyYWZ0Iik7CiAgICBzZXRQbGF0Zm9ybSgiIik7CiAgICBzZXRQdWJsaXNoRGF0ZSgiIik7CiAgICBzZXRVdG1MaW5rKCIiKTsKICB9CgogIHJldHVybiAoCiAgICA8PgogICAgICA8YnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE9wZW4odHJ1ZSl9CiAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1tZCBiZy1icmFuZC1wcmltYXJ5IHB4LTMgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtd2hpdGUgdHJhbnNpdGlvbiBob3ZlcjpiZy1icmFuZC1wcmltYXJ5LWhvdmVyIgogICAgICA+CiAgICAgICAgPFBsdXMgY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgIEFkZCBDb250ZW50CiAgICAgIDwvYnV0dG9uPgoKICAgICAgPENvbmZpcm1EaWFsb2cKICAgICAgICBvcGVuPXtvcGVufQogICAgICAgIHRpdGxlPSJBZGQgQ29udGVudCIKICAgICAgICBjb25maXJtTGFiZWw9IkNyZWF0ZSIKICAgICAgICBwZW5kaW5nPXthY3Rpb24uc3RhdGUgPT09ICJwZW5kaW5nIn0KICAgICAgICBvbkNhbmNlbD17KCkgPT4gewogICAgICAgICAgc2V0T3BlbihmYWxzZSk7CiAgICAgICAgICByZXNldCgpOwogICAgICAgIH19CiAgICAgICAgb25Db25maXJtPXthc3luYyAoKSA9PiB7CiAgICAgICAgICBpZiAoIXRpdGxlLnRyaW0oKSkgcmV0dXJuOwogICAgICAgICAgY29uc3QgciA9IGF3YWl0IGFjdGlvbi5ydW4oIi9hcGkvY29udGVudCIsIHsKICAgICAgICAgICAgYm9keTogewogICAgICAgICAgICAgIHRpdGxlOiB0aXRsZS50cmltKCksCiAgICAgICAgICAgICAgdG9waWM6IHRvcGljLnRyaW0oKSB8fCB1bmRlZmluZWQsCiAgICAgICAgICAgICAgY29udGVudFR5cGU6IGNvbnRlbnRUeXBlIHx8IHVuZGVmaW5lZCwKICAgICAgICAgICAgICBzdGF0dXMsCiAgICAgICAgICAgICAgcGxhdGZvcm06IHBsYXRmb3JtIHx8IHVuZGVmaW5lZCwKICAgICAgICAgICAgICBwdWJsaXNoRGF0ZTogcHVibGlzaERhdGUgfHwgbnVsbCwKICAgICAgICAgICAgICB1dG1MaW5rOiB1dG1MaW5rIHx8IG51bGwsCiAgICAgICAgICAgIH0sCiAgICAgICAgICB9KTsKICAgICAgICAgIGlmIChyLm9rKSB7CiAgICAgICAgICAgIHNldE9wZW4oZmFsc2UpOwogICAgICAgICAgICByZXNldCgpOwogICAgICAgICAgfQogICAgICAgIH19CiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0zIj4KICAgICAgICAgIDxGaWVsZCBsYWJlbD0iVGl0bGUiIHJlcXVpcmVkPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB2YWx1ZT17dGl0bGV9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRUaXRsZShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgcmVxdWlyZWQKICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJnIHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtdGV4dC1wcmltYXJ5IGZvY3VzOmJvcmRlci1icmFuZC1wcmltYXJ5IGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1icmFuZC1wcmltYXJ5IgogICAgICAgICAgICAvPgogICAgICAgICAgPC9GaWVsZD4KICAgICAgICAgIDxGaWVsZCBsYWJlbD0iVG9waWMiPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB2YWx1ZT17dG9waWN9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRUb3BpYyhlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1iZyBweC0zIHB5LTIgdGV4dC1zbSB0ZXh0LXRleHQtcHJpbWFyeSBmb2N1czpib3JkZXItYnJhbmQtcHJpbWFyeSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0xIGZvY3VzOnJpbmctYnJhbmQtcHJpbWFyeSIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvRmllbGQ+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtMyI+CiAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iQ29udGVudCBUeXBlIj4KICAgICAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgICAgICB2YWx1ZT17Y29udGVudFR5cGV9CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldENvbnRlbnRUeXBlKGUudGFyZ2V0LnZhbHVlIGFzIHR5cGVvZiBjb250ZW50VHlwZSl9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJnIHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtdGV4dC1wcmltYXJ5IGZvY3VzOmJvcmRlci1icmFuZC1wcmltYXJ5IGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1icmFuZC1wcmltYXJ5IgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IiI+U2VsZWN04oCmPC9vcHRpb24+CiAgICAgICAgICAgICAgICB7VFlQRVMubWFwKCh0KSA9PiAoCiAgICAgICAgICAgICAgICAgIDxvcHRpb24ga2V5PXt0fSB2YWx1ZT17dH0+CiAgICAgICAgICAgICAgICAgICAge3R9CiAgICAgICAgICAgICAgICAgIDwvb3B0aW9uPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICAgIDwvRmllbGQ+CiAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iU3RhdHVzIj4KICAgICAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgICAgICB2YWx1ZT17c3RhdHVzfQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRTdGF0dXMoZS50YXJnZXQudmFsdWUgYXMgdHlwZW9mIHN0YXR1cyl9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJnIHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtdGV4dC1wcmltYXJ5IGZvY3VzOmJvcmRlci1icmFuZC1wcmltYXJ5IGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1icmFuZC1wcmltYXJ5IgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtTVEFUVVNFUy5tYXAoKHMpID0+ICgKICAgICAgICAgICAgICAgICAgPG9wdGlvbiBrZXk9e3N9IHZhbHVlPXtzfT4KICAgICAgICAgICAgICAgICAgICB7c30KICAgICAgICAgICAgICAgICAgPC9vcHRpb24+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICAgICAgPC9GaWVsZD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgZ2FwLTMiPgogICAgICAgICAgICA8RmllbGQgbGFiZWw9IlBsYXRmb3JtIj4KICAgICAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgICAgICB2YWx1ZT17cGxhdGZvcm19CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFBsYXRmb3JtKGUudGFyZ2V0LnZhbHVlIGFzIHR5cGVvZiBwbGF0Zm9ybSl9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJnIHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtdGV4dC1wcmltYXJ5IGZvY3VzOmJvcmRlci1icmFuZC1wcmltYXJ5IGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1icmFuZC1wcmltYXJ5IgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IiI+U2VsZWN04oCmPC9vcHRpb24+CiAgICAgICAgICAgICAgICB7UExBVEZPUk1TLm1hcCgocCkgPT4gKAogICAgICAgICAgICAgICAgICA8b3B0aW9uIGtleT17cH0gdmFsdWU9e3B9PgogICAgICAgICAgICAgICAgICAgIHtwfQogICAgICAgICAgICAgICAgICA8L29wdGlvbj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgICAgICA8L0ZpZWxkPgogICAgICAgICAgICA8RmllbGQgbGFiZWw9IlB1Ymxpc2ggRGF0ZSI+CiAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICB0eXBlPSJkYXRlIgogICAgICAgICAgICAgICAgdmFsdWU9e3B1Ymxpc2hEYXRlfQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRQdWJsaXNoRGF0ZShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJnIHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtdGV4dC1wcmltYXJ5IGZvY3VzOmJvcmRlci1icmFuZC1wcmltYXJ5IGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1icmFuZC1wcmltYXJ5IgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvRmllbGQ+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxGaWVsZCBsYWJlbD0iVVRNIExpbmsiPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB0eXBlPSJ1cmwiCiAgICAgICAgICAgICAgdmFsdWU9e3V0bUxpbmt9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRVdG1MaW5rKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iaHR0cHM6Ly/igKYiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1iZyBweC0zIHB5LTIgdGV4dC1zbSB0ZXh0LXRleHQtcHJpbWFyeSBmb2N1czpib3JkZXItYnJhbmQtcHJpbWFyeSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0xIGZvY3VzOnJpbmctYnJhbmQtcHJpbWFyeSIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvRmllbGQ+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvQ29uZmlybURpYWxvZz4KICAgIDwvPgogICk7Cn0KCmZ1bmN0aW9uIEZpZWxkKHsKICBsYWJlbCwKICBjaGlsZHJlbiwKICByZXF1aXJlZCwKfTogewogIGxhYmVsOiBzdHJpbmc7CiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTsKICByZXF1aXJlZD86IGJvb2xlYW47Cn0pIHsKICByZXR1cm4gKAogICAgPGxhYmVsIGNsYXNzTmFtZT0iYmxvY2siPgogICAgICA8c3BhbiBjbGFzc05hbWU9ImxhYmVsLWNhcHMgbWItMS41IGJsb2NrIHRleHQtdGV4dC1zZWNvbmRhcnkiPgogICAgICAgIHtsYWJlbH0KICAgICAgICB7cmVxdWlyZWQgJiYgPHNwYW4gY2xhc3NOYW1lPSJtbC0xIHRleHQtYnJhbmQtZGFuZ2VyIj4qPC9zcGFuPn0KICAgICAgPC9zcGFuPgogICAgICB7Y2hpbGRyZW59CiAgICA8L2xhYmVsPgogICk7Cn0K
+"use client";
+
+import { useState } from "react";
+import { Plus } from "lucide-react";
+import { useAction } from "@/lib/hooks/useAction";
+import { ConfirmDialog } from "@/components/ui/ConfirmDialog";
+
+const TYPES = ["LinkedIn Post", "Substack Article", "Video Script", "Ad Copy"] as const;
+const STATUSES = ["Draft", "Ready to Publish", "Published", "Archived"] as const;
+const PLATFORMS = ["LinkedIn", "Substack", "YouTube", "Other"] as const;
+
+export function AddContentForm() {
+  const [open, setOpen] = useState(false);
+  const [title, setTitle] = useState("");
+  const [topic, setTopic] = useState("");
+  const [contentType, setContentType] = useState<(typeof TYPES)[number] | "">("");
+  const [status, setStatus] = useState<(typeof STATUSES)[number]>("Draft");
+  const [platform, setPlatform] = useState<(typeof PLATFORMS)[number] | "">("");
+  const [publishDate, setPublishDate] = useState("");
+  const [utmLink, setUtmLink] = useState("");
+  const action = useAction();
+
+  function reset() {
+    setTitle("");
+    setTopic("");
+    setContentType("");
+    setStatus("Draft");
+    setPlatform("");
+    setPublishDate("");
+    setUtmLink("");
+  }
+
+  return (
+    <>
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className="inline-flex items-center gap-2 rounded-md bg-brand-primary px-3 py-2 text-sm font-medium text-white transition hover:bg-brand-primary-hover"
+      >
+        <Plus className="h-4 w-4" />
+        Add Content
+      </button>
+
+      <ConfirmDialog
+        open={open}
+        title="Add Content"
+        confirmLabel="Create"
+        pending={action.state === "pending"}
+        onCancel={() => {
+          setOpen(false);
+          reset();
+        }}
+        onConfirm={async () => {
+          if (!title.trim()) return;
+          const r = await action.run("/api/content", {
+            body: {
+              title: title.trim(),
+              topic: topic.trim() || undefined,
+              contentType: contentType || undefined,
+              status,
+              platform: platform || undefined,
+              publishDate: publishDate || null,
+              utmLink: utmLink || null,
+            },
+          });
+          if (r.ok) {
+            setOpen(false);
+            reset();
+          }
+        }}
+      >
+        <div className="space-y-3">
+          <Field label="Title" required>
+            <input
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              required
+              className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+            />
+          </Field>
+          <Field label="Topic">
+            <input
+              value={topic}
+              onChange={(e) => setTopic(e.target.value)}
+              className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+            />
+          </Field>
+          <div className="grid grid-cols-2 gap-3">
+            <Field label="Content Type">
+              <select
+                value={contentType}
+                onChange={(e) => setContentType(e.target.value as typeof contentType)}
+                className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+              >
+                <option value="">Select…</option>
+                {TYPES.map((t) => (
+                  <option key={t} value={t}>
+                    {t}
+                  </option>
+                ))}
+              </select>
+            </Field>
+            <Field label="Status">
+              <select
+                value={status}
+                onChange={(e) => setStatus(e.target.value as typeof status)}
+                className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+              >
+                {STATUSES.map((s) => (
+                  <option key={s} value={s}>
+                    {s}
+                  </option>
+                ))}
+              </select>
+            </Field>
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <Field label="Platform">
+              <select
+                value={platform}
+                onChange={(e) => setPlatform(e.target.value as typeof platform)}
+                className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+              >
+                <option value="">Select…</option>
+                {PLATFORMS.map((p) => (
+                  <option key={p} value={p}>
+                    {p}
+                  </option>
+                ))}
+              </select>
+            </Field>
+            <Field label="Publish Date">
+              <input
+                type="date"
+                value={publishDate}
+                onChange={(e) => setPublishDate(e.target.value)}
+                className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+              />
+            </Field>
+          </div>
+          <Field label="UTM Link">
+            <input
+              type="url"
+              value={utmLink}
+              onChange={(e) => setUtmLink(e.target.value)}
+              placeholder="https://…"
+              className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+            />
+          </Field>
+        </div>
+      </ConfirmDialog>
+    </>
+  );
+}
+
+function Field({
+  label,
+  children,
+  required,
+}: {
+  label: string;
+  children: React.ReactNode;
+  required?: boolean;
+}) {
+  return (
+    <label className="block">
+      <span className="label-caps mb-1.5 block text-text-secondary">
+        {label}
+        {required && <span className="ml-1 text-brand-danger">*</span>}
+      </span>
+      {children}
+    </label>
+  );
+}

@@ -1,1 +1,305 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCBMaW5rIGZyb20gIm5leHQvbGluayI7CmltcG9ydCB7IEFycm93UmlnaHQsIFNlYXJjaCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IFBpcGVsaW5lQ2FyZCwgdHlwZSBDYXJkTGVhZEluZm8gfSBmcm9tICIuL1BpcGVsaW5lQ2FyZCI7CmltcG9ydCB7IFNsaWRlT3ZlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS9TbGlkZU92ZXIiOwppbXBvcnQgewogIFN0YXR1c0JhZGdlLAogIHRvbmVGb3JMaWZlY3ljbGUsCiAgdG9uZUZvclByaW9yaXR5LAogIHRvbmVGb3JDbGFzc2lmaWNhdGlvbiwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvU3RhdHVzQmFkZ2UiOwppbXBvcnQgeyBTY29yZUJhciB9IGZyb20gIkAvY29tcG9uZW50cy91aS9TY29yZUJhciI7CmltcG9ydCB7IEVtcHR5U3RhdGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3RhdGVzIjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscy9jbGFzc25hbWVzIjsKaW1wb3J0IHR5cGUgeyBQaXBlbGluZUVudHJ5IH0gZnJvbSAiQC9saWIvbm90aW9uL3BpcGVsaW5lIjsKaW1wb3J0IHsKICBERUZBVUxUX1BJUEVMSU5FX1NUQUdFUywKICBBTExfUElQRUxJTkVfU1RBR0VTLAogIHR5cGUgQ2xhc3NpZmljYXRpb24sCiAgdHlwZSBQaXBlbGluZVN0YWdlLAogIHR5cGUgUHJpb3JpdHksCn0gZnJvbSAiQC9saWIvdHlwZXMvZG9tYWluIjsKCmV4cG9ydCBpbnRlcmZhY2UgS2FuYmFuTGVhZEluZm8gZXh0ZW5kcyBDYXJkTGVhZEluZm8gewogIGVtYWlsPzogc3RyaW5nIHwgbnVsbDsKICBwaG9uZT86IHN0cmluZyB8IG51bGw7CiAgaW5kdXN0cnk/OiBzdHJpbmcgfCBudWxsOwogIGxpZmVjeWNsZVN0YXRlPzogc3RyaW5nIHwgbnVsbDsKfQoKZXhwb3J0IGZ1bmN0aW9uIEthbmJhbkJvYXJkKHsKICBlbnRyaWVzLAogIGxlYWRCeUlkLAp9OiB7CiAgZW50cmllczogUGlwZWxpbmVFbnRyeVtdOwogIGxlYWRCeUlkOiBNYXA8c3RyaW5nLCBLYW5iYW5MZWFkSW5mbz47Cn0pIHsKICBjb25zdCBbc2hvd0FsbCwgc2V0U2hvd0FsbF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3ByaW9yaXR5RmlsdGVyLCBzZXRQcmlvcml0eUZpbHRlcl0gPSB1c2VTdGF0ZTwiYWxsIiB8IFByaW9yaXR5PigiYWxsIik7CiAgY29uc3QgW2NsYXNzRmlsdGVyLCBzZXRDbGFzc0ZpbHRlcl0gPSB1c2VTdGF0ZTwiYWxsIiB8IENsYXNzaWZpY2F0aW9uPigiYWxsIik7CiAgY29uc3QgW3NlYXJjaCwgc2V0U2VhcmNoXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbb3BlbkVudHJ5LCBzZXRPcGVuRW50cnldID0gdXNlU3RhdGU8UGlwZWxpbmVFbnRyeSB8IG51bGw+KG51bGwpOwoKICBjb25zdCBzdGFnZXM6IFBpcGVsaW5lU3RhZ2VbXSA9IHNob3dBbGwKICAgID8gQUxMX1BJUEVMSU5FX1NUQUdFUwogICAgOiBERUZBVUxUX1BJUEVMSU5FX1NUQUdFUzsKCiAgY29uc3QgZmlsdGVyZWQgPSB1c2VNZW1vKCgpID0+IHsKICAgIHJldHVybiBlbnRyaWVzLmZpbHRlcigoZSkgPT4gewogICAgICBpZiAocHJpb3JpdHlGaWx0ZXIgIT09ICJhbGwiICYmIGUucHJpb3JpdHkgIT09IHByaW9yaXR5RmlsdGVyKSByZXR1cm4gZmFsc2U7CiAgICAgIGNvbnN0IGxlYWQgPSBlLmxlYWRJZCA/IGxlYWRCeUlkLmdldChlLmxlYWRJZCkgOiB1bmRlZmluZWQ7CiAgICAgIGlmICgKICAgICAgICBjbGFzc0ZpbHRlciAhPT0gImFsbCIgJiYKICAgICAgICBsZWFkPy5jbGFzc2lmaWNhdGlvbiAhPT0gY2xhc3NGaWx0ZXIKICAgICAgKQogICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgaWYgKHNlYXJjaCkgewogICAgICAgIGNvbnN0IHEgPSBzZWFyY2gudG9Mb3dlckNhc2UoKTsKICAgICAgICBjb25zdCBoYXkgPQogICAgICAgICAgKGxlYWQ/Lm5hbWUgPz8gIiIpICsgIiAiICsgKGxlYWQ/LmNvbXBhbnkgPz8gIiIpICsgIiAiICsgKGUudGl0bGUgPz8gIiIpOwogICAgICAgIGlmICghaGF5LnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMocSkpIHJldHVybiBmYWxzZTsKICAgICAgfQogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0pOwogIH0sIFtlbnRyaWVzLCBwcmlvcml0eUZpbHRlciwgY2xhc3NGaWx0ZXIsIHNlYXJjaCwgbGVhZEJ5SWRdKTsKCiAgY29uc3QgZ3JvdXBlZCA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3QgbWFwID0gbmV3IE1hcDxQaXBlbGluZVN0YWdlLCBQaXBlbGluZUVudHJ5W10+KCk7CiAgICBmb3IgKGNvbnN0IHN0YWdlIG9mIHN0YWdlcykgbWFwLnNldChzdGFnZSwgW10pOwogICAgZm9yIChjb25zdCBlbnRyeSBvZiBmaWx0ZXJlZCkgewogICAgICBpZiAoIWVudHJ5LnN0YWdlKSBjb250aW51ZTsKICAgICAgY29uc3QgbGlzdCA9IG1hcC5nZXQoZW50cnkuc3RhZ2UgYXMgUGlwZWxpbmVTdGFnZSk7CiAgICAgIGlmIChsaXN0KSBsaXN0LnB1c2goZW50cnkpOwogICAgfQogICAgcmV0dXJuIG1hcDsKICB9LCBbZmlsdGVyZWQsIHN0YWdlc10pOwoKICBjb25zdCBvcGVuTGVhZCA9IG9wZW5FbnRyeT8ubGVhZElkID8gbGVhZEJ5SWQuZ2V0KG9wZW5FbnRyeS5sZWFkSWQpIDogdW5kZWZpbmVkOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBtYXgtdy14cyBmbGV4LTEiPgogICAgICAgICAgPFNlYXJjaCBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtMi41IHRvcC0yLjUgaC00IHctNCB0ZXh0LXRleHQtbXV0ZWQiIC8+CiAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgdHlwZT0ic2VhcmNoIgogICAgICAgICAgICBwbGFjZWhvbGRlcj0iU2VhcmNoIGxlYWQgb3IgY29tcGFueeKApiIKICAgICAgICAgICAgdmFsdWU9e3NlYXJjaH0KICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRTZWFyY2goZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJnIHB5LTIgcGwtOSBwci0zIHRleHQtc20gdGV4dC10ZXh0LXByaW1hcnkgcGxhY2Vob2xkZXI6dGV4dC10ZXh0LW11dGVkIGZvY3VzOmJvcmRlci1icmFuZC1wcmltYXJ5IGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1icmFuZC1wcmltYXJ5IgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8RmlsdGVyU2VsZWN0CiAgICAgICAgICBsYWJlbD0iUHJpb3JpdHkiCiAgICAgICAgICB2YWx1ZT17cHJpb3JpdHlGaWx0ZXJ9CiAgICAgICAgICBvcHRpb25zPXtbImFsbCIsICJIb3QiLCAiV2FybSIsICJDb2xkIl19CiAgICAgICAgICBvbkNoYW5nZT17KHYpID0+IHNldFByaW9yaXR5RmlsdGVyKHYgYXMgdHlwZW9mIHByaW9yaXR5RmlsdGVyKX0KICAgICAgICAvPgogICAgICAgIDxGaWx0ZXJTZWxlY3QKICAgICAgICAgIGxhYmVsPSJDbGFzc2lmaWNhdGlvbiIKICAgICAgICAgIHZhbHVlPXtjbGFzc0ZpbHRlcn0KICAgICAgICAgIG9wdGlvbnM9e1sKICAgICAgICAgICAgImFsbCIsCiAgICAgICAgICAgICJGb3VuZGVyLURlcGVuZGVudCIsCiAgICAgICAgICAgICJUcmFuc2l0aW9uYWwiLAogICAgICAgICAgICAiU3RhYmlsaXplZCIsCiAgICAgICAgICAgICJUcmFuc2Zlci1SZWFkeSIsCiAgICAgICAgICBdfQogICAgICAgICAgb25DaGFuZ2U9eyh2KSA9PiBzZXRDbGFzc0ZpbHRlcih2IGFzIHR5cGVvZiBjbGFzc0ZpbHRlcil9CiAgICAgICAgLz4KICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJtbC1hdXRvIGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgPGlucHV0CiAgICAgICAgICAgIHR5cGU9ImNoZWNrYm94IgogICAgICAgICAgICBjaGVja2VkPXtzaG93QWxsfQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFNob3dBbGwoZS50YXJnZXQuY2hlY2tlZCl9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iaC00IHctNCByb3VuZGVkIGJvcmRlci1ib3JkZXIgYmctYmcgYWNjZW50LWJyYW5kLXByaW1hcnkiCiAgICAgICAgICAvPgogICAgICAgICAgU2hvdyBhbGwgc3RhZ2VzCiAgICAgICAgPC9sYWJlbD4KICAgICAgPC9kaXY+CgogICAgICB7ZmlsdGVyZWQubGVuZ3RoID09PSAwID8gKAogICAgICAgIDxFbXB0eVN0YXRlCiAgICAgICAgICB0aXRsZT0iTm8gcGlwZWxpbmUgZW50cmllcyBtYXRjaCB5b3VyIGZpbHRlcnMiCiAgICAgICAgICBkZXNjcmlwdGlvbj0iQWRqdXN0IGZpbHRlcnMgb3IgY2xlYXIgdGhlIHNlYXJjaC4iCiAgICAgICAgLz4KICAgICAgKSA6ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMyBvdmVyZmxvdy14LWF1dG8gcGItMiI+CiAgICAgICAgICB7c3RhZ2VzLm1hcCgoc3RhZ2UpID0+IHsKICAgICAgICAgICAgY29uc3QgY2FyZHMgPSBncm91cGVkLmdldChzdGFnZSkgPz8gW107CiAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAga2V5PXtzdGFnZX0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCB3LTcyIHNocmluay0wIGZsZXgtY29sIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctYmcvNDAiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBib3JkZXItYiBib3JkZXItYm9yZGVyIHB4LTMgcHktMiI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXRleHQtcHJpbWFyeSI+CiAgICAgICAgICAgICAgICAgICAge3N0YWdlfQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgICAgICAgICAgICJyb3VuZGVkLWZ1bGwgcHgtMiBweS0wLjUgdGV4dC14cyIsCiAgICAgICAgICAgICAgICAgICAgICBjYXJkcy5sZW5ndGgKICAgICAgICAgICAgICAgICAgICAgICAgPyAiYmctc3VyZmFjZS1lbGV2YXRlZCB0ZXh0LXRleHQtc2Vjb25kYXJ5IgogICAgICAgICAgICAgICAgICAgICAgICA6ICJ0ZXh0LXRleHQtbXV0ZWQiLAogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7Y2FyZHMubGVuZ3RofQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGdhcC0yIHAtMiI+CiAgICAgICAgICAgICAgICAgIHtjYXJkcy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTIgcHktNiB0ZXh0LWNlbnRlciB0ZXh0LXhzIHRleHQtdGV4dC1tdXRlZCI+CiAgICAgICAgICAgICAgICAgICAgICDigJQKICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICBjYXJkcy5tYXAoKGVudHJ5KSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICA8UGlwZWxpbmVDYXJkCiAgICAgICAgICAgICAgICAgICAgICAgIGtleT17ZW50cnkuaWR9CiAgICAgICAgICAgICAgICAgICAgICAgIGVudHJ5PXtlbnRyeX0KICAgICAgICAgICAgICAgICAgICAgICAgbGVhZD17ZW50cnkubGVhZElkID8gbGVhZEJ5SWQuZ2V0KGVudHJ5LmxlYWRJZCkgOiB1bmRlZmluZWR9CiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE9wZW5FbnRyeShlbnRyeSl9CiAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKTsKICAgICAgICAgIH0pfQogICAgICAgIDwvZGl2PgogICAgICApfQoKICAgICAgPFNsaWRlT3ZlcgogICAgICAgIG9wZW49eyEhb3BlbkVudHJ5fQogICAgICAgIHRpdGxlPXtvcGVuTGVhZD8ubmFtZSA/PyBvcGVuRW50cnk/LnRpdGxlID8/ICJQaXBlbGluZSBlbnRyeSJ9CiAgICAgICAgb25DbG9zZT17KCkgPT4gc2V0T3BlbkVudHJ5KG51bGwpfQogICAgICA+CiAgICAgICAge29wZW5FbnRyeSAmJiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS01Ij4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAge29wZW5MZWFkPy5jb21wYW55ICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtdGV4dC1zZWNvbmRhcnkiPntvcGVuTGVhZC5jb21wYW55fTwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0xLjUiPgogICAgICAgICAgICAgICAge29wZW5FbnRyeS5zdGFnZSAmJiA8U3RhdHVzQmFkZ2UgbGFiZWw9e29wZW5FbnRyeS5zdGFnZX0gdG9uZT0iaW5mbyIgLz59CiAgICAgICAgICAgICAgICB7b3BlbkVudHJ5LnByaW9yaXR5ICYmICgKICAgICAgICAgICAgICAgICAgPFN0YXR1c0JhZGdlCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9e29wZW5FbnRyeS5wcmlvcml0eX0KICAgICAgICAgICAgICAgICAgICB0b25lPXt0b25lRm9yUHJpb3JpdHkob3BlbkVudHJ5LnByaW9yaXR5KX0KICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICB7b3BlbkxlYWQ/LmNsYXNzaWZpY2F0aW9uICYmICgKICAgICAgICAgICAgICAgICAgPFN0YXR1c0JhZGdlCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9e29wZW5MZWFkLmNsYXNzaWZpY2F0aW9ufQogICAgICAgICAgICAgICAgICAgIHRvbmU9e3RvbmVGb3JDbGFzc2lmaWNhdGlvbihvcGVuTGVhZC5jbGFzc2lmaWNhdGlvbil9CiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAge29wZW5MZWFkPy5saWZlY3ljbGVTdGF0ZSAmJiAoCiAgICAgICAgICAgICAgICAgIDxTdGF0dXNCYWRnZQogICAgICAgICAgICAgICAgICAgIGxhYmVsPXtvcGVuTGVhZC5saWZlY3ljbGVTdGF0ZX0KICAgICAgICAgICAgICAgICAgICB0b25lPXt0b25lRm9yTGlmZWN5Y2xlKG9wZW5MZWFkLmxpZmVjeWNsZVN0YXRlKX0KICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAge29wZW5MZWFkPy5zY29yZVBjdCAhPSBudWxsICYmICgKICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxhYmVsLWNhcHMgbWItMSB0ZXh0LXRleHQtbXV0ZWQiPlNjb3JlPC9kaXY+CiAgICAgICAgICAgICAgICA8U2NvcmVCYXIgcGN0PXtvcGVuTGVhZC5zY29yZVBjdH0gLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC00IHRleHQtc20iPgogICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iRW1haWwiIHZhbHVlPXtvcGVuTGVhZD8uZW1haWx9IC8+CiAgICAgICAgICAgICAgPEZpZWxkIGxhYmVsPSJQaG9uZSIgdmFsdWU9e29wZW5MZWFkPy5waG9uZX0gLz4KICAgICAgICAgICAgICA8RmllbGQgbGFiZWw9IkluZHVzdHJ5IiB2YWx1ZT17b3BlbkxlYWQ/LmluZHVzdHJ5fSAvPgogICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iU3RhZ2UgRGF0ZSIgdmFsdWU9e29wZW5FbnRyeS5zdGFnZURhdGV9IC8+CiAgICAgICAgICAgICAgPEZpZWxkIGxhYmVsPSJDYWxsIE91dGNvbWUiIHZhbHVlPXtvcGVuRW50cnkuY2FsbE91dGNvbWV9IC8+CiAgICAgICAgICAgICAgPEZpZWxkIGxhYmVsPSJOZXh0IEFjdGlvbiIgdmFsdWU9e29wZW5FbnRyeS5uZXh0QWN0aW9ufSAvPgogICAgICAgICAgICAgIDxGaWVsZAogICAgICAgICAgICAgICAgbGFiZWw9IlRpZXIgSSBQYXltZW50IgogICAgICAgICAgICAgICAgdmFsdWU9ewogICAgICAgICAgICAgICAgICBvcGVuRW50cnkudGllcklQYXltZW50RGF0ZQogICAgICAgICAgICAgICAgICAgID8gYCR7b3BlbkVudHJ5LnRpZXJJUGF5bWVudERhdGV9YAogICAgICAgICAgICAgICAgICAgIDogbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPEZpZWxkCiAgICAgICAgICAgICAgICBsYWJlbD0iVGllciBJIEFtb3VudCIKICAgICAgICAgICAgICAgIHZhbHVlPXsKICAgICAgICAgICAgICAgICAgb3BlbkVudHJ5LnRpZXJJQW1vdW50ICE9IG51bGwKICAgICAgICAgICAgICAgICAgICA/IGAkJHtvcGVuRW50cnkudGllcklBbW91bnQudG9Mb2NhbGVTdHJpbmcoKX1gCiAgICAgICAgICAgICAgICAgICAgOiBudWxsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7b3BlbkVudHJ5Lm5vdGVzICYmICgKICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxhYmVsLWNhcHMgbWItMSB0ZXh0LXRleHQtbXV0ZWQiPk5vdGVzPC9kaXY+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9IndoaXRlc3BhY2UtcHJlLXdyYXAgdGV4dC1zbSB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICAgICAge29wZW5FbnRyeS5ub3Rlc30KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KCiAgICAgICAgICAgIHtvcGVuRW50cnkubGVhZElkICYmICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBwdC00Ij4KICAgICAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgICAgIGhyZWY9e2AvbGVhZHMvJHtvcGVuRW50cnkubGVhZElkfWB9CiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE9wZW5FbnRyeShudWxsKX0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgYmctYnJhbmQtcHJpbWFyeSBweC0zIHB5LTIgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXdoaXRlIHRyYW5zaXRpb24gaG92ZXI6YmctYnJhbmQtcHJpbWFyeS1ob3ZlciIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgVmlldyBGdWxsIExlYWQgRGV0YWlsCiAgICAgICAgICAgICAgICAgIDxBcnJvd1JpZ2h0IGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICA8L1NsaWRlT3Zlcj4KICAgIDwvZGl2PgogICk7Cn0KCmZ1bmN0aW9uIEZpbHRlclNlbGVjdCh7CiAgbGFiZWwsCiAgdmFsdWUsCiAgb3B0aW9ucywKICBvbkNoYW5nZSwKfTogewogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKICBvcHRpb25zOiBzdHJpbmdbXTsKICBvbkNoYW5nZTogKHY6IHN0cmluZykgPT4gdm9pZDsKfSkgewogIHJldHVybiAoCiAgICA8bGFiZWwgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIj4KICAgICAgPHNwYW4gY2xhc3NOYW1lPSJsYWJlbC1jYXBzIHRleHQtdGV4dC1tdXRlZCI+e2xhYmVsfTwvc3Bhbj4KICAgICAgPHNlbGVjdAogICAgICAgIHZhbHVlPXt2YWx1ZX0KICAgICAgICBvbkNoYW5nZT17KGUpID0+IG9uQ2hhbmdlKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctYmcgcHgtMiBweS0xLjUgdGV4dC10ZXh0LXByaW1hcnkgZm9jdXM6Ym9yZGVyLWJyYW5kLXByaW1hcnkgZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOnJpbmctMSBmb2N1czpyaW5nLWJyYW5kLXByaW1hcnkiCiAgICAgID4KICAgICAgICB7b3B0aW9ucy5tYXAoKG8pID0+ICgKICAgICAgICAgIDxvcHRpb24ga2V5PXtvfSB2YWx1ZT17b30+CiAgICAgICAgICAgIHtvID09PSAiYWxsIiA/IGBBbGwgJHtsYWJlbC50b0xvd2VyQ2FzZSgpfWAgOiBvfQogICAgICAgICAgPC9vcHRpb24+CiAgICAgICAgKSl9CiAgICAgIDwvc2VsZWN0PgogICAgPC9sYWJlbD4KICApOwp9CgpmdW5jdGlvbiBGaWVsZCh7IGxhYmVsLCB2YWx1ZSB9OiB7IGxhYmVsOiBzdHJpbmc7IHZhbHVlOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkIH0pIHsKICByZXR1cm4gKAogICAgPGRpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImxhYmVsLWNhcHMgdGV4dC10ZXh0LW11dGVkIj57bGFiZWx9PC9kaXY+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXRleHQtcHJpbWFyeSI+e3ZhbHVlIHx8ICLigJQifTwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+"use client";
+
+import { useMemo, useState } from "react";
+import Link from "next/link";
+import { ArrowRight, Search } from "lucide-react";
+import { PipelineCard, type CardLeadInfo } from "./PipelineCard";
+import { SlideOver } from "@/components/ui/SlideOver";
+import {
+  StatusBadge,
+  toneForLifecycle,
+  toneForPriority,
+  toneForClassification,
+} from "@/components/ui/StatusBadge";
+import { ScoreBar } from "@/components/ui/ScoreBar";
+import { EmptyState } from "@/components/ui/states";
+import { cn } from "@/lib/utils/classnames";
+import type { PipelineEntry } from "@/lib/notion/pipeline";
+import {
+  DEFAULT_PIPELINE_STAGES,
+  ALL_PIPELINE_STAGES,
+  type Classification,
+  type PipelineStage,
+  type Priority,
+} from "@/lib/types/domain";
+
+export interface KanbanLeadInfo extends CardLeadInfo {
+  email?: string | null;
+  phone?: string | null;
+  industry?: string | null;
+  lifecycleState?: string | null;
+}
+
+export function KanbanBoard({
+  entries,
+  leadById,
+}: {
+  entries: PipelineEntry[];
+  leadById: Map<string, KanbanLeadInfo>;
+}) {
+  const [showAll, setShowAll] = useState(false);
+  const [priorityFilter, setPriorityFilter] = useState<"all" | Priority>("all");
+  const [classFilter, setClassFilter] = useState<"all" | Classification>("all");
+  const [search, setSearch] = useState("");
+  const [openEntry, setOpenEntry] = useState<PipelineEntry | null>(null);
+
+  const stages: PipelineStage[] = showAll
+    ? ALL_PIPELINE_STAGES
+    : DEFAULT_PIPELINE_STAGES;
+
+  const filtered = useMemo(() => {
+    return entries.filter((e) => {
+      if (priorityFilter !== "all" && e.priority !== priorityFilter) return false;
+      const lead = e.leadId ? leadById.get(e.leadId) : undefined;
+      if (
+        classFilter !== "all" &&
+        lead?.classification !== classFilter
+      )
+        return false;
+      if (search) {
+        const q = search.toLowerCase();
+        const hay =
+          (lead?.name ?? "") + " " + (lead?.company ?? "") + " " + (e.title ?? "");
+        if (!hay.toLowerCase().includes(q)) return false;
+      }
+      return true;
+    });
+  }, [entries, priorityFilter, classFilter, search, leadById]);
+
+  const grouped = useMemo(() => {
+    const map = new Map<PipelineStage, PipelineEntry[]>();
+    for (const stage of stages) map.set(stage, []);
+    for (const entry of filtered) {
+      if (!entry.stage) continue;
+      const list = map.get(entry.stage as PipelineStage);
+      if (list) list.push(entry);
+    }
+    return map;
+  }, [filtered, stages]);
+
+  const openLead = openEntry?.leadId ? leadById.get(openEntry.leadId) : undefined;
+
+  return (
+    <div className="space-y-4">
+      <div className="flex flex-wrap items-center gap-3">
+        <div className="relative max-w-xs flex-1">
+          <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-text-muted" />
+          <input
+            type="search"
+            placeholder="Search lead or company…"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="w-full rounded-md border border-border bg-bg py-2 pl-9 pr-3 text-sm text-text-primary placeholder:text-text-muted focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+          />
+        </div>
+        <FilterSelect
+          label="Priority"
+          value={priorityFilter}
+          options={["all", "Hot", "Warm", "Cold"]}
+          onChange={(v) => setPriorityFilter(v as typeof priorityFilter)}
+        />
+        <FilterSelect
+          label="Classification"
+          value={classFilter}
+          options={[
+            "all",
+            "Founder-Dependent",
+            "Transitional",
+            "Stabilized",
+            "Transfer-Ready",
+          ]}
+          onChange={(v) => setClassFilter(v as typeof classFilter)}
+        />
+        <label className="ml-auto inline-flex items-center gap-2 text-sm text-text-secondary">
+          <input
+            type="checkbox"
+            checked={showAll}
+            onChange={(e) => setShowAll(e.target.checked)}
+            className="h-4 w-4 rounded border-border bg-bg accent-brand-primary"
+          />
+          Show all stages
+        </label>
+      </div>
+
+      {filtered.length === 0 ? (
+        <EmptyState
+          title="No pipeline entries match your filters"
+          description="Adjust filters or clear the search."
+        />
+      ) : (
+        <div className="flex gap-3 overflow-x-auto pb-2">
+          {stages.map((stage) => {
+            const cards = grouped.get(stage) ?? [];
+            return (
+              <div
+                key={stage}
+                className="flex w-72 shrink-0 flex-col rounded-xl border border-border bg-bg/40"
+              >
+                <div className="flex items-center justify-between border-b border-border px-3 py-2">
+                  <span className="text-sm font-medium text-text-primary">
+                    {stage}
+                  </span>
+                  <span
+                    className={cn(
+                      "rounded-full px-2 py-0.5 text-xs",
+                      cards.length
+                        ? "bg-surface-elevated text-text-secondary"
+                        : "text-text-muted",
+                    )}
+                  >
+                    {cards.length}
+                  </span>
+                </div>
+                <div className="flex flex-col gap-2 p-2">
+                  {cards.length === 0 ? (
+                    <div className="px-2 py-6 text-center text-xs text-text-muted">
+                      —
+                    </div>
+                  ) : (
+                    cards.map((entry) => (
+                      <PipelineCard
+                        key={entry.id}
+                        entry={entry}
+                        lead={entry.leadId ? leadById.get(entry.leadId) : undefined}
+                        onClick={() => setOpenEntry(entry)}
+                      />
+                    ))
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      <SlideOver
+        open={!!openEntry}
+        title={openLead?.name ?? openEntry?.title ?? "Pipeline entry"}
+        onClose={() => setOpenEntry(null)}
+      >
+        {openEntry && (
+          <div className="space-y-5">
+            <div className="space-y-1">
+              {openLead?.company && (
+                <div className="text-sm text-text-secondary">{openLead.company}</div>
+              )}
+              <div className="flex flex-wrap gap-1.5">
+                {openEntry.stage && <StatusBadge label={openEntry.stage} tone="info" />}
+                {openEntry.priority && (
+                  <StatusBadge
+                    label={openEntry.priority}
+                    tone={toneForPriority(openEntry.priority)}
+                  />
+                )}
+                {openLead?.classification && (
+                  <StatusBadge
+                    label={openLead.classification}
+                    tone={toneForClassification(openLead.classification)}
+                  />
+                )}
+                {openLead?.lifecycleState && (
+                  <StatusBadge
+                    label={openLead.lifecycleState}
+                    tone={toneForLifecycle(openLead.lifecycleState)}
+                  />
+                )}
+              </div>
+            </div>
+
+            {openLead?.scorePct != null && (
+              <div>
+                <div className="label-caps mb-1 text-text-muted">Score</div>
+                <ScoreBar pct={openLead.scorePct} />
+              </div>
+            )}
+
+            <div className="grid grid-cols-2 gap-4 text-sm">
+              <Field label="Email" value={openLead?.email} />
+              <Field label="Phone" value={openLead?.phone} />
+              <Field label="Industry" value={openLead?.industry} />
+              <Field label="Stage Date" value={openEntry.stageDate} />
+              <Field label="Call Outcome" value={openEntry.callOutcome} />
+              <Field label="Next Action" value={openEntry.nextAction} />
+              <Field
+                label="Tier I Payment"
+                value={
+                  openEntry.tierIPaymentDate
+                    ? `${openEntry.tierIPaymentDate}`
+                    : null
+                }
+              />
+              <Field
+                label="Tier I Amount"
+                value={
+                  openEntry.tierIAmount != null
+                    ? `$${openEntry.tierIAmount.toLocaleString()}`
+                    : null
+                }
+              />
+            </div>
+
+            {openEntry.notes && (
+              <div>
+                <div className="label-caps mb-1 text-text-muted">Notes</div>
+                <p className="whitespace-pre-wrap text-sm text-text-secondary">
+                  {openEntry.notes}
+                </p>
+              </div>
+            )}
+
+            {openEntry.leadId && (
+              <div className="border-t border-border pt-4">
+                <Link
+                  href={`/leads/${openEntry.leadId}`}
+                  onClick={() => setOpenEntry(null)}
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-brand-primary px-3 py-2 text-sm font-medium text-white transition hover:bg-brand-primary-hover"
+                >
+                  View Full Lead Detail
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              </div>
+            )}
+          </div>
+        )}
+      </SlideOver>
+    </div>
+  );
+}
+
+function FilterSelect({
+  label,
+  value,
+  options,
+  onChange,
+}: {
+  label: string;
+  value: string;
+  options: string[];
+  onChange: (v: string) => void;
+}) {
+  return (
+    <label className="flex items-center gap-2 text-sm">
+      <span className="label-caps text-text-muted">{label}</span>
+      <select
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="rounded-md border border-border bg-bg px-2 py-1.5 text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+      >
+        {options.map((o) => (
+          <option key={o} value={o}>
+            {o === "all" ? `All ${label.toLowerCase()}` : o}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+}
+
+function Field({ label, value }: { label: string; value: string | null | undefined }) {
+  return (
+    <div>
+      <div className="label-caps text-text-muted">{label}</div>
+      <div className="text-text-primary">{value || "—"}</div>
+    </div>
+  );
+}

@@ -1,1 +1,167 @@
-aW1wb3J0IHsgRmlsZVRleHQsIEZsYWcsIENoZWNrQ2lyY2xlMiwgQWxlcnRUcmlhbmdsZSB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IFNjb3JlQmFyLCBHYXRlRG90IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL1Njb3JlQmFyIjsKaW1wb3J0IHsKICBTdGF0dXNCYWRnZSwKICB0b25lRm9yQ2xhc3NpZmljYXRpb24sCiAgdG9uZUZvckhJVEwsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL1N0YXR1c0JhZGdlIjsKaW1wb3J0IHsgU2VjdGlvbkNhcmQsIEVtcHR5U2VjdGlvbiB9IGZyb20gIi4vX1NlY3Rpb25DYXJkIjsKaW1wb3J0IHsgZm9ybWF0UmVsYXRpdmUgfSBmcm9tICJAL2xpYi91dGlscy9kYXRlcyI7CmltcG9ydCB0eXBlIHsgRGlhZ25vc3RpY1Njb3JlIH0gZnJvbSAiQC9saWIvbm90aW9uL3Njb3JlcyI7CgpleHBvcnQgZnVuY3Rpb24gU2NvcmVTZWN0aW9uKHsKICBzY29yZSwKICBhbGwsCiAgbGVhZElkOiBfbGVhZElkLAp9OiB7CiAgc2NvcmU6IERpYWdub3N0aWNTY29yZSB8IG51bGw7CiAgYWxsOiBEaWFnbm9zdGljU2NvcmVbXTsKICBsZWFkSWQ6IHN0cmluZzsKfSkgewogIGlmICghc2NvcmUpIHsKICAgIHJldHVybiAoCiAgICAgIDxTZWN0aW9uQ2FyZCBpY29uPXtGaWxlVGV4dH0gdGl0bGU9IkRpYWdub3N0aWMgU2NvcmUiIHRvbmU9ImluZm8iPgogICAgICAgIDxFbXB0eVNlY3Rpb24gbWVzc2FnZT0iTm8gZGlhZ25vc3RpYyBzY29yZSBvbiBmaWxlLiBXaWxsIGFwcGVhciBvbmNlIEFnZW50IDEgcHJvY2Vzc2VzIGEgcXVhbGlmaWVyIHN1Ym1pc3Npb24uIiAvPgogICAgICA8L1NlY3Rpb25DYXJkPgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8U2VjdGlvbkNhcmQKICAgICAgaWNvbj17RmlsZVRleHR9CiAgICAgIHRpdGxlPSJEaWFnbm9zdGljIFNjb3JlIgogICAgICBjb3VudD17YWxsLmxlbmd0aCA+IDEgPyBhbGwubGVuZ3RoIDogdW5kZWZpbmVkfQogICAgICBub3Rpb25JZD17c2NvcmUuaWR9CiAgICAgIHRvbmU9ImluZm8iCiAgICA+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTUiPgogICAgICAgIHsvKiBTY29yZSArIENsYXNzaWZpY2F0aW9uICsgSElUTCByb3cgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgZ2FwLTQgbGc6Z3JpZC1jb2xzLTMiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxnOmNvbC1zcGFuLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGFiZWwtY2FwcyBtYi0yIHRleHQtdGV4dC1tdXRlZCI+T3ZlcmFsbDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1iYXNlbGluZSBnYXAtMyI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LTN4bCBmb250LXNlbWlib2xkIHRhYnVsYXItbnVtcyB0ZXh0LXRleHQtcHJpbWFyeSI+CiAgICAgICAgICAgICAgICB7c2NvcmUuc2NvcmVQY3QgIT0gbnVsbCA/IGAke01hdGgucm91bmQoc2NvcmUuc2NvcmVQY3QpfSVgIDogIuKAlCJ9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIHtzY29yZS5yYXdTY29yZSAhPSBudWxsICYmICgKICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXRleHQtbXV0ZWQiPgogICAgICAgICAgICAgICAgICB7c2NvcmUucmF3U2NvcmV9LzUwIHJhdwogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMiI+CiAgICAgICAgICAgICAgPFNjb3JlQmFyIHBjdD17c2NvcmUuc2NvcmVQY3R9IHNob3dMYWJlbD17ZmFsc2V9IC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0zIj4KICAgICAgICAgICAge3Njb3JlLmNsYXNzaWZpY2F0aW9uICYmICgKICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxhYmVsLWNhcHMgbWItMS41IHRleHQtdGV4dC1tdXRlZCI+Q2xhc3NpZmljYXRpb248L2Rpdj4KICAgICAgICAgICAgICAgIDxTdGF0dXNCYWRnZQogICAgICAgICAgICAgICAgICBsYWJlbD17c2NvcmUuY2xhc3NpZmljYXRpb259CiAgICAgICAgICAgICAgICAgIHRvbmU9e3RvbmVGb3JDbGFzc2lmaWNhdGlvbihzY29yZS5jbGFzc2lmaWNhdGlvbil9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQogICAgICAgICAgICB7c2NvcmUuaGl0bEFjdGlvbiAmJiAoCiAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsYWJlbC1jYXBzIG1iLTEuNSB0ZXh0LXRleHQtbXV0ZWQiPkhJVEwgU3RhdHVzPC9kaXY+CiAgICAgICAgICAgICAgICA8U3RhdHVzQmFkZ2UKICAgICAgICAgICAgICAgICAgbGFiZWw9e3Njb3JlLmhpdGxBY3Rpb259CiAgICAgICAgICAgICAgICAgIHRvbmU9e3RvbmVGb3JISVRMKHNjb3JlLmhpdGxBY3Rpb24pfQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogNS1nYXRlIGJyZWFrZG93biAqL30KICAgICAgICA8ZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxhYmVsLWNhcHMgbWItMiB0ZXh0LXRleHQtbXV0ZWQiPkZpdmUgR2F0ZXM8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC0zIHNtOmdyaWQtY29scy01Ij4KICAgICAgICAgICAgPEdhdGUgbGFiZWw9IkF1dGhvcml0eSIgdmFsdWU9e3Njb3JlLmF1dGhvcml0eX0gLz4KICAgICAgICAgICAgPEdhdGUgbGFiZWw9IlByb2Nlc3MiIHZhbHVlPXtzY29yZS5wcm9jZXNzfSAvPgogICAgICAgICAgICA8R2F0ZSBsYWJlbD0iUHJpY2luZyIgdmFsdWU9e3Njb3JlLnByaWNpbmd9IC8+CiAgICAgICAgICAgIDxHYXRlIGxhYmVsPSJSZXZlbnVlIiB2YWx1ZT17c2NvcmUucmV2ZW51ZX0gLz4KICAgICAgICAgICAgPEdhdGUgbGFiZWw9IkZpbmFuY2lhbCIgdmFsdWU9e3Njb3JlLmZpbmFuY2lhbH0gLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogRmxhZ3MgKi99CiAgICAgICAge3Njb3JlLmZsYWdzICYmICgKICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsYWJlbC1jYXBzIG1iLTIgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSB0ZXh0LXRleHQtbXV0ZWQiPgogICAgICAgICAgICAgIDxGbGFnIGNsYXNzTmFtZT0iaC0zIHctMyIgLz4KICAgICAgICAgICAgICBGbGFncwogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctYmcvNDAgcC0zIHRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAge3Njb3JlLmZsYWdzfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CgogICAgICAgIHsvKiBNYW51YWwgUmV2aWV3IE5vdGVzICovfQogICAgICAgIHtzY29yZS5tYW51YWxSZXZpZXdOb3RlcyAmJiAoCiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGFiZWwtY2FwcyBtYi0yIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgdGV4dC10ZXh0LW11dGVkIj4KICAgICAgICAgICAgICA8QWxlcnRUcmlhbmdsZSBjbGFzc05hbWU9ImgtMyB3LTMiIC8+CiAgICAgICAgICAgICAgTWFudWFsIFJldmlldyBOb3RlcwogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1icmFuZC13YXJuaW5nLzMwIGJnLWJyYW5kLXdhcm5pbmcvNSBwLTMgdGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICB7c2NvcmUubWFudWFsUmV2aWV3Tm90ZXN9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KCiAgICAgICAgey8qIFJlcG9ydCBsaW5rcyAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0zIGJvcmRlci10IGJvcmRlci1ib3JkZXIgcHQtNCB0ZXh0LXhzIj4KICAgICAgICAgIHtzY29yZS5yZXBvcnREcmFmdFVybCA/ICgKICAgICAgICAgICAgPGEKICAgICAgICAgICAgICBocmVmPXtzY29yZS5yZXBvcnREcmFmdFVybH0KICAgICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayIKICAgICAgICAgICAgICByZWw9Im5vcmVmZXJyZXIiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLW1kIGJnLWJyYW5kLXByaW1hcnkgcHgtMyBweS0xLjUgZm9udC1tZWRpdW0gdGV4dC13aGl0ZSB0cmFuc2l0aW9uIGhvdmVyOmJnLWJyYW5kLXByaW1hcnktaG92ZXIiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8RmlsZVRleHQgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICBWaWV3IFJlcG9ydCBEcmFmdAogICAgICAgICAgICA8L2E+CiAgICAgICAgICApIDogc2NvcmUucmVwb3J0RHJhZnRHZW5lcmF0ZWQgPyAoCiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAgPENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgICAgIFJlcG9ydCBkcmFmdCBnZW5lcmF0ZWQKICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgKSA6ICgKICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXRleHQtbXV0ZWQiPk5vIHJlcG9ydCBkcmFmdCB5ZXQ8L3NwYW4+CiAgICAgICAgICApfQogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtbC1hdXRvIHRleHQtdGV4dC1tdXRlZCI+CiAgICAgICAgICAgIHtzY29yZS5kYXRlQ29tcGxldGVkCiAgICAgICAgICAgICAgPyBgQ29tcGxldGVkICR7Zm9ybWF0UmVsYXRpdmUoc2NvcmUuZGF0ZUNvbXBsZXRlZCl9YAogICAgICAgICAgICAgIDogIiJ9CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9TZWN0aW9uQ2FyZD4KICApOwp9CgpmdW5jdGlvbiBHYXRlKHsKICBsYWJlbCwKICB2YWx1ZSwKfTogewogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IG51bWJlciB8IG51bGw7Cn0pIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctYmcvNDAgcHgtMyBweS0yIj4KICAgICAgPEdhdGVEb3Qgc2NvcmU9e3ZhbHVlfSBsYWJlbD17bGFiZWx9IC8+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4tdy0wIGZsZXgtMSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRydW5jYXRlIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICAgICAge2xhYmVsfQogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtdGV4dC1tdXRlZCB0YWJ1bGFyLW51bXMiPgogICAgICAgICAge3ZhbHVlICE9IG51bGwgPyBgJHt2YWx1ZX0vMTBgIDogIuKAlCJ9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+import { FileText, Flag, CheckCircle2, AlertTriangle } from "lucide-react";
+import { ScoreBar, GateDot } from "@/components/ui/ScoreBar";
+import {
+  StatusBadge,
+  toneForClassification,
+  toneForHITL,
+} from "@/components/ui/StatusBadge";
+import { SectionCard, EmptySection } from "./_SectionCard";
+import { formatRelative } from "@/lib/utils/dates";
+import type { DiagnosticScore } from "@/lib/notion/scores";
+
+export function ScoreSection({
+  score,
+  all,
+  leadId: _leadId,
+}: {
+  score: DiagnosticScore | null;
+  all: DiagnosticScore[];
+  leadId: string;
+}) {
+  if (!score) {
+    return (
+      <SectionCard icon={FileText} title="Diagnostic Score" tone="info">
+        <EmptySection message="No diagnostic score on file. Will appear once Agent 1 processes a qualifier submission." />
+      </SectionCard>
+    );
+  }
+
+  return (
+    <SectionCard
+      icon={FileText}
+      title="Diagnostic Score"
+      count={all.length > 1 ? all.length : undefined}
+      notionId={score.id}
+      tone="info"
+    >
+      <div className="space-y-5">
+        {/* Score + Classification + HITL row */}
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
+          <div className="lg:col-span-2">
+            <div className="label-caps mb-2 text-text-muted">Overall</div>
+            <div className="flex items-baseline gap-3">
+              <span className="text-3xl font-semibold tabular-nums text-text-primary">
+                {score.scorePct != null ? `${Math.round(score.scorePct)}%` : "—"}
+              </span>
+              {score.rawScore != null && (
+                <span className="text-xs text-text-muted">
+                  {score.rawScore}/50 raw
+                </span>
+              )}
+            </div>
+            <div className="mt-2">
+              <ScoreBar pct={score.scorePct} showLabel={false} />
+            </div>
+          </div>
+          <div className="space-y-3">
+            {score.classification && (
+              <div>
+                <div className="label-caps mb-1.5 text-text-muted">Classification</div>
+                <StatusBadge
+                  label={score.classification}
+                  tone={toneForClassification(score.classification)}
+                />
+              </div>
+            )}
+            {score.hitlAction && (
+              <div>
+                <div className="label-caps mb-1.5 text-text-muted">HITL Status</div>
+                <StatusBadge
+                  label={score.hitlAction}
+                  tone={toneForHITL(score.hitlAction)}
+                />
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* 5-gate breakdown */}
+        <div>
+          <div className="label-caps mb-2 text-text-muted">Five Gates</div>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
+            <Gate label="Authority" value={score.authority} />
+            <Gate label="Process" value={score.process} />
+            <Gate label="Pricing" value={score.pricing} />
+            <Gate label="Revenue" value={score.revenue} />
+            <Gate label="Financial" value={score.financial} />
+          </div>
+        </div>
+
+        {/* Flags */}
+        {score.flags && (
+          <div>
+            <div className="label-caps mb-2 flex items-center gap-1.5 text-text-muted">
+              <Flag className="h-3 w-3" />
+              Flags
+            </div>
+            <div className="rounded-md border border-border bg-bg/40 p-3 text-xs text-text-secondary">
+              {score.flags}
+            </div>
+          </div>
+        )}
+
+        {/* Manual Review Notes */}
+        {score.manualReviewNotes && (
+          <div>
+            <div className="label-caps mb-2 flex items-center gap-1.5 text-text-muted">
+              <AlertTriangle className="h-3 w-3" />
+              Manual Review Notes
+            </div>
+            <div className="rounded-md border border-brand-warning/30 bg-brand-warning/5 p-3 text-xs text-text-secondary">
+              {score.manualReviewNotes}
+            </div>
+          </div>
+        )}
+
+        {/* Report links */}
+        <div className="flex flex-wrap items-center gap-3 border-t border-border pt-4 text-xs">
+          {score.reportDraftUrl ? (
+            <a
+              href={score.reportDraftUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-md bg-brand-primary px-3 py-1.5 font-medium text-white transition hover:bg-brand-primary-hover"
+            >
+              <FileText className="h-3.5 w-3.5" />
+              View Report Draft
+            </a>
+          ) : score.reportDraftGenerated ? (
+            <span className="inline-flex items-center gap-1.5 text-text-secondary">
+              <CheckCircle2 className="h-3.5 w-3.5" />
+              Report draft generated
+            </span>
+          ) : (
+            <span className="text-text-muted">No report draft yet</span>
+          )}
+          <span className="ml-auto text-text-muted">
+            {score.dateCompleted
+              ? `Completed ${formatRelative(score.dateCompleted)}`
+              : ""}
+          </span>
+        </div>
+      </div>
+    </SectionCard>
+  );
+}
+
+function Gate({
+  label,
+  value,
+}: {
+  label: string;
+  value: number | null;
+}) {
+  return (
+    <div className="flex items-center gap-2 rounded-md border border-border bg-bg/40 px-3 py-2">
+      <GateDot score={value} label={label} />
+      <div className="min-w-0 flex-1">
+        <div className="truncate text-xs font-medium text-text-primary">
+          {label}
+        </div>
+        <div className="text-xs text-text-muted tabular-nums">
+          {value != null ? `${value}/10` : "—"}
+        </div>
+      </div>
+    </div>
+  );
+}

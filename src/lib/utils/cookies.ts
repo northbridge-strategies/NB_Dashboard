@@ -1,1 +1,8 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IGNvb2tpZXMgfSBmcm9tICJuZXh0L2hlYWRlcnMiOwoKY29uc3QgU0lERUJBUl9DT09LSUUgPSAic2lkZWJhci1jb2xsYXBzZWQiOwoKZXhwb3J0IGZ1bmN0aW9uIGdldFNpZGViYXJDb2xsYXBzZWQoKTogYm9vbGVhbiB7CiAgcmV0dXJuIGNvb2tpZXMoKS5nZXQoU0lERUJBUl9DT09LSUUpPy52YWx1ZSA9PT0gIjEiOwp9Cg==
+import "server-only";
+import { cookies } from "next/headers";
+
+const SIDEBAR_COOKIE = "sidebar-collapsed";
+
+export function getSidebarCollapsed(): boolean {
+  return cookies().get(SIDEBAR_COOKIE)?.value === "1";
+}

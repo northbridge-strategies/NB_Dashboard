@@ -1,1 +1,80 @@
-Ly8gQ3Jvc3MtY3V0dGluZyBkb21haW4gdHlwZXMgc2hhcmVkIGJ5IHBlci1EQiBOb3Rpb24gbW9kdWxlcyBhbmQgVUkgY29tcG9uZW50cy4KCmV4cG9ydCB0eXBlIENsYXNzaWZpY2F0aW9uID0KICB8ICJGb3VuZGVyLURlcGVuZGVudCIKICB8ICJUcmFuc2l0aW9uYWwiCiAgfCAiU3RhYmlsaXplZCIKICB8ICJUcmFuc2Zlci1SZWFkeSI7CgpleHBvcnQgdHlwZSBQcmlvcml0eSA9ICJIb3QiIHwgIldhcm0iIHwgIkNvbGQiOwoKZXhwb3J0IHR5cGUgTGlmZWN5Y2xlU3RhdGUgPQogIHwgIkxlYWQiCiAgfCAiUXVhbGlmaWVkIgogIHwgIkVuZ2FnZWQiCiAgfCAiUGFpZCIKICB8ICJBY3RpdmUiCiAgfCAiQ29tcGxldGUiCiAgfCAiQ2xvc2VkIExvc3QiOwoKZXhwb3J0IHR5cGUgSElUTEFjdGlvbiA9CiAgfCAiUGVuZGluZyIKICB8ICJBcHByb3ZlZCIKICB8ICJFZGl0ZWQtQXBwcm92ZWQiCiAgfCAiUmVqZWN0ZWQtTWFudWFsIFJldmlldyI7CgpleHBvcnQgdHlwZSBTZXZlcml0eSA9ICJDcml0aWNhbCIgfCAiV2FybmluZyIgfCAiSW5mbyI7CgpleHBvcnQgdHlwZSBQaXBlbGluZVN0YWdlID0KICB8ICJOZXcgTGVhZCIKICB8ICJRdWFsaWZpZXIgQ29tcGxldGVkIgogIHwgIkVtYWlsIFNlcXVlbmNlIEFjdGl2ZSIKICB8ICJDYWxsIEJvb2tlZCIKICB8ICJDYWxsIENvbXBsZXRlZCIKICB8ICJGb2xsb3ctVXAgU2VudCIKICB8ICJUaWVyIEkgUGFpZCIKICB8ICJSZXBvcnQgSW4gUHJvZ3Jlc3MiCiAgfCAiUmVwb3J0IERlbGl2ZXJlZCIKICB8ICJUaWVyIElJIERpc2N1c3Npb24iCiAgfCAiQ2xvc2VkIFdvbiIKICB8ICJDbG9zZWQgTG9zdCIKICB8ICJOb3QgUXVhbGlmaWVkIgogIHwgIk1hbnVhbCBSZXZpZXciOwoKLyoqIFN0YWdlcyBzaG93biBvbiB0aGUgS2FuYmFuIGJvYXJkIGJ5IGRlZmF1bHQgKHBlciBzcGVjKS4gKi8KZXhwb3J0IGNvbnN0IERFRkFVTFRfUElQRUxJTkVfU1RBR0VTOiBQaXBlbGluZVN0YWdlW10gPSBbCiAgIk5ldyBMZWFkIiwKICAiUXVhbGlmaWVyIENvbXBsZXRlZCIsCiAgIkVtYWlsIFNlcXVlbmNlIEFjdGl2ZSIsCiAgIkNhbGwgQm9va2VkIiwKICAiQ2FsbCBDb21wbGV0ZWQiLAogICJGb2xsb3ctVXAgU2VudCIsCiAgIlRpZXIgSSBQYWlkIiwKICAiUmVwb3J0IEluIFByb2dyZXNzIiwKICAiUmVwb3J0IERlbGl2ZXJlZCIsCiAgIkNsb3NlZCBXb24iLAogICJDbG9zZWQgTG9zdCIsCl07CgovKiogQWRkaXRpb25hbCBzdGFnZXMgcmV2ZWFsZWQgYnkgdGhlICJTaG93IGFsbCBzdGFnZXMiIHRvZ2dsZS4gKi8KZXhwb3J0IGNvbnN0IEVYVFJBX1BJUEVMSU5FX1NUQUdFUzogUGlwZWxpbmVTdGFnZVtdID0gWwogICJUaWVyIElJIERpc2N1c3Npb24iLAogICJOb3QgUXVhbGlmaWVkIiwKICAiTWFudWFsIFJldmlldyIsCl07CgpleHBvcnQgY29uc3QgQUxMX1BJUEVMSU5FX1NUQUdFUzogUGlwZWxpbmVTdGFnZVtdID0gWwogIC4uLkRFRkFVTFRfUElQRUxJTkVfU1RBR0VTLAogIC4uLkVYVFJBX1BJUEVMSU5FX1NUQUdFUywKXTsKCmV4cG9ydCB0eXBlIEFjdGl2aXR5U291cmNlID0gImxlYWQiIHwgInNjb3JlIiB8ICJwaXBlbGluZSIgfCAicmV2ZW51ZSIgfCAibGlua2VkaW4iOwoKZXhwb3J0IGludGVyZmFjZSBBY3Rpdml0eUl0ZW0gewogIHNvdXJjZTogQWN0aXZpdHlTb3VyY2U7CiAgaWQ6IHN0cmluZzsKICB0aXRsZTogc3RyaW5nOwogIGRldGFpbDogc3RyaW5nOwogIHRpbWVzdGFtcDogc3RyaW5nOwogIGhyZWY6IHN0cmluZzsKfQo=
+// Cross-cutting domain types shared by per-DB Notion modules and UI components.
+
+export type Classification =
+  | "Founder-Dependent"
+  | "Transitional"
+  | "Stabilized"
+  | "Transfer-Ready";
+
+export type Priority = "Hot" | "Warm" | "Cold";
+
+export type LifecycleState =
+  | "Lead"
+  | "Qualified"
+  | "Engaged"
+  | "Paid"
+  | "Active"
+  | "Complete"
+  | "Closed Lost";
+
+export type HITLAction =
+  | "Pending"
+  | "Approved"
+  | "Edited-Approved"
+  | "Rejected-Manual Review";
+
+export type Severity = "Critical" | "Warning" | "Info";
+
+export type PipelineStage =
+  | "New Lead"
+  | "Qualifier Completed"
+  | "Email Sequence Active"
+  | "Call Booked"
+  | "Call Completed"
+  | "Follow-Up Sent"
+  | "Tier I Paid"
+  | "Report In Progress"
+  | "Report Delivered"
+  | "Tier II Discussion"
+  | "Closed Won"
+  | "Closed Lost"
+  | "Not Qualified"
+  | "Manual Review";
+
+/** Stages shown on the Kanban board by default (per spec). */
+export const DEFAULT_PIPELINE_STAGES: PipelineStage[] = [
+  "New Lead",
+  "Qualifier Completed",
+  "Email Sequence Active",
+  "Call Booked",
+  "Call Completed",
+  "Follow-Up Sent",
+  "Tier I Paid",
+  "Report In Progress",
+  "Report Delivered",
+  "Closed Won",
+  "Closed Lost",
+];
+
+/** Additional stages revealed by the "Show all stages" toggle. */
+export const EXTRA_PIPELINE_STAGES: PipelineStage[] = [
+  "Tier II Discussion",
+  "Not Qualified",
+  "Manual Review",
+];
+
+export const ALL_PIPELINE_STAGES: PipelineStage[] = [
+  ...DEFAULT_PIPELINE_STAGES,
+  ...EXTRA_PIPELINE_STAGES,
+];
+
+export type ActivitySource = "lead" | "score" | "pipeline" | "revenue" | "linkedin";
+
+export interface ActivityItem {
+  source: ActivitySource;
+  id: string;
+  title: string;
+  detail: string;
+  timestamp: string;
+  href: string;
+}

@@ -1,1 +1,22 @@
-aW1wb3J0IHR5cGUgeyBSb2xlIH0gZnJvbSAiQC9saWIvdHlwZXMvYXV0aCI7CmltcG9ydCB0eXBlIHsgRGVmYXVsdFNlc3Npb24gfSBmcm9tICJuZXh0LWF1dGgiOwoKZGVjbGFyZSBtb2R1bGUgIm5leHQtYXV0aCIgewogIGludGVyZmFjZSBTZXNzaW9uIHsKICAgIHVzZXI6IHsKICAgICAgaWQ6IHN0cmluZzsKICAgICAgcm9sZTogUm9sZTsKICAgIH0gJiBEZWZhdWx0U2Vzc2lvblsidXNlciJdOwogIH0KCiAgaW50ZXJmYWNlIFVzZXIgewogICAgcm9sZTogUm9sZTsKICB9Cn0KCmRlY2xhcmUgbW9kdWxlICJuZXh0LWF1dGgvand0IiB7CiAgaW50ZXJmYWNlIEpXVCB7CiAgICBpZDogc3RyaW5nOwogICAgcm9sZTogUm9sZTsKICB9Cn0K
+import type { Role } from "@/lib/types/auth";
+import type { DefaultSession } from "next-auth";
+
+declare module "next-auth" {
+  interface Session {
+    user: {
+      id: string;
+      role: Role;
+    } & DefaultSession["user"];
+  }
+
+  interface User {
+    role: Role;
+  }
+}
+
+declare module "next-auth/jwt" {
+  interface JWT {
+    id: string;
+    role: Role;
+  }
+}

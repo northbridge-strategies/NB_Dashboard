@@ -1,1 +1,70 @@
-aW1wb3J0IHR5cGUgeyBMdWNpZGVJY29uIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgRXh0ZXJuYWxMaW5rIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscy9jbGFzc25hbWVzIjsKCmV4cG9ydCBmdW5jdGlvbiBTZWN0aW9uQ2FyZCh7CiAgaWNvbjogSWNvbiwKICB0aXRsZSwKICBjb3VudCwKICBub3Rpb25JZCwKICB0b25lID0gImRlZmF1bHQiLAogIGNoaWxkcmVuLAp9OiB7CiAgaWNvbjogTHVjaWRlSWNvbjsKICB0aXRsZTogc3RyaW5nOwogIGNvdW50PzogbnVtYmVyOwogIG5vdGlvbklkPzogc3RyaW5nIHwgbnVsbDsKICB0b25lPzogImRlZmF1bHQiIHwgInN1Y2Nlc3MiIHwgIndhcm5pbmciIHwgImluZm8iIHwgImRhbmdlciIgfCAiYWNjZW50IjsKICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlOwp9KSB7CiAgY29uc3QgYWNjZW50QnViYmxlOiBSZWNvcmQ8Tm9uTnVsbGFibGU8dHlwZW9mIHRvbmU+LCBzdHJpbmc+ID0gewogICAgZGVmYXVsdDogImJnLWJyYW5kLXByaW1hcnkvMTAgdGV4dC1icmFuZC1wcmltYXJ5IiwKICAgIHN1Y2Nlc3M6ICJiZy1icmFuZC1zdWNjZXNzLzEwIHRleHQtYnJhbmQtc3VjY2VzcyIsCiAgICB3YXJuaW5nOiAiYmctYnJhbmQtd2FybmluZy8xNSB0ZXh0LWJyYW5kLXdhcm5pbmciLAogICAgaW5mbzogImJnLWJyYW5kLWluZm8vMTUgdGV4dC1icmFuZC1pbmZvIiwKICAgIGRhbmdlcjogImJnLWJyYW5kLWRhbmdlci8xMCB0ZXh0LWJyYW5kLWRhbmdlciIsCiAgICBhY2NlbnQ6ICJiZy1icmFuZC1hY2NlbnQvMTUgdGV4dC1icmFuZC1hY2NlbnQiLAogIH07CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLXN1cmZhY2UgcC01IHNtOnAtNiI+CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJtYi00IGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICA8c3BhbgogICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgImZsZXggaC04IHctOCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1sZyIsCiAgICAgICAgICAgIGFjY2VudEJ1YmJsZVt0b25lXSwKICAgICAgICAgICl9CiAgICAgICAgPgogICAgICAgICAgPEljb24gY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgIDwvc3Bhbj4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC10ZXh0LXByaW1hcnkiPnt0aXRsZX08L2gyPgogICAgICAgIHt0eXBlb2YgY291bnQgPT09ICJudW1iZXIiICYmIGNvdW50ID4gMCAmJiAoCiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InJvdW5kZWQtZnVsbCBiZy1zdXJmYWNlLWVsZXZhdGVkIHB4LTIgcHktMC41IHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgIHtjb3VudH0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICApfQogICAgICAgIHtub3Rpb25JZCAmJiAoCiAgICAgICAgICA8YQogICAgICAgICAgICBocmVmPXtgaHR0cHM6Ly93d3cubm90aW9uLnNvLyR7bm90aW9uSWQucmVwbGFjZSgvLS9nLCAiIil9YH0KICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICAgIHJlbD0ibm9yZWZlcnJlciIKICAgICAgICAgICAgY2xhc3NOYW1lPSJtbC1hdXRvIGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0ZXh0LXhzIHRleHQtdGV4dC1tdXRlZCB0cmFuc2l0aW9uIGhvdmVyOnRleHQtYnJhbmQtcHJpbWFyeSIKICAgICAgICAgICAgdGl0bGU9Ik9wZW4gaW4gTm90aW9uIgogICAgICAgICAgPgogICAgICAgICAgICA8RXh0ZXJuYWxMaW5rIGNsYXNzTmFtZT0iaC0zIHctMyIgLz4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJoaWRkZW4gc206aW5saW5lIj5Ob3Rpb248L3NwYW4+CiAgICAgICAgICA8L2E+CiAgICAgICAgKX0KICAgICAgPC9oZWFkZXI+CiAgICAgIHtjaGlsZHJlbn0KICAgIDwvc2VjdGlvbj4KICApOwp9CgpleHBvcnQgZnVuY3Rpb24gRW1wdHlTZWN0aW9uKHsgbWVzc2FnZSB9OiB7IG1lc3NhZ2U6IHN0cmluZyB9KSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1ib3JkZXIgYmctYmcvNDAgcHgtNiBweS04IHRleHQtY2VudGVyIHRleHQteHMgdGV4dC10ZXh0LW11dGVkIj4KICAgICAge21lc3NhZ2V9CiAgICA8L2Rpdj4KICApOwp9Cg==
+import type { LucideIcon } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import { cn } from "@/lib/utils/classnames";
+
+export function SectionCard({
+  icon: Icon,
+  title,
+  count,
+  notionId,
+  tone = "default",
+  children,
+}: {
+  icon: LucideIcon;
+  title: string;
+  count?: number;
+  notionId?: string | null;
+  tone?: "default" | "success" | "warning" | "info" | "danger" | "accent";
+  children: React.ReactNode;
+}) {
+  const accentBubble: Record<NonNullable<typeof tone>, string> = {
+    default: "bg-brand-primary/10 text-brand-primary",
+    success: "bg-brand-success/10 text-brand-success",
+    warning: "bg-brand-warning/15 text-brand-warning",
+    info: "bg-brand-info/15 text-brand-info",
+    danger: "bg-brand-danger/10 text-brand-danger",
+    accent: "bg-brand-accent/15 text-brand-accent",
+  };
+
+  return (
+    <section className="rounded-2xl border border-border bg-surface p-5 sm:p-6">
+      <header className="mb-4 flex items-center gap-3">
+        <span
+          className={cn(
+            "flex h-8 w-8 items-center justify-center rounded-lg",
+            accentBubble[tone],
+          )}
+        >
+          <Icon className="h-4 w-4" />
+        </span>
+        <h2 className="text-sm font-semibold text-text-primary">{title}</h2>
+        {typeof count === "number" && count > 0 && (
+          <span className="rounded-full bg-surface-elevated px-2 py-0.5 text-xs font-medium text-text-secondary">
+            {count}
+          </span>
+        )}
+        {notionId && (
+          <a
+            href={`https://www.notion.so/${notionId.replace(/-/g, "")}`}
+            target="_blank"
+            rel="noreferrer"
+            className="ml-auto inline-flex items-center gap-1 text-xs text-text-muted transition hover:text-brand-primary"
+            title="Open in Notion"
+          >
+            <ExternalLink className="h-3 w-3" />
+            <span className="hidden sm:inline">Notion</span>
+          </a>
+        )}
+      </header>
+      {children}
+    </section>
+  );
+}
+
+export function EmptySection({ message }: { message: string }) {
+  return (
+    <div className="rounded-lg border border-dashed border-border bg-bg/40 px-6 py-8 text-center text-xs text-text-muted">
+      {message}
+    </div>
+  );
+}

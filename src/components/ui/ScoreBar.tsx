@@ -1,1 +1,65 @@
-aW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscy9jbGFzc25hbWVzIjsKCmV4cG9ydCBmdW5jdGlvbiBTY29yZUJhcih7CiAgcGN0LAogIGNsYXNzTmFtZSwKICBzaG93TGFiZWwgPSB0cnVlLAp9OiB7CiAgLyoqIDAtMTAwICovCiAgcGN0OiBudW1iZXIgfCBudWxsOwogIGNsYXNzTmFtZT86IHN0cmluZzsKICBzaG93TGFiZWw/OiBib29sZWFuOwp9KSB7CiAgY29uc3QgY2xhbXBlZCA9IHBjdCA9PSBudWxsID8gMCA6IE1hdGgubWF4KDAsIE1hdGgubWluKDEwMCwgcGN0KSk7CiAgLy8gQ29sb3IgYnVja2V0cyBhbGlnbmVkIHdpdGggTm9ydGhicmlkZ2UgY2xhc3NpZmljYXRpb25zCiAgY29uc3QgY29sb3IgPQogICAgcGN0ID09IG51bGwKICAgICAgPyAiYmctdGV4dC1tdXRlZCIKICAgICAgOiBjbGFtcGVkIDwgNDAKICAgICAgPyAiYmctYnJhbmQtZGFuZ2VyIgogICAgICA6IGNsYW1wZWQgPCA2NQogICAgICA/ICJiZy1icmFuZC13YXJuaW5nIgogICAgICA6IGNsYW1wZWQgPCA4NQogICAgICA/ICJiZy1icmFuZC1pbmZvIgogICAgICA6ICJiZy1icmFuZC1zdWNjZXNzIjsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPXtjbigiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiLCBjbGFzc05hbWUpfT4KICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMiBmbGV4LTEgcm91bmRlZC1mdWxsIGJnLXN1cmZhY2UtZWxldmF0ZWQiPgogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzTmFtZT17Y24oImgtMiByb3VuZGVkLWZ1bGwgdHJhbnNpdGlvbi1hbGwiLCBjb2xvcil9CiAgICAgICAgICBzdHlsZT17eyB3aWR0aDogYCR7Y2xhbXBlZH0lYCB9fQogICAgICAgIC8+CiAgICAgIDwvZGl2PgogICAgICB7c2hvd0xhYmVsICYmICgKICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMTAgc2hyaW5rLTAgdGV4dC1yaWdodCB0ZXh0LXhzIHRhYnVsYXItbnVtcyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgIHtwY3QgPT0gbnVsbCA/ICLigJQiIDogYCR7TWF0aC5yb3VuZChjbGFtcGVkKX0lYH0KICAgICAgICA8L3NwYW4+CiAgICAgICl9CiAgICA8L2Rpdj4KICApOwp9CgovKiogVGlueSBkb3QgaW5kaWNhdG9yIGZvciBpbmRpdmlkdWFsIGdhdGUgc2NvcmVzICgwLTEwKS4gKi8KZXhwb3J0IGZ1bmN0aW9uIEdhdGVEb3QoewogIHNjb3JlLAogIGxhYmVsLAp9OiB7CiAgc2NvcmU6IG51bWJlciB8IG51bGw7CiAgbGFiZWw6IHN0cmluZzsKfSkgewogIGNvbnN0IHRvbmUgPQogICAgc2NvcmUgPT0gbnVsbAogICAgICA/ICJiZy10ZXh0LW11dGVkIgogICAgICA6IHNjb3JlID49IDcKICAgICAgPyAiYmctYnJhbmQtc3VjY2VzcyIKICAgICAgOiBzY29yZSA+PSA0CiAgICAgID8gImJnLWJyYW5kLXdhcm5pbmciCiAgICAgIDogImJnLWJyYW5kLWRhbmdlciI7CiAgcmV0dXJuICgKICAgIDxzcGFuCiAgICAgIHRpdGxlPXtgJHtsYWJlbH06ICR7c2NvcmUgPz8gIuKAlCJ9LzEwYH0KICAgICAgY2xhc3NOYW1lPXtjbigiaW5saW5lLWJsb2NrIGgtMi41IHctMi41IHJvdW5kZWQtZnVsbCIsIHRvbmUpfQogICAgLz4KICApOwp9Cg==
+import { cn } from "@/lib/utils/classnames";
+
+export function ScoreBar({
+  pct,
+  className,
+  showLabel = true,
+}: {
+  /** 0-100 */
+  pct: number | null;
+  className?: string;
+  showLabel?: boolean;
+}) {
+  const clamped = pct == null ? 0 : Math.max(0, Math.min(100, pct));
+  // Color buckets aligned with Northbridge classifications
+  const color =
+    pct == null
+      ? "bg-text-muted"
+      : clamped < 40
+      ? "bg-brand-danger"
+      : clamped < 65
+      ? "bg-brand-warning"
+      : clamped < 85
+      ? "bg-brand-info"
+      : "bg-brand-success";
+
+  return (
+    <div className={cn("flex items-center gap-2", className)}>
+      <div className="h-2 flex-1 rounded-full bg-surface-elevated">
+        <div
+          className={cn("h-2 rounded-full transition-all", color)}
+          style={{ width: `${clamped}%` }}
+        />
+      </div>
+      {showLabel && (
+        <span className="w-10 shrink-0 text-right text-xs tabular-nums text-text-secondary">
+          {pct == null ? "—" : `${Math.round(clamped)}%`}
+        </span>
+      )}
+    </div>
+  );
+}
+
+/** Tiny dot indicator for individual gate scores (0-10). */
+export function GateDot({
+  score,
+  label,
+}: {
+  score: number | null;
+  label: string;
+}) {
+  const tone =
+    score == null
+      ? "bg-text-muted"
+      : score >= 7
+      ? "bg-brand-success"
+      : score >= 4
+      ? "bg-brand-warning"
+      : "bg-brand-danger";
+  return (
+    <span
+      title={`${label}: ${score ?? "—"}/10`}
+      className={cn("inline-block h-2.5 w-2.5 rounded-full", tone)}
+    />
+  );
+}

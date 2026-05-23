@@ -1,1 +1,99 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IEltYWdlIGZyb20gIm5leHQvaW1hZ2UiOwppbXBvcnQgeyBzaWduT3V0IH0gZnJvbSAibmV4dC1hdXRoL3JlYWN0IjsKaW1wb3J0IHsgTG9nT3V0IH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHR5cGUgeyBSb2xlIH0gZnJvbSAiQC9saWIvdHlwZXMvYXV0aCI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMvY2xhc3NuYW1lcyI7CmltcG9ydCB7IGluaXRpYWxzIH0gZnJvbSAiQC9saWIvdXRpbHMvZm9ybWF0IjsKCmV4cG9ydCBpbnRlcmZhY2UgVXNlck1lbnVVc2VyIHsKICBpZDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICBlbWFpbDogc3RyaW5nOwogIHJvbGU6IFJvbGU7CiAgYXZhdGFyVXJsOiBzdHJpbmcgfCBudWxsOwp9CgpmdW5jdGlvbiBBdmF0YXIoewogIHVzZXIsCiAgc2l6ZSA9IDM2LAp9OiB7CiAgdXNlcjogVXNlck1lbnVVc2VyOwogIHNpemU/OiBudW1iZXI7Cn0pIHsKICBpZiAodXNlci5hdmF0YXJVcmwpIHsKICAgIHJldHVybiAoCiAgICAgIDxJbWFnZQogICAgICAgIHNyYz17dXNlci5hdmF0YXJVcmx9CiAgICAgICAgYWx0PXt1c2VyLm5hbWV9CiAgICAgICAgd2lkdGg9e3NpemV9CiAgICAgICAgaGVpZ2h0PXtzaXplfQogICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIG9iamVjdC1jb3ZlciIKICAgICAgICB1bm9wdGltaXplZAogICAgICAvPgogICAgKTsKICB9CiAgcmV0dXJuICgKICAgIDxkaXYKICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctYnJhbmQtcHJpbWFyeSB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSIKICAgICAgc3R5bGU9e3sgd2lkdGg6IHNpemUsIGhlaWdodDogc2l6ZSB9fQogICAgPgogICAgICB7aW5pdGlhbHModXNlci5uYW1lIHx8IHVzZXIuZW1haWwpfQogICAgPC9kaXY+CiAgKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIFVzZXJNZW51KHsKICB1c2VyLAogIGNvbGxhcHNlZCwKfTogewogIHVzZXI6IFVzZXJNZW51VXNlcjsKICAvKiogQ29sbGFwc2VkIG9uIGRlc2t0b3Agb25seSDigJQgbW9iaWxlIGRyYXdlciBhbHdheXMgc2hvd3MgdGhlIGZ1bGwgbGF5b3V0LiAqLwogIGNvbGxhcHNlZDogYm9vbGVhbjsKfSkgewogIHJldHVybiAoCiAgICA8ZGl2CiAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHJvdW5kZWQtbWQgcC0yIiwKICAgICAgICBjb2xsYXBzZWQgJiYgImxnOmp1c3RpZnktY2VudGVyIGxnOnB4LTAiLAogICAgICApfQogICAgPgogICAgICA8TGluawogICAgICAgIGhyZWY9Ii9wcm9maWxlIgogICAgICAgIGFyaWEtbGFiZWw9IkVkaXQgeW91ciBwcm9maWxlIgogICAgICAgIHRpdGxlPSJFZGl0IHlvdXIgcHJvZmlsZSIKICAgICAgICBjbGFzc05hbWU9InNocmluay0wIHJvdW5kZWQtZnVsbCByaW5nLW9mZnNldC0yIHJpbmctb2Zmc2V0LXN1cmZhY2UgdHJhbnNpdGlvbiBob3ZlcjpyaW5nLTIgaG92ZXI6cmluZy1icmFuZC1wcmltYXJ5LzQwIgogICAgICA+CiAgICAgICAgPEF2YXRhciB1c2VyPXt1c2VyfSBzaXplPXszNn0gLz4KICAgICAgPC9MaW5rPgoKICAgICAgPExpbmsKICAgICAgICBocmVmPSIvcHJvZmlsZSIKICAgICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICAgIm1pbi13LTAgZmxleC0xIHRyYW5zaXRpb24gaG92ZXI6b3BhY2l0eS04MCIsCiAgICAgICAgICBjb2xsYXBzZWQgJiYgImxnOmhpZGRlbiIsCiAgICAgICAgKX0KICAgICAgPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0cnVuY2F0ZSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtdGV4dC1wcmltYXJ5Ij4KICAgICAgICAgIHt1c2VyLm5hbWUgfHwgdXNlci5lbWFpbH0KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGFiZWwtY2FwcyB0ZXh0LXRleHQtbXV0ZWQiPnt1c2VyLnJvbGV9PC9kaXY+CiAgICAgIDwvTGluaz4KCiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgb25DbGljaz17KCkgPT4gc2lnbk91dCh7IGNhbGxiYWNrVXJsOiAiL2xvZ2luIiB9KX0KICAgICAgICBhcmlhLWxhYmVsPSJTaWduIG91dCIKICAgICAgICB0aXRsZT0iU2lnbiBvdXQiCiAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICJpbmxpbmUtZmxleCBoLTggdy04IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLW1kIHRleHQtdGV4dC1zZWNvbmRhcnkgaG92ZXI6Ymctc3VyZmFjZS1lbGV2YXRlZCBob3Zlcjp0ZXh0LXRleHQtcHJpbWFyeSIsCiAgICAgICAgICBjb2xsYXBzZWQgJiYgImxnOmhpZGRlbiIsCiAgICAgICAgKX0KICAgICAgPgogICAgICAgIDxMb2dPdXQgY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICA8L2J1dHRvbj4KICAgIDwvZGl2PgogICk7Cn0K
+"use client";
+
+import Link from "next/link";
+import Image from "next/image";
+import { signOut } from "next-auth/react";
+import { LogOut } from "lucide-react";
+import type { Role } from "@/lib/types/auth";
+import { cn } from "@/lib/utils/classnames";
+import { initials } from "@/lib/utils/format";
+
+export interface UserMenuUser {
+  id: string;
+  name: string;
+  email: string;
+  role: Role;
+  avatarUrl: string | null;
+}
+
+function Avatar({
+  user,
+  size = 36,
+}: {
+  user: UserMenuUser;
+  size?: number;
+}) {
+  if (user.avatarUrl) {
+    return (
+      <Image
+        src={user.avatarUrl}
+        alt={user.name}
+        width={size}
+        height={size}
+        className="rounded-full object-cover"
+        unoptimized
+      />
+    );
+  }
+  return (
+    <div
+      className="flex items-center justify-center rounded-full bg-brand-primary text-sm font-semibold text-white"
+      style={{ width: size, height: size }}
+    >
+      {initials(user.name || user.email)}
+    </div>
+  );
+}
+
+export function UserMenu({
+  user,
+  collapsed,
+}: {
+  user: UserMenuUser;
+  /** Collapsed on desktop only — mobile drawer always shows the full layout. */
+  collapsed: boolean;
+}) {
+  return (
+    <div
+      className={cn(
+        "flex items-center gap-3 rounded-md p-2",
+        collapsed && "lg:justify-center lg:px-0",
+      )}
+    >
+      <Link
+        href="/profile"
+        aria-label="Edit your profile"
+        title="Edit your profile"
+        className="shrink-0 rounded-full ring-offset-2 ring-offset-surface transition hover:ring-2 hover:ring-brand-primary/40"
+      >
+        <Avatar user={user} size={36} />
+      </Link>
+
+      <Link
+        href="/profile"
+        className={cn(
+          "min-w-0 flex-1 transition hover:opacity-80",
+          collapsed && "lg:hidden",
+        )}
+      >
+        <div className="truncate text-sm font-medium text-text-primary">
+          {user.name || user.email}
+        </div>
+        <div className="label-caps text-text-muted">{user.role}</div>
+      </Link>
+
+      <button
+        type="button"
+        onClick={() => signOut({ callbackUrl: "/login" })}
+        aria-label="Sign out"
+        title="Sign out"
+        className={cn(
+          "inline-flex h-8 w-8 items-center justify-center rounded-md text-text-secondary hover:bg-surface-elevated hover:text-text-primary",
+          collapsed && "lg:hidden",
+        )}
+      >
+        <LogOut className="h-4 w-4" />
+      </button>
+    </div>
+  );
+}

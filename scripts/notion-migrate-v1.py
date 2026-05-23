@@ -1,1 +1,164 @@
-IiIiCk5vcnRoYnJpZGdlIERhc2hib2FyZCDigJQgdjEgU2NoZW1hIE1pZ3JhdGlvbgoKSWRlbXBvdGVudC4gU2FmZSB0byByZS1ydW4uCgpBZGRzOgogIC0gRGlhZ25vc3RpYyBTY29yZXMgREI6CiAgICAgICJNYW51YWwgUmV2aWV3IE5vdGVzIiAocmljaF90ZXh0KQogIC0gUGlwZWxpbmUgREI6CiAgICAgIENvbnZlcnQgIkxlYWQiIHJlbGF0aW9uIGZyb20gc2luZ2xlX3Byb3BlcnR5IC0+IGR1YWxfcHJvcGVydHksCiAgICAgIHN5bmNlZCBpbnZlcnNlIG9uIExlYWRzIG5hbWVkICJQaXBlbGluZSBFbnRyaWVzIi4KICAgICAgKE5vdGlvbiBwcmVzZXJ2ZXMgZXhpc3RpbmcgcmVsYXRpb24gZGF0YSBvbiB0eXBlLWNoYW5nZS4pCiAgLSBMZWFkcyBEQjoKICAgICAgIlByaW9yaXR5IiAocm9sbHVwIG92ZXIgIlBpcGVsaW5lIEVudHJpZXMiIC0+ICJQcmlvcml0eSIsIHNob3dfb3JpZ2luYWwpCgpSZWFkLW9ubHkgZmlyc3Q6IHF1ZXJpZXMgZWFjaCBEQiBzY2hlbWEgYmVmb3JlIG11dGF0aW5nLCBvbmx5IHBhdGNoZXMgd2hhdCBpcyBtaXNzaW5nLgoiIiIKCmltcG9ydCBqc29uCmltcG9ydCBzeXMKaW1wb3J0IHVybGxpYi5yZXF1ZXN0CmltcG9ydCB1cmxsaWIuZXJyb3IKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpUT0tFTiA9ICJudG5fQzQxMDQxNDI2OTkxM3Vrblk1MlhuRGJQM0Z6OG1HR3NxWlFaWFdRaWh2UWF2bSIKQVBJX1ZFUlNJT04gPSAiMjAyMi0wNi0yOCIKQkFTRV9VUkwgPSAiaHR0cHM6Ly9hcGkubm90aW9uLmNvbS92MSIKCklEU19QQVRIID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudC5wYXJlbnQucGFyZW50IC8gIm5iLW5vdGlvbi1pZHMuanNvbiIKSURTID0ganNvbi5sb2FkcyhJRFNfUEFUSC5yZWFkX3RleHQoKSkKCkxFQURTID0gSURTWyJsZWFkcyJdClNDT1JFUyA9IElEU1siZGlhZ25vc3RpY19zY29yZXMiXQpQSVBFTElORSA9IElEU1sicGlwZWxpbmUiXQoKCmRlZiBhcGkobWV0aG9kOiBzdHIsIGVuZHBvaW50OiBzdHIsIGRhdGE9Tm9uZSk6CiAgICB1cmwgPSBmIntCQVNFX1VSTH0ve2VuZHBvaW50fSIKICAgIGJvZHkgPSBqc29uLmR1bXBzKGRhdGEpLmVuY29kZSgpIGlmIGRhdGEgaXMgbm90IE5vbmUgZWxzZSBOb25lCiAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KHVybCwgZGF0YT1ib2R5LCBtZXRob2Q9bWV0aG9kKQogICAgcmVxLmFkZF9oZWFkZXIoIkF1dGhvcml6YXRpb24iLCBmIkJlYXJlciB7VE9LRU59IikKICAgIHJlcS5hZGRfaGVhZGVyKCJOb3Rpb24tVmVyc2lvbiIsIEFQSV9WRVJTSU9OKQogICAgcmVxLmFkZF9oZWFkZXIoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKICAgIHRyeToKICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxKSBhcyByZXNwOgogICAgICAgICAgICByZXR1cm4ganNvbi5sb2FkcyhyZXNwLnJlYWQoKSkKICAgIGV4Y2VwdCB1cmxsaWIuZXJyb3IuSFRUUEVycm9yIGFzIGU6CiAgICAgICAgcHJpbnQoZiIgIEhUVFAge2UuY29kZX06IHtlLnJlYWQoKS5kZWNvZGUoKVs6NjAwXX0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgcmFpc2UKCgpkZWYgZ2V0X2RiKGRiX2lkOiBzdHIpOgogICAgcmV0dXJuIGFwaSgiR0VUIiwgZiJkYXRhYmFzZXMve2RiX2lkfSIpCgoKZGVmIHBhdGNoX2RiKGRiX2lkOiBzdHIsIHByb3BlcnRpZXM6IGRpY3QpOgogICAgcmV0dXJuIGFwaSgiUEFUQ0giLCBmImRhdGFiYXNlcy97ZGJfaWR9IiwgeyJwcm9wZXJ0aWVzIjogcHJvcGVydGllc30pCgoKZGVmIGhhc19wcm9wZXJ0eShkYjogZGljdCwgbmFtZTogc3RyKSAtPiBib29sOgogICAgcmV0dXJuIG5hbWUgaW4gZGIuZ2V0KCJwcm9wZXJ0aWVzIiwge30pCgoKZGVmIHJlbGF0aW9uX3R5cGUoZGI6IGRpY3QsIHByb3BfbmFtZTogc3RyKSAtPiBzdHIgfCBOb25lOgogICAgcHJvcCA9IGRiLmdldCgicHJvcGVydGllcyIsIHt9KS5nZXQocHJvcF9uYW1lKQogICAgaWYgbm90IHByb3Agb3IgcHJvcC5nZXQoInR5cGUiKSAhPSAicmVsYXRpb24iOgogICAgICAgIHJldHVybiBOb25lCiAgICByZXR1cm4gcHJvcFsicmVsYXRpb24iXS5nZXQoInR5cGUiKQoKCmRlZiBmaW5kX2ludmVyc2VfcmVsYXRpb25fbmFtZShkYjogZGljdCwgdGFyZ2V0X2RiX2lkOiBzdHIpIC0+IHN0ciB8IE5vbmU6CiAgICAiIiJGaW5kIHRoZSBwcm9wZXJ0eSBvbiBgZGJgIHdob3NlIHJlbGF0aW9uIHBvaW50cyBhdCBgdGFyZ2V0X2RiX2lkYC4iIiIKICAgIHRhcmdldF9jbGVhbiA9IHRhcmdldF9kYl9pZC5yZXBsYWNlKCItIiwgIiIpCiAgICBmb3IgbmFtZSwgcHJvcCBpbiBkYi5nZXQoInByb3BlcnRpZXMiLCB7fSkuaXRlbXMoKToKICAgICAgICBpZiBwcm9wLmdldCgidHlwZSIpICE9ICJyZWxhdGlvbiI6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgcmVsID0gcHJvcFsicmVsYXRpb24iXQogICAgICAgIGlmIHJlbC5nZXQoImRhdGFiYXNlX2lkIiwgIiIpLnJlcGxhY2UoIi0iLCAiIikgPT0gdGFyZ2V0X2NsZWFuOgogICAgICAgICAgICByZXR1cm4gbmFtZQogICAgcmV0dXJuIE5vbmUKCgpkZWYgbWFpbigpOgogICAgcHJpbnQoIj0iICogNjApCiAgICBwcmludCgiTm9ydGhicmlkZ2UgRGFzaGJvYXJkIOKAlCB2MSBTY2hlbWEgTWlncmF0aW9uIikKICAgIHByaW50KCI9IiAqIDYwKQoKICAgIHByaW50KCJcblsxLzNdIERpYWdub3N0aWMgU2NvcmVzOiBlbnN1cmUgJ01hbnVhbCBSZXZpZXcgTm90ZXMnIChyaWNoX3RleHQpIikKICAgIHNjb3Jlc19kYiA9IGdldF9kYihTQ09SRVMpCiAgICBpZiBoYXNfcHJvcGVydHkoc2NvcmVzX2RiLCAiTWFudWFsIFJldmlldyBOb3RlcyIpOgogICAgICAgIHByaW50KCIgICAgICAgYWxyZWFkeSBwcmVzZW50IOKAlCBza2lwcGluZy4iKQogICAgZWxzZToKICAgICAgICBwYXRjaF9kYihTQ09SRVMsIHsiTWFudWFsIFJldmlldyBOb3RlcyI6IHsicmljaF90ZXh0Ijoge319fSkKICAgICAgICBwcmludCgiICAgICAgIGFkZGVkLiIpCgogICAgcHJpbnQoIlxuWzIvM10gUGlwZWxpbmU6IGVuc3VyZSAnTGVhZCcgcmVsYXRpb24gaXMgZHVhbF9wcm9wZXJ0eSIpCiAgICBwaXBlbGluZV9kYiA9IGdldF9kYihQSVBFTElORSkKICAgIHJlbF90eXBlID0gcmVsYXRpb25fdHlwZShwaXBlbGluZV9kYiwgIkxlYWQiKQogICAgaWYgcmVsX3R5cGUgPT0gImR1YWxfcHJvcGVydHkiOgogICAgICAgIHByaW50KCIgICAgICAgYWxyZWFkeSBkdWFsX3Byb3BlcnR5IOKAlCBza2lwcGluZy4iKQogICAgZWxpZiByZWxfdHlwZSA9PSAic2luZ2xlX3Byb3BlcnR5IjoKICAgICAgICBwYXRjaF9kYigKICAgICAgICAgICAgUElQRUxJTkUsCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJMZWFkIjogewogICAgICAgICAgICAgICAgICAgICJyZWxhdGlvbiI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgImRhdGFiYXNlX2lkIjogTEVBRFMsCiAgICAgICAgICAgICAgICAgICAgICAgICJ0eXBlIjogImR1YWxfcHJvcGVydHkiLAogICAgICAgICAgICAgICAgICAgICAgICAiZHVhbF9wcm9wZXJ0eSI6IHsic3luY2VkX3Byb3BlcnR5X25hbWUiOiAiUGlwZWxpbmUgRW50cmllcyJ9LAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICApCiAgICAgICAgcHJpbnQoIiAgICAgICBjb252ZXJ0ZWQgdG8gZHVhbF9wcm9wZXJ0eSAoaW52ZXJzZTogJ1BpcGVsaW5lIEVudHJpZXMnKS4iKQogICAgZWxzZToKICAgICAgICBwcmludChmIiAgICAgICBFUlJPUjogJ0xlYWQnIHJlbGF0aW9uIHR5cGUgaXMge3JlbF90eXBlIXJ9IOKAlCB1bmV4cGVjdGVkLiIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICBwcmludCgiXG5bMy8zXSBMZWFkczogZW5zdXJlICdQcmlvcml0eScgcm9sbHVwIG92ZXIgUGlwZWxpbmUuUHJpb3JpdHkiKQogICAgIyBSZWxvYWQgTGVhZHMgYWZ0ZXIgdGhlIHByZXZpb3VzIHBhdGNoIG1heSBoYXZlIGNyZWF0ZWQgdGhlIGludmVyc2UgcmVsYXRpb24uCiAgICBsZWFkc19kYiA9IGdldF9kYihMRUFEUykKICAgIGlmIGhhc19wcm9wZXJ0eShsZWFkc19kYiwgIlByaW9yaXR5Iik6CiAgICAgICAgcHJpbnQoIiAgICAgICBhbHJlYWR5IHByZXNlbnQg4oCUIHNraXBwaW5nLiIpCiAgICBlbHNlOgogICAgICAgIGludmVyc2VfbmFtZSA9IGZpbmRfaW52ZXJzZV9yZWxhdGlvbl9uYW1lKGxlYWRzX2RiLCBQSVBFTElORSkKICAgICAgICBpZiBub3QgaW52ZXJzZV9uYW1lOgogICAgICAgICAgICBwcmludCgiICAgICAgIEVSUk9SOiBubyBpbnZlcnNlIHJlbGF0aW9uIG9uIExlYWRzIHBvaW50aW5nIHRvIFBpcGVsaW5lLiIpCiAgICAgICAgICAgIHByaW50KCIgICAgICAgQXZhaWxhYmxlIHByb3BlcnRpZXM6IikKICAgICAgICAgICAgZm9yIG4sIHAgaW4gbGVhZHNfZGIuZ2V0KCJwcm9wZXJ0aWVzIiwge30pLml0ZW1zKCk6CiAgICAgICAgICAgICAgICBwcmludChmIiAgICAgICAgIHtufToge3AuZ2V0KCd0eXBlJyl9IikKICAgICAgICAgICAgc3lzLmV4aXQoMSkKICAgICAgICBwcmludChmIiAgICAgICBpbnZlcnNlIHJlbGF0aW9uIGZvdW5kOiB7aW52ZXJzZV9uYW1lIXJ9IikKICAgICAgICBwYXRjaF9kYigKICAgICAgICAgICAgTEVBRFMsCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJQcmlvcml0eSI6IHsKICAgICAgICAgICAgICAgICAgICAicm9sbHVwIjogewogICAgICAgICAgICAgICAgICAgICAgICAicmVsYXRpb25fcHJvcGVydHlfbmFtZSI6IGludmVyc2VfbmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgInJvbGx1cF9wcm9wZXJ0eV9uYW1lIjogIlByaW9yaXR5IiwKICAgICAgICAgICAgICAgICAgICAgICAgImZ1bmN0aW9uIjogInNob3dfb3JpZ2luYWwiLAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICApCiAgICAgICAgcHJpbnQoIiAgICAgICByb2xsdXAgYWRkZWQuIikKCiAgICBwcmludCgiXG5Eb25lLiBWZXJpZnlpbmcgZmluYWwgc3RhdGUuLi4iKQogICAgbGVhZHNfZGIgPSBnZXRfZGIoTEVBRFMpCiAgICBzY29yZXNfZGIgPSBnZXRfZGIoU0NPUkVTKQogICAgcGlwZWxpbmVfZGIgPSBnZXRfZGIoUElQRUxJTkUpCiAgICBjaGVja3MgPSBbCiAgICAgICAgKCJEaWFnbm9zdGljIFNjb3JlczogJ01hbnVhbCBSZXZpZXcgTm90ZXMnIiwgaGFzX3Byb3BlcnR5KHNjb3Jlc19kYiwgIk1hbnVhbCBSZXZpZXcgTm90ZXMiKSksCiAgICAgICAgKCJQaXBlbGluZS5MZWFkIGlzIGR1YWxfcHJvcGVydHkiLCByZWxhdGlvbl90eXBlKHBpcGVsaW5lX2RiLCAiTGVhZCIpID09ICJkdWFsX3Byb3BlcnR5IiksCiAgICAgICAgKCJMZWFkczogJ1ByaW9yaXR5JyByb2xsdXAiLCBoYXNfcHJvcGVydHkobGVhZHNfZGIsICJQcmlvcml0eSIpKSwKICAgIF0KICAgIGZvciBsYWJlbCwgb2sgaW4gY2hlY2tzOgogICAgICAgIHByaW50KGYiICB7J09LICcgaWYgb2sgZWxzZSAnRkFJTCd9ICB7bGFiZWx9IikKCiAgICBpZiBub3QgYWxsKG9rIGZvciBfLCBvayBpbiBjaGVja3MpOgogICAgICAgIHN5cy5leGl0KDEpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""
+Northbridge Dashboard — v1 Schema Migration
+
+Idempotent. Safe to re-run.
+
+Adds:
+  - Diagnostic Scores DB:
+      "Manual Review Notes" (rich_text)
+  - Pipeline DB:
+      Convert "Lead" relation from single_property -> dual_property,
+      synced inverse on Leads named "Pipeline Entries".
+      (Notion preserves existing relation data on type-change.)
+  - Leads DB:
+      "Priority" (rollup over "Pipeline Entries" -> "Priority", show_original)
+
+Read-only first: queries each DB schema before mutating, only patches what is missing.
+"""
+
+import json
+import sys
+import urllib.request
+import urllib.error
+from pathlib import Path
+
+TOKEN = "ntn_C410414269913uknY52XnDbP3Fz8mGGsqZQZXWQihvQavm"
+API_VERSION = "2022-06-28"
+BASE_URL = "https://api.notion.com/v1"
+
+IDS_PATH = Path(__file__).resolve().parent.parent.parent / "nb-notion-ids.json"
+IDS = json.loads(IDS_PATH.read_text())
+
+LEADS = IDS["leads"]
+SCORES = IDS["diagnostic_scores"]
+PIPELINE = IDS["pipeline"]
+
+
+def api(method: str, endpoint: str, data=None):
+    url = f"{BASE_URL}/{endpoint}"
+    body = json.dumps(data).encode() if data is not None else None
+    req = urllib.request.Request(url, data=body, method=method)
+    req.add_header("Authorization", f"Bearer {TOKEN}")
+    req.add_header("Notion-Version", API_VERSION)
+    req.add_header("Content-Type", "application/json")
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        print(f"  HTTP {e.code}: {e.read().decode()[:600]}", file=sys.stderr)
+        raise
+
+
+def get_db(db_id: str):
+    return api("GET", f"databases/{db_id}")
+
+
+def patch_db(db_id: str, properties: dict):
+    return api("PATCH", f"databases/{db_id}", {"properties": properties})
+
+
+def has_property(db: dict, name: str) -> bool:
+    return name in db.get("properties", {})
+
+
+def relation_type(db: dict, prop_name: str) -> str | None:
+    prop = db.get("properties", {}).get(prop_name)
+    if not prop or prop.get("type") != "relation":
+        return None
+    return prop["relation"].get("type")
+
+
+def find_inverse_relation_name(db: dict, target_db_id: str) -> str | None:
+    """Find the property on `db` whose relation points at `target_db_id`."""
+    target_clean = target_db_id.replace("-", "")
+    for name, prop in db.get("properties", {}).items():
+        if prop.get("type") != "relation":
+            continue
+        rel = prop["relation"]
+        if rel.get("database_id", "").replace("-", "") == target_clean:
+            return name
+    return None
+
+
+def main():
+    print("=" * 60)
+    print("Northbridge Dashboard — v1 Schema Migration")
+    print("=" * 60)
+
+    print("\n[1/3] Diagnostic Scores: ensure 'Manual Review Notes' (rich_text)")
+    scores_db = get_db(SCORES)
+    if has_property(scores_db, "Manual Review Notes"):
+        print("       already present — skipping.")
+    else:
+        patch_db(SCORES, {"Manual Review Notes": {"rich_text": {}}})
+        print("       added.")
+
+    print("\n[2/3] Pipeline: ensure 'Lead' relation is dual_property")
+    pipeline_db = get_db(PIPELINE)
+    rel_type = relation_type(pipeline_db, "Lead")
+    if rel_type == "dual_property":
+        print("       already dual_property — skipping.")
+    elif rel_type == "single_property":
+        patch_db(
+            PIPELINE,
+            {
+                "Lead": {
+                    "relation": {
+                        "database_id": LEADS,
+                        "type": "dual_property",
+                        "dual_property": {"synced_property_name": "Pipeline Entries"},
+                    }
+                }
+            },
+        )
+        print("       converted to dual_property (inverse: 'Pipeline Entries').")
+    else:
+        print(f"       ERROR: 'Lead' relation type is {rel_type!r} — unexpected.")
+        sys.exit(1)
+
+    print("\n[3/3] Leads: ensure 'Priority' rollup over Pipeline.Priority")
+    # Reload Leads after the previous patch may have created the inverse relation.
+    leads_db = get_db(LEADS)
+    if has_property(leads_db, "Priority"):
+        print("       already present — skipping.")
+    else:
+        inverse_name = find_inverse_relation_name(leads_db, PIPELINE)
+        if not inverse_name:
+            print("       ERROR: no inverse relation on Leads pointing to Pipeline.")
+            print("       Available properties:")
+            for n, p in leads_db.get("properties", {}).items():
+                print(f"         {n}: {p.get('type')}")
+            sys.exit(1)
+        print(f"       inverse relation found: {inverse_name!r}")
+        patch_db(
+            LEADS,
+            {
+                "Priority": {
+                    "rollup": {
+                        "relation_property_name": inverse_name,
+                        "rollup_property_name": "Priority",
+                        "function": "show_original",
+                    }
+                }
+            },
+        )
+        print("       rollup added.")
+
+    print("\nDone. Verifying final state...")
+    leads_db = get_db(LEADS)
+    scores_db = get_db(SCORES)
+    pipeline_db = get_db(PIPELINE)
+    checks = [
+        ("Diagnostic Scores: 'Manual Review Notes'", has_property(scores_db, "Manual Review Notes")),
+        ("Pipeline.Lead is dual_property", relation_type(pipeline_db, "Lead") == "dual_property"),
+        ("Leads: 'Priority' rollup", has_property(leads_db, "Priority")),
+    ]
+    for label, ok in checks:
+        print(f"  {'OK ' if ok else 'FAIL'}  {label}")
+
+    if not all(ok for _, ok in checks):
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

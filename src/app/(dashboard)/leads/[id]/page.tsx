@@ -1,1 +1,187 @@
-aW1wb3J0IHsgbm90Rm91bmQgfSBmcm9tICJuZXh0L25hdmlnYXRpb24iOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwppbXBvcnQgewogIEFycm93TGVmdCwKICBNYWlsLAogIFBob25lLAogIEJ1aWxkaW5nMiwKICBFeHRlcm5hbExpbmssCn0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgZ2V0TGVhZCB9IGZyb20gIkAvbGliL25vdGlvbi9sZWFkcyI7CmltcG9ydCB7IGdldFNjb3Jlc0ZvckxlYWQgfSBmcm9tICJAL2xpYi9ub3Rpb24vc2NvcmVzIjsKaW1wb3J0IHsgZ2V0UGlwZWxpbmVGb3JMZWFkIH0gZnJvbSAiQC9saWIvbm90aW9uL3BpcGVsaW5lIjsKaW1wb3J0IHsgZ2V0UmV2ZW51ZUZvckxlYWQgfSBmcm9tICJAL2xpYi9ub3Rpb24vcmV2ZW51ZSI7CmltcG9ydCB7IGdldE91dHJlYWNoRm9yTGVhZCB9IGZyb20gIkAvbGliL25vdGlvbi9saW5rZWRpbiI7CmltcG9ydCB7IGdldEhlYWx0aEZvckxlYWQgfSBmcm9tICJAL2xpYi9ub3Rpb24vaGVhbHRoIjsKaW1wb3J0IHsKICBTdGF0dXNCYWRnZSwKICB0b25lRm9yQ2xhc3NpZmljYXRpb24sCiAgdG9uZUZvckxpZmVjeWNsZSwKICB0b25lRm9yUHJpb3JpdHksCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL1N0YXR1c0JhZGdlIjsKaW1wb3J0IHsgU2NvcmVTZWN0aW9uIH0gZnJvbSAiLi9fU2NvcmVTZWN0aW9uIjsKaW1wb3J0IHsgUGlwZWxpbmVTZWN0aW9uIH0gZnJvbSAiLi9fUGlwZWxpbmVTZWN0aW9uIjsKaW1wb3J0IHsgUmV2ZW51ZVNlY3Rpb24gfSBmcm9tICIuL19SZXZlbnVlU2VjdGlvbiI7CmltcG9ydCB7IE91dHJlYWNoU2VjdGlvbiB9IGZyb20gIi4vX091dHJlYWNoU2VjdGlvbiI7CmltcG9ydCB7IEhlYWx0aFNlY3Rpb24gfSBmcm9tICIuL19IZWFsdGhTZWN0aW9uIjsKaW1wb3J0IHsgaW5pdGlhbHMsIGZvcm1hdFBob25lIH0gZnJvbSAiQC9saWIvdXRpbHMvZm9ybWF0IjsKCmV4cG9ydCBjb25zdCByZXZhbGlkYXRlID0gMzA7CgpmdW5jdGlvbiBub3Rpb25QYWdlVXJsKGlkOiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiBgaHR0cHM6Ly93d3cubm90aW9uLnNvLyR7aWQucmVwbGFjZSgvLS9nLCAiIil9YDsKfQoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gTGVhZERldGFpbFBhZ2UoewogIHBhcmFtcywKfTogewogIHBhcmFtczogeyBpZDogc3RyaW5nIH07Cn0pIHsKICBjb25zdCBsZWFkID0gYXdhaXQgZ2V0TGVhZChwYXJhbXMuaWQpLmNhdGNoKCgpID0+IG51bGwpOwogIGlmICghbGVhZCkgbm90Rm91bmQoKTsKCiAgY29uc3QgW3Njb3JlcywgcGlwZWxpbmUsIHJldmVudWUsIG91dHJlYWNoLCBoZWFsdGhdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgZ2V0U2NvcmVzRm9yTGVhZChsZWFkLmlkKS5jYXRjaCgoKSA9PiBbXSksCiAgICBnZXRQaXBlbGluZUZvckxlYWQobGVhZC5pZCkuY2F0Y2goKCkgPT4gW10pLAogICAgZ2V0UmV2ZW51ZUZvckxlYWQobGVhZC5pZCkuY2F0Y2goKCkgPT4gW10pLAogICAgZ2V0T3V0cmVhY2hGb3JMZWFkKGxlYWQuaWQpLmNhdGNoKCgpID0+IFtdKSwKICAgIGdldEhlYWx0aEZvckxlYWQobGVhZC5pZCkuY2F0Y2goKCkgPT4gW10pLAogIF0pOwoKICBjb25zdCBsYXRlc3RTY29yZSA9IHNjb3Jlc1swXSA/PyBudWxsOwogIGNvbnN0IGxhdGVzdFBpcGVsaW5lID0gcGlwZWxpbmVbMF0gPz8gbnVsbDsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYiPgogICAgICB7LyogQnJlYWRjcnVtYiAqL30KICAgICAgPExpbmsKICAgICAgICBocmVmPSIvbGVhZHMiCiAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSB0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkgdHJhbnNpdGlvbiBob3Zlcjp0ZXh0LXRleHQtcHJpbWFyeSIKICAgICAgPgogICAgICAgIDxBcnJvd0xlZnQgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICBBbGwgTGVhZHMKICAgICAgPC9MaW5rPgoKICAgICAgey8qIEhlYWRlciBjYXJkICovfQogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctc3VyZmFjZSBwLTUgc206cC02Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtNSBzbTpmbGV4LXJvdyBzbTppdGVtcy1zdGFydCI+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBoLTE2IHctMTYgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtZnVsbCBiZy1icmFuZC1wcmltYXJ5IHRleHQtbGcgZm9udC1zZW1pYm9sZCB0ZXh0LXdoaXRlIHJpbmctMiByaW5nLW9mZnNldC0yIHJpbmctb2Zmc2V0LXN1cmZhY2UiCiAgICAgICAgICAgIHN0eWxlPXsKICAgICAgICAgICAgICBsYXRlc3RTY29yZT8uY2xhc3NpZmljYXRpb24KICAgICAgICAgICAgICAgID8gewogICAgICAgICAgICAgICAgICAgIGJveFNoYWRvdzogYDAgMCAwIDJweCB2YXIoLS1yaW5nLCB0cmFuc3BhcmVudClgLAogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICA6IHVuZGVmaW5lZAogICAgICAgICAgICB9CiAgICAgICAgICA+CiAgICAgICAgICAgIHtpbml0aWFscyhsZWFkLm5hbWUgfHwgbGVhZC5lbWFpbCB8fCAiPyIpfQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAgZmxleC0xIj4KICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0idHJ1bmNhdGUgdGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtdGV4dC1wcmltYXJ5IHNtOnRleHQtMnhsIj4KICAgICAgICAgICAgICB7bGVhZC5uYW1lIHx8ICIodW5uYW1lZCBsZWFkKSJ9CiAgICAgICAgICAgIDwvaDE+CiAgICAgICAgICAgIHtsZWFkLmNvbXBhbnkgJiYgKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgdHJ1bmNhdGUgdGV4dC1zbSB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICAgIDxCdWlsZGluZzIgY2xhc3NOYW1lPSJoLTQgdy00IHNocmluay0wIiAvPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0cnVuY2F0ZSI+e2xlYWQuY29tcGFueX08L3NwYW4+CiAgICAgICAgICAgICAgICB7bGVhZC5pbmR1c3RyeSAmJiAoCiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZXh0LW11dGVkIj7CtyB7bGVhZC5pbmR1c3RyeX08L3NwYW4+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBmbGV4LXdyYXAgZ2FwLTEuNSI+CiAgICAgICAgICAgICAge2xlYWQucHJpb3JpdHkgJiYgKAogICAgICAgICAgICAgICAgPFN0YXR1c0JhZGdlIGxhYmVsPXtsZWFkLnByaW9yaXR5fSB0b25lPXt0b25lRm9yUHJpb3JpdHkobGVhZC5wcmlvcml0eSl9IC8+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICB7bGF0ZXN0U2NvcmU/LmNsYXNzaWZpY2F0aW9uICYmICgKICAgICAgICAgICAgICAgIDxTdGF0dXNCYWRnZQogICAgICAgICAgICAgICAgICBsYWJlbD17bGF0ZXN0U2NvcmUuY2xhc3NpZmljYXRpb259CiAgICAgICAgICAgICAgICAgIHRvbmU9e3RvbmVGb3JDbGFzc2lmaWNhdGlvbihsYXRlc3RTY29yZS5jbGFzc2lmaWNhdGlvbil9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAge2xlYWQubGlmZWN5Y2xlU3RhdGUgJiYgKAogICAgICAgICAgICAgICAgPFN0YXR1c0JhZGdlCiAgICAgICAgICAgICAgICAgIGxhYmVsPXtsZWFkLmxpZmVjeWNsZVN0YXRlfQogICAgICAgICAgICAgICAgICB0b25lPXt0b25lRm9yTGlmZWN5Y2xlKGxlYWQubGlmZWN5Y2xlU3RhdGUpfQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIHtsZWFkLnNvdXJjZSAmJiAoCiAgICAgICAgICAgICAgICA8U3RhdHVzQmFkZ2UgbGFiZWw9e2xlYWQuc291cmNlfSB0b25lPSJpbmZvIiAvPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAge2xlYWQudHJhZmZpY1NvdXJjZSAmJiAoCiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImxhYmVsLWNhcHMgdGV4dC10ZXh0LW11dGVkIj4KICAgICAgICAgICAgICAgICAgdmlhIHtsZWFkLnRyYWZmaWNTb3VyY2V9CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7LyogQ29udGFjdCBhY3Rpb25zICovfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNCBmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgICAge2xlYWQuZW1haWwgJiYgKAogICAgICAgICAgICAgICAgPGEKICAgICAgICAgICAgICAgICAgaHJlZj17YG1haWx0bzoke2xlYWQuZW1haWx9YH0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLXN1cmZhY2UgcHgtMyBweS0xLjUgdGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5IHRyYW5zaXRpb24gaG92ZXI6Ym9yZGVyLWJyYW5kLXByaW1hcnkvNDAgaG92ZXI6Ymctc3VyZmFjZS1lbGV2YXRlZCBob3Zlcjp0ZXh0LXRleHQtcHJpbWFyeSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPE1haWwgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgICAge2xlYWQuZW1haWx9CiAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICB7bGVhZC5waG9uZSAmJiAoCiAgICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgICBocmVmPXtgdGVsOiR7bGVhZC5waG9uZX1gfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctc3VyZmFjZSBweC0zIHB5LTEuNSB0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkgdHJhbnNpdGlvbiBob3Zlcjpib3JkZXItYnJhbmQtcHJpbWFyeS80MCBob3ZlcjpiZy1zdXJmYWNlLWVsZXZhdGVkIGhvdmVyOnRleHQtdGV4dC1wcmltYXJ5IgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8UGhvbmUgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0YWJ1bGFyLW51bXMiPntmb3JtYXRQaG9uZShsZWFkLnBob25lKX08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgaHJlZj17bm90aW9uUGFnZVVybChsZWFkLmlkKX0KICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgcmVsPSJub3JlZmVycmVyIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLXN1cmZhY2UgcHgtMyBweS0xLjUgdGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5IHRyYW5zaXRpb24gaG92ZXI6Ym9yZGVyLWJyYW5kLXByaW1hcnkvNDAgaG92ZXI6Ymctc3VyZmFjZS1lbGV2YXRlZCBob3Zlcjp0ZXh0LXRleHQtcHJpbWFyeSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8RXh0ZXJuYWxMaW5rIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgICAgICAgICBWaWV3IGluIE5vdGlvbgogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIFF1aWNrIHN0YXRzIHJvdyAqL30KICAgICAgICB7KGxlYWQucmV2ZW51ZVJhbmdlIHx8IGxlYWQubGFzdEFjdGl2aXR5RGF0ZSB8fCBsZWFkLmxhc3RDb250YWN0ZWQpICYmICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC01IGdyaWQgZ3JpZC1jb2xzLTEgZ2FwLTMgYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBwdC00IHRleHQteHMgc206Z3JpZC1jb2xzLTMiPgogICAgICAgICAgICA8RmllbGQgbGFiZWw9IlJldmVudWUgUmFuZ2UiIHZhbHVlPXtsZWFkLnJldmVudWVSYW5nZX0gLz4KICAgICAgICAgICAgPEZpZWxkIGxhYmVsPSJMYXN0IEFjdGl2aXR5IiB2YWx1ZT17bGVhZC5sYXN0QWN0aXZpdHlEYXRlfSAvPgogICAgICAgICAgICA8RmllbGQgbGFiZWw9Ikxhc3QgQ29udGFjdGVkIiB2YWx1ZT17bGVhZC5sYXN0Q29udGFjdGVkfSAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgPC9oZWFkZXI+CgogICAgICB7LyogU2VjdGlvbiBjYXJkcyAqL30KICAgICAgPFNjb3JlU2VjdGlvbiBzY29yZT17bGF0ZXN0U2NvcmV9IGFsbD17c2NvcmVzfSBsZWFkSWQ9e2xlYWQuaWR9IC8+CiAgICAgIDxQaXBlbGluZVNlY3Rpb24gZW50cnk9e2xhdGVzdFBpcGVsaW5lfSBhbGw9e3BpcGVsaW5lfSBsZWFkSWQ9e2xlYWQuaWR9IC8+CiAgICAgIDxSZXZlbnVlU2VjdGlvbiBlbnRyaWVzPXtyZXZlbnVlfSBsZWFkSWQ9e2xlYWQuaWR9IC8+CiAgICAgIDxPdXRyZWFjaFNlY3Rpb24gZW50cmllcz17b3V0cmVhY2h9IGxlYWRJZD17bGVhZC5pZH0gLz4KICAgICAgPEhlYWx0aFNlY3Rpb24gZW50cmllcz17aGVhbHRofSBsZWFkSWQ9e2xlYWQuaWR9IC8+CiAgICA8L2Rpdj4KICApOwp9CgpmdW5jdGlvbiBGaWVsZCh7CiAgbGFiZWwsCiAgdmFsdWUsCn06IHsKICBsYWJlbDogc3RyaW5nOwogIHZhbHVlOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkOwp9KSB7CiAgcmV0dXJuICgKICAgIDxkaXY+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJsYWJlbC1jYXBzIHRleHQtdGV4dC1tdXRlZCI+e2xhYmVsfTwvZGl2PgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMC41IHRleHQtdGV4dC1wcmltYXJ5Ij57dmFsdWUgfHwgIuKAlCJ9PC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import {
+  ArrowLeft,
+  Mail,
+  Phone,
+  Building2,
+  ExternalLink,
+} from "lucide-react";
+import { getLead } from "@/lib/notion/leads";
+import { getScoresForLead } from "@/lib/notion/scores";
+import { getPipelineForLead } from "@/lib/notion/pipeline";
+import { getRevenueForLead } from "@/lib/notion/revenue";
+import { getOutreachForLead } from "@/lib/notion/linkedin";
+import { getHealthForLead } from "@/lib/notion/health";
+import {
+  StatusBadge,
+  toneForClassification,
+  toneForLifecycle,
+  toneForPriority,
+} from "@/components/ui/StatusBadge";
+import { ScoreSection } from "./_ScoreSection";
+import { PipelineSection } from "./_PipelineSection";
+import { RevenueSection } from "./_RevenueSection";
+import { OutreachSection } from "./_OutreachSection";
+import { HealthSection } from "./_HealthSection";
+import { initials, formatPhone } from "@/lib/utils/format";
+
+export const revalidate = 30;
+
+function notionPageUrl(id: string): string {
+  return `https://www.notion.so/${id.replace(/-/g, "")}`;
+}
+
+export default async function LeadDetailPage({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const lead = await getLead(params.id).catch(() => null);
+  if (!lead) notFound();
+
+  const [scores, pipeline, revenue, outreach, health] = await Promise.all([
+    getScoresForLead(lead.id).catch(() => []),
+    getPipelineForLead(lead.id).catch(() => []),
+    getRevenueForLead(lead.id).catch(() => []),
+    getOutreachForLead(lead.id).catch(() => []),
+    getHealthForLead(lead.id).catch(() => []),
+  ]);
+
+  const latestScore = scores[0] ?? null;
+  const latestPipeline = pipeline[0] ?? null;
+
+  return (
+    <div className="space-y-6">
+      {/* Breadcrumb */}
+      <Link
+        href="/leads"
+        className="inline-flex items-center gap-1.5 text-xs text-text-secondary transition hover:text-text-primary"
+      >
+        <ArrowLeft className="h-3.5 w-3.5" />
+        All Leads
+      </Link>
+
+      {/* Header card */}
+      <header className="rounded-2xl border border-border bg-surface p-5 sm:p-6">
+        <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
+          <div
+            className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-brand-primary text-lg font-semibold text-white ring-2 ring-offset-2 ring-offset-surface"
+            style={
+              latestScore?.classification
+                ? {
+                    boxShadow: `0 0 0 2px var(--ring, transparent)`,
+                  }
+                : undefined
+            }
+          >
+            {initials(lead.name || lead.email || "?")}
+          </div>
+
+          <div className="min-w-0 flex-1">
+            <h1 className="truncate text-xl font-semibold text-text-primary sm:text-2xl">
+              {lead.name || "(unnamed lead)"}
+            </h1>
+            {lead.company && (
+              <div className="mt-1 flex items-center gap-1.5 truncate text-sm text-text-secondary">
+                <Building2 className="h-4 w-4 shrink-0" />
+                <span className="truncate">{lead.company}</span>
+                {lead.industry && (
+                  <span className="text-text-muted">· {lead.industry}</span>
+                )}
+              </div>
+            )}
+
+            <div className="mt-3 flex flex-wrap gap-1.5">
+              {lead.priority && (
+                <StatusBadge label={lead.priority} tone={toneForPriority(lead.priority)} />
+              )}
+              {latestScore?.classification && (
+                <StatusBadge
+                  label={latestScore.classification}
+                  tone={toneForClassification(latestScore.classification)}
+                />
+              )}
+              {lead.lifecycleState && (
+                <StatusBadge
+                  label={lead.lifecycleState}
+                  tone={toneForLifecycle(lead.lifecycleState)}
+                />
+              )}
+              {lead.source && (
+                <StatusBadge label={lead.source} tone="info" />
+              )}
+              {lead.trafficSource && (
+                <span className="label-caps text-text-muted">
+                  via {lead.trafficSource}
+                </span>
+              )}
+            </div>
+
+            {/* Contact actions */}
+            <div className="mt-4 flex flex-wrap gap-2">
+              {lead.email && (
+                <a
+                  href={`mailto:${lead.email}`}
+                  className="inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-3 py-1.5 text-xs text-text-secondary transition hover:border-brand-primary/40 hover:bg-surface-elevated hover:text-text-primary"
+                >
+                  <Mail className="h-3.5 w-3.5" />
+                  {lead.email}
+                </a>
+              )}
+              {lead.phone && (
+                <a
+                  href={`tel:${lead.phone}`}
+                  className="inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-3 py-1.5 text-xs text-text-secondary transition hover:border-brand-primary/40 hover:bg-surface-elevated hover:text-text-primary"
+                >
+                  <Phone className="h-3.5 w-3.5" />
+                  <span className="tabular-nums">{formatPhone(lead.phone)}</span>
+                </a>
+              )}
+              <a
+                href={notionPageUrl(lead.id)}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-3 py-1.5 text-xs text-text-secondary transition hover:border-brand-primary/40 hover:bg-surface-elevated hover:text-text-primary"
+              >
+                <ExternalLink className="h-3.5 w-3.5" />
+                View in Notion
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Quick stats row */}
+        {(lead.revenueRange || lead.lastActivityDate || lead.lastContacted) && (
+          <div className="mt-5 grid grid-cols-1 gap-3 border-t border-border pt-4 text-xs sm:grid-cols-3">
+            <Field label="Revenue Range" value={lead.revenueRange} />
+            <Field label="Last Activity" value={lead.lastActivityDate} />
+            <Field label="Last Contacted" value={lead.lastContacted} />
+          </div>
+        )}
+      </header>
+
+      {/* Section cards */}
+      <ScoreSection score={latestScore} all={scores} leadId={lead.id} />
+      <PipelineSection entry={latestPipeline} all={pipeline} leadId={lead.id} />
+      <RevenueSection entries={revenue} leadId={lead.id} />
+      <OutreachSection entries={outreach} leadId={lead.id} />
+      <HealthSection entries={health} leadId={lead.id} />
+    </div>
+  );
+}
+
+function Field({
+  label,
+  value,
+}: {
+  label: string;
+  value: string | null | undefined;
+}) {
+  return (
+    <div>
+      <div className="label-caps text-text-muted">{label}</div>
+      <div className="mt-0.5 text-text-primary">{value || "—"}</div>
+    </div>
+  );
+}

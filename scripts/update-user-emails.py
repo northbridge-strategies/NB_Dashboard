@@ -1,1 +1,59 @@
-IiIiCk9uZS1vZmY6IHJlbmFtZSBlbWFpbHMgb24gdGhlIERhc2hib2FyZCBVc2VycyBEQi4KIiIiCmltcG9ydCBqc29uCmltcG9ydCBzeXMKaW1wb3J0IHVybGxpYi5yZXF1ZXN0CmltcG9ydCB1cmxsaWIuZXJyb3IKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpUT0tFTiA9ICJudG5fQzQxMDQxNDI2OTkxM3Vrblk1MlhuRGJQM0Z6OG1HR3NxWlFaWFdRaWh2UWF2bSIKQVBJX1ZFUlNJT04gPSAiMjAyMi0wNi0yOCIKQkFTRV9VUkwgPSAiaHR0cHM6Ly9hcGkubm90aW9uLmNvbS92MSIKCmlkcyA9IGpzb24ubG9hZHMoKFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnQucGFyZW50LnBhcmVudCAvICJuYi1ub3Rpb24taWRzLmpzb24iKS5yZWFkX3RleHQoKSkKVVNFUlNfREIgPSBpZHNbImRhc2hib2FyZF91c2VycyJdCgpSRU5BTUVTID0gWwogICAgKCJkb3VnQG5vcnRoYnJpZGdlc3RyYXRlZ2llcy5jb20iLCAgICJkcm95YWxAbm9ydGhicmlkZ2VzdHJhdGVnaWVzLm9yZyIpLAogICAgKCJoYXNoaXJAbm9ydGhicmlkZ2VzdHJhdGVnaWVzLmNvbSIsICJhemFtaGFzaGlyOTlAZ21haWwuY29tIiksCl0KCgpkZWYgYXBpKG1ldGhvZCwgZW5kcG9pbnQsIGRhdGE9Tm9uZSk6CiAgICB1cmwgPSBmIntCQVNFX1VSTH0ve2VuZHBvaW50fSIKICAgIGJvZHkgPSBqc29uLmR1bXBzKGRhdGEpLmVuY29kZSgpIGlmIGRhdGEgaXMgbm90IE5vbmUgZWxzZSBOb25lCiAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KHVybCwgZGF0YT1ib2R5LCBtZXRob2Q9bWV0aG9kKQogICAgcmVxLmFkZF9oZWFkZXIoIkF1dGhvcml6YXRpb24iLCBmIkJlYXJlciB7VE9LRU59IikKICAgIHJlcS5hZGRfaGVhZGVyKCJOb3Rpb24tVmVyc2lvbiIsIEFQSV9WRVJTSU9OKQogICAgcmVxLmFkZF9oZWFkZXIoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKICAgIHRyeToKICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxKSBhcyByZXNwOgogICAgICAgICAgICByZXR1cm4ganNvbi5sb2FkcyhyZXNwLnJlYWQoKSkKICAgIGV4Y2VwdCB1cmxsaWIuZXJyb3IuSFRUUEVycm9yIGFzIGU6CiAgICAgICAgcHJpbnQoZiIgIEhUVFAge2UuY29kZX06IHtlLnJlYWQoKS5kZWNvZGUoKVs6NjAwXX0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgcmFpc2UKCgpkZWYgZmluZChlbWFpbCk6CiAgICByZXMgPSBhcGkoIlBPU1QiLCBmImRhdGFiYXNlcy97VVNFUlNfREJ9L3F1ZXJ5IiwgewogICAgICAgICJmaWx0ZXIiOiB7InByb3BlcnR5IjogIkVtYWlsIiwgInRpdGxlIjogeyJlcXVhbHMiOiBlbWFpbH19LAogICAgICAgICJwYWdlX3NpemUiOiAxLAogICAgfSkKICAgIHJlc3VsdHMgPSByZXMuZ2V0KCJyZXN1bHRzIiwgW10pCiAgICByZXR1cm4gcmVzdWx0c1swXSBpZiByZXN1bHRzIGVsc2UgTm9uZQoKCmZvciBvbGQsIG5ldyBpbiBSRU5BTUVTOgogICAgcGFnZSA9IGZpbmQob2xkKQogICAgaWYgbm90IHBhZ2U6CiAgICAgICAgcHJpbnQoZiIgIG5vdCBmb3VuZDoge29sZH0gKGFscmVhZHkgcmVuYW1lZD8pIikKICAgICAgICBjb250aW51ZQogICAgYXBpKCJQQVRDSCIsIGYicGFnZXMve3BhZ2VbJ2lkJ119IiwgewogICAgICAgICJwcm9wZXJ0aWVzIjogewogICAgICAgICAgICAiRW1haWwiOiB7InRpdGxlIjogW3sidHlwZSI6ICJ0ZXh0IiwgInRleHQiOiB7ImNvbnRlbnQiOiBuZXd9fV19LAogICAgICAgIH0KICAgIH0pCiAgICBwcmludChmIiAge29sZH0gLT4ge25ld30iKQoKcHJpbnQoIlxuRG9uZS4iKQo=
+"""
+One-off: rename emails on the Dashboard Users DB.
+"""
+import json
+import sys
+import urllib.request
+import urllib.error
+from pathlib import Path
+
+TOKEN = "ntn_C410414269913uknY52XnDbP3Fz8mGGsqZQZXWQihvQavm"
+API_VERSION = "2022-06-28"
+BASE_URL = "https://api.notion.com/v1"
+
+ids = json.loads((Path(__file__).resolve().parent.parent.parent / "nb-notion-ids.json").read_text())
+USERS_DB = ids["dashboard_users"]
+
+RENAMES = [
+    ("doug@northbridgestrategies.com",   "droyal@northbridgestrategies.org"),
+    ("hashir@northbridgestrategies.com", "azamhashir99@gmail.com"),
+]
+
+
+def api(method, endpoint, data=None):
+    url = f"{BASE_URL}/{endpoint}"
+    body = json.dumps(data).encode() if data is not None else None
+    req = urllib.request.Request(url, data=body, method=method)
+    req.add_header("Authorization", f"Bearer {TOKEN}")
+    req.add_header("Notion-Version", API_VERSION)
+    req.add_header("Content-Type", "application/json")
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        print(f"  HTTP {e.code}: {e.read().decode()[:600]}", file=sys.stderr)
+        raise
+
+
+def find(email):
+    res = api("POST", f"databases/{USERS_DB}/query", {
+        "filter": {"property": "Email", "title": {"equals": email}},
+        "page_size": 1,
+    })
+    results = res.get("results", [])
+    return results[0] if results else None
+
+
+for old, new in RENAMES:
+    page = find(old)
+    if not page:
+        print(f"  not found: {old} (already renamed?)")
+        continue
+    api("PATCH", f"pages/{page['id']}", {
+        "properties": {
+            "Email": {"title": [{"type": "text", "text": {"content": new}}]},
+        }
+    })
+    print(f"  {old} -> {new}")
+
+print("\nDone.")

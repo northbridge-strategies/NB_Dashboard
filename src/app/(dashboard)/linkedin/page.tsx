@@ -1,1 +1,49 @@
-aW1wb3J0IHsKICBsaXN0T3V0cmVhY2gsCiAgbGlzdE91dHJlYWNoTmVlZGluZ0F0dGVudGlvbiwKfSBmcm9tICJAL2xpYi9ub3Rpb24vbGlua2VkaW4iOwppbXBvcnQgeyBFcnJvclN0YXRlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N0YXRlcyI7CmltcG9ydCB7IExpbmtlZEluVGFicywgdHlwZSBPdXRyZWFjaFJvdyB9IGZyb20gIi4vX0xpbmtlZEluVGFicyI7CmltcG9ydCB7IGRheXNCZXR3ZWVuIH0gZnJvbSAiQC9saWIvdXRpbHMvZGF0ZXMiOwoKZXhwb3J0IGNvbnN0IHJldmFsaWRhdGUgPSAzMDsKCmZ1bmN0aW9uIHRvUm93KG86IEF3YWl0ZWQ8UmV0dXJuVHlwZTx0eXBlb2YgbGlzdE91dHJlYWNoPj5bbnVtYmVyXSk6IE91dHJlYWNoUm93IHsKICByZXR1cm4gewogICAgaWQ6IG8uaWQsCiAgICBjb250YWN0TmFtZTogby5jb250YWN0TmFtZSwKICAgIGNvbXBhbnk6IG8uY29tcGFueSwKICAgIGxpbmtlZGluVXJsOiBvLmxpbmtlZGluVXJsLAogICAgc3RhZ2U6IG8uc3RhZ2UsCiAgICBkcmFmdERNOiBvLmRyYWZ0RE0sCiAgICBoaXRsQWN0aW9uOiBvLmhpdGxBY3Rpb24sCiAgICBsYXN0TWVzc2FnZURhdGU6IG8ubGFzdE1lc3NhZ2VEYXRlLAogICAgaGl0bEFjdGlvbkRhdGU6IG8uaGl0bEFjdGlvbkRhdGUsCiAgICBpc1N0YWxlOgogICAgICBvLmhpdGxBY3Rpb24gPT09ICJQZW5kaW5nIiAmJgogICAgICAhIW8uaGl0bEFjdGlvbkRhdGUgJiYKICAgICAgZGF5c0JldHdlZW4oby5oaXRsQWN0aW9uRGF0ZSkgPj0gMSwKICB9Owp9CgpleHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBMaW5rZWRJblBhZ2UoKSB7CiAgY29uc3QgW2FsbFIsIGF0dGVudGlvblJdID0gYXdhaXQgUHJvbWlzZS5hbGxTZXR0bGVkKFsKICAgIGxpc3RPdXRyZWFjaCgpLAogICAgbGlzdE91dHJlYWNoTmVlZGluZ0F0dGVudGlvbigpLAogIF0pOwoKICBpZiAoYWxsUi5zdGF0dXMgPT09ICJyZWplY3RlZCIpIHsKICAgIHJldHVybiAoCiAgICAgIDxFcnJvclN0YXRlCiAgICAgICAgdGl0bGU9IkxpbmtlZEluIE91dHJlYWNoIGZhaWxlZCB0byBsb2FkIgogICAgICAgIGRlc2NyaXB0aW9uPXsoYWxsUi5yZWFzb24gYXMgRXJyb3IpPy5tZXNzYWdlfQogICAgICAvPgogICAgKTsKICB9CgogIGNvbnN0IGFsbCA9IGFsbFIudmFsdWUubWFwKHRvUm93KTsKICBjb25zdCBhdHRlbnRpb24gPQogICAgYXR0ZW50aW9uUi5zdGF0dXMgPT09ICJmdWxmaWxsZWQiID8gYXR0ZW50aW9uUi52YWx1ZS5tYXAodG9Sb3cpIDogW107CgogIHJldHVybiA8TGlua2VkSW5UYWJzIGFsbD17YWxsfSBhdHRlbnRpb249e2F0dGVudGlvbn0gLz47Cn0K
+import {
+  listOutreach,
+  listOutreachNeedingAttention,
+} from "@/lib/notion/linkedin";
+import { ErrorState } from "@/components/ui/states";
+import { LinkedInTabs, type OutreachRow } from "./_LinkedInTabs";
+import { daysBetween } from "@/lib/utils/dates";
+
+export const revalidate = 30;
+
+function toRow(o: Awaited<ReturnType<typeof listOutreach>>[number]): OutreachRow {
+  return {
+    id: o.id,
+    contactName: o.contactName,
+    company: o.company,
+    linkedinUrl: o.linkedinUrl,
+    stage: o.stage,
+    draftDM: o.draftDM,
+    hitlAction: o.hitlAction,
+    lastMessageDate: o.lastMessageDate,
+    hitlActionDate: o.hitlActionDate,
+    isStale:
+      o.hitlAction === "Pending" &&
+      !!o.hitlActionDate &&
+      daysBetween(o.hitlActionDate) >= 1,
+  };
+}
+
+export default async function LinkedInPage() {
+  const [allR, attentionR] = await Promise.allSettled([
+    listOutreach(),
+    listOutreachNeedingAttention(),
+  ]);
+
+  if (allR.status === "rejected") {
+    return (
+      <ErrorState
+        title="LinkedIn Outreach failed to load"
+        description={(allR.reason as Error)?.message}
+      />
+    );
+  }
+
+  const all = allR.value.map(toRow);
+  const attention =
+    attentionR.status === "fulfilled" ? attentionR.value.map(toRow) : [];
+
+  return <LinkedInTabs all={all} attention={attention} />;
+}

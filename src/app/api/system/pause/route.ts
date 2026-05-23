@@ -1,1 +1,19 @@
-aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyBzZXRHbG9iYWxQYXVzZSB9IGZyb20gIkAvbGliL25vdGlvbi9jb25maWciOwppbXBvcnQgeyBIdHRwRXJyb3IsIHJlcXVpcmVSb2xlIH0gZnJvbSAiQC9saWIvYXV0aC9zZXNzaW9uIjsKaW1wb3J0IHsgYnVzdCwgVEFHIH0gZnJvbSAiQC9saWIvdXRpbHMvcmV2YWxpZGF0ZSI7CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gUE9TVCgpIHsKICB0cnkgewogICAgYXdhaXQgcmVxdWlyZVJvbGUoWyJBZG1pbiJdKTsKICAgIGF3YWl0IHNldEdsb2JhbFBhdXNlKHRydWUpOwogICAgYnVzdChUQUcuY29uZmlnLCBUQUcuaGVhbHRoKTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IG9rOiB0cnVlLCBwYXVzZWQ6IHRydWUgfSk7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICBpZiAoZXJyIGluc3RhbmNlb2YgSHR0cEVycm9yKSB7CiAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiBlcnIubWVzc2FnZSB9LCB7IHN0YXR1czogZXJyLnN0YXR1cyB9KTsKICAgIH0KICAgIGNvbnNvbGUuZXJyb3IoIlsvYXBpL3N5c3RlbS9wYXVzZV0iLCBlcnIpOwogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJJbnRlcm5hbCBlcnJvciIgfSwgeyBzdGF0dXM6IDUwMCB9KTsKICB9Cn0K
+import { NextResponse } from "next/server";
+import { setGlobalPause } from "@/lib/notion/config";
+import { HttpError, requireRole } from "@/lib/auth/session";
+import { bust, TAG } from "@/lib/utils/revalidate";
+
+export async function POST() {
+  try {
+    await requireRole(["Admin"]);
+    await setGlobalPause(true);
+    bust(TAG.config, TAG.health);
+    return NextResponse.json({ ok: true, paused: true });
+  } catch (err) {
+    if (err instanceof HttpError) {
+      return NextResponse.json({ error: err.message }, { status: err.status });
+    }
+    console.error("[/api/system/pause]", err);
+    return NextResponse.json({ error: "Internal error" }, { status: 500 });
+  }
+}

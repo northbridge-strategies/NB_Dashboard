@@ -1,1 +1,131 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IG5vdGlvbiB9IGZyb20gIi4vY2xpZW50IjsKaW1wb3J0IHsgREIgfSBmcm9tICIuL2lkcyI7CmltcG9ydCB7IGNhY2hlZCwgVEFHIH0gZnJvbSAiLi9jYWNoZSI7CmltcG9ydCB7CiAgZ2V0Q2hlY2tib3gsCiAgZ2V0RGF0ZSwKICBnZXRSaWNoVGV4dCwKICBnZXRTZWxlY3QsCiAgZ2V0VGl0bGUsCiAgZ2V0VXJsLAogIGlzRnVsbFBhZ2UsCiAgdHlwZSBQYWdlLAp9IGZyb20gIi4vcGFyc2VycyI7CmltcG9ydCB0eXBlIHsgUm9sZSB9IGZyb20gIkAvbGliL3R5cGVzL2F1dGgiOwoKZXhwb3J0IGludGVyZmFjZSBEYXNoYm9hcmRVc2VyIHsKICBwYWdlSWQ6IHN0cmluZzsKICBlbWFpbDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICByb2xlOiBSb2xlOwogIHBhc3N3b3JkSGFzaDogc3RyaW5nOwogIGF2YXRhclVybDogc3RyaW5nIHwgbnVsbDsKICBhY3RpdmU6IGJvb2xlYW47CiAgY3JlYXRlZFRpbWU6IHN0cmluZzsKICBsYXN0U2lnbkluOiBzdHJpbmcgfCBudWxsOwp9CgpleHBvcnQgZnVuY3Rpb24gcGFyc2VVc2VyKHBhZ2U6IFBhZ2UpOiBEYXNoYm9hcmRVc2VyIHsKICByZXR1cm4gewogICAgcGFnZUlkOiBwYWdlLmlkLAogICAgZW1haWw6IGdldFRpdGxlKHBhZ2UsICJFbWFpbCIpLnRvTG93ZXJDYXNlKCkudHJpbSgpLAogICAgbmFtZTogZ2V0UmljaFRleHQocGFnZSwgIk5hbWUiKSwKICAgIHJvbGU6IChnZXRTZWxlY3QocGFnZSwgIlJvbGUiKSBhcyBSb2xlIHwgbnVsbCkgPz8gIlN0YWZmIiwKICAgIHBhc3N3b3JkSGFzaDogZ2V0UmljaFRleHQocGFnZSwgIlBhc3N3b3JkIEhhc2giKSwKICAgIGF2YXRhclVybDogZ2V0VXJsKHBhZ2UsICJBdmF0YXIgVVJMIiksCiAgICBhY3RpdmU6IGdldENoZWNrYm94KHBhZ2UsICJBY3RpdmUiKSwKICAgIGNyZWF0ZWRUaW1lOiBwYWdlLmNyZWF0ZWRfdGltZSwKICAgIGxhc3RTaWduSW46IGdldERhdGUocGFnZSwgIkxhc3QgU2lnbi1JbiIpLAogIH07Cn0KCi8qKgogKiBGaW5kIGEgdXNlciBieSBlbWFpbC4gRW1haWwgaXMgdGhlIHRpdGxlIGZpZWxkLCBxdWVyaWVkIHdpdGggYHRpdGxlLmVxdWFsc2AuCiAqIENhY2hlZCBicmllZmx5IHNvIGxvZ2luIGF0dGVtcHRzIGRvbid0IGhhbW1lciBOb3Rpb24gb24gZXZlcnkga2V5c3Ryb2tlLgogKi8KZXhwb3J0IGNvbnN0IGZpbmRVc2VyQnlFbWFpbCA9IGNhY2hlZCgKICBhc3luYyAoZW1haWw6IHN0cmluZyk6IFByb21pc2U8RGFzaGJvYXJkVXNlciB8IG51bGw+ID0+IHsKICAgIGNvbnN0IG5vcm1hbGl6ZWQgPSBlbWFpbC50b0xvd2VyQ2FzZSgpLnRyaW0oKTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgICBkYXRhYmFzZV9pZDogREIudXNlcnMsCiAgICAgIGZpbHRlcjogeyBwcm9wZXJ0eTogIkVtYWlsIiwgdGl0bGU6IHsgZXF1YWxzOiBub3JtYWxpemVkIH0gfSwKICAgICAgcGFnZV9zaXplOiAxLAogICAgfSk7CiAgICBjb25zdCBwYWdlID0gcmVzLnJlc3VsdHNbMF07CiAgICBpZiAoIXBhZ2UgfHwgIWlzRnVsbFBhZ2UocGFnZSkpIHJldHVybiBudWxsOwogICAgcmV0dXJuIHBhcnNlVXNlcihwYWdlKTsKICB9LAogIFsidXNlcnM6YnktZW1haWwiXSwKICB7IHRhZ3M6IFtUQUcudXNlcnNdLCByZXZhbGlkYXRlOiAzMCB9LAopOwoKZXhwb3J0IGNvbnN0IGZpbmRVc2VyQnlJZCA9IGNhY2hlZCgKICBhc3luYyAocGFnZUlkOiBzdHJpbmcpOiBQcm9taXNlPERhc2hib2FyZFVzZXIgfCBudWxsPiA9PiB7CiAgICBjb25zdCBwYWdlID0gYXdhaXQgbm90aW9uLnBhZ2VzLnJldHJpZXZlKHsgcGFnZV9pZDogcGFnZUlkIH0pOwogICAgaWYgKCFpc0Z1bGxQYWdlKHBhZ2UpKSByZXR1cm4gbnVsbDsKICAgIHJldHVybiBwYXJzZVVzZXIocGFnZSk7CiAgfSwKICBbInVzZXJzOmJ5LWlkIl0sCiAgeyB0YWdzOiBbVEFHLnVzZXJzXSwgcmV2YWxpZGF0ZTogMzAgfSwKKTsKCmV4cG9ydCBjb25zdCBsaXN0VXNlcnNGcm9tTm90aW9uID0gY2FjaGVkKAogIGFzeW5jICgpOiBQcm9taXNlPERhc2hib2FyZFVzZXJbXT4gPT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgbm90aW9uLmRhdGFiYXNlcy5xdWVyeSh7CiAgICAgIGRhdGFiYXNlX2lkOiBEQi51c2VycywKICAgICAgcGFnZV9zaXplOiAxMDAsCiAgICAgIHNvcnRzOiBbeyB0aW1lc3RhbXA6ICJjcmVhdGVkX3RpbWUiLCBkaXJlY3Rpb246ICJhc2NlbmRpbmciIH1dLAogICAgfSk7CiAgICByZXR1cm4gcmVzLnJlc3VsdHMuZmlsdGVyKGlzRnVsbFBhZ2UpLm1hcChwYXJzZVVzZXIpOwogIH0sCiAgWyJ1c2VyczpsaXN0Il0sCiAgeyB0YWdzOiBbVEFHLnVzZXJzXSB9LAopOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHVwZGF0ZVVzZXJQcm9maWxlKAogIHBhZ2VJZDogc3RyaW5nLAogIHBhdGNoOiB7IG5hbWU/OiBzdHJpbmc7IGF2YXRhclVybD86IHN0cmluZyB8IG51bGwgfSwKKTogUHJvbWlzZTx2b2lkPiB7CiAgY29uc3QgcHJvcHM6IFJlY29yZDxzdHJpbmcsIHVua25vd24+ID0ge307CiAgaWYgKHBhdGNoLm5hbWUgIT09IHVuZGVmaW5lZCkgewogICAgcHJvcHMuTmFtZSA9IHsKICAgICAgcmljaF90ZXh0OiBbeyB0eXBlOiAidGV4dCIsIHRleHQ6IHsgY29udGVudDogcGF0Y2gubmFtZSB9IH1dLAogICAgfTsKICB9CiAgaWYgKHBhdGNoLmF2YXRhclVybCAhPT0gdW5kZWZpbmVkKSB7CiAgICBwcm9wc1siQXZhdGFyIFVSTCJdID0geyB1cmw6IHBhdGNoLmF2YXRhclVybCB8fCBudWxsIH07CiAgfQogIGlmIChPYmplY3Qua2V5cyhwcm9wcykubGVuZ3RoID09PSAwKSByZXR1cm47CiAgYXdhaXQgbm90aW9uLnBhZ2VzLnVwZGF0ZSh7IHBhZ2VfaWQ6IHBhZ2VJZCwgcHJvcGVydGllczogcHJvcHMgYXMgbmV2ZXIgfSk7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB1cGRhdGVVc2VyUGFzc3dvcmRIYXNoKAogIHBhZ2VJZDogc3RyaW5nLAogIG5ld0hhc2g6IHN0cmluZywKKTogUHJvbWlzZTx2b2lkPiB7CiAgYXdhaXQgbm90aW9uLnBhZ2VzLnVwZGF0ZSh7CiAgICBwYWdlX2lkOiBwYWdlSWQsCiAgICBwcm9wZXJ0aWVzOiB7CiAgICAgICJQYXNzd29yZCBIYXNoIjogewogICAgICAgIHJpY2hfdGV4dDogW3sgdHlwZTogInRleHQiLCB0ZXh0OiB7IGNvbnRlbnQ6IG5ld0hhc2ggfSB9XSwKICAgICAgfSwKICAgIH0gYXMgbmV2ZXIsCiAgfSk7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiByZWNvcmRTaWduSW4ocGFnZUlkOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICAvLyBCZXN0LWVmZm9ydCDigJQgbmV2ZXIgYmxvY2sgdGhlIGxvZ2luIGZsb3cgb24gdGhpcy4KICB0cnkgewogICAgYXdhaXQgbm90aW9uLnBhZ2VzLnVwZGF0ZSh7CiAgICAgIHBhZ2VfaWQ6IHBhZ2VJZCwKICAgICAgcHJvcGVydGllczogewogICAgICAgICJMYXN0IFNpZ24tSW4iOiB7CiAgICAgICAgICBkYXRlOiB7IHN0YXJ0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkgfSwKICAgICAgICB9LAogICAgICB9IGFzIG5ldmVyLAogICAgfSk7CiAgfSBjYXRjaCAoZSkgewogICAgY29uc29sZS5lcnJvcigiW3JlY29yZFNpZ25Jbl0gZmFpbGVkOiIsIGUpOwogIH0KfQo=
+import "server-only";
+import { notion } from "./client";
+import { DB } from "./ids";
+import { cached, TAG } from "./cache";
+import {
+  getCheckbox,
+  getDate,
+  getRichText,
+  getSelect,
+  getTitle,
+  getUrl,
+  isFullPage,
+  type Page,
+} from "./parsers";
+import type { Role } from "@/lib/types/auth";
+
+export interface DashboardUser {
+  pageId: string;
+  email: string;
+  name: string;
+  role: Role;
+  passwordHash: string;
+  avatarUrl: string | null;
+  active: boolean;
+  createdTime: string;
+  lastSignIn: string | null;
+}
+
+export function parseUser(page: Page): DashboardUser {
+  return {
+    pageId: page.id,
+    email: getTitle(page, "Email").toLowerCase().trim(),
+    name: getRichText(page, "Name"),
+    role: (getSelect(page, "Role") as Role | null) ?? "Staff",
+    passwordHash: getRichText(page, "Password Hash"),
+    avatarUrl: getUrl(page, "Avatar URL"),
+    active: getCheckbox(page, "Active"),
+    createdTime: page.created_time,
+    lastSignIn: getDate(page, "Last Sign-In"),
+  };
+}
+
+/**
+ * Find a user by email. Email is the title field, queried with `title.equals`.
+ * Cached briefly so login attempts don't hammer Notion on every keystroke.
+ */
+export const findUserByEmail = cached(
+  async (email: string): Promise<DashboardUser | null> => {
+    const normalized = email.toLowerCase().trim();
+    const res = await notion.databases.query({
+      database_id: DB.users,
+      filter: { property: "Email", title: { equals: normalized } },
+      page_size: 1,
+    });
+    const page = res.results[0];
+    if (!page || !isFullPage(page)) return null;
+    return parseUser(page);
+  },
+  ["users:by-email"],
+  { tags: [TAG.users], revalidate: 30 },
+);
+
+export const findUserById = cached(
+  async (pageId: string): Promise<DashboardUser | null> => {
+    const page = await notion.pages.retrieve({ page_id: pageId });
+    if (!isFullPage(page)) return null;
+    return parseUser(page);
+  },
+  ["users:by-id"],
+  { tags: [TAG.users], revalidate: 30 },
+);
+
+export const listUsersFromNotion = cached(
+  async (): Promise<DashboardUser[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.users,
+      page_size: 100,
+      sorts: [{ timestamp: "created_time", direction: "ascending" }],
+    });
+    return res.results.filter(isFullPage).map(parseUser);
+  },
+  ["users:list"],
+  { tags: [TAG.users] },
+);
+
+export async function updateUserProfile(
+  pageId: string,
+  patch: { name?: string; avatarUrl?: string | null },
+): Promise<void> {
+  const props: Record<string, unknown> = {};
+  if (patch.name !== undefined) {
+    props.Name = {
+      rich_text: [{ type: "text", text: { content: patch.name } }],
+    };
+  }
+  if (patch.avatarUrl !== undefined) {
+    props["Avatar URL"] = { url: patch.avatarUrl || null };
+  }
+  if (Object.keys(props).length === 0) return;
+  await notion.pages.update({ page_id: pageId, properties: props as never });
+}
+
+export async function updateUserPasswordHash(
+  pageId: string,
+  newHash: string,
+): Promise<void> {
+  await notion.pages.update({
+    page_id: pageId,
+    properties: {
+      "Password Hash": {
+        rich_text: [{ type: "text", text: { content: newHash } }],
+      },
+    } as never,
+  });
+}
+
+export async function recordSignIn(pageId: string): Promise<void> {
+  // Best-effort — never block the login flow on this.
+  try {
+    await notion.pages.update({
+      page_id: pageId,
+      properties: {
+        "Last Sign-In": {
+          date: { start: new Date().toISOString() },
+        },
+      } as never,
+    });
+  } catch (e) {
+    console.error("[recordSignIn] failed:", e);
+  }
+}

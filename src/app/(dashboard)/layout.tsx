@@ -1,1 +1,34 @@
-aW1wb3J0IHsgcmVkaXJlY3QgfSBmcm9tICJuZXh0L25hdmlnYXRpb24iOwppbXBvcnQgeyBnZXRTZXNzaW9uIH0gZnJvbSAiQC9saWIvYXV0aC9zZXNzaW9uIjsKaW1wb3J0IHsgZmluZFVzZXJCeUlkIH0gZnJvbSAiQC9saWIvbm90aW9uL3VzZXJzIjsKaW1wb3J0IHsgZ2V0U2lkZWJhckNvbGxhcHNlZCB9IGZyb20gIkAvbGliL3V0aWxzL2Nvb2tpZXMiOwppbXBvcnQgeyBEYXNoYm9hcmRTaGVsbCB9IGZyb20gIkAvY29tcG9uZW50cy9sYXlvdXQvRGFzaGJvYXJkU2hlbGwiOwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gRGFzaGJvYXJkTGF5b3V0KHsKICBjaGlsZHJlbiwKfTogewogIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7Cn0pIHsKICBjb25zdCBzZXNzaW9uID0gYXdhaXQgZ2V0U2Vzc2lvbigpOwogIGlmICghc2Vzc2lvbikgcmVkaXJlY3QoIi9sb2dpbiIpOwoKICAvLyBFbnJpY2ggdGhlIHNlc3Npb24tY2FjaGVkIHVzZXIgd2l0aCBhIGZyZXNoIGF2YXRhciBVUkwgZnJvbSBOb3Rpb24uCiAgLy8gRmFsbHMgYmFjayB0byB0aGUgc2Vzc2lvbiBpZiB0aGUgbG9va3VwIGZhaWxzLgogIGNvbnN0IHByb2ZpbGUgPSBhd2FpdCBmaW5kVXNlckJ5SWQoc2Vzc2lvbi5pZCkuY2F0Y2goKCkgPT4gbnVsbCk7CgogIGNvbnN0IHNpZGViYXJVc2VyID0gewogICAgaWQ6IHNlc3Npb24uaWQsCiAgICBuYW1lOiBwcm9maWxlPy5uYW1lIHx8IHNlc3Npb24ubmFtZSwKICAgIGVtYWlsOiBzZXNzaW9uLmVtYWlsLAogICAgcm9sZTogc2Vzc2lvbi5yb2xlLAogICAgYXZhdGFyVXJsOiBwcm9maWxlPy5hdmF0YXJVcmwgPz8gbnVsbCwKICB9OwoKICBjb25zdCBjb2xsYXBzZWQgPSBnZXRTaWRlYmFyQ29sbGFwc2VkKCk7CgogIHJldHVybiAoCiAgICA8RGFzaGJvYXJkU2hlbGwgdXNlcj17c2lkZWJhclVzZXJ9IGluaXRpYWxDb2xsYXBzZWQ9e2NvbGxhcHNlZH0+CiAgICAgIHtjaGlsZHJlbn0KICAgIDwvRGFzaGJvYXJkU2hlbGw+CiAgKTsKfQo=
+import { redirect } from "next/navigation";
+import { getSession } from "@/lib/auth/session";
+import { findUserById } from "@/lib/notion/users";
+import { getSidebarCollapsed } from "@/lib/utils/cookies";
+import { DashboardShell } from "@/components/layout/DashboardShell";
+
+export default async function DashboardLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const session = await getSession();
+  if (!session) redirect("/login");
+
+  // Enrich the session-cached user with a fresh avatar URL from Notion.
+  // Falls back to the session if the lookup fails.
+  const profile = await findUserById(session.id).catch(() => null);
+
+  const sidebarUser = {
+    id: session.id,
+    name: profile?.name || session.name,
+    email: session.email,
+    role: session.role,
+    avatarUrl: profile?.avatarUrl ?? null,
+  };
+
+  const collapsed = getSidebarCollapsed();
+
+  return (
+    <DashboardShell user={sidebarUser} initialCollapsed={collapsed}>
+      {children}
+    </DashboardShell>
+  );
+}

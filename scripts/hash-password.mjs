@@ -1,1 +1,14 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovLyBHZW5lcmF0ZSBhIGJjcnlwdCBoYXNoIGZvciB1c2UgaW4gY29uZmlnL3VzZXJzLmpzb24uCi8vIFVzYWdlOiBub2RlIHNjcmlwdHMvaGFzaC1wYXNzd29yZC5tanMgJzxwYXNzd29yZD4nCgppbXBvcnQgYmNyeXB0IGZyb20gImJjcnlwdGpzIjsKCmNvbnN0IHBhc3N3b3JkID0gcHJvY2Vzcy5hcmd2WzJdOwppZiAoIXBhc3N3b3JkKSB7CiAgY29uc29sZS5lcnJvcigiVXNhZ2U6IG5vZGUgc2NyaXB0cy9oYXNoLXBhc3N3b3JkLm1qcyAnPHBhc3N3b3JkPiciKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCmNvbnN0IGhhc2ggPSBhd2FpdCBiY3J5cHQuaGFzaChwYXNzd29yZCwgMTApOwpjb25zb2xlLmxvZyhoYXNoKTsK
+#!/usr/bin/env node
+// Generate a bcrypt hash for use in config/users.json.
+// Usage: node scripts/hash-password.mjs '<password>'
+
+import bcrypt from "bcryptjs";
+
+const password = process.argv[2];
+if (!password) {
+  console.error("Usage: node scripts/hash-password.mjs '<password>'");
+  process.exit(1);
+}
+
+const hash = await bcrypt.hash(password, 10);
+console.log(hash);

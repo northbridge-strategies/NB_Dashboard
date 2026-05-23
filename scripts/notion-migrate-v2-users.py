@@ -1,1 +1,179 @@
-IiIiCk5vcnRoYnJpZGdlIERhc2hib2FyZCDigJQgdjIgU2NoZW1hIE1pZ3JhdGlvbjogVXNlcnMgREIKCkNyZWF0ZXMgYSAiRGFzaGJvYXJkIFVzZXJzIiBkYXRhYmFzZSB1bmRlciB0aGUgc2FtZSBOb3J0aGJyaWRnZSBwYXJlbnQgcGFnZSwKdGhlbiBzZWVkcyBpdCBmcm9tIGNvbmZpZy91c2Vycy5qc29uLgoKSWRlbXBvdGVudDoKICAtIElmIGEgREIgdGl0bGVkICJEYXNoYm9hcmQgVXNlcnMiIGFscmVhZHkgZXhpc3RzIHVuZGVyIHRoZSBwYXJlbnQsIHJldXNlcyBpdC4KICAtIEZvciBlYWNoIHNlZWQgdXNlciwgdXBzZXJ0cyBieSBFbWFpbCAoY3JlYXRlcyBpZiBtaXNzaW5nLCB1cGRhdGVzIG5hbWUvcm9sZQogICAgb25seSDigJQgbmV2ZXIgb3ZlcndyaXRlcyBhbiBleGlzdGluZyBwYXNzd29yZCBoYXNoKS4KCk91dHB1dDogd3JpdGVzIHRoZSBuZXcgZGF0YWJhc2UgaWQgdG8gbmItbm90aW9uLWlkcy5qc29uIHNvIG90aGVyIHRvb2xpbmcgY2FuCmRpc2NvdmVyIGl0LiBUaGUgZGFzaGJvYXJkIHJlYWRzIGl0IGZyb20gTk9USU9OX1VTRVJTX0RCIGVudiB2YXIuCiIiIgoKaW1wb3J0IGpzb24KaW1wb3J0IHN5cwppbXBvcnQgdXJsbGliLnJlcXVlc3QKaW1wb3J0IHVybGxpYi5lcnJvcgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKClRPS0VOID0gIm50bl9DNDEwNDE0MjY5OTEzdWtuWTUyWG5EYlAzRno4bUdHc3FaUVpYV1FpaHZRYXZtIgpBUElfVkVSU0lPTiA9ICIyMDIyLTA2LTI4IgpCQVNFX1VSTCA9ICJodHRwczovL2FwaS5ub3Rpb24uY29tL3YxIgoKUkVQT19ST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudC5wYXJlbnQKREFTSEJPQVJEX1JPT1QgPSBSRVBPX1JPT1QKSURTX1BBVEggPSBSRVBPX1JPT1QucGFyZW50IC8gIm5iLW5vdGlvbi1pZHMuanNvbiIKVVNFUlNfSlNPTl9QQVRIID0gREFTSEJPQVJEX1JPT1QgLyAiY29uZmlnIiAvICJ1c2Vycy5qc29uIgoKaWRzID0ganNvbi5sb2FkcyhJRFNfUEFUSC5yZWFkX3RleHQoKSkKUEFSRU5UX1BBR0VfSUQgPSBpZHNbInBhcmVudF9wYWdlIl0KCgpkZWYgYXBpKG1ldGhvZCwgZW5kcG9pbnQsIGRhdGE9Tm9uZSk6CiAgICB1cmwgPSBmIntCQVNFX1VSTH0ve2VuZHBvaW50fSIKICAgIGJvZHkgPSBqc29uLmR1bXBzKGRhdGEpLmVuY29kZSgpIGlmIGRhdGEgaXMgbm90IE5vbmUgZWxzZSBOb25lCiAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KHVybCwgZGF0YT1ib2R5LCBtZXRob2Q9bWV0aG9kKQogICAgcmVxLmFkZF9oZWFkZXIoIkF1dGhvcml6YXRpb24iLCBmIkJlYXJlciB7VE9LRU59IikKICAgIHJlcS5hZGRfaGVhZGVyKCJOb3Rpb24tVmVyc2lvbiIsIEFQSV9WRVJTSU9OKQogICAgcmVxLmFkZF9oZWFkZXIoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKICAgIHRyeToKICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxKSBhcyByZXNwOgogICAgICAgICAgICByZXR1cm4ganNvbi5sb2FkcyhyZXNwLnJlYWQoKSkKICAgIGV4Y2VwdCB1cmxsaWIuZXJyb3IuSFRUUEVycm9yIGFzIGU6CiAgICAgICAgcHJpbnQoZiIgIEhUVFAge2UuY29kZX06IHtlLnJlYWQoKS5kZWNvZGUoKVs6NjAwXX0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgcmFpc2UKCgpkZWYgZmluZF91c2Vyc19kYigpOgogICAgIiIiU2VhcmNoIGZvciBhbiBleGlzdGluZyAnRGFzaGJvYXJkIFVzZXJzJyBEQiB1bmRlciB0aGUgcGFyZW50IHBhZ2UuIiIiCiAgICBjdXJzb3IgPSBOb25lCiAgICB3aGlsZSBUcnVlOgogICAgICAgIGJvZHkgPSB7CiAgICAgICAgICAgICJxdWVyeSI6ICJEYXNoYm9hcmQgVXNlcnMiLAogICAgICAgICAgICAiZmlsdGVyIjogeyJ2YWx1ZSI6ICJkYXRhYmFzZSIsICJwcm9wZXJ0eSI6ICJvYmplY3QifSwKICAgICAgICAgICAgInBhZ2Vfc2l6ZSI6IDEwMCwKICAgICAgICB9CiAgICAgICAgaWYgY3Vyc29yOgogICAgICAgICAgICBib2R5WyJzdGFydF9jdXJzb3IiXSA9IGN1cnNvcgogICAgICAgIHJlcyA9IGFwaSgiUE9TVCIsICJzZWFyY2giLCBib2R5KQogICAgICAgIGZvciByIGluIHJlcy5nZXQoInJlc3VsdHMiLCBbXSk6CiAgICAgICAgICAgIGlmIHIuZ2V0KCJvYmplY3QiKSAhPSAiZGF0YWJhc2UiOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgdGl0bGVfcGFydHMgPSByLmdldCgidGl0bGUiLCBbXSkKICAgICAgICAgICAgdGl0bGUgPSAiIi5qb2luKHQuZ2V0KCJwbGFpbl90ZXh0IiwgIiIpIGZvciB0IGluIHRpdGxlX3BhcnRzKQogICAgICAgICAgICBwYXJlbnQgPSByLmdldCgicGFyZW50Iiwge30pCiAgICAgICAgICAgIHBhcmVudF9pZCA9IHBhcmVudC5nZXQoInBhZ2VfaWQiLCAiIikucmVwbGFjZSgiLSIsICIiKQogICAgICAgICAgICBpZiB0aXRsZS5zdHJpcCgpID09ICJEYXNoYm9hcmQgVXNlcnMiIGFuZCBwYXJlbnRfaWQgPT0gUEFSRU5UX1BBR0VfSUQucmVwbGFjZSgiLSIsICIiKToKICAgICAgICAgICAgICAgIHJldHVybiByWyJpZCJdCiAgICAgICAgaWYgbm90IHJlcy5nZXQoImhhc19tb3JlIik6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgY3Vyc29yID0gcmVzLmdldCgibmV4dF9jdXJzb3IiKQoKCmRlZiBjcmVhdGVfdXNlcnNfZGIoKToKICAgIGRhdGEgPSB7CiAgICAgICAgInBhcmVudCI6IHsidHlwZSI6ICJwYWdlX2lkIiwgInBhZ2VfaWQiOiBQQVJFTlRfUEFHRV9JRH0sCiAgICAgICAgInRpdGxlIjogW3sidHlwZSI6ICJ0ZXh0IiwgInRleHQiOiB7ImNvbnRlbnQiOiAiRGFzaGJvYXJkIFVzZXJzIn19XSwKICAgICAgICAiZGVzY3JpcHRpb24iOiBbCiAgICAgICAgICAgIHsidHlwZSI6ICJ0ZXh0IiwgInRleHQiOiB7CiAgICAgICAgICAgICAgICAiY29udGVudCI6ICJPcGVyYXRpb25zIERhc2hib2FyZCBhdXRoIHVzZXJzLiBNYW5hZ2VkIHZpYSB0aGUgZGFzaGJvYXJkJ3MgL3Byb2ZpbGUgcGFnZS4iCiAgICAgICAgICAgIH19CiAgICAgICAgXSwKICAgICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAgICAgIkVtYWlsIjogeyJ0aXRsZSI6IHt9fSwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyB0aXRsZSAocmVxdWlyZWQsIHVzZWQgYXMgcHJpbWFyeSBrZXkpCiAgICAgICAgICAgICJOYW1lIjogeyJyaWNoX3RleHQiOiB7fX0sCiAgICAgICAgICAgICJSb2xlIjogewogICAgICAgICAgICAgICAgInNlbGVjdCI6IHsKICAgICAgICAgICAgICAgICAgICAib3B0aW9ucyI6IFsKICAgICAgICAgICAgICAgICAgICAgICAgeyJuYW1lIjogIkFkbWluIiwgImNvbG9yIjogInB1cnBsZSJ9LAogICAgICAgICAgICAgICAgICAgICAgICB7Im5hbWUiOiAiU3RhZmYiLCAiY29sb3IiOiAiYmx1ZSJ9LAogICAgICAgICAgICAgICAgICAgICAgICB7Im5hbWUiOiAiQ2xpZW50IiwgImNvbG9yIjogImdyZWVuIn0sCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICAiUGFzc3dvcmQgSGFzaCI6IHsicmljaF90ZXh0Ijoge319LAogICAgICAgICAgICAiQXZhdGFyIFVSTCI6IHsidXJsIjoge319LAogICAgICAgICAgICAiQWN0aXZlIjogeyJjaGVja2JveCI6IHt9fSwKICAgICAgICAgICAgIkNyZWF0ZWQiOiB7ImNyZWF0ZWRfdGltZSI6IHt9fSwKICAgICAgICAgICAgIkxhc3QgU2lnbi1JbiI6IHsiZGF0ZSI6IHt9fSwKICAgICAgICB9LAogICAgfQogICAgcmVzID0gYXBpKCJQT1NUIiwgImRhdGFiYXNlcyIsIGRhdGEpCiAgICByZXR1cm4gcmVzWyJpZCJdCgoKZGVmIGZpbmRfdXNlcl9ieV9lbWFpbChkYl9pZCwgZW1haWwpOgogICAgcmVzID0gYXBpKCJQT1NUIiwgZiJkYXRhYmFzZXMve2RiX2lkfS9xdWVyeSIsIHsKICAgICAgICAiZmlsdGVyIjogeyJwcm9wZXJ0eSI6ICJFbWFpbCIsICJ0aXRsZSI6IHsiZXF1YWxzIjogZW1haWx9fSwKICAgICAgICAicGFnZV9zaXplIjogMSwKICAgIH0pCiAgICByZXN1bHRzID0gcmVzLmdldCgicmVzdWx0cyIsIFtdKQogICAgcmV0dXJuIHJlc3VsdHNbMF0gaWYgcmVzdWx0cyBlbHNlIE5vbmUKCgpkZWYgdXBzZXJ0X3VzZXIoZGJfaWQsIHVzZXIpOgogICAgZW1haWwgPSB1c2VyWyJlbWFpbCJdLmxvd2VyKCkuc3RyaXAoKQogICAgZXhpc3RpbmcgPSBmaW5kX3VzZXJfYnlfZW1haWwoZGJfaWQsIGVtYWlsKQoKICAgIGlmIGV4aXN0aW5nOgogICAgICAgICMgVXBkYXRlIG5hbWUgKyByb2xlICsgYWN0aXZlLiBORVZFUiBvdmVyd3JpdGUgcGFzc3dvcmQgaGFzaCBmcm9tIEpTT04KICAgICAgICAjIGlmIGl0IGFscmVhZHkgZXhpc3RzIGluIE5vdGlvbiAoTm90aW9uIGlzIHRoZSBzb3VyY2Ugb2YgdHJ1dGggbm93KS4KICAgICAgICBwcm9wcyA9IHsKICAgICAgICAgICAgIk5hbWUiOiB7InJpY2hfdGV4dCI6IFt7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogeyJjb250ZW50IjogdXNlclsibmFtZSJdfX1dfSwKICAgICAgICAgICAgIlJvbGUiOiB7InNlbGVjdCI6IHsibmFtZSI6IHVzZXJbInJvbGUiXX19LAogICAgICAgICAgICAiQWN0aXZlIjogeyJjaGVja2JveCI6IFRydWV9LAogICAgICAgIH0KICAgICAgICBhcGkoIlBBVENIIiwgZiJwYWdlcy97ZXhpc3RpbmdbJ2lkJ119IiwgeyJwcm9wZXJ0aWVzIjogcHJvcHN9KQogICAgICAgIHByaW50KGYiICB1cGRhdGVkICB7ZW1haWx9IikKICAgICAgICByZXR1cm4gZXhpc3RpbmdbImlkIl0KCiAgICAjIENyZWF0ZSBuZXcKICAgIHByb3BzID0gewogICAgICAgICJFbWFpbCI6IHsidGl0bGUiOiBbeyJ0eXBlIjogInRleHQiLCAidGV4dCI6IHsiY29udGVudCI6IGVtYWlsfX1dfSwKICAgICAgICAiTmFtZSI6IHsicmljaF90ZXh0IjogW3sidHlwZSI6ICJ0ZXh0IiwgInRleHQiOiB7ImNvbnRlbnQiOiB1c2VyWyJuYW1lIl19fV19LAogICAgICAgICJSb2xlIjogeyJzZWxlY3QiOiB7Im5hbWUiOiB1c2VyWyJyb2xlIl19fSwKICAgICAgICAiUGFzc3dvcmQgSGFzaCI6IHsKICAgICAgICAgICAgInJpY2hfdGV4dCI6IFt7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogeyJjb250ZW50IjogdXNlclsicGFzc3dvcmRIYXNoIl19fV0KICAgICAgICB9LAogICAgICAgICJBY3RpdmUiOiB7ImNoZWNrYm94IjogVHJ1ZX0sCiAgICB9CiAgICByZXMgPSBhcGkoIlBPU1QiLCAicGFnZXMiLCB7CiAgICAgICAgInBhcmVudCI6IHsiZGF0YWJhc2VfaWQiOiBkYl9pZH0sCiAgICAgICAgInByb3BlcnRpZXMiOiBwcm9wcywKICAgIH0pCiAgICBwcmludChmIiAgY3JlYXRlZCAge2VtYWlsfSIpCiAgICByZXR1cm4gcmVzWyJpZCJdCgoKZGVmIG1haW4oKToKICAgIHByaW50KCI9IiAqIDYwKQogICAgcHJpbnQoIk5vcnRoYnJpZGdlIERhc2hib2FyZCDigJQgdjIgTWlncmF0aW9uOiBVc2VycyBEQiIpCiAgICBwcmludCgiPSIgKiA2MCkKCiAgICBwcmludCgiXG5bMS8zXSBMb2NhdGUgb3IgY3JlYXRlICdEYXNoYm9hcmQgVXNlcnMnIGRhdGFiYXNlLi4uIikKICAgIGRiX2lkID0gZmluZF91c2Vyc19kYigpCiAgICBpZiBkYl9pZDoKICAgICAgICBwcmludChmIiAgZm91bmQgZXhpc3Rpbmc6IHtkYl9pZH0iKQogICAgZWxzZToKICAgICAgICBkYl9pZCA9IGNyZWF0ZV91c2Vyc19kYigpCiAgICAgICAgcHJpbnQoZiIgIGNyZWF0ZWQ6IHtkYl9pZH0iKQoKICAgIHByaW50KCJcblsyLzNdIFNlZWQgdXNlcnMgZnJvbSBjb25maWcvdXNlcnMuanNvbi4uLiIpCiAgICBzZWVkX3VzZXJzID0ganNvbi5sb2FkcyhVU0VSU19KU09OX1BBVEgucmVhZF90ZXh0KCkpCiAgICBmb3IgdSBpbiBzZWVkX3VzZXJzOgogICAgICAgIHVwc2VydF91c2VyKGRiX2lkLCB1KQoKICAgIHByaW50KCJcblszLzNdIFBlcnNpc3QgbmV3IGRhdGFiYXNlIGlkLi4uIikKICAgIGlkc1siZGFzaGJvYXJkX3VzZXJzIl0gPSBkYl9pZAogICAgSURTX1BBVEgud3JpdGVfdGV4dChqc29uLmR1bXBzKGlkcywgaW5kZW50PTIpKQogICAgcHJpbnQoZiIgIHdyb3RlIHtJRFNfUEFUSH0iKQoKICAgIHByaW50KCJcbkRvbmUuIikKICAgIHByaW50KGYiXG5OZXh0IHN0ZXA6IGFkZCBOT1RJT05fVVNFUlNfREI9e2RiX2lkfSB0byAuZW52LmxvY2FsIGFuZCBWZXJjZWwgZW52LiIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""
+Northbridge Dashboard — v2 Schema Migration: Users DB
+
+Creates a "Dashboard Users" database under the same Northbridge parent page,
+then seeds it from config/users.json.
+
+Idempotent:
+  - If a DB titled "Dashboard Users" already exists under the parent, reuses it.
+  - For each seed user, upserts by Email (creates if missing, updates name/role
+    only — never overwrites an existing password hash).
+
+Output: writes the new database id to nb-notion-ids.json so other tooling can
+discover it. The dashboard reads it from NOTION_USERS_DB env var.
+"""
+
+import json
+import sys
+import urllib.request
+import urllib.error
+from pathlib import Path
+
+TOKEN = "ntn_C410414269913uknY52XnDbP3Fz8mGGsqZQZXWQihvQavm"
+API_VERSION = "2022-06-28"
+BASE_URL = "https://api.notion.com/v1"
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DASHBOARD_ROOT = REPO_ROOT
+IDS_PATH = REPO_ROOT.parent / "nb-notion-ids.json"
+USERS_JSON_PATH = DASHBOARD_ROOT / "config" / "users.json"
+
+ids = json.loads(IDS_PATH.read_text())
+PARENT_PAGE_ID = ids["parent_page"]
+
+
+def api(method, endpoint, data=None):
+    url = f"{BASE_URL}/{endpoint}"
+    body = json.dumps(data).encode() if data is not None else None
+    req = urllib.request.Request(url, data=body, method=method)
+    req.add_header("Authorization", f"Bearer {TOKEN}")
+    req.add_header("Notion-Version", API_VERSION)
+    req.add_header("Content-Type", "application/json")
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        print(f"  HTTP {e.code}: {e.read().decode()[:600]}", file=sys.stderr)
+        raise
+
+
+def find_users_db():
+    """Search for an existing 'Dashboard Users' DB under the parent page."""
+    cursor = None
+    while True:
+        body = {
+            "query": "Dashboard Users",
+            "filter": {"value": "database", "property": "object"},
+            "page_size": 100,
+        }
+        if cursor:
+            body["start_cursor"] = cursor
+        res = api("POST", "search", body)
+        for r in res.get("results", []):
+            if r.get("object") != "database":
+                continue
+            title_parts = r.get("title", [])
+            title = "".join(t.get("plain_text", "") for t in title_parts)
+            parent = r.get("parent", {})
+            parent_id = parent.get("page_id", "").replace("-", "")
+            if title.strip() == "Dashboard Users" and parent_id == PARENT_PAGE_ID.replace("-", ""):
+                return r["id"]
+        if not res.get("has_more"):
+            return None
+        cursor = res.get("next_cursor")
+
+
+def create_users_db():
+    data = {
+        "parent": {"type": "page_id", "page_id": PARENT_PAGE_ID},
+        "title": [{"type": "text", "text": {"content": "Dashboard Users"}}],
+        "description": [
+            {"type": "text", "text": {
+                "content": "Operations Dashboard auth users. Managed via the dashboard's /profile page."
+            }}
+        ],
+        "properties": {
+            "Email": {"title": {}},                               # title (required, used as primary key)
+            "Name": {"rich_text": {}},
+            "Role": {
+                "select": {
+                    "options": [
+                        {"name": "Admin", "color": "purple"},
+                        {"name": "Staff", "color": "blue"},
+                        {"name": "Client", "color": "green"},
+                    ]
+                }
+            },
+            "Password Hash": {"rich_text": {}},
+            "Avatar URL": {"url": {}},
+            "Active": {"checkbox": {}},
+            "Created": {"created_time": {}},
+            "Last Sign-In": {"date": {}},
+        },
+    }
+    res = api("POST", "databases", data)
+    return res["id"]
+
+
+def find_user_by_email(db_id, email):
+    res = api("POST", f"databases/{db_id}/query", {
+        "filter": {"property": "Email", "title": {"equals": email}},
+        "page_size": 1,
+    })
+    results = res.get("results", [])
+    return results[0] if results else None
+
+
+def upsert_user(db_id, user):
+    email = user["email"].lower().strip()
+    existing = find_user_by_email(db_id, email)
+
+    if existing:
+        # Update name + role + active. NEVER overwrite password hash from JSON
+        # if it already exists in Notion (Notion is the source of truth now).
+        props = {
+            "Name": {"rich_text": [{"type": "text", "text": {"content": user["name"]}}]},
+            "Role": {"select": {"name": user["role"]}},
+            "Active": {"checkbox": True},
+        }
+        api("PATCH", f"pages/{existing['id']}", {"properties": props})
+        print(f"  updated  {email}")
+        return existing["id"]
+
+    # Create new
+    props = {
+        "Email": {"title": [{"type": "text", "text": {"content": email}}]},
+        "Name": {"rich_text": [{"type": "text", "text": {"content": user["name"]}}]},
+        "Role": {"select": {"name": user["role"]}},
+        "Password Hash": {
+            "rich_text": [{"type": "text", "text": {"content": user["passwordHash"]}}]
+        },
+        "Active": {"checkbox": True},
+    }
+    res = api("POST", "pages", {
+        "parent": {"database_id": db_id},
+        "properties": props,
+    })
+    print(f"  created  {email}")
+    return res["id"]
+
+
+def main():
+    print("=" * 60)
+    print("Northbridge Dashboard — v2 Migration: Users DB")
+    print("=" * 60)
+
+    print("\n[1/3] Locate or create 'Dashboard Users' database...")
+    db_id = find_users_db()
+    if db_id:
+        print(f"  found existing: {db_id}")
+    else:
+        db_id = create_users_db()
+        print(f"  created: {db_id}")
+
+    print("\n[2/3] Seed users from config/users.json...")
+    seed_users = json.loads(USERS_JSON_PATH.read_text())
+    for u in seed_users:
+        upsert_user(db_id, u)
+
+    print("\n[3/3] Persist new database id...")
+    ids["dashboard_users"] = db_id
+    IDS_PATH.write_text(json.dumps(ids, indent=2))
+    print(f"  wrote {IDS_PATH}")
+
+    print("\nDone.")
+    print(f"\nNext step: add NOTION_USERS_DB={db_id} to .env.local and Vercel env.")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,1 +1,67 @@
-ZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdEN1cnJlbmN5KGFtb3VudDogbnVtYmVyIHwgbnVsbCB8IHVuZGVmaW5lZCk6IHN0cmluZyB7CiAgaWYgKGFtb3VudCA9PSBudWxsKSByZXR1cm4gIuKAlCI7CiAgcmV0dXJuIG5ldyBJbnRsLk51bWJlckZvcm1hdCgiZW4tVVMiLCB7CiAgICBzdHlsZTogImN1cnJlbmN5IiwKICAgIGN1cnJlbmN5OiAiVVNEIiwKICAgIG1heGltdW1GcmFjdGlvbkRpZ2l0czogMCwKICB9KS5mb3JtYXQoYW1vdW50KTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdFBlcmNlbnQodmFsdWU6IG51bWJlciB8IG51bGwgfCB1bmRlZmluZWQsIGZyYWN0aW9uRGlnaXRzID0gMCk6IHN0cmluZyB7CiAgaWYgKHZhbHVlID09IG51bGwgfHwgIU51bWJlci5pc0Zpbml0ZSh2YWx1ZSkpIHJldHVybiAi4oCUIjsKICByZXR1cm4gYCR7dmFsdWUudG9GaXhlZChmcmFjdGlvbkRpZ2l0cyl9JWA7Cn0KCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXROdW1iZXIodmFsdWU6IG51bWJlciB8IG51bGwgfCB1bmRlZmluZWQpOiBzdHJpbmcgewogIGlmICh2YWx1ZSA9PSBudWxsKSByZXR1cm4gIuKAlCI7CiAgcmV0dXJuIG5ldyBJbnRsLk51bWJlckZvcm1hdCgiZW4tVVMiKS5mb3JtYXQodmFsdWUpOwp9CgovKioKICogUHJldHR5LXByaW50IGEgTm90aW9uICJNb250aCIgdmFsdWUgKGBZWVlZLU1NYCkgYXMgYSBsb25nIGh1bWFuIGxhYmVsLgogKiAgICIyMDI2LTA0IiAtPiAiQXByaWwgMjAyNiIKICogRmFsbHMgYmFjayB0byB0aGUgb3JpZ2luYWwgb24gcGFyc2UgZmFpbHVyZS4KICovCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXRNb250aFllYXIoeXl5eW1tOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkKTogc3RyaW5nIHsKICBpZiAoIXl5eXltbSkgcmV0dXJuICLigJQiOwogIGNvbnN0IG0gPSAvXihcZHs0fSktKFxkezJ9KSQvLmV4ZWMoeXl5eW1tLnRyaW0oKSk7CiAgaWYgKCFtKSByZXR1cm4geXl5eW1tOwogIGNvbnN0IHllYXIgPSBOdW1iZXIobVsxXSk7CiAgY29uc3QgbW9udGggPSBOdW1iZXIobVsyXSkgLSAxOwogIGlmIChOdW1iZXIuaXNOYU4oeWVhcikgfHwgbW9udGggPCAwIHx8IG1vbnRoID4gMTEpIHJldHVybiB5eXl5bW07CiAgLy8gQ29uc3RydWN0IGEgRGF0ZSBpbiBVVEMgYXQgbm9vbiB0byBkb2RnZSBEU1QgZWRnZSBjYXNlcy4KICBjb25zdCBkID0gbmV3IERhdGUoRGF0ZS5VVEMoeWVhciwgbW9udGgsIDEsIDEyKSk7CiAgcmV0dXJuIGQudG9Mb2NhbGVEYXRlU3RyaW5nKHVuZGVmaW5lZCwgeyBtb250aDogImxvbmciLCB5ZWFyOiAibnVtZXJpYyIgfSk7Cn0KCi8qKgogKiBQcmV0dHktcHJpbnQgYSBVUyBwaG9uZSBudW1iZXIuIFN0cmlwcyB0aGUgKzEgcHJlZml4IGFuZCBncm91cHMgZGlnaXRzLgogKiBGYWxscyBiYWNrIHRvIHRoZSBvcmlnaW5hbCBzdHJpbmcgZm9yIG5vbi1VUy91bnBhcnNlYWJsZSBudW1iZXJzLgogKiAgICIrMSA2MzAtNzk2LTE2MjciICAtPiAiKDYzMCkgNzk2LTE2MjciCiAqICAgIjE2MzA3OTYxNjI3IiAgICAgICAtPiAiKDYzMCkgNzk2LTE2MjciCiAqICAgIis0NCAyMCA3OTQ2IDA5NTgiIC0+ICIrNDQgMjAgNzk0NiAwOTU4IiAodW50b3VjaGVkKQogKi8KZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdFBob25lKHJhdzogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCk6IHN0cmluZyB7CiAgaWYgKCFyYXcpIHJldHVybiAi4oCUIjsKICBjb25zdCBkaWdpdHMgPSByYXcucmVwbGFjZSgvXEQvZywgIiIpOwogIGlmIChkaWdpdHMubGVuZ3RoID09PSAxMSAmJiBkaWdpdHMuc3RhcnRzV2l0aCgiMSIpKSB7CiAgICBjb25zdCBkID0gZGlnaXRzLnNsaWNlKDEpOwogICAgcmV0dXJuIGAoJHtkLnNsaWNlKDAsIDMpfSkgJHtkLnNsaWNlKDMsIDYpfS0ke2Quc2xpY2UoNil9YDsKICB9CiAgaWYgKGRpZ2l0cy5sZW5ndGggPT09IDEwKSB7CiAgICByZXR1cm4gYCgke2RpZ2l0cy5zbGljZSgwLCAzKX0pICR7ZGlnaXRzLnNsaWNlKDMsIDYpfS0ke2RpZ2l0cy5zbGljZSg2KX1gOwogIH0KICByZXR1cm4gcmF3Owp9CgovKioKICogVHdvLWxldHRlciBpbml0aWFscy4gRXh0cmFjdGVkIGhlcmUgc28gZXZlcnkgYXZhdGFyIGNvbXBvbmVudCByZW5kZXJzCiAqIGNvbnNpc3RlbnQgZmFsbGJhY2tzIHJlZ2FyZGxlc3Mgb2YgdGhlIGNhbGxpbmcgcGFnZS4KICovCmV4cG9ydCBmdW5jdGlvbiBpbml0aWFscyhzb3VyY2U6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQpOiBzdHJpbmcgewogIGlmICghc291cmNlKSByZXR1cm4gIj8iOwogIGNvbnN0IHBhcnRzID0gc291cmNlLnRyaW0oKS5zcGxpdCgvXHMrfEB8XC4vKS5maWx0ZXIoQm9vbGVhbik7CiAgaWYgKHBhcnRzLmxlbmd0aCA9PT0gMCkgcmV0dXJuICI/IjsKICBpZiAocGFydHMubGVuZ3RoID09PSAxKSByZXR1cm4gcGFydHNbMF0uc2xpY2UoMCwgMikudG9VcHBlckNhc2UoKTsKICByZXR1cm4gKHBhcnRzWzBdWzBdICsgcGFydHNbMV1bMF0pLnRvVXBwZXJDYXNlKCk7Cn0K
+export function formatCurrency(amount: number | null | undefined): string {
+  if (amount == null) return "—";
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 0,
+  }).format(amount);
+}
+
+export function formatPercent(value: number | null | undefined, fractionDigits = 0): string {
+  if (value == null || !Number.isFinite(value)) return "—";
+  return `${value.toFixed(fractionDigits)}%`;
+}
+
+export function formatNumber(value: number | null | undefined): string {
+  if (value == null) return "—";
+  return new Intl.NumberFormat("en-US").format(value);
+}
+
+/**
+ * Pretty-print a Notion "Month" value (`YYYY-MM`) as a long human label.
+ *   "2026-04" -> "April 2026"
+ * Falls back to the original on parse failure.
+ */
+export function formatMonthYear(yyyymm: string | null | undefined): string {
+  if (!yyyymm) return "—";
+  const m = /^(\d{4})-(\d{2})$/.exec(yyyymm.trim());
+  if (!m) return yyyymm;
+  const year = Number(m[1]);
+  const month = Number(m[2]) - 1;
+  if (Number.isNaN(year) || month < 0 || month > 11) return yyyymm;
+  // Construct a Date in UTC at noon to dodge DST edge cases.
+  const d = new Date(Date.UTC(year, month, 1, 12));
+  return d.toLocaleDateString(undefined, { month: "long", year: "numeric" });
+}
+
+/**
+ * Pretty-print a US phone number. Strips the +1 prefix and groups digits.
+ * Falls back to the original string for non-US/unparseable numbers.
+ *   "+1 630-796-1627"  -> "(630) 796-1627"
+ *   "16307961627"       -> "(630) 796-1627"
+ *   "+44 20 7946 0958" -> "+44 20 7946 0958" (untouched)
+ */
+export function formatPhone(raw: string | null | undefined): string {
+  if (!raw) return "—";
+  const digits = raw.replace(/\D/g, "");
+  if (digits.length === 11 && digits.startsWith("1")) {
+    const d = digits.slice(1);
+    return `(${d.slice(0, 3)}) ${d.slice(3, 6)}-${d.slice(6)}`;
+  }
+  if (digits.length === 10) {
+    return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
+  }
+  return raw;
+}
+
+/**
+ * Two-letter initials. Extracted here so every avatar component renders
+ * consistent fallbacks regardless of the calling page.
+ */
+export function initials(source: string | null | undefined): string {
+  if (!source) return "?";
+  const parts = source.trim().split(/\s+|@|\./).filter(Boolean);
+  if (parts.length === 0) return "?";
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return (parts[0][0] + parts[1][0]).toUpperCase();
+}

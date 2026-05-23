@@ -1,1 +1,24 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IHsgQ29tcGFzcyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBOb3RGb3VuZCgpIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggbWluLWgtc2NyZWVuIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBiZy1iZyBwLTYgdGV4dC1jZW50ZXIiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctbWQgc3BhY2UteS00Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBmbGV4IGgtMTIgdy0xMiBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIGJnLXN1cmZhY2UtZWxldmF0ZWQgdGV4dC10ZXh0LW11dGVkIj4KICAgICAgICAgIDxDb21wYXNzIGNsYXNzTmFtZT0iaC01IHctNSIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC10ZXh0LXByaW1hcnkiPlBhZ2Ugbm90IGZvdW5kPC9oMT4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICBUaGUgcGFnZSB5b3UmYXBvcztyZSBsb29raW5nIGZvciBkb2VzbiZhcG9zO3QgZXhpc3QuIE1heWJlIGhlYWQgYmFjayB0byB0aGUgZGFzaGJvYXJkPwogICAgICAgIDwvcD4KICAgICAgICA8TGluawogICAgICAgICAgaHJlZj0iLyIKICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgYmctYnJhbmQtcHJpbWFyeSBweC0zIHB5LTIgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXdoaXRlIHRyYW5zaXRpb24gaG92ZXI6YmctYnJhbmQtcHJpbWFyeS1ob3ZlciIKICAgICAgICA+CiAgICAgICAgICBCYWNrIHRvIEhvbWUKICAgICAgICA8L0xpbms+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+import Link from "next/link";
+import { Compass } from "lucide-react";
+
+export default function NotFound() {
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-bg p-6 text-center">
+      <div className="max-w-md space-y-4">
+        <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-surface-elevated text-text-muted">
+          <Compass className="h-5 w-5" />
+        </div>
+        <h1 className="text-xl font-semibold text-text-primary">Page not found</h1>
+        <p className="text-sm text-text-secondary">
+          The page you&apos;re looking for doesn&apos;t exist. Maybe head back to the dashboard?
+        </p>
+        <Link
+          href="/"
+          className="inline-flex items-center justify-center rounded-md bg-brand-primary px-3 py-2 text-sm font-medium text-white transition hover:bg-brand-primary-hover"
+        >
+          Back to Home
+        </Link>
+      </div>
+    </div>
+  );
+}

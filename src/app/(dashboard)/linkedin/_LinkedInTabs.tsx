@@ -1,1 +1,178 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgTGlua2VkaW4gfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBUYWJzIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL1RhYnMiOwppbXBvcnQgeyBEYXRhVGFibGUsIHR5cGUgQ29sdW1uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL0RhdGFUYWJsZSI7CmltcG9ydCB7IFN0YXR1c0JhZGdlLCB0b25lRm9ySElUTCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9TdGF0dXNCYWRnZSI7CmltcG9ydCB7IE91dHJlYWNoQWN0aW9ucyB9IGZyb20gIkAvY29tcG9uZW50cy9saW5rZWRpbi9PdXRyZWFjaEFjdGlvbnMiOwppbXBvcnQgeyBmb3JtYXRSZWxhdGl2ZSB9IGZyb20gIkAvbGliL3V0aWxzL2RhdGVzIjsKCmV4cG9ydCBpbnRlcmZhY2UgT3V0cmVhY2hSb3cgewogIGlkOiBzdHJpbmc7CiAgY29udGFjdE5hbWU6IHN0cmluZzsKICBjb21wYW55OiBzdHJpbmc7CiAgbGlua2VkaW5Vcmw6IHN0cmluZyB8IG51bGw7CiAgc3RhZ2U6IHN0cmluZyB8IG51bGw7CiAgZHJhZnRETTogc3RyaW5nOwogIGhpdGxBY3Rpb246IHN0cmluZyB8IG51bGw7CiAgbGFzdE1lc3NhZ2VEYXRlOiBzdHJpbmcgfCBudWxsOwogIGhpdGxBY3Rpb25EYXRlOiBzdHJpbmcgfCBudWxsOwogIGlzU3RhbGU6IGJvb2xlYW47Cn0KCmZ1bmN0aW9uIGJ1aWxkQ29sdW1ucyhzaG93QWN0aW9uczogYm9vbGVhbik6IENvbHVtbjxPdXRyZWFjaFJvdz5bXSB7CiAgY29uc3QgY29sczogQ29sdW1uPE91dHJlYWNoUm93PltdID0gWwogICAgewogICAgICBrZXk6ICJjb250YWN0IiwKICAgICAgaGVhZGVyOiAiQ29udGFjdCIsCiAgICAgIHNvcnQ6IChyKSA9PiByLmNvbnRhY3ROYW1lLnRvTG93ZXJDYXNlKCksCiAgICAgIHJlbmRlcjogKHIpID0+ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idHJ1bmNhdGUgZm9udC1tZWRpdW0iPntyLmNvbnRhY3ROYW1lIHx8ICLigJQifTwvZGl2PgogICAgICAgICAge3IuY29tcGFueSAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0cnVuY2F0ZSB0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkiPntyLmNvbXBhbnl9PC9kaXY+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICApLAogICAgfSwKICAgIHsKICAgICAga2V5OiAibGlua2VkaW4iLAogICAgICBoZWFkZXI6ICJMaW5rZWRJbiIsCiAgICAgIHdpZHRoOiAidy0yMCIsCiAgICAgIGhpZGVPbk1vYmlsZTogdHJ1ZSwKICAgICAgcmVuZGVyOiAocikgPT4KICAgICAgICByLmxpbmtlZGluVXJsID8gKAogICAgICAgICAgPGEKICAgICAgICAgICAgaHJlZj17ci5saW5rZWRpblVybH0KICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICAgIHJlbD0ibm9yZWZlcnJlciIKICAgICAgICAgICAgb25DbGljaz17KGUpID0+IGUuc3RvcFByb3BhZ2F0aW9uKCl9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHRleHQtYnJhbmQtaW5mbyBob3Zlcjp1bmRlcmxpbmUiCiAgICAgICAgICAgIGFyaWEtbGFiZWw9Ik9wZW4gTGlua2VkSW4gcHJvZmlsZSIKICAgICAgICAgICAgdGl0bGU9e3IubGlua2VkaW5Vcmx9CiAgICAgICAgICA+CiAgICAgICAgICAgIDxMaW5rZWRpbiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICA8L2E+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZXh0LW11dGVkIj7igJQ8L3NwYW4+CiAgICAgICAgKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogInN0YWdlIiwKICAgICAgaGVhZGVyOiAiU3RhZ2UiLAogICAgICBzb3J0OiAocikgPT4gci5zdGFnZSA/PyAiIiwKICAgICAgcmVuZGVyOiAocikgPT4KICAgICAgICByLnN0YWdlID8gKAogICAgICAgICAgPFN0YXR1c0JhZGdlIGxhYmVsPXtyLnN0YWdlfSB0b25lPSJpbmZvIiAvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtdGV4dC1tdXRlZCI+4oCUPC9zcGFuPgogICAgICAgICksCiAgICB9LAogICAgewogICAgICBrZXk6ICJkcmFmdCIsCiAgICAgIGhlYWRlcjogIkRyYWZ0IERNIiwKICAgICAgaGlkZU9uVGFibGV0OiB0cnVlLAogICAgICByZW5kZXI6IChyKSA9PgogICAgICAgIHIuZHJhZnRETSA/ICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibGluZS1jbGFtcC0yIG1heC13LW1kIHRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgIHtyLmRyYWZ0RE19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZXh0LW11dGVkIj7igJQ8L3NwYW4+CiAgICAgICAgKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogImhpdGwiLAogICAgICBoZWFkZXI6ICJISVRMIiwKICAgICAgc29ydDogKHIpID0+IHIuaGl0bEFjdGlvbiA/PyAiIiwKICAgICAgcmVuZGVyOiAocikgPT4KICAgICAgICByLmhpdGxBY3Rpb24gPyAoCiAgICAgICAgICA8U3RhdHVzQmFkZ2UgbGFiZWw9e3IuaGl0bEFjdGlvbn0gdG9uZT17dG9uZUZvckhJVEwoci5oaXRsQWN0aW9uKX0gLz4KICAgICAgICApIDogKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXRleHQtbXV0ZWQiPuKAlDwvc3Bhbj4KICAgICAgICApLAogICAgfSwKICAgIHsKICAgICAga2V5OiAibGFzdE1lc3NhZ2UiLAogICAgICBoZWFkZXI6ICJMYXN0IE1lc3NhZ2UiLAogICAgICBzb3J0OiAocikgPT4gci5sYXN0TWVzc2FnZURhdGUgPz8gIiIsCiAgICAgIGhpZGVPbk1vYmlsZTogdHJ1ZSwKICAgICAgcmVuZGVyOiAocikgPT4KICAgICAgICByLmxhc3RNZXNzYWdlRGF0ZSA/ICgKICAgICAgICAgIGZvcm1hdFJlbGF0aXZlKHIubGFzdE1lc3NhZ2VEYXRlKQogICAgICAgICkgOiAoCiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtdGV4dC1tdXRlZCI+4oCUPC9zcGFuPgogICAgICAgICksCiAgICB9LAogIF07CgogIGlmIChzaG93QWN0aW9ucykgewogICAgY29scy5wdXNoKHsKICAgICAga2V5OiAiYWN0aW9ucyIsCiAgICAgIGhlYWRlcjogIiIsCiAgICAgIHdpZHRoOiAidy0zMiIsCiAgICAgIHJlbmRlcjogKHIpID0+CiAgICAgICAgci5oaXRsQWN0aW9uID09PSAiUGVuZGluZyIgPyAoCiAgICAgICAgICA8T3V0cmVhY2hBY3Rpb25zIGlkPXtyLmlkfSBpbml0aWFsRE09e3IuZHJhZnRETX0gLz4KICAgICAgICApIDogKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXRleHQtbXV0ZWQiPuKAlDwvc3Bhbj4KICAgICAgICApLAogICAgfSk7CiAgfQoKICByZXR1cm4gY29sczsKfQoKZXhwb3J0IGZ1bmN0aW9uIExpbmtlZEluVGFicyh7CiAgYWxsLAogIGF0dGVudGlvbiwKfTogewogIGFsbDogT3V0cmVhY2hSb3dbXTsKICBhdHRlbnRpb246IE91dHJlYWNoUm93W107Cn0pIHsKICByZXR1cm4gKAogICAgPFRhYnMKICAgICAgZGVmYXVsdFRhYj17YXR0ZW50aW9uLmxlbmd0aCA+IDAgPyAiYXR0ZW50aW9uIiA6ICJhbGwifQogICAgICB0YWJzPXtbCiAgICAgICAgewogICAgICAgICAgaWQ6ICJhdHRlbnRpb24iLAogICAgICAgICAgbGFiZWw6ICJOZWVkcyBBdHRlbnRpb24iLAogICAgICAgICAgY291bnQ6IGF0dGVudGlvbi5sZW5ndGgsCiAgICAgICAgICBjb250ZW50OiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgICAgICAgICAgIHthdHRlbnRpb24uc29tZSgoYSkgPT4gYS5pc1N0YWxlKSAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJyYW5kLXdhcm5pbmcvNDAgYmctYnJhbmQtd2FybmluZy8xMCBweC00IHB5LTMgdGV4dC14cyB0ZXh0LXRleHQtcHJpbWFyeSI+CiAgICAgICAgICAgICAgICAgIFNvbWUgcGVuZGluZyBkcmFmdHMgYXJlIG92ZXIgMjQgaG91cnMgb2xkIOKAlCBoaWdobGlnaHRlZCBpbiBhbWJlciBiZWxvdy4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPERhdGFUYWJsZQogICAgICAgICAgICAgICAgcm93cz17YXR0ZW50aW9ufQogICAgICAgICAgICAgICAgY29sdW1ucz17YnVpbGRDb2x1bW5zKHRydWUpfQogICAgICAgICAgICAgICAgc2VhcmNoYWJsZT17KHIpID0+IGAke3IuY29udGFjdE5hbWV9ICR7ci5jb21wYW55fWB9CiAgICAgICAgICAgICAgICBzZWFyY2hQbGFjZWhvbGRlcj0iU2VhcmNoIGNvbnRhY3Qgb3IgY29tcGFueeKApiIKICAgICAgICAgICAgICAgIGVtcHR5VGl0bGU9Ik5vdGhpbmcgbmVlZHMgYXR0ZW50aW9uIgogICAgICAgICAgICAgICAgZW1wdHlEZXNjcmlwdGlvbj0iV2hlbiBhIGRyYWZ0IGlzIGF3YWl0aW5nIGFwcHJvdmFsIG9yIGEgY29udGFjdCBoYXMgcmVwbGllZCwgaXQgd2lsbCBzaG93IHVwIGhlcmUuIgogICAgICAgICAgICAgICAgcm93S2V5PXsocikgPT4gci5pZH0KICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICksCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBpZDogImFsbCIsCiAgICAgICAgICBsYWJlbDogIkFsbCBPdXRyZWFjaCIsCiAgICAgICAgICBjb3VudDogYWxsLmxlbmd0aCwKICAgICAgICAgIGNvbnRlbnQ6ICgKICAgICAgICAgICAgPERhdGFUYWJsZQogICAgICAgICAgICAgIHJvd3M9e2FsbH0KICAgICAgICAgICAgICBjb2x1bW5zPXtidWlsZENvbHVtbnMoZmFsc2UpfQogICAgICAgICAgICAgIHNlYXJjaGFibGU9eyhyKSA9PiBgJHtyLmNvbnRhY3ROYW1lfSAke3IuY29tcGFueX1gfQogICAgICAgICAgICAgIHNlYXJjaFBsYWNlaG9sZGVyPSJTZWFyY2ggY29udGFjdCBvciBjb21wYW554oCmIgogICAgICAgICAgICAgIGVtcHR5VGl0bGU9Ik5vIG91dHJlYWNoIHlldCIKICAgICAgICAgICAgLz4KICAgICAgICAgICksCiAgICAgICAgfSwKICAgICAgXX0KICAgIC8+CiAgKTsKfQoK
+"use client";
+
+import { Linkedin } from "lucide-react";
+import { Tabs } from "@/components/ui/Tabs";
+import { DataTable, type Column } from "@/components/ui/DataTable";
+import { StatusBadge, toneForHITL } from "@/components/ui/StatusBadge";
+import { OutreachActions } from "@/components/linkedin/OutreachActions";
+import { formatRelative } from "@/lib/utils/dates";
+
+export interface OutreachRow {
+  id: string;
+  contactName: string;
+  company: string;
+  linkedinUrl: string | null;
+  stage: string | null;
+  draftDM: string;
+  hitlAction: string | null;
+  lastMessageDate: string | null;
+  hitlActionDate: string | null;
+  isStale: boolean;
+}
+
+function buildColumns(showActions: boolean): Column<OutreachRow>[] {
+  const cols: Column<OutreachRow>[] = [
+    {
+      key: "contact",
+      header: "Contact",
+      sort: (r) => r.contactName.toLowerCase(),
+      render: (r) => (
+        <div className="min-w-0">
+          <div className="truncate font-medium">{r.contactName || "—"}</div>
+          {r.company && (
+            <div className="truncate text-xs text-text-secondary">{r.company}</div>
+          )}
+        </div>
+      ),
+    },
+    {
+      key: "linkedin",
+      header: "LinkedIn",
+      width: "w-20",
+      hideOnMobile: true,
+      render: (r) =>
+        r.linkedinUrl ? (
+          <a
+            href={r.linkedinUrl}
+            target="_blank"
+            rel="noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="inline-flex items-center gap-1 text-brand-info hover:underline"
+            aria-label="Open LinkedIn profile"
+            title={r.linkedinUrl}
+          >
+            <Linkedin className="h-4 w-4" />
+          </a>
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "stage",
+      header: "Stage",
+      sort: (r) => r.stage ?? "",
+      render: (r) =>
+        r.stage ? (
+          <StatusBadge label={r.stage} tone="info" />
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "draft",
+      header: "Draft DM",
+      hideOnTablet: true,
+      render: (r) =>
+        r.draftDM ? (
+          <span className="line-clamp-2 max-w-md text-xs text-text-secondary">
+            {r.draftDM}
+          </span>
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "hitl",
+      header: "HITL",
+      sort: (r) => r.hitlAction ?? "",
+      render: (r) =>
+        r.hitlAction ? (
+          <StatusBadge label={r.hitlAction} tone={toneForHITL(r.hitlAction)} />
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "lastMessage",
+      header: "Last Message",
+      sort: (r) => r.lastMessageDate ?? "",
+      hideOnMobile: true,
+      render: (r) =>
+        r.lastMessageDate ? (
+          formatRelative(r.lastMessageDate)
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+  ];
+
+  if (showActions) {
+    cols.push({
+      key: "actions",
+      header: "",
+      width: "w-32",
+      render: (r) =>
+        r.hitlAction === "Pending" ? (
+          <OutreachActions id={r.id} initialDM={r.draftDM} />
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    });
+  }
+
+  return cols;
+}
+
+export function LinkedInTabs({
+  all,
+  attention,
+}: {
+  all: OutreachRow[];
+  attention: OutreachRow[];
+}) {
+  return (
+    <Tabs
+      defaultTab={attention.length > 0 ? "attention" : "all"}
+      tabs={[
+        {
+          id: "attention",
+          label: "Needs Attention",
+          count: attention.length,
+          content: (
+            <div className="space-y-3">
+              {attention.some((a) => a.isStale) && (
+                <div className="rounded-md border border-brand-warning/40 bg-brand-warning/10 px-4 py-3 text-xs text-text-primary">
+                  Some pending drafts are over 24 hours old — highlighted in amber below.
+                </div>
+              )}
+              <DataTable
+                rows={attention}
+                columns={buildColumns(true)}
+                searchable={(r) => `${r.contactName} ${r.company}`}
+                searchPlaceholder="Search contact or company…"
+                emptyTitle="Nothing needs attention"
+                emptyDescription="When a draft is awaiting approval or a contact has replied, it will show up here."
+                rowKey={(r) => r.id}
+              />
+            </div>
+          ),
+        },
+        {
+          id: "all",
+          label: "All Outreach",
+          count: all.length,
+          content: (
+            <DataTable
+              rows={all}
+              columns={buildColumns(false)}
+              searchable={(r) => `${r.contactName} ${r.company}`}
+              searchPlaceholder="Search contact or company…"
+              emptyTitle="No outreach yet"
+            />
+          ),
+        },
+      ]}
+    />
+  );
+}
+

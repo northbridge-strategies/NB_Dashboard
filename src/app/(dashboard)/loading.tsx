@@ -1,1 +1,15 @@
-aW1wb3J0IHsgU2tlbGV0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3RhdGVzIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIExvYWRpbmcoKSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYiPgogICAgICA8U2tlbGV0b24gY2xhc3NOYW1lPSJoLTYgdy0zMiIgLz4KICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgZ2FwLTQgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTMiPgogICAgICAgIHtBcnJheS5mcm9tKHsgbGVuZ3RoOiA2IH0pLm1hcCgoXywgaSkgPT4gKAogICAgICAgICAgPFNrZWxldG9uIGtleT17aX0gY2xhc3NOYW1lPSJoLTI4IiAvPgogICAgICAgICkpfQogICAgICA8L2Rpdj4KICAgICAgPFNrZWxldG9uIGNsYXNzTmFtZT0iaC02NCIgLz4KICAgIDwvZGl2PgogICk7Cn0K
+import { Skeleton } from "@/components/ui/states";
+
+export default function Loading() {
+  return (
+    <div className="space-y-6">
+      <Skeleton className="h-6 w-32" />
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {Array.from({ length: 6 }).map((_, i) => (
+          <Skeleton key={i} className="h-28" />
+        ))}
+      </div>
+      <Skeleton className="h-64" />
+    </div>
+  );
+}

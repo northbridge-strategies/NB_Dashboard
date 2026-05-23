@@ -1,1 +1,237 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAibmV4dC9uYXZpZ2F0aW9uIjsKaW1wb3J0IHsgUGhvbmUsIE1haWwsIEV4dGVybmFsTGluayB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IERhdGFUYWJsZSwgdHlwZSBDb2x1bW4gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvRGF0YVRhYmxlIjsKaW1wb3J0IHsgU2NvcmVCYXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvU2NvcmVCYXIiOwppbXBvcnQgewogIFN0YXR1c0JhZGdlLAogIHRvbmVGb3JDbGFzc2lmaWNhdGlvbiwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvU3RhdHVzQmFkZ2UiOwppbXBvcnQgeyBmb3JtYXRSZWxhdGl2ZSB9IGZyb20gIkAvbGliL3V0aWxzL2RhdGVzIjsKaW1wb3J0IHsgZm9ybWF0UGhvbmUsIGluaXRpYWxzIH0gZnJvbSAiQC9saWIvdXRpbHMvZm9ybWF0IjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscy9jbGFzc25hbWVzIjsKCmV4cG9ydCBpbnRlcmZhY2UgSG90TGVhZFJvdyB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgY29tcGFueTogc3RyaW5nOwogIHNjb3JlUGN0OiBudW1iZXIgfCBudWxsOwogIGNsYXNzaWZpY2F0aW9uOiBzdHJpbmcgfCBudWxsOwogIHBob25lOiBzdHJpbmcgfCBudWxsOwogIGVtYWlsOiBzdHJpbmcgfCBudWxsOwogIHNvdXJjZTogc3RyaW5nIHwgbnVsbDsKICBsYXN0QWN0aXZpdHlEYXRlOiBzdHJpbmcgfCBudWxsOwogIGRheXNTaW5jZUNvbnRhY3Q6IG51bWJlciB8IG51bGw7Cn0KCmNvbnN0IENMQVNTSUZJQ0FUSU9OX1JJTkc6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgIkZvdW5kZXItRGVwZW5kZW50IjogInJpbmctYnJhbmQtZGFuZ2VyLzQwIiwKICAiVHJhbnNpdGlvbmFsIjogInJpbmctYnJhbmQtd2FybmluZy80MCIsCiAgIlN0YWJpbGl6ZWQiOiAicmluZy1icmFuZC1pbmZvLzQwIiwKICAiVHJhbnNmZXItUmVhZHkiOiAicmluZy1icmFuZC1zdWNjZXNzLzQwIiwKfTsKCmZ1bmN0aW9uIExlYWRBdmF0YXIoewogIG5hbWUsCiAgY29tcGFueSwKICBjbGFzc2lmaWNhdGlvbiwKICBzaXplID0gMzYsCn06IHsKICBuYW1lOiBzdHJpbmc7CiAgY29tcGFueTogc3RyaW5nOwogIGNsYXNzaWZpY2F0aW9uOiBzdHJpbmcgfCBudWxsOwogIHNpemU/OiBudW1iZXI7Cn0pIHsKICBjb25zdCByaW5nID0gY2xhc3NpZmljYXRpb24gPyBDTEFTU0lGSUNBVElPTl9SSU5HW2NsYXNzaWZpY2F0aW9uXSA6ICJyaW5nLWJvcmRlciI7CiAgcmV0dXJuICgKICAgIDxkaXYKICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAiZmxleCBzaHJpbmstMCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIGJnLWJyYW5kLXByaW1hcnkgdGV4dC14cyBmb250LXNlbWlib2xkIHRleHQtd2hpdGUgcmluZy0yIHJpbmctb2Zmc2V0LTIgcmluZy1vZmZzZXQtc3VyZmFjZSIsCiAgICAgICAgcmluZywKICAgICAgKX0KICAgICAgc3R5bGU9e3sgd2lkdGg6IHNpemUsIGhlaWdodDogc2l6ZSB9fQogICAgICB0aXRsZT17YCR7bmFtZX0ke2NvbXBhbnkgPyBgIMK3ICR7Y29tcGFueX1gIDogIiJ9YH0KICAgID4KICAgICAge2luaXRpYWxzKG5hbWUgfHwgY29tcGFueSl9CiAgICA8L2Rpdj4KICApOwp9CgpleHBvcnQgZnVuY3Rpb24gSG90TGVhZHNUYWJsZSh7IHJvd3MgfTogeyByb3dzOiBIb3RMZWFkUm93W10gfSkgewogIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwoKICBjb25zdCBjb2x1bW5zOiBDb2x1bW48SG90TGVhZFJvdz5bXSA9IFsKICAgIHsKICAgICAga2V5OiAibmFtZSIsCiAgICAgIGhlYWRlcjogIkxlYWQiLAogICAgICBzb3J0OiAocikgPT4gci5uYW1lLnRvTG93ZXJDYXNlKCksCiAgICAgIHJlbmRlcjogKHIpID0+ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgPExlYWRBdmF0YXIKICAgICAgICAgICAgbmFtZT17ci5uYW1lfQogICAgICAgICAgICBjb21wYW55PXtyLmNvbXBhbnl9CiAgICAgICAgICAgIGNsYXNzaWZpY2F0aW9uPXtyLmNsYXNzaWZpY2F0aW9ufQogICAgICAgICAgLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4tdy0wIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRydW5jYXRlIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgIHtyLm5hbWUgfHwgIih1bm5hbWVkKSJ9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idHJ1bmNhdGUgdGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICB7ci5jb21wYW55IHx8ICLigJQifQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICApLAogICAgfSwKICAgIHsKICAgICAga2V5OiAic2NvcmUiLAogICAgICBoZWFkZXI6ICJTY29yZSIsCiAgICAgIHNvcnQ6IChyKSA9PiByLnNjb3JlUGN0LAogICAgICB3aWR0aDogInctNDQiLAogICAgICBoaWRlT25Nb2JpbGU6IHRydWUsCiAgICAgIHJlbmRlcjogKHIpID0+IDxTY29yZUJhciBwY3Q9e3Iuc2NvcmVQY3R9IC8+LAogICAgfSwKICAgIHsKICAgICAga2V5OiAiY2xhc3NpZmljYXRpb24iLAogICAgICBoZWFkZXI6ICJDbGFzc2lmaWNhdGlvbiIsCiAgICAgIHNvcnQ6IChyKSA9PiByLmNsYXNzaWZpY2F0aW9uID8/ICIiLAogICAgICB3aWR0aDogInctNDQiLAogICAgICBoaWRlT25UYWJsZXQ6IHRydWUsCiAgICAgIHJlbmRlcjogKHIpID0+CiAgICAgICAgci5jbGFzc2lmaWNhdGlvbiA/ICgKICAgICAgICAgIDxTdGF0dXNCYWRnZQogICAgICAgICAgICBsYWJlbD17ci5jbGFzc2lmaWNhdGlvbn0KICAgICAgICAgICAgdG9uZT17dG9uZUZvckNsYXNzaWZpY2F0aW9uKHIuY2xhc3NpZmljYXRpb24pfQogICAgICAgICAgLz4KICAgICAgICApIDogKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXRleHQtbXV0ZWQiPuKAlDwvc3Bhbj4KICAgICAgICApLAogICAgfSwKICAgIHsKICAgICAga2V5OiAicGhvbmUiLAogICAgICBoZWFkZXI6ICJQaG9uZSIsCiAgICAgIHdpZHRoOiAidy00MCIsCiAgICAgIGhpZGVPbk1vYmlsZTogdHJ1ZSwKICAgICAgcmVuZGVyOiAocikgPT4KICAgICAgICByLnBob25lID8gKAogICAgICAgICAgPGEKICAgICAgICAgICAgaHJlZj17YHRlbDoke3IucGhvbmV9YH0KICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSB3aGl0ZXNwYWNlLW5vd3JhcCB0ZXh0LXNtIHRleHQtYnJhbmQtaW5mbyBob3Zlcjp1bmRlcmxpbmUiCiAgICAgICAgICAgIG9uQ2xpY2s9eyhlKSA9PiBlLnN0b3BQcm9wYWdhdGlvbigpfQogICAgICAgICAgPgogICAgICAgICAgICA8UGhvbmUgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSBzaHJpbmstMCIgLz4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0YWJ1bGFyLW51bXMiPntmb3JtYXRQaG9uZShyLnBob25lKX08L3NwYW4+CiAgICAgICAgICA8L2E+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZXh0LW11dGVkIj7igJQ8L3NwYW4+CiAgICAgICAgKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogInNvdXJjZSIsCiAgICAgIGhlYWRlcjogIlNvdXJjZSIsCiAgICAgIHNvcnQ6IChyKSA9PiByLnNvdXJjZSA/PyAiIiwKICAgICAgaGlkZU9uVGFibGV0OiB0cnVlLAogICAgICByZW5kZXI6IChyKSA9PgogICAgICAgIHIuc291cmNlID8gKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtdGV4dC1zZWNvbmRhcnkiPntyLnNvdXJjZX08L3NwYW4+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZXh0LW11dGVkIj7igJQ8L3NwYW4+CiAgICAgICAgKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogImxhc3RBY3Rpdml0eSIsCiAgICAgIGhlYWRlcjogIkxhc3QgQWN0aXZpdHkiLAogICAgICBzb3J0OiAocikgPT4gci5sYXN0QWN0aXZpdHlEYXRlID8/ICIiLAogICAgICB3aWR0aDogInctMzIiLAogICAgICBoaWRlT25Nb2JpbGU6IHRydWUsCiAgICAgIHJlbmRlcjogKHIpID0+CiAgICAgICAgci5sYXN0QWN0aXZpdHlEYXRlID8gKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3aGl0ZXNwYWNlLW5vd3JhcCB0ZXh0LXNtIHRleHQtdGV4dC1zZWNvbmRhcnkiIHRpdGxlPXtyLmxhc3RBY3Rpdml0eURhdGV9PgogICAgICAgICAgICB7Zm9ybWF0UmVsYXRpdmUoci5sYXN0QWN0aXZpdHlEYXRlKX0KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICApIDogKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXRleHQtbXV0ZWQiPuKAlDwvc3Bhbj4KICAgICAgICApLAogICAgfSwKICAgIHsKICAgICAga2V5OiAiZGF5cyIsCiAgICAgIGhlYWRlcjogIkRheXMiLAogICAgICBzb3J0OiAocikgPT4gci5kYXlzU2luY2VDb250YWN0LAogICAgICBhbGlnbjogInJpZ2h0IiwKICAgICAgd2lkdGg6ICJ3LTIwIiwKICAgICAgcmVuZGVyOiAocikgPT4KICAgICAgICByLmRheXNTaW5jZUNvbnRhY3QgPT0gbnVsbCA/ICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZXh0LW11dGVkIj7igJQ8L3NwYW4+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgInRhYnVsYXItbnVtcyIsCiAgICAgICAgICAgICAgci5kYXlzU2luY2VDb250YWN0ID4gMTQKICAgICAgICAgICAgICAgID8gImZvbnQtc2VtaWJvbGQgdGV4dC1icmFuZC1kYW5nZXIiCiAgICAgICAgICAgICAgICA6IHIuZGF5c1NpbmNlQ29udGFjdCA+IDcKICAgICAgICAgICAgICAgID8gImZvbnQtbWVkaXVtIHRleHQtYnJhbmQtd2FybmluZyIKICAgICAgICAgICAgICAgIDogInRleHQtdGV4dC1wcmltYXJ5IiwKICAgICAgICAgICAgKX0KICAgICAgICAgID4KICAgICAgICAgICAge3IuZGF5c1NpbmNlQ29udGFjdH1kCiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogImFjdGlvbnMiLAogICAgICBoZWFkZXI6ICIiLAogICAgICB3aWR0aDogInctMzIiLAogICAgICByZW5kZXI6IChyKSA9PiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktZW5kIGdhcC0xIj4KICAgICAgICAgIHtyLmVtYWlsICYmICgKICAgICAgICAgICAgPGEKICAgICAgICAgICAgICBocmVmPXtgbWFpbHRvOiR7ci5lbWFpbH1gfQogICAgICAgICAgICAgIG9uQ2xpY2s9eyhlKSA9PiBlLnN0b3BQcm9wYWdhdGlvbigpfQogICAgICAgICAgICAgIGFyaWEtbGFiZWw9IkVtYWlsIgogICAgICAgICAgICAgIHRpdGxlPXtyLmVtYWlsfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaC04IHctOCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciB0ZXh0LXRleHQtc2Vjb25kYXJ5IHRyYW5zaXRpb24gaG92ZXI6Ym9yZGVyLWJyYW5kLXByaW1hcnkvNDAgaG92ZXI6Ymctc3VyZmFjZS1lbGV2YXRlZCBob3Zlcjp0ZXh0LWJyYW5kLXByaW1hcnkiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8TWFpbCBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgICA8L2E+CiAgICAgICAgICApfQogICAgICAgICAge3IucGhvbmUgJiYgKAogICAgICAgICAgICA8YQogICAgICAgICAgICAgIGhyZWY9e2B0ZWw6JHtyLnBob25lfWB9CiAgICAgICAgICAgICAgb25DbGljaz17KGUpID0+IGUuc3RvcFByb3BhZ2F0aW9uKCl9CiAgICAgICAgICAgICAgYXJpYS1sYWJlbD0iQ2FsbCIKICAgICAgICAgICAgICB0aXRsZT17Zm9ybWF0UGhvbmUoci5waG9uZSl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBoLTggdy04IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIHRleHQtdGV4dC1zZWNvbmRhcnkgdHJhbnNpdGlvbiBob3Zlcjpib3JkZXItYnJhbmQtcHJpbWFyeS80MCBob3ZlcjpiZy1zdXJmYWNlLWVsZXZhdGVkIGhvdmVyOnRleHQtYnJhbmQtcHJpbWFyeSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxQaG9uZSBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPgogICAgICAgICAgICA8L2E+CiAgICAgICAgICApfQogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIG9uQ2xpY2s9eyhlKSA9PiB7CiAgICAgICAgICAgICAgZS5zdG9wUHJvcGFnYXRpb24oKTsKICAgICAgICAgICAgICByb3V0ZXIucHVzaChgL2xlYWRzLyR7ci5pZH1gKTsKICAgICAgICAgICAgfX0KICAgICAgICAgICAgYXJpYS1sYWJlbD0iVmlldyBsZWFkIGRldGFpbCIKICAgICAgICAgICAgdGl0bGU9IlZpZXcgbGVhZCBkZXRhaWwiCiAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaC04IHctOCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciB0ZXh0LXRleHQtc2Vjb25kYXJ5IHRyYW5zaXRpb24gaG92ZXI6Ym9yZGVyLWJyYW5kLXByaW1hcnkvNDAgaG92ZXI6Ymctc3VyZmFjZS1lbGV2YXRlZCBob3Zlcjp0ZXh0LWJyYW5kLXByaW1hcnkiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxFeHRlcm5hbExpbmsgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICApLAogICAgfSwKICBdOwoKICByZXR1cm4gKAogICAgPERhdGFUYWJsZQogICAgICByb3dzPXtyb3dzfQogICAgICBjb2x1bW5zPXtjb2x1bW5zfQogICAgICBzZWFyY2hhYmxlPXsocikgPT4gYCR7ci5uYW1lfSAke3IuY29tcGFueX0gJHtyLmVtYWlsID8/ICIifWB9CiAgICAgIHNlYXJjaFBsYWNlaG9sZGVyPSJTZWFyY2ggYnkgbmFtZSwgY29tcGFueSwgb3IgZW1haWzigKYiCiAgICAgIG9uUm93Q2xpY2s9eyhyKSA9PiByb3V0ZXIucHVzaChgL2xlYWRzLyR7ci5pZH1gKX0KICAgICAgZW1wdHlUaXRsZT0iTm8gaG90IGxlYWRzIgogICAgICBlbXB0eURlc2NyaXB0aW9uPSJIb3QgbGVhZHMgZnJvbSB0aGUgUGlwZWxpbmUgREIgd2lsbCBhcHBlYXIgaGVyZSBhcyBzb29uIGFzIERvdWcgZmxhZ3Mgb25lLiIKICAgIC8+CiAgKTsKfQo=
+"use client";
+
+import { useRouter } from "next/navigation";
+import { Phone, Mail, ExternalLink } from "lucide-react";
+import { DataTable, type Column } from "@/components/ui/DataTable";
+import { ScoreBar } from "@/components/ui/ScoreBar";
+import {
+  StatusBadge,
+  toneForClassification,
+} from "@/components/ui/StatusBadge";
+import { formatRelative } from "@/lib/utils/dates";
+import { formatPhone, initials } from "@/lib/utils/format";
+import { cn } from "@/lib/utils/classnames";
+
+export interface HotLeadRow {
+  id: string;
+  name: string;
+  company: string;
+  scorePct: number | null;
+  classification: string | null;
+  phone: string | null;
+  email: string | null;
+  source: string | null;
+  lastActivityDate: string | null;
+  daysSinceContact: number | null;
+}
+
+const CLASSIFICATION_RING: Record<string, string> = {
+  "Founder-Dependent": "ring-brand-danger/40",
+  "Transitional": "ring-brand-warning/40",
+  "Stabilized": "ring-brand-info/40",
+  "Transfer-Ready": "ring-brand-success/40",
+};
+
+function LeadAvatar({
+  name,
+  company,
+  classification,
+  size = 36,
+}: {
+  name: string;
+  company: string;
+  classification: string | null;
+  size?: number;
+}) {
+  const ring = classification ? CLASSIFICATION_RING[classification] : "ring-border";
+  return (
+    <div
+      className={cn(
+        "flex shrink-0 items-center justify-center rounded-full bg-brand-primary text-xs font-semibold text-white ring-2 ring-offset-2 ring-offset-surface",
+        ring,
+      )}
+      style={{ width: size, height: size }}
+      title={`${name}${company ? ` · ${company}` : ""}`}
+    >
+      {initials(name || company)}
+    </div>
+  );
+}
+
+export function HotLeadsTable({ rows }: { rows: HotLeadRow[] }) {
+  const router = useRouter();
+
+  const columns: Column<HotLeadRow>[] = [
+    {
+      key: "name",
+      header: "Lead",
+      sort: (r) => r.name.toLowerCase(),
+      render: (r) => (
+        <div className="flex items-center gap-3">
+          <LeadAvatar
+            name={r.name}
+            company={r.company}
+            classification={r.classification}
+          />
+          <div className="min-w-0">
+            <div className="truncate text-sm font-medium text-text-primary">
+              {r.name || "(unnamed)"}
+            </div>
+            <div className="truncate text-xs text-text-secondary">
+              {r.company || "—"}
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      key: "score",
+      header: "Score",
+      sort: (r) => r.scorePct,
+      width: "w-44",
+      hideOnMobile: true,
+      render: (r) => <ScoreBar pct={r.scorePct} />,
+    },
+    {
+      key: "classification",
+      header: "Classification",
+      sort: (r) => r.classification ?? "",
+      width: "w-44",
+      hideOnTablet: true,
+      render: (r) =>
+        r.classification ? (
+          <StatusBadge
+            label={r.classification}
+            tone={toneForClassification(r.classification)}
+          />
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "phone",
+      header: "Phone",
+      width: "w-40",
+      hideOnMobile: true,
+      render: (r) =>
+        r.phone ? (
+          <a
+            href={`tel:${r.phone}`}
+            className="inline-flex items-center gap-1.5 whitespace-nowrap text-sm text-brand-info hover:underline"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <Phone className="h-3.5 w-3.5 shrink-0" />
+            <span className="tabular-nums">{formatPhone(r.phone)}</span>
+          </a>
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "source",
+      header: "Source",
+      sort: (r) => r.source ?? "",
+      hideOnTablet: true,
+      render: (r) =>
+        r.source ? (
+          <span className="text-sm text-text-secondary">{r.source}</span>
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "lastActivity",
+      header: "Last Activity",
+      sort: (r) => r.lastActivityDate ?? "",
+      width: "w-32",
+      hideOnMobile: true,
+      render: (r) =>
+        r.lastActivityDate ? (
+          <span className="whitespace-nowrap text-sm text-text-secondary" title={r.lastActivityDate}>
+            {formatRelative(r.lastActivityDate)}
+          </span>
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "days",
+      header: "Days",
+      sort: (r) => r.daysSinceContact,
+      align: "right",
+      width: "w-20",
+      render: (r) =>
+        r.daysSinceContact == null ? (
+          <span className="text-text-muted">—</span>
+        ) : (
+          <span
+            className={cn(
+              "tabular-nums",
+              r.daysSinceContact > 14
+                ? "font-semibold text-brand-danger"
+                : r.daysSinceContact > 7
+                ? "font-medium text-brand-warning"
+                : "text-text-primary",
+            )}
+          >
+            {r.daysSinceContact}d
+          </span>
+        ),
+    },
+    {
+      key: "actions",
+      header: "",
+      width: "w-32",
+      render: (r) => (
+        <div className="flex items-center justify-end gap-1">
+          {r.email && (
+            <a
+              href={`mailto:${r.email}`}
+              onClick={(e) => e.stopPropagation()}
+              aria-label="Email"
+              title={r.email}
+              className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-border text-text-secondary transition hover:border-brand-primary/40 hover:bg-surface-elevated hover:text-brand-primary"
+            >
+              <Mail className="h-3.5 w-3.5" />
+            </a>
+          )}
+          {r.phone && (
+            <a
+              href={`tel:${r.phone}`}
+              onClick={(e) => e.stopPropagation()}
+              aria-label="Call"
+              title={formatPhone(r.phone)}
+              className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-border text-text-secondary transition hover:border-brand-primary/40 hover:bg-surface-elevated hover:text-brand-primary"
+            >
+              <Phone className="h-3.5 w-3.5" />
+            </a>
+          )}
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              router.push(`/leads/${r.id}`);
+            }}
+            aria-label="View lead detail"
+            title="View lead detail"
+            className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-border text-text-secondary transition hover:border-brand-primary/40 hover:bg-surface-elevated hover:text-brand-primary"
+          >
+            <ExternalLink className="h-3.5 w-3.5" />
+          </button>
+        </div>
+      ),
+    },
+  ];
+
+  return (
+    <DataTable
+      rows={rows}
+      columns={columns}
+      searchable={(r) => `${r.name} ${r.company} ${r.email ?? ""}`}
+      searchPlaceholder="Search by name, company, or email…"
+      onRowClick={(r) => router.push(`/leads/${r.id}`)}
+      emptyTitle="No hot leads"
+      emptyDescription="Hot leads from the Pipeline DB will appear here as soon as Doug flags one."
+    />
+  );
+}

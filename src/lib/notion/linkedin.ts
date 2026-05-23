@@ -1,1 +1,165 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IG5vdGlvbiB9IGZyb20gIi4vY2xpZW50IjsKaW1wb3J0IHsgREIgfSBmcm9tICIuL2lkcyI7CmltcG9ydCB7IGNhY2hlZCwgVEFHIH0gZnJvbSAiLi9jYWNoZSI7CmltcG9ydCB7CiAgZ2V0Q2hlY2tib3gsCiAgZ2V0RGF0ZSwKICBnZXRSZWxhdGlvbklkcywKICBnZXRSaWNoVGV4dCwKICBnZXRTZWxlY3QsCiAgZ2V0VGl0bGUsCiAgZ2V0VXJsLAogIGlzRnVsbFBhZ2UsCiAgdHlwZSBQYWdlLAp9IGZyb20gIi4vcGFyc2VycyI7CmltcG9ydCB0eXBlIHsgQWN0aXZpdHlJdGVtLCBISVRMQWN0aW9uIH0gZnJvbSAiQC9saWIvdHlwZXMvZG9tYWluIjsKCmV4cG9ydCBpbnRlcmZhY2UgT3V0cmVhY2hFbnRyeSB7CiAgaWQ6IHN0cmluZzsKICBjb250YWN0TmFtZTogc3RyaW5nOwogIGNvbXBhbnk6IHN0cmluZzsKICBsaW5rZWRpblVybDogc3RyaW5nIHwgbnVsbDsKICBqb2JUaXRsZTogc3RyaW5nOwogIHNvdXJjZTogc3RyaW5nIHwgbnVsbDsKICBkYXRlQWRkZWQ6IHN0cmluZyB8IG51bGw7CiAgZGF0ZUNvbm5lY3RlZDogc3RyaW5nIHwgbnVsbDsKICBzdGFnZTogc3RyaW5nIHwgbnVsbDsKICBkb3VnQXBwcm92ZWQ6IGJvb2xlYW47CiAgZHJhZnRETTogc3RyaW5nOwogIGhpdGxBY3Rpb246IEhJVExBY3Rpb24gfCBudWxsOwogIGhpdGxBY3Rpb25EYXRlOiBzdHJpbmcgfCBudWxsOwogIGhpdGxOb3Rlczogc3RyaW5nOwogIGRtQXBwcm92ZWQ6IGJvb2xlYW47CiAgbGFzdE1lc3NhZ2VEYXRlOiBzdHJpbmcgfCBudWxsOwogIGNvbnZlcnRlZFRvTGVhZElkOiBzdHJpbmcgfCBudWxsOwogIGxhc3RFZGl0ZWRUaW1lOiBzdHJpbmc7Cn0KCmV4cG9ydCBmdW5jdGlvbiBwYXJzZU91dHJlYWNoKHBhZ2U6IFBhZ2UpOiBPdXRyZWFjaEVudHJ5IHsKICBjb25zdCBjb252SWRzID0gZ2V0UmVsYXRpb25JZHMocGFnZSwgIkNvbnZlcnRlZCB0byBMZWFkIik7CiAgcmV0dXJuIHsKICAgIGlkOiBwYWdlLmlkLAogICAgY29udGFjdE5hbWU6IGdldFRpdGxlKHBhZ2UsICJDb250YWN0IE5hbWUiKSwKICAgIGNvbXBhbnk6IGdldFJpY2hUZXh0KHBhZ2UsICJDb21wYW55IiksCiAgICBsaW5rZWRpblVybDogZ2V0VXJsKHBhZ2UsICJMaW5rZWRJbiBVUkwiKSwKICAgIGpvYlRpdGxlOiBnZXRSaWNoVGV4dChwYWdlLCAiVGl0bGUiKSwKICAgIHNvdXJjZTogZ2V0U2VsZWN0KHBhZ2UsICJTb3VyY2UiKSwKICAgIGRhdGVBZGRlZDogZ2V0RGF0ZShwYWdlLCAiRGF0ZSBBZGRlZCIpLAogICAgZGF0ZUNvbm5lY3RlZDogZ2V0RGF0ZShwYWdlLCAiRGF0ZSBDb25uZWN0ZWQiKSwKICAgIHN0YWdlOiBnZXRTZWxlY3QocGFnZSwgIlN0YWdlIiksCiAgICBkb3VnQXBwcm92ZWQ6IGdldENoZWNrYm94KHBhZ2UsICJEb3VnIEFwcHJvdmVkIiksCiAgICBkcmFmdERNOiBnZXRSaWNoVGV4dChwYWdlLCAiRHJhZnQgRE0iKSwKICAgIGhpdGxBY3Rpb246IGdldFNlbGVjdChwYWdlLCAiSElUTCBBY3Rpb24iKSBhcyBISVRMQWN0aW9uIHwgbnVsbCwKICAgIGhpdGxBY3Rpb25EYXRlOiBnZXREYXRlKHBhZ2UsICJISVRMIEFjdGlvbiBEYXRlIiksCiAgICBoaXRsTm90ZXM6IGdldFJpY2hUZXh0KHBhZ2UsICJISVRMIE5vdGVzIiksCiAgICBkbUFwcHJvdmVkOiBnZXRDaGVja2JveChwYWdlLCAiRE0gQXBwcm92ZWQiKSwKICAgIGxhc3RNZXNzYWdlRGF0ZTogZ2V0RGF0ZShwYWdlLCAiTGFzdCBNZXNzYWdlIERhdGUiKSwKICAgIGNvbnZlcnRlZFRvTGVhZElkOiBjb252SWRzWzBdID8/IG51bGwsCiAgICBsYXN0RWRpdGVkVGltZTogcGFnZS5sYXN0X2VkaXRlZF90aW1lLAogIH07Cn0KCmV4cG9ydCBjb25zdCBsaXN0T3V0cmVhY2ggPSBjYWNoZWQoCiAgYXN5bmMgKCk6IFByb21pc2U8T3V0cmVhY2hFbnRyeVtdPiA9PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgICAgZGF0YWJhc2VfaWQ6IERCLmxpbmtlZGluLAogICAgICBwYWdlX3NpemU6IDEwMCwKICAgICAgc29ydHM6IFt7IHRpbWVzdGFtcDogImxhc3RfZWRpdGVkX3RpbWUiLCBkaXJlY3Rpb246ICJkZXNjZW5kaW5nIiB9XSwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5yZXN1bHRzLmZpbHRlcihpc0Z1bGxQYWdlKS5tYXAocGFyc2VPdXRyZWFjaCk7CiAgfSwKICBbImxpbmtlZGluOmFsbCJdLAogIHsgdGFnczogW1RBRy5saW5rZWRpbl0gfSwKKTsKCmV4cG9ydCBjb25zdCBsaXN0T3V0cmVhY2hOZWVkaW5nQXR0ZW50aW9uID0gY2FjaGVkKAogIGFzeW5jICgpOiBQcm9taXNlPE91dHJlYWNoRW50cnlbXT4gPT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgbm90aW9uLmRhdGFiYXNlcy5xdWVyeSh7CiAgICAgIGRhdGFiYXNlX2lkOiBEQi5saW5rZWRpbiwKICAgICAgZmlsdGVyOiB7CiAgICAgICAgb3I6IFsKICAgICAgICAgIHsgcHJvcGVydHk6ICJTdGFnZSIsIHNlbGVjdDogeyBlcXVhbHM6ICJSZXBsaWVkIiB9IH0sCiAgICAgICAgICB7IHByb3BlcnR5OiAiSElUTCBBY3Rpb24iLCBzZWxlY3Q6IHsgZXF1YWxzOiAiUGVuZGluZyIgfSB9LAogICAgICAgIF0sCiAgICAgIH0sCiAgICAgIHNvcnRzOiBbeyB0aW1lc3RhbXA6ICJsYXN0X2VkaXRlZF90aW1lIiwgZGlyZWN0aW9uOiAiZGVzY2VuZGluZyIgfV0sCiAgICAgIHBhZ2Vfc2l6ZTogMTAwLAogICAgfSk7CiAgICByZXR1cm4gcmVzLnJlc3VsdHMuZmlsdGVyKGlzRnVsbFBhZ2UpLm1hcChwYXJzZU91dHJlYWNoKTsKICB9LAogIFsibGlua2VkaW46YXR0ZW50aW9uIl0sCiAgeyB0YWdzOiBbVEFHLmxpbmtlZGluXSB9LAopOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGFwcHJvdmVPdXRyZWFjaCgKICBpZDogc3RyaW5nLAogIGVkaXRlZERNPzogc3RyaW5nLAopOiBQcm9taXNlPHZvaWQ+IHsKICBjb25zdCBwcm9wZXJ0aWVzOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiA9IHsKICAgICJISVRMIEFjdGlvbiI6IHsKICAgICAgc2VsZWN0OiB7IG5hbWU6IGVkaXRlZERNID8gIkVkaXRlZC1BcHByb3ZlZCIgOiAiQXBwcm92ZWQiIH0sCiAgICB9LAogICAgIkRNIEFwcHJvdmVkIjogeyBjaGVja2JveDogdHJ1ZSB9LAogICAgIkRvdWcgQXBwcm92ZWQiOiB7IGNoZWNrYm94OiB0cnVlIH0sCiAgICAiSElUTCBBY3Rpb24gRGF0ZSI6IHsgZGF0ZTogeyBzdGFydDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpIH0gfSwKICB9OwogIGlmIChlZGl0ZWRETSAhPT0gdW5kZWZpbmVkKSB7CiAgICBwcm9wZXJ0aWVzWyJEcmFmdCBETSJdID0gewogICAgICByaWNoX3RleHQ6IFt7IHR5cGU6ICJ0ZXh0IiwgdGV4dDogeyBjb250ZW50OiBlZGl0ZWRETSB9IH1dLAogICAgfTsKICB9CiAgYXdhaXQgbm90aW9uLnBhZ2VzLnVwZGF0ZSh7IHBhZ2VfaWQ6IGlkLCBwcm9wZXJ0aWVzOiBwcm9wZXJ0aWVzIGFzIG5ldmVyIH0pOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVqZWN0T3V0cmVhY2goaWQ6IHN0cmluZywgbm90ZXM/OiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICBjb25zdCBwcm9wZXJ0aWVzOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiA9IHsKICAgICJISVRMIEFjdGlvbiI6IHsgc2VsZWN0OiB7IG5hbWU6ICJSZWplY3RlZC1NYW51YWwgUmV2aWV3IiB9IH0sCiAgICAiU3RhZ2UiOiB7IHNlbGVjdDogeyBuYW1lOiAiTWFudWFsIFJldmlldyIgfSB9LAogICAgIkhJVEwgQWN0aW9uIERhdGUiOiB7IGRhdGU6IHsgc3RhcnQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9IH0sCiAgfTsKICBpZiAobm90ZXMgIT09IHVuZGVmaW5lZCkgewogICAgcHJvcGVydGllc1siSElUTCBOb3RlcyJdID0gewogICAgICByaWNoX3RleHQ6IFt7IHR5cGU6ICJ0ZXh0IiwgdGV4dDogeyBjb250ZW50OiBub3RlcyB9IH1dLAogICAgfTsKICB9CiAgYXdhaXQgbm90aW9uLnBhZ2VzLnVwZGF0ZSh7IHBhZ2VfaWQ6IGlkLCBwcm9wZXJ0aWVzOiBwcm9wZXJ0aWVzIGFzIG5ldmVyIH0pOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0T3V0cmVhY2hGb3JMZWFkKGxlYWRJZDogc3RyaW5nKTogUHJvbWlzZTxPdXRyZWFjaEVudHJ5W10+IHsKICBjb25zdCByZXMgPSBhd2FpdCBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgIGRhdGFiYXNlX2lkOiBEQi5saW5rZWRpbiwKICAgIHBhZ2Vfc2l6ZTogMjAsCiAgICBmaWx0ZXI6IHsKICAgICAgcHJvcGVydHk6ICJDb252ZXJ0ZWQgdG8gTGVhZCIsCiAgICAgIHJlbGF0aW9uOiB7IGNvbnRhaW5zOiBsZWFkSWQgfSwKICAgIH0sCiAgICBzb3J0czogW3sgdGltZXN0YW1wOiAibGFzdF9lZGl0ZWRfdGltZSIsIGRpcmVjdGlvbjogImRlc2NlbmRpbmciIH1dLAogIH0pOwogIHJldHVybiByZXMucmVzdWx0cy5maWx0ZXIoaXNGdWxsUGFnZSkubWFwKHBhcnNlT3V0cmVhY2gpOwp9CgpleHBvcnQgY29uc3QgcmVjZW50T3V0cmVhY2hBY3Rpdml0eSA9IGNhY2hlZCgKICBhc3luYyAobGltaXQgPSAxMCk6IFByb21pc2U8QWN0aXZpdHlJdGVtW10+ID0+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgICBkYXRhYmFzZV9pZDogREIubGlua2VkaW4sCiAgICAgIHBhZ2Vfc2l6ZTogbGltaXQsCiAgICAgIHNvcnRzOiBbeyB0aW1lc3RhbXA6ICJsYXN0X2VkaXRlZF90aW1lIiwgZGlyZWN0aW9uOiAiZGVzY2VuZGluZyIgfV0sCiAgICB9KTsKICAgIHJldHVybiByZXMucmVzdWx0cy5maWx0ZXIoaXNGdWxsUGFnZSkubWFwKChwYWdlKSA9PiB7CiAgICAgIGNvbnN0IG8gPSBwYXJzZU91dHJlYWNoKHBhZ2UpOwogICAgICByZXR1cm4gewogICAgICAgIHNvdXJjZTogImxpbmtlZGluIiBhcyBjb25zdCwKICAgICAgICBpZDogby5pZCwKICAgICAgICB0aXRsZTogby5jb250YWN0TmFtZSB8fCAiT3V0cmVhY2ggdXBkYXRlZCIsCiAgICAgICAgZGV0YWlsOiBbby5jb21wYW55LCBvLnN0YWdlXS5maWx0ZXIoQm9vbGVhbikuam9pbigiIMK3ICIpIHx8ICJMaW5rZWRJbiBvdXRyZWFjaCIsCiAgICAgICAgdGltZXN0YW1wOiBvLmxhc3RFZGl0ZWRUaW1lLAogICAgICAgIGhyZWY6IG8uY29udmVydGVkVG9MZWFkSWQKICAgICAgICAgID8gYC9sZWFkcy8ke28uY29udmVydGVkVG9MZWFkSWR9YAogICAgICAgICAgOiAiL2xpbmtlZGluIiwKICAgICAgfTsKICAgIH0pOwogIH0sCiAgWyJsaW5rZWRpbjphY3Rpdml0eSJdLAogIHsgdGFnczogW1RBRy5saW5rZWRpbiwgVEFHLmFjdGl2aXR5XSB9LAopOwo=
+import "server-only";
+import { notion } from "./client";
+import { DB } from "./ids";
+import { cached, TAG } from "./cache";
+import {
+  getCheckbox,
+  getDate,
+  getRelationIds,
+  getRichText,
+  getSelect,
+  getTitle,
+  getUrl,
+  isFullPage,
+  type Page,
+} from "./parsers";
+import type { ActivityItem, HITLAction } from "@/lib/types/domain";
+
+export interface OutreachEntry {
+  id: string;
+  contactName: string;
+  company: string;
+  linkedinUrl: string | null;
+  jobTitle: string;
+  source: string | null;
+  dateAdded: string | null;
+  dateConnected: string | null;
+  stage: string | null;
+  dougApproved: boolean;
+  draftDM: string;
+  hitlAction: HITLAction | null;
+  hitlActionDate: string | null;
+  hitlNotes: string;
+  dmApproved: boolean;
+  lastMessageDate: string | null;
+  convertedToLeadId: string | null;
+  lastEditedTime: string;
+}
+
+export function parseOutreach(page: Page): OutreachEntry {
+  const convIds = getRelationIds(page, "Converted to Lead");
+  return {
+    id: page.id,
+    contactName: getTitle(page, "Contact Name"),
+    company: getRichText(page, "Company"),
+    linkedinUrl: getUrl(page, "LinkedIn URL"),
+    jobTitle: getRichText(page, "Title"),
+    source: getSelect(page, "Source"),
+    dateAdded: getDate(page, "Date Added"),
+    dateConnected: getDate(page, "Date Connected"),
+    stage: getSelect(page, "Stage"),
+    dougApproved: getCheckbox(page, "Doug Approved"),
+    draftDM: getRichText(page, "Draft DM"),
+    hitlAction: getSelect(page, "HITL Action") as HITLAction | null,
+    hitlActionDate: getDate(page, "HITL Action Date"),
+    hitlNotes: getRichText(page, "HITL Notes"),
+    dmApproved: getCheckbox(page, "DM Approved"),
+    lastMessageDate: getDate(page, "Last Message Date"),
+    convertedToLeadId: convIds[0] ?? null,
+    lastEditedTime: page.last_edited_time,
+  };
+}
+
+export const listOutreach = cached(
+  async (): Promise<OutreachEntry[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.linkedin,
+      page_size: 100,
+      sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+    });
+    return res.results.filter(isFullPage).map(parseOutreach);
+  },
+  ["linkedin:all"],
+  { tags: [TAG.linkedin] },
+);
+
+export const listOutreachNeedingAttention = cached(
+  async (): Promise<OutreachEntry[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.linkedin,
+      filter: {
+        or: [
+          { property: "Stage", select: { equals: "Replied" } },
+          { property: "HITL Action", select: { equals: "Pending" } },
+        ],
+      },
+      sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+      page_size: 100,
+    });
+    return res.results.filter(isFullPage).map(parseOutreach);
+  },
+  ["linkedin:attention"],
+  { tags: [TAG.linkedin] },
+);
+
+export async function approveOutreach(
+  id: string,
+  editedDM?: string,
+): Promise<void> {
+  const properties: Record<string, unknown> = {
+    "HITL Action": {
+      select: { name: editedDM ? "Edited-Approved" : "Approved" },
+    },
+    "DM Approved": { checkbox: true },
+    "Doug Approved": { checkbox: true },
+    "HITL Action Date": { date: { start: new Date().toISOString() } },
+  };
+  if (editedDM !== undefined) {
+    properties["Draft DM"] = {
+      rich_text: [{ type: "text", text: { content: editedDM } }],
+    };
+  }
+  await notion.pages.update({ page_id: id, properties: properties as never });
+}
+
+export async function rejectOutreach(id: string, notes?: string): Promise<void> {
+  const properties: Record<string, unknown> = {
+    "HITL Action": { select: { name: "Rejected-Manual Review" } },
+    "Stage": { select: { name: "Manual Review" } },
+    "HITL Action Date": { date: { start: new Date().toISOString() } },
+  };
+  if (notes !== undefined) {
+    properties["HITL Notes"] = {
+      rich_text: [{ type: "text", text: { content: notes } }],
+    };
+  }
+  await notion.pages.update({ page_id: id, properties: properties as never });
+}
+
+export async function getOutreachForLead(leadId: string): Promise<OutreachEntry[]> {
+  const res = await notion.databases.query({
+    database_id: DB.linkedin,
+    page_size: 20,
+    filter: {
+      property: "Converted to Lead",
+      relation: { contains: leadId },
+    },
+    sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+  });
+  return res.results.filter(isFullPage).map(parseOutreach);
+}
+
+export const recentOutreachActivity = cached(
+  async (limit = 10): Promise<ActivityItem[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.linkedin,
+      page_size: limit,
+      sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+    });
+    return res.results.filter(isFullPage).map((page) => {
+      const o = parseOutreach(page);
+      return {
+        source: "linkedin" as const,
+        id: o.id,
+        title: o.contactName || "Outreach updated",
+        detail: [o.company, o.stage].filter(Boolean).join(" · ") || "LinkedIn outreach",
+        timestamp: o.lastEditedTime,
+        href: o.convertedToLeadId
+          ? `/leads/${o.convertedToLeadId}`
+          : "/linkedin",
+      };
+    });
+  },
+  ["linkedin:activity"],
+  { tags: [TAG.linkedin, TAG.activity] },
+);

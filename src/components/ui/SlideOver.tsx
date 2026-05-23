@@ -1,1 +1,63 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgWCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IHVzZUVmZmVjdCwgdHlwZSBSZWFjdE5vZGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMvY2xhc3NuYW1lcyI7CgpleHBvcnQgZnVuY3Rpb24gU2xpZGVPdmVyKHsKICBvcGVuLAogIHRpdGxlLAogIG9uQ2xvc2UsCiAgY2hpbGRyZW4sCiAgd2lkdGggPSAibWF4LXctbGciLAp9OiB7CiAgb3BlbjogYm9vbGVhbjsKICB0aXRsZTogc3RyaW5nOwogIG9uQ2xvc2U6ICgpID0+IHZvaWQ7CiAgY2hpbGRyZW46IFJlYWN0Tm9kZTsKICB3aWR0aD86IHN0cmluZzsKfSkgewogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIW9wZW4pIHJldHVybjsKICAgIGNvbnN0IG9uS2V5ID0gKGU6IEtleWJvYXJkRXZlbnQpID0+IHsKICAgICAgaWYgKGUua2V5ID09PSAiRXNjYXBlIikgb25DbG9zZSgpOwogICAgfTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJrZXlkb3duIiwgb25LZXkpOwogICAgcmV0dXJuICgpID0+IHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCJrZXlkb3duIiwgb25LZXkpOwogIH0sIFtvcGVuLCBvbkNsb3NlXSk7CgogIHJldHVybiAoCiAgICA8PgogICAgICA8ZGl2CiAgICAgICAgYXJpYS1oaWRkZW4KICAgICAgICBvbkNsaWNrPXtvbkNsb3NlfQogICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAiZml4ZWQgaW5zZXQtMCB6LTMwIGJnLWJsYWNrLzQwIHRyYW5zaXRpb24tb3BhY2l0eSIsCiAgICAgICAgICBvcGVuID8gIm9wYWNpdHktMTAwIiA6ICJwb2ludGVyLWV2ZW50cy1ub25lIG9wYWNpdHktMCIsCiAgICAgICAgKX0KICAgICAgLz4KICAgICAgPGFzaWRlCiAgICAgICAgcm9sZT0iZGlhbG9nIgogICAgICAgIGFyaWEtbGFiZWw9e3RpdGxlfQogICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAiZml4ZWQgaW5zZXQteS0wIHJpZ2h0LTAgei00MCBmbGV4IHctZnVsbCBmbGV4LWNvbCBib3JkZXItbCBib3JkZXItYm9yZGVyIGJnLXN1cmZhY2Ugc2hhZG93LXhsIHRyYW5zaXRpb24tdHJhbnNmb3JtIiwKICAgICAgICAgIHdpZHRoLAogICAgICAgICAgb3BlbiA/ICJ0cmFuc2xhdGUteC0wIiA6ICJ0cmFuc2xhdGUteC1mdWxsIiwKICAgICAgICApfQogICAgICA+CiAgICAgICAgPGhlYWRlciBjbGFzc05hbWU9ImZsZXggaC0xNCBzaHJpbmstMCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGJvcmRlci1iIGJvcmRlci1ib3JkZXIgcHgtNCI+CiAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC10ZXh0LXByaW1hcnkiPnt0aXRsZX08L2gzPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIGFyaWEtbGFiZWw9IkNsb3NlIgogICAgICAgICAgICBvbkNsaWNrPXtvbkNsb3NlfQogICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGgtOCB3LTggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgdGV4dC10ZXh0LXNlY29uZGFyeSBob3ZlcjpiZy1zdXJmYWNlLWVsZXZhdGVkIGhvdmVyOnRleHQtdGV4dC1wcmltYXJ5IgogICAgICAgICAgPgogICAgICAgICAgICA8WCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2hlYWRlcj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleC0xIG92ZXJmbG93LXktYXV0byBwLTQiPntjaGlsZHJlbn08L2Rpdj4KICAgICAgPC9hc2lkZT4KICAgIDwvPgogICk7Cn0K
+"use client";
+
+import { X } from "lucide-react";
+import { useEffect, type ReactNode } from "react";
+import { cn } from "@/lib/utils/classnames";
+
+export function SlideOver({
+  open,
+  title,
+  onClose,
+  children,
+  width = "max-w-lg",
+}: {
+  open: boolean;
+  title: string;
+  onClose: () => void;
+  children: ReactNode;
+  width?: string;
+}) {
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open, onClose]);
+
+  return (
+    <>
+      <div
+        aria-hidden
+        onClick={onClose}
+        className={cn(
+          "fixed inset-0 z-30 bg-black/40 transition-opacity",
+          open ? "opacity-100" : "pointer-events-none opacity-0",
+        )}
+      />
+      <aside
+        role="dialog"
+        aria-label={title}
+        className={cn(
+          "fixed inset-y-0 right-0 z-40 flex w-full flex-col border-l border-border bg-surface shadow-xl transition-transform",
+          width,
+          open ? "translate-x-0" : "translate-x-full",
+        )}
+      >
+        <header className="flex h-14 shrink-0 items-center justify-between border-b border-border px-4">
+          <h3 className="text-sm font-semibold text-text-primary">{title}</h3>
+          <button
+            type="button"
+            aria-label="Close"
+            onClick={onClose}
+            className="inline-flex h-8 w-8 items-center justify-center rounded-md text-text-secondary hover:bg-surface-elevated hover:text-text-primary"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        </header>
+        <div className="flex-1 overflow-y-auto p-4">{children}</div>
+      </aside>
+    </>
+  );
+}

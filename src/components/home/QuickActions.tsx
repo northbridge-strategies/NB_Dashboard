@@ -1,1 +1,127 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IHsgUGF1c2UsIFBsYXksIEFjdGl2aXR5IH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgdXNlU3RhdGUsIHVzZVRyYW5zaXRpb24gfSBmcm9tICJyZWFjdCI7CmltcG9ydCB0eXBlIHsgUm9sZSB9IGZyb20gIkAvbGliL3R5cGVzL2F1dGgiOwoKZXhwb3J0IGZ1bmN0aW9uIFF1aWNrQWN0aW9ucyh7CiAgcm9sZSwKICBpbml0aWFsUGF1c2VkLAogIGluaXRpYWxMYXN0UGF1c2UsCiAgaW5pdGlhbExhc3RSZXN1bWUsCn06IHsKICByb2xlOiBSb2xlOwogIGluaXRpYWxQYXVzZWQ6IGJvb2xlYW47CiAgaW5pdGlhbExhc3RQYXVzZTogc3RyaW5nIHwgbnVsbDsKICBpbml0aWFsTGFzdFJlc3VtZTogc3RyaW5nIHwgbnVsbDsKfSkgewogIGNvbnN0IGlzQWRtaW4gPSByb2xlID09PSAiQWRtaW4iOwogIGNvbnN0IFtwYXVzZWQsIHNldFBhdXNlZF0gPSB1c2VTdGF0ZShpbml0aWFsUGF1c2VkKTsKICBjb25zdCBbbGFzdFBhdXNlLCBzZXRMYXN0UGF1c2VdID0gdXNlU3RhdGUoaW5pdGlhbExhc3RQYXVzZSk7CiAgY29uc3QgW2xhc3RSZXN1bWUsIHNldExhc3RSZXN1bWVdID0gdXNlU3RhdGUoaW5pdGlhbExhc3RSZXN1bWUpOwogIGNvbnN0IFtlcnJvciwgc2V0RXJyb3JdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2lzUGVuZGluZywgc3RhcnRUcmFuc2l0aW9uXSA9IHVzZVRyYW5zaXRpb24oKTsKCiAgYXN5bmMgZnVuY3Rpb24gcGF1c2VTeXN0ZW0oKSB7CiAgICBzZXRFcnJvcihudWxsKTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKCIvYXBpL3N5c3RlbS9wYXVzZSIsIHsgbWV0aG9kOiAiUE9TVCIgfSk7CiAgICBpZiAoIXJlcy5vaykgewogICAgICBzZXRFcnJvcigiRmFpbGVkIHRvIHBhdXNlLiBUcnkgYWdhaW4uIik7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldFBhdXNlZCh0cnVlKTsKICAgIHNldExhc3RQYXVzZShuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkpOwogICAgc3RhcnRUcmFuc2l0aW9uKCgpID0+IHt9KTsKICB9CgogIGFzeW5jIGZ1bmN0aW9uIHJlc3VtZVN5c3RlbSgpIHsKICAgIHNldEVycm9yKG51bGwpOwogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goIi9hcGkvc3lzdGVtL3Jlc3VtZSIsIHsgbWV0aG9kOiAiUE9TVCIgfSk7CiAgICBpZiAoIXJlcy5vaykgewogICAgICBzZXRFcnJvcigiRmFpbGVkIHRvIHJlc3VtZS4gVHJ5IGFnYWluLiIpOwogICAgICByZXR1cm47CiAgICB9CiAgICBzZXRQYXVzZWQoZmFsc2UpOwogICAgc2V0TGFzdFJlc3VtZShuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkpOwogICAgc3RhcnRUcmFuc2l0aW9uKCgpID0+IHt9KTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMyByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLXN1cmZhY2UgcC01Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsYWJlbC1jYXBzIHRleHQtdGV4dC1tdXRlZCI+U3lzdGVtPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXRleHQtcHJpbWFyeSI+CiAgICAgICAgICAgIHtwYXVzZWQgPyAiUGF1c2VkIiA6ICJSdW5uaW5nIn0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxzcGFuCiAgICAgICAgICBjbGFzc05hbWU9e2BoLTIuNSB3LTIuNSByb3VuZGVkLWZ1bGwgJHsKICAgICAgICAgICAgcGF1c2VkID8gImJnLWJyYW5kLWRhbmdlciIgOiAiYmctYnJhbmQtc3VjY2VzcyIKICAgICAgICAgIH1gfQogICAgICAgICAgYXJpYS1oaWRkZW4KICAgICAgICAvPgogICAgICA8L2Rpdj4KCiAgICAgIHtpc0FkbWluID8gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgIHtwYXVzZWQgPyAoCiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgb25DbGljaz17cmVzdW1lU3lzdGVtfQogICAgICAgICAgICAgIGRpc2FibGVkPXtpc1BlbmRpbmd9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGZsZXgtMSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcm91bmRlZC1tZCBiZy1icmFuZC1zdWNjZXNzIHB4LTMgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtd2hpdGUgdHJhbnNpdGlvbiBob3ZlcjpvcGFjaXR5LTkwIGRpc2FibGVkOm9wYWNpdHktNjAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8UGxheSBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgUmVzdW1lIFN5c3RlbQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgb25DbGljaz17cGF1c2VTeXN0ZW19CiAgICAgICAgICAgICAgZGlzYWJsZWQ9e2lzUGVuZGluZ30KICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggZmxleC0xIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiByb3VuZGVkLW1kIGJnLWJyYW5kLWRhbmdlciBweC0zIHB5LTIgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXdoaXRlIHRyYW5zaXRpb24gaG92ZXI6b3BhY2l0eS05MCBkaXNhYmxlZDpvcGFjaXR5LTYwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPFBhdXNlIGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAgICAgICAgICBHbG9iYWwgUGF1c2UKICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICApIDogKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLXN1cmZhY2UtZWxldmF0ZWQgcHgtMyBweS0yIHRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICBQYXVzZS9SZXN1bWUgY29udHJvbHMgYXJlIHJlc3RyaWN0ZWQgdG8gQWRtaW4gdXNlcnMuCiAgICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICA8TGluawogICAgICAgIGhyZWY9Ii9oZWFsdGgiCiAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtdGV4dC1zZWNvbmRhcnkgdHJhbnNpdGlvbiBob3ZlcjpiZy1zdXJmYWNlLWVsZXZhdGVkIGhvdmVyOnRleHQtdGV4dC1wcmltYXJ5IgogICAgICA+CiAgICAgICAgPEFjdGl2aXR5IGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAgICBWaWV3IFN5c3RlbSBIZWFsdGgKICAgICAgPC9MaW5rPgoKICAgICAge2Vycm9yICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJyYW5kLWRhbmdlci8zMCBiZy1icmFuZC1kYW5nZXIvMTAgcHgtMyBweS0yIHRleHQteHMgdGV4dC1icmFuZC1kYW5nZXIiPgogICAgICAgICAge2Vycm9yfQogICAgICAgIDwvZGl2PgogICAgICApfQoKICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgZ2FwLTIgYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBwdC0zIHRleHQteHMiPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGFiZWwtY2FwcyB0ZXh0LXRleHQtbXV0ZWQiPkxhc3QgUGF1c2U8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAge2xhc3RQYXVzZSA/IG5ldyBEYXRlKGxhc3RQYXVzZSkudG9Mb2NhbGVTdHJpbmcoKSA6ICLigJQifQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsYWJlbC1jYXBzIHRleHQtdGV4dC1tdXRlZCI+TGFzdCBSZXN1bWU8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAge2xhc3RSZXN1bWUgPyBuZXcgRGF0ZShsYXN0UmVzdW1lKS50b0xvY2FsZVN0cmluZygpIDogIuKAlCJ9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+"use client";
+
+import Link from "next/link";
+import { Pause, Play, Activity } from "lucide-react";
+import { useState, useTransition } from "react";
+import type { Role } from "@/lib/types/auth";
+
+export function QuickActions({
+  role,
+  initialPaused,
+  initialLastPause,
+  initialLastResume,
+}: {
+  role: Role;
+  initialPaused: boolean;
+  initialLastPause: string | null;
+  initialLastResume: string | null;
+}) {
+  const isAdmin = role === "Admin";
+  const [paused, setPaused] = useState(initialPaused);
+  const [lastPause, setLastPause] = useState(initialLastPause);
+  const [lastResume, setLastResume] = useState(initialLastResume);
+  const [error, setError] = useState<string | null>(null);
+  const [isPending, startTransition] = useTransition();
+
+  async function pauseSystem() {
+    setError(null);
+    const res = await fetch("/api/system/pause", { method: "POST" });
+    if (!res.ok) {
+      setError("Failed to pause. Try again.");
+      return;
+    }
+    setPaused(true);
+    setLastPause(new Date().toISOString());
+    startTransition(() => {});
+  }
+
+  async function resumeSystem() {
+    setError(null);
+    const res = await fetch("/api/system/resume", { method: "POST" });
+    if (!res.ok) {
+      setError("Failed to resume. Try again.");
+      return;
+    }
+    setPaused(false);
+    setLastResume(new Date().toISOString());
+    startTransition(() => {});
+  }
+
+  return (
+    <div className="flex flex-col gap-3 rounded-xl border border-border bg-surface p-5">
+      <div className="flex items-center justify-between">
+        <div>
+          <div className="label-caps text-text-muted">System</div>
+          <div className="text-sm font-medium text-text-primary">
+            {paused ? "Paused" : "Running"}
+          </div>
+        </div>
+        <span
+          className={`h-2.5 w-2.5 rounded-full ${
+            paused ? "bg-brand-danger" : "bg-brand-success"
+          }`}
+          aria-hidden
+        />
+      </div>
+
+      {isAdmin ? (
+        <div className="flex gap-2">
+          {paused ? (
+            <button
+              type="button"
+              onClick={resumeSystem}
+              disabled={isPending}
+              className="flex flex-1 items-center justify-center gap-2 rounded-md bg-brand-success px-3 py-2 text-sm font-medium text-white transition hover:opacity-90 disabled:opacity-60"
+            >
+              <Play className="h-4 w-4" />
+              Resume System
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={pauseSystem}
+              disabled={isPending}
+              className="flex flex-1 items-center justify-center gap-2 rounded-md bg-brand-danger px-3 py-2 text-sm font-medium text-white transition hover:opacity-90 disabled:opacity-60"
+            >
+              <Pause className="h-4 w-4" />
+              Global Pause
+            </button>
+          )}
+        </div>
+      ) : (
+        <div className="rounded-md border border-border bg-surface-elevated px-3 py-2 text-xs text-text-secondary">
+          Pause/Resume controls are restricted to Admin users.
+        </div>
+      )}
+
+      <Link
+        href="/health"
+        className="flex items-center justify-center gap-2 rounded-md border border-border px-3 py-2 text-sm text-text-secondary transition hover:bg-surface-elevated hover:text-text-primary"
+      >
+        <Activity className="h-4 w-4" />
+        View System Health
+      </Link>
+
+      {error && (
+        <div className="rounded-md border border-brand-danger/30 bg-brand-danger/10 px-3 py-2 text-xs text-brand-danger">
+          {error}
+        </div>
+      )}
+
+      <div className="grid grid-cols-2 gap-2 border-t border-border pt-3 text-xs">
+        <div>
+          <div className="label-caps text-text-muted">Last Pause</div>
+          <div className="text-text-secondary">
+            {lastPause ? new Date(lastPause).toLocaleString() : "—"}
+          </div>
+        </div>
+        <div>
+          <div className="label-caps text-text-muted">Last Resume</div>
+          <div className="text-text-secondary">
+            {lastResume ? new Date(lastResume).toLocaleString() : "—"}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

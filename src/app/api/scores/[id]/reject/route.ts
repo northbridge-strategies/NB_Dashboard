@@ -1,1 +1,28 @@
-aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgdXBkYXRlU2NvcmVISVRMIH0gZnJvbSAiQC9saWIvbm90aW9uL3Njb3JlcyI7CmltcG9ydCB7IEh0dHBFcnJvciwgcmVxdWlyZVJvbGUgfSBmcm9tICJAL2xpYi9hdXRoL3Nlc3Npb24iOwppbXBvcnQgeyBidXN0LCBUQUcgfSBmcm9tICJAL2xpYi91dGlscy9yZXZhbGlkYXRlIjsKCmNvbnN0IEJvZHkgPSB6Lm9iamVjdCh7CiAgbm90ZXM6IHouc3RyaW5nKCkubWF4KDIwMDApLm9wdGlvbmFsKCksCn0pOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QocmVxOiBSZXF1ZXN0LCB7IHBhcmFtcyB9OiB7IHBhcmFtczogeyBpZDogc3RyaW5nIH0gfSkgewogIHRyeSB7CiAgICBhd2FpdCByZXF1aXJlUm9sZShbIkFkbWluIiwgIlN0YWZmIl0pOwogICAgY29uc3QgYm9keSA9IEJvZHkuc2FmZVBhcnNlKGF3YWl0IHJlcS5qc29uKCkuY2F0Y2goKCkgPT4gKHt9KSkpOwogICAgaWYgKCFib2R5LnN1Y2Nlc3MpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJJbnZhbGlkIGJvZHkiIH0sIHsgc3RhdHVzOiA0MDAgfSk7CiAgICB9CiAgICBhd2FpdCB1cGRhdGVTY29yZUhJVEwocGFyYW1zLmlkLCAiUmVqZWN0ZWQtTWFudWFsIFJldmlldyIsIGJvZHkuZGF0YS5ub3Rlcyk7CiAgICBidXN0KFRBRy5zY29yZXMsIFRBRy5hY3Rpdml0eSk7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBvazogdHJ1ZSB9KTsKICB9IGNhdGNoIChlcnIpIHsKICAgIGlmIChlcnIgaW5zdGFuY2VvZiBIdHRwRXJyb3IpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6IGVyci5tZXNzYWdlIH0sIHsgc3RhdHVzOiBlcnIuc3RhdHVzIH0pOwogICAgfQogICAgY29uc29sZS5lcnJvcigiWy9hcGkvc2NvcmVzL3JlamVjdF0iLCBlcnIpOwogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJJbnRlcm5hbCBlcnJvciIgfSwgeyBzdGF0dXM6IDUwMCB9KTsKICB9Cn0K
+import { NextResponse } from "next/server";
+import { z } from "zod";
+import { updateScoreHITL } from "@/lib/notion/scores";
+import { HttpError, requireRole } from "@/lib/auth/session";
+import { bust, TAG } from "@/lib/utils/revalidate";
+
+const Body = z.object({
+  notes: z.string().max(2000).optional(),
+});
+
+export async function POST(req: Request, { params }: { params: { id: string } }) {
+  try {
+    await requireRole(["Admin", "Staff"]);
+    const body = Body.safeParse(await req.json().catch(() => ({})));
+    if (!body.success) {
+      return NextResponse.json({ error: "Invalid body" }, { status: 400 });
+    }
+    await updateScoreHITL(params.id, "Rejected-Manual Review", body.data.notes);
+    bust(TAG.scores, TAG.activity);
+    return NextResponse.json({ ok: true });
+  } catch (err) {
+    if (err instanceof HttpError) {
+      return NextResponse.json({ error: err.message }, { status: err.status });
+    }
+    console.error("[/api/scores/reject]", err);
+    return NextResponse.json({ error: "Internal error" }, { status: 500 });
+  }
+}

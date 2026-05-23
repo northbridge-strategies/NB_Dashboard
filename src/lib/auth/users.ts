@@ -1,1 +1,44 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IGNvbXBhcmUgfSBmcm9tICJiY3J5cHRqcyI7CmltcG9ydCB7CiAgZmluZFVzZXJCeUVtYWlsLAogIGxpc3RVc2Vyc0Zyb21Ob3Rpb24sCiAgcmVjb3JkU2lnbkluLAp9IGZyb20gIkAvbGliL25vdGlvbi91c2VycyI7CmltcG9ydCB0eXBlIHsgU2Vzc2lvblVzZXIgfSBmcm9tICJAL2xpYi90eXBlcy9hdXRoIjsKCi8qKgogKiBBdXRob3JpdGF0aXZlIHVzZXIgc3RvcmUgaXMgdGhlIE5vdGlvbiAiRGFzaGJvYXJkIFVzZXJzIiBkYXRhYmFzZS4KICogY29uZmlnL3VzZXJzLmpzb24gaXMgbm8gbG9uZ2VyIHJlYWQgYXQgcnVudGltZSDigJQgaXQgcmVtYWlucyBvbmx5IGFzIGEKICogaGlzdG9yaWNhbCBzZWVkIGlucHV0IGZvciBzY3JpcHRzL25vdGlvbi1taWdyYXRlLXYyLXVzZXJzLnB5LgogKi8KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBsaXN0VXNlcnMoKTogUHJvbWlzZTxTZXNzaW9uVXNlcltdPiB7CiAgY29uc3QgdXNlcnMgPSBhd2FpdCBsaXN0VXNlcnNGcm9tTm90aW9uKCk7CiAgcmV0dXJuIHVzZXJzCiAgICAuZmlsdGVyKCh1KSA9PiB1LmFjdGl2ZSkKICAgIC5tYXAoKHUpID0+ICh7CiAgICAgIGlkOiB1LnBhZ2VJZCwKICAgICAgbmFtZTogdS5uYW1lLAogICAgICBlbWFpbDogdS5lbWFpbCwKICAgICAgcm9sZTogdS5yb2xlLAogICAgfSkpOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gdmVyaWZ5Q3JlZGVudGlhbHMoCiAgZW1haWw6IHN0cmluZywKICBwYXNzd29yZDogc3RyaW5nLAopOiBQcm9taXNlPFNlc3Npb25Vc2VyIHwgbnVsbD4gewogIGNvbnN0IHVzZXIgPSBhd2FpdCBmaW5kVXNlckJ5RW1haWwoZW1haWwpOwogIGlmICghdXNlciB8fCAhdXNlci5hY3RpdmUpIHJldHVybiBudWxsOwogIGNvbnN0IG9rID0gYXdhaXQgY29tcGFyZShwYXNzd29yZCwgdXNlci5wYXNzd29yZEhhc2gpOwogIGlmICghb2spIHJldHVybiBudWxsOwogIC8vIFJlY29yZCBzaWduLWluIGFzeW5jIOKAlCBkb24ndCBibG9jayBsb2dpbiBvbiBhIE5vdGlvbiB3cml0ZS4KICB2b2lkIHJlY29yZFNpZ25Jbih1c2VyLnBhZ2VJZCk7CiAgcmV0dXJuIHsKICAgIGlkOiB1c2VyLnBhZ2VJZCwKICAgIG5hbWU6IHVzZXIubmFtZSwKICAgIGVtYWlsOiB1c2VyLmVtYWlsLAogICAgcm9sZTogdXNlci5yb2xlLAogIH07Cn0K
+import "server-only";
+import { compare } from "bcryptjs";
+import {
+  findUserByEmail,
+  listUsersFromNotion,
+  recordSignIn,
+} from "@/lib/notion/users";
+import type { SessionUser } from "@/lib/types/auth";
+
+/**
+ * Authoritative user store is the Notion "Dashboard Users" database.
+ * config/users.json is no longer read at runtime — it remains only as a
+ * historical seed input for scripts/notion-migrate-v2-users.py.
+ */
+
+export async function listUsers(): Promise<SessionUser[]> {
+  const users = await listUsersFromNotion();
+  return users
+    .filter((u) => u.active)
+    .map((u) => ({
+      id: u.pageId,
+      name: u.name,
+      email: u.email,
+      role: u.role,
+    }));
+}
+
+export async function verifyCredentials(
+  email: string,
+  password: string,
+): Promise<SessionUser | null> {
+  const user = await findUserByEmail(email);
+  if (!user || !user.active) return null;
+  const ok = await compare(password, user.passwordHash);
+  if (!ok) return null;
+  // Record sign-in async — don't block login on a Notion write.
+  void recordSignIn(user.pageId);
+  return {
+    id: user.pageId,
+    name: user.name,
+    email: user.email,
+    role: user.role,
+  };
+}

@@ -1,1 +1,194 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IG5vdGlvbiB9IGZyb20gIi4vY2xpZW50IjsKaW1wb3J0IHsgREIgfSBmcm9tICIuL2lkcyI7CmltcG9ydCB7IGNhY2hlZCwgVEFHIH0gZnJvbSAiLi9jYWNoZSI7CmltcG9ydCB7CiAgZ2V0RGF0ZSwKICBnZXROdW1iZXIsCiAgZ2V0UmVsYXRpb25JZHMsCiAgZ2V0UmljaFRleHQsCiAgZ2V0Um9sbHVwUmljaFRleHQsCiAgZ2V0U2VsZWN0LAogIGdldFRpdGxlLAogIGlzRnVsbFBhZ2UsCiAgdHlwZSBQYWdlLAp9IGZyb20gIi4vcGFyc2VycyI7CmltcG9ydCB0eXBlIHsKICBBY3Rpdml0eUl0ZW0sCiAgUGlwZWxpbmVTdGFnZSwKICBQcmlvcml0eSwKfSBmcm9tICJAL2xpYi90eXBlcy9kb21haW4iOwoKZXhwb3J0IGludGVyZmFjZSBQaXBlbGluZUVudHJ5IHsKICBpZDogc3RyaW5nOwogIHRpdGxlOiBzdHJpbmc7CiAgbGVhZElkOiBzdHJpbmcgfCBudWxsOwogIGNvbXBhbnk6IHN0cmluZzsKICBzdGFnZTogUGlwZWxpbmVTdGFnZSB8IG51bGw7CiAgc3RhZ2VEYXRlOiBzdHJpbmcgfCBudWxsOwogIG1lZXRpbmdEYXRlOiBzdHJpbmcgfCBudWxsOwogIHByaW9yaXR5OiBQcmlvcml0eSB8IG51bGw7CiAgY2FsbE91dGNvbWU6IHN0cmluZyB8IG51bGw7CiAgbmV4dEFjdGlvbjogc3RyaW5nIHwgbnVsbDsKICB0aWVySVBheW1lbnREYXRlOiBzdHJpbmcgfCBudWxsOwogIHRpZXJJQW1vdW50OiBudW1iZXIgfCBudWxsOwogIG5vdGVzOiBzdHJpbmc7CiAgbGFzdEVkaXRlZFRpbWU6IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIHBhcnNlRW50cnkocGFnZTogUGFnZSk6IFBpcGVsaW5lRW50cnkgewogIGNvbnN0IGxlYWRJZHMgPSBnZXRSZWxhdGlvbklkcyhwYWdlLCAiTGVhZCIpOwogIHJldHVybiB7CiAgICBpZDogcGFnZS5pZCwKICAgIHRpdGxlOiBnZXRUaXRsZShwYWdlLCAiUGlwZWxpbmUgRW50cnkiKSwKICAgIGxlYWRJZDogbGVhZElkc1swXSA/PyBudWxsLAogICAgY29tcGFueTogZ2V0Um9sbHVwUmljaFRleHQocGFnZSwgIkNvbXBhbnkiKSwKICAgIHN0YWdlOiBnZXRTZWxlY3QocGFnZSwgIlN0YWdlIikgYXMgUGlwZWxpbmVTdGFnZSB8IG51bGwsCiAgICBzdGFnZURhdGU6IGdldERhdGUocGFnZSwgIlN0YWdlIERhdGUiKSwKICAgIG1lZXRpbmdEYXRlOiBnZXREYXRlKHBhZ2UsICJNZWV0aW5nIERhdGUiKSwKICAgIHByaW9yaXR5OiBnZXRTZWxlY3QocGFnZSwgIlByaW9yaXR5IikgYXMgUHJpb3JpdHkgfCBudWxsLAogICAgY2FsbE91dGNvbWU6IGdldFNlbGVjdChwYWdlLCAiQ2FsbCBPdXRjb21lIiksCiAgICBuZXh0QWN0aW9uOiBnZXRTZWxlY3QocGFnZSwgIk5leHQgQWN0aW9uIiksCiAgICB0aWVySVBheW1lbnREYXRlOiBnZXREYXRlKHBhZ2UsICJUaWVyIEkgUGF5bWVudCBEYXRlIiksCiAgICB0aWVySUFtb3VudDogZ2V0TnVtYmVyKHBhZ2UsICJUaWVyIEkgQW1vdW50IiksCiAgICBub3RlczogZ2V0UmljaFRleHQocGFnZSwgIk5vdGVzIiksCiAgICBsYXN0RWRpdGVkVGltZTogcGFnZS5sYXN0X2VkaXRlZF90aW1lLAogIH07Cn0KCmV4cG9ydCBjb25zdCBsaXN0UGlwZWxpbmUgPSBjYWNoZWQoCiAgYXN5bmMgKCk6IFByb21pc2U8UGlwZWxpbmVFbnRyeVtdPiA9PiB7CiAgICBjb25zdCByZXN1bHRzOiBQaXBlbGluZUVudHJ5W10gPSBbXTsKICAgIGxldCBjdXJzb3I6IHN0cmluZyB8IHVuZGVmaW5lZDsKICAgIGRvIHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgbm90aW9uLmRhdGFiYXNlcy5xdWVyeSh7CiAgICAgICAgZGF0YWJhc2VfaWQ6IERCLnBpcGVsaW5lLAogICAgICAgIHBhZ2Vfc2l6ZTogMTAwLAogICAgICAgIHN0YXJ0X2N1cnNvcjogY3Vyc29yLAogICAgICAgIHNvcnRzOiBbeyB0aW1lc3RhbXA6ICJsYXN0X2VkaXRlZF90aW1lIiwgZGlyZWN0aW9uOiAiZGVzY2VuZGluZyIgfV0sCiAgICAgIH0pOwogICAgICBmb3IgKGNvbnN0IHBhZ2Ugb2YgcmVzLnJlc3VsdHMpIHsKICAgICAgICBpZiAoIWlzRnVsbFBhZ2UocGFnZSkpIGNvbnRpbnVlOwogICAgICAgIHJlc3VsdHMucHVzaChwYXJzZUVudHJ5KHBhZ2UpKTsKICAgICAgfQogICAgICBjdXJzb3IgPSByZXMuaGFzX21vcmUgPyAocmVzLm5leHRfY3Vyc29yID8/IHVuZGVmaW5lZCkgOiB1bmRlZmluZWQ7CiAgICB9IHdoaWxlIChjdXJzb3IpOwogICAgcmV0dXJuIHJlc3VsdHM7CiAgfSwKICBbInBpcGVsaW5lOmFsbCJdLAogIHsgdGFnczogW1RBRy5waXBlbGluZV0gfSwKKTsKCmV4cG9ydCBpbnRlcmZhY2UgTWVldGluZ0l0ZW0gewogIGlkOiBzdHJpbmc7CiAgbGVhZElkOiBzdHJpbmcgfCBudWxsOwogIGxlYWROYW1lOiBzdHJpbmc7CiAgY29tcGFueTogc3RyaW5nOwogIHN0YWdlOiBQaXBlbGluZVN0YWdlIHwgbnVsbDsKICBwcmlvcml0eTogUHJpb3JpdHkgfCBudWxsOwogIG1lZXRpbmdEYXRlOiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTWVldGluZ3NMaXN0IHsKICB1cGNvbWluZzogTWVldGluZ0l0ZW1bXTsKICBwcmV2aW91czogTWVldGluZ0l0ZW1bXTsKfQoKLyoqCiAqIEFsbCBQaXBlbGluZSBlbnRyaWVzIHdpdGggYSBNZWV0aW5nIERhdGUgc2V0LCBzcGxpdCBpbnRvIHVwY29taW5nIGFuZCBwYXN0LgogKiBQYXN0IG1lZXRpbmdzIGFyZSBjYXBwZWQgYXQgdGhlIG1vc3QgcmVjZW50IDMwIChubyBwb2ludCBrZWVwaW5nIGFuY2llbnQgb25lcykuCiAqCiAqICJVcGNvbWluZyIgdXNlcyBzdGFydC1vZi10b2RheSBhcyB0aGUgY3V0b2ZmIHNvIGEgbWVldGluZyBhdCAycG0gdG9kYXkgc3RpbGwKICogc2hvd3MgYXMgdXBjb21pbmcgdW50aWwgdG9tb3Jyb3cuCiAqLwpleHBvcnQgY29uc3QgbGlzdE1lZXRpbmdzID0gY2FjaGVkKAogIGFzeW5jICgpOiBQcm9taXNlPE1lZXRpbmdzTGlzdD4gPT4gewogICAgY29uc3Qgc3RhcnRPZlRvZGF5ID0gbmV3IERhdGUoKTsKICAgIHN0YXJ0T2ZUb2RheS5zZXRIb3VycygwLCAwLCAwLCAwKTsKICAgIGNvbnN0IGN1dG9mZklTTyA9IHN0YXJ0T2ZUb2RheS50b0lTT1N0cmluZygpOwoKICAgIGNvbnN0IFt1cGNvbWluZ1JlcywgcHJldmlvdXNSZXNdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgICAgICBkYXRhYmFzZV9pZDogREIucGlwZWxpbmUsCiAgICAgICAgcGFnZV9zaXplOiAxMDAsCiAgICAgICAgZmlsdGVyOiB7CiAgICAgICAgICBwcm9wZXJ0eTogIk1lZXRpbmcgRGF0ZSIsCiAgICAgICAgICBkYXRlOiB7IG9uX29yX2FmdGVyOiBjdXRvZmZJU08gfSwKICAgICAgICB9LAogICAgICAgIHNvcnRzOiBbeyBwcm9wZXJ0eTogIk1lZXRpbmcgRGF0ZSIsIGRpcmVjdGlvbjogImFzY2VuZGluZyIgfV0sCiAgICAgIH0pLAogICAgICBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgICAgICBkYXRhYmFzZV9pZDogREIucGlwZWxpbmUsCiAgICAgICAgcGFnZV9zaXplOiAzMCwKICAgICAgICBmaWx0ZXI6IHsKICAgICAgICAgIHByb3BlcnR5OiAiTWVldGluZyBEYXRlIiwKICAgICAgICAgIGRhdGU6IHsgYmVmb3JlOiBjdXRvZmZJU08gfSwKICAgICAgICB9LAogICAgICAgIHNvcnRzOiBbeyBwcm9wZXJ0eTogIk1lZXRpbmcgRGF0ZSIsIGRpcmVjdGlvbjogImRlc2NlbmRpbmciIH1dLAogICAgICB9KSwKICAgIF0pOwoKICAgIGZ1bmN0aW9uIHRvTWVldGluZyhwYWdlOiBQYWdlKTogTWVldGluZ0l0ZW0gfCBudWxsIHsKICAgICAgY29uc3QgZSA9IHBhcnNlRW50cnkocGFnZSk7CiAgICAgIGlmICghZS5tZWV0aW5nRGF0ZSkgcmV0dXJuIG51bGw7CiAgICAgIHJldHVybiB7CiAgICAgICAgaWQ6IGUuaWQsCiAgICAgICAgbGVhZElkOiBlLmxlYWRJZCwKICAgICAgICAvLyBMZWFkIG5hbWUgbG9va3VwIGhhcHBlbnMgc2VydmVyLXNpZGUgYWZ0ZXIgdGhpcyByZXR1cm5zOyBmb3Igbm93IHVzZQogICAgICAgIC8vIHRoZSByb2xsdXAtcmVzb2x2ZWQgQ29tcGFueSBhcyBhIHNlbnNpYmxlIGZhbGxiYWNrLgogICAgICAgIGxlYWROYW1lOiAiIiwKICAgICAgICBjb21wYW55OiBlLmNvbXBhbnksCiAgICAgICAgc3RhZ2U6IGUuc3RhZ2UsCiAgICAgICAgcHJpb3JpdHk6IGUucHJpb3JpdHksCiAgICAgICAgbWVldGluZ0RhdGU6IGUubWVldGluZ0RhdGUsCiAgICAgIH07CiAgICB9CgogICAgcmV0dXJuIHsKICAgICAgdXBjb21pbmc6IHVwY29taW5nUmVzLnJlc3VsdHMKICAgICAgICAuZmlsdGVyKGlzRnVsbFBhZ2UpCiAgICAgICAgLm1hcCh0b01lZXRpbmcpCiAgICAgICAgLmZpbHRlcigobSk6IG0gaXMgTWVldGluZ0l0ZW0gPT4gbSAhPSBudWxsKSwKICAgICAgcHJldmlvdXM6IHByZXZpb3VzUmVzLnJlc3VsdHMKICAgICAgICAuZmlsdGVyKGlzRnVsbFBhZ2UpCiAgICAgICAgLm1hcCh0b01lZXRpbmcpCiAgICAgICAgLmZpbHRlcigobSk6IG0gaXMgTWVldGluZ0l0ZW0gPT4gbSAhPSBudWxsKSwKICAgIH07CiAgfSwKICBbInBpcGVsaW5lOm1lZXRpbmdzIl0sCiAgeyB0YWdzOiBbVEFHLnBpcGVsaW5lLCBUQUcubGVhZHNdIH0sCik7CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0UGlwZWxpbmVGb3JMZWFkKGxlYWRJZDogc3RyaW5nKTogUHJvbWlzZTxQaXBlbGluZUVudHJ5W10+IHsKICBjb25zdCByZXMgPSBhd2FpdCBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgIGRhdGFiYXNlX2lkOiBEQi5waXBlbGluZSwKICAgIHBhZ2Vfc2l6ZTogNTAsCiAgICBmaWx0ZXI6IHsgcHJvcGVydHk6ICJMZWFkIiwgcmVsYXRpb246IHsgY29udGFpbnM6IGxlYWRJZCB9IH0sCiAgICBzb3J0czogW3sgdGltZXN0YW1wOiAibGFzdF9lZGl0ZWRfdGltZSIsIGRpcmVjdGlvbjogImRlc2NlbmRpbmciIH1dLAogIH0pOwogIHJldHVybiByZXMucmVzdWx0cy5maWx0ZXIoaXNGdWxsUGFnZSkubWFwKHBhcnNlRW50cnkpOwp9CgpleHBvcnQgY29uc3QgcmVjZW50UGlwZWxpbmVBY3Rpdml0eSA9IGNhY2hlZCgKICBhc3luYyAobGltaXQgPSAxMCk6IFByb21pc2U8QWN0aXZpdHlJdGVtW10+ID0+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgICBkYXRhYmFzZV9pZDogREIucGlwZWxpbmUsCiAgICAgIHBhZ2Vfc2l6ZTogbGltaXQsCiAgICAgIHNvcnRzOiBbeyB0aW1lc3RhbXA6ICJsYXN0X2VkaXRlZF90aW1lIiwgZGlyZWN0aW9uOiAiZGVzY2VuZGluZyIgfV0sCiAgICB9KTsKICAgIHJldHVybiByZXMucmVzdWx0cy5maWx0ZXIoaXNGdWxsUGFnZSkubWFwKChwYWdlKSA9PiB7CiAgICAgIGNvbnN0IGUgPSBwYXJzZUVudHJ5KHBhZ2UpOwogICAgICBjb25zdCBkZXRhaWwgPSBbZS5zdGFnZSwgZS5wcmlvcml0eV0uZmlsdGVyKEJvb2xlYW4pLmpvaW4oIiDCtyAiKTsKICAgICAgcmV0dXJuIHsKICAgICAgICBzb3VyY2U6ICJwaXBlbGluZSIgYXMgY29uc3QsCiAgICAgICAgaWQ6IGUuaWQsCiAgICAgICAgdGl0bGU6IGUudGl0bGUgfHwgIlBpcGVsaW5lIHVwZGF0ZWQiLAogICAgICAgIGRldGFpbDogZGV0YWlsIHx8ICJQaXBlbGluZSBlbnRyeSIsCiAgICAgICAgdGltZXN0YW1wOiBlLmxhc3RFZGl0ZWRUaW1lLAogICAgICAgIGhyZWY6IGUubGVhZElkID8gYC9sZWFkcy8ke2UubGVhZElkfWAgOiAiL3BpcGVsaW5lIiwKICAgICAgfTsKICAgIH0pOwogIH0sCiAgWyJwaXBlbGluZTphY3Rpdml0eSJdLAogIHsgdGFnczogW1RBRy5waXBlbGluZSwgVEFHLmFjdGl2aXR5XSB9LAopOwo=
+import "server-only";
+import { notion } from "./client";
+import { DB } from "./ids";
+import { cached, TAG } from "./cache";
+import {
+  getDate,
+  getNumber,
+  getRelationIds,
+  getRichText,
+  getRollupRichText,
+  getSelect,
+  getTitle,
+  isFullPage,
+  type Page,
+} from "./parsers";
+import type {
+  ActivityItem,
+  PipelineStage,
+  Priority,
+} from "@/lib/types/domain";
+
+export interface PipelineEntry {
+  id: string;
+  title: string;
+  leadId: string | null;
+  company: string;
+  stage: PipelineStage | null;
+  stageDate: string | null;
+  meetingDate: string | null;
+  priority: Priority | null;
+  callOutcome: string | null;
+  nextAction: string | null;
+  tierIPaymentDate: string | null;
+  tierIAmount: number | null;
+  notes: string;
+  lastEditedTime: string;
+}
+
+export function parseEntry(page: Page): PipelineEntry {
+  const leadIds = getRelationIds(page, "Lead");
+  return {
+    id: page.id,
+    title: getTitle(page, "Pipeline Entry"),
+    leadId: leadIds[0] ?? null,
+    company: getRollupRichText(page, "Company"),
+    stage: getSelect(page, "Stage") as PipelineStage | null,
+    stageDate: getDate(page, "Stage Date"),
+    meetingDate: getDate(page, "Meeting Date"),
+    priority: getSelect(page, "Priority") as Priority | null,
+    callOutcome: getSelect(page, "Call Outcome"),
+    nextAction: getSelect(page, "Next Action"),
+    tierIPaymentDate: getDate(page, "Tier I Payment Date"),
+    tierIAmount: getNumber(page, "Tier I Amount"),
+    notes: getRichText(page, "Notes"),
+    lastEditedTime: page.last_edited_time,
+  };
+}
+
+export const listPipeline = cached(
+  async (): Promise<PipelineEntry[]> => {
+    const results: PipelineEntry[] = [];
+    let cursor: string | undefined;
+    do {
+      const res = await notion.databases.query({
+        database_id: DB.pipeline,
+        page_size: 100,
+        start_cursor: cursor,
+        sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+      });
+      for (const page of res.results) {
+        if (!isFullPage(page)) continue;
+        results.push(parseEntry(page));
+      }
+      cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+    } while (cursor);
+    return results;
+  },
+  ["pipeline:all"],
+  { tags: [TAG.pipeline] },
+);
+
+export interface MeetingItem {
+  id: string;
+  leadId: string | null;
+  leadName: string;
+  company: string;
+  stage: PipelineStage | null;
+  priority: Priority | null;
+  meetingDate: string;
+}
+
+export interface MeetingsList {
+  upcoming: MeetingItem[];
+  previous: MeetingItem[];
+}
+
+/**
+ * All Pipeline entries with a Meeting Date set, split into upcoming and past.
+ * Past meetings are capped at the most recent 30 (no point keeping ancient ones).
+ *
+ * "Upcoming" uses start-of-today as the cutoff so a meeting at 2pm today still
+ * shows as upcoming until tomorrow.
+ */
+export const listMeetings = cached(
+  async (): Promise<MeetingsList> => {
+    const startOfToday = new Date();
+    startOfToday.setHours(0, 0, 0, 0);
+    const cutoffISO = startOfToday.toISOString();
+
+    const [upcomingRes, previousRes] = await Promise.all([
+      notion.databases.query({
+        database_id: DB.pipeline,
+        page_size: 100,
+        filter: {
+          property: "Meeting Date",
+          date: { on_or_after: cutoffISO },
+        },
+        sorts: [{ property: "Meeting Date", direction: "ascending" }],
+      }),
+      notion.databases.query({
+        database_id: DB.pipeline,
+        page_size: 30,
+        filter: {
+          property: "Meeting Date",
+          date: { before: cutoffISO },
+        },
+        sorts: [{ property: "Meeting Date", direction: "descending" }],
+      }),
+    ]);
+
+    function toMeeting(page: Page): MeetingItem | null {
+      const e = parseEntry(page);
+      if (!e.meetingDate) return null;
+      return {
+        id: e.id,
+        leadId: e.leadId,
+        // Lead name lookup happens server-side after this returns; for now use
+        // the rollup-resolved Company as a sensible fallback.
+        leadName: "",
+        company: e.company,
+        stage: e.stage,
+        priority: e.priority,
+        meetingDate: e.meetingDate,
+      };
+    }
+
+    return {
+      upcoming: upcomingRes.results
+        .filter(isFullPage)
+        .map(toMeeting)
+        .filter((m): m is MeetingItem => m != null),
+      previous: previousRes.results
+        .filter(isFullPage)
+        .map(toMeeting)
+        .filter((m): m is MeetingItem => m != null),
+    };
+  },
+  ["pipeline:meetings"],
+  { tags: [TAG.pipeline, TAG.leads] },
+);
+
+export async function getPipelineForLead(leadId: string): Promise<PipelineEntry[]> {
+  const res = await notion.databases.query({
+    database_id: DB.pipeline,
+    page_size: 50,
+    filter: { property: "Lead", relation: { contains: leadId } },
+    sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+  });
+  return res.results.filter(isFullPage).map(parseEntry);
+}
+
+export const recentPipelineActivity = cached(
+  async (limit = 10): Promise<ActivityItem[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.pipeline,
+      page_size: limit,
+      sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+    });
+    return res.results.filter(isFullPage).map((page) => {
+      const e = parseEntry(page);
+      const detail = [e.stage, e.priority].filter(Boolean).join(" · ");
+      return {
+        source: "pipeline" as const,
+        id: e.id,
+        title: e.title || "Pipeline updated",
+        detail: detail || "Pipeline entry",
+        timestamp: e.lastEditedTime,
+        href: e.leadId ? `/leads/${e.leadId}` : "/pipeline",
+      };
+    });
+  },
+  ["pipeline:activity"],
+  { tags: [TAG.pipeline, TAG.activity] },
+);

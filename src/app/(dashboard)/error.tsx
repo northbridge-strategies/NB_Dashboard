@@ -1,1 +1,28 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBFcnJvclN0YXRlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N0YXRlcyI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBEYXNoYm9hcmRFcnJvcih7CiAgZXJyb3IsCiAgcmVzZXQsCn06IHsKICBlcnJvcjogRXJyb3IgJiB7IGRpZ2VzdD86IHN0cmluZyB9OwogIHJlc2V0OiAoKSA9PiB2b2lkOwp9KSB7CiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnNvbGUuZXJyb3IoIltEYXNoYm9hcmRFcnJvcl0iLCBlcnJvcik7CiAgfSwgW2Vycm9yXSk7CgogIHJldHVybiAoCiAgICA8RXJyb3JTdGF0ZQogICAgICB0aXRsZT0iVGhpcyBwYWdlIGNvdWxkbid0IGxvYWQiCiAgICAgIGRlc2NyaXB0aW9uPXsKICAgICAgICBlcnJvci5kaWdlc3QKICAgICAgICAgID8gYFJlZmVyZW5jZTogJHtlcnJvci5kaWdlc3R9LiBMaWtlbHkgYSB0cmFuc2llbnQgTm90aW9uIGlzc3VlIOKAlCB0cnkgYWdhaW4uYAogICAgICAgICAgOiAiTGlrZWx5IGEgdHJhbnNpZW50IE5vdGlvbiBpc3N1ZSDigJQgdHJ5IGFnYWluLiIKICAgICAgfQogICAgICBvblJldHJ5PXtyZXNldH0KICAgIC8+CiAgKTsKfQo=
+"use client";
+
+import { useEffect } from "react";
+import { ErrorState } from "@/components/ui/states";
+
+export default function DashboardError({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
+  useEffect(() => {
+    console.error("[DashboardError]", error);
+  }, [error]);
+
+  return (
+    <ErrorState
+      title="This page couldn't load"
+      description={
+        error.digest
+          ? `Reference: ${error.digest}. Likely a transient Notion issue — try again.`
+          : "Likely a transient Notion issue — try again."
+      }
+      onRetry={reset}
+    />
+  );
+}

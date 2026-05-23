@@ -1,1 +1,36 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IGdldFNlcnZlclNlc3Npb24gfSBmcm9tICJuZXh0LWF1dGgiOwppbXBvcnQgeyBhdXRoT3B0aW9ucyB9IGZyb20gIi4vb3B0aW9ucyI7CmltcG9ydCB0eXBlIHsgUm9sZSwgU2Vzc2lvblVzZXIgfSBmcm9tICJAL2xpYi90eXBlcy9hdXRoIjsKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRTZXNzaW9uKCk6IFByb21pc2U8U2Vzc2lvblVzZXIgfCBudWxsPiB7CiAgY29uc3Qgc2Vzc2lvbiA9IGF3YWl0IGdldFNlcnZlclNlc3Npb24oYXV0aE9wdGlvbnMpOwogIGlmICghc2Vzc2lvbj8udXNlcj8uZW1haWwpIHJldHVybiBudWxsOwogIHJldHVybiB7CiAgICBpZDogc2Vzc2lvbi51c2VyLmlkLAogICAgbmFtZTogc2Vzc2lvbi51c2VyLm5hbWUgPz8gIiIsCiAgICBlbWFpbDogc2Vzc2lvbi51c2VyLmVtYWlsLAogICAgcm9sZTogc2Vzc2lvbi51c2VyLnJvbGUsCiAgfTsKfQoKZXhwb3J0IGNsYXNzIEh0dHBFcnJvciBleHRlbmRzIEVycm9yIHsKICBjb25zdHJ1Y3RvcigKICAgIHB1YmxpYyByZWFkb25seSBzdGF0dXM6IG51bWJlciwKICAgIG1lc3NhZ2U6IHN0cmluZywKICApIHsKICAgIHN1cGVyKG1lc3NhZ2UpOwogIH0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJlcXVpcmVTZXNzaW9uKCk6IFByb21pc2U8U2Vzc2lvblVzZXI+IHsKICBjb25zdCB1c2VyID0gYXdhaXQgZ2V0U2Vzc2lvbigpOwogIGlmICghdXNlcikgdGhyb3cgbmV3IEh0dHBFcnJvcig0MDEsICJVbmF1dGhlbnRpY2F0ZWQiKTsKICByZXR1cm4gdXNlcjsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJlcXVpcmVSb2xlKGFsbG93ZWQ6IFJvbGVbXSk6IFByb21pc2U8U2Vzc2lvblVzZXI+IHsKICBjb25zdCB1c2VyID0gYXdhaXQgcmVxdWlyZVNlc3Npb24oKTsKICBpZiAoIWFsbG93ZWQuaW5jbHVkZXModXNlci5yb2xlKSkgdGhyb3cgbmV3IEh0dHBFcnJvcig0MDMsICJGb3JiaWRkZW4iKTsKICByZXR1cm4gdXNlcjsKfQo=
+import "server-only";
+import { getServerSession } from "next-auth";
+import { authOptions } from "./options";
+import type { Role, SessionUser } from "@/lib/types/auth";
+
+export async function getSession(): Promise<SessionUser | null> {
+  const session = await getServerSession(authOptions);
+  if (!session?.user?.email) return null;
+  return {
+    id: session.user.id,
+    name: session.user.name ?? "",
+    email: session.user.email,
+    role: session.user.role,
+  };
+}
+
+export class HttpError extends Error {
+  constructor(
+    public readonly status: number,
+    message: string,
+  ) {
+    super(message);
+  }
+}
+
+export async function requireSession(): Promise<SessionUser> {
+  const user = await getSession();
+  if (!user) throw new HttpError(401, "Unauthenticated");
+  return user;
+}
+
+export async function requireRole(allowed: Role[]): Promise<SessionUser> {
+  const user = await requireSession();
+  if (!allowed.includes(user.role)) throw new HttpError(403, "Forbidden");
+  return user;
+}

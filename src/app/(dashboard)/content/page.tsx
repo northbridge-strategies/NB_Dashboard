@@ -1,1 +1,18 @@
-aW1wb3J0IHsgbGlzdENvbnRlbnQgfSBmcm9tICJAL2xpYi9ub3Rpb24vY29udGVudCI7CmltcG9ydCB7IEVycm9yU3RhdGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3RhdGVzIjsKaW1wb3J0IHsgQ29udGVudFRhYnMgfSBmcm9tICIuL19Db250ZW50VGFicyI7CgpleHBvcnQgY29uc3QgcmV2YWxpZGF0ZSA9IDMwOwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gQ29udGVudFBhZ2UoKSB7CiAgY29uc3QgciA9IGF3YWl0IFByb21pc2UuYWxsU2V0dGxlZChbbGlzdENvbnRlbnQoKV0pOwogIGlmIChyWzBdLnN0YXR1cyA9PT0gInJlamVjdGVkIikgewogICAgcmV0dXJuICgKICAgICAgPEVycm9yU3RhdGUKICAgICAgICB0aXRsZT0iQ29udGVudCBDYWxlbmRhciBmYWlsZWQgdG8gbG9hZCIKICAgICAgICBkZXNjcmlwdGlvbj17KHJbMF0ucmVhc29uIGFzIEVycm9yKT8ubWVzc2FnZX0KICAgICAgLz4KICAgICk7CiAgfQogIHJldHVybiA8Q29udGVudFRhYnMgaXRlbXM9e3JbMF0udmFsdWV9IC8+Owp9Cg==
+import { listContent } from "@/lib/notion/content";
+import { ErrorState } from "@/components/ui/states";
+import { ContentTabs } from "./_ContentTabs";
+
+export const revalidate = 30;
+
+export default async function ContentPage() {
+  const r = await Promise.allSettled([listContent()]);
+  if (r[0].status === "rejected") {
+    return (
+      <ErrorState
+        title="Content Calendar failed to load"
+        description={(r[0].reason as Error)?.message}
+      />
+    );
+  }
+  return <ContentTabs items={r[0].value} />;
+}

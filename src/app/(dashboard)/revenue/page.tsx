@@ -1,1 +1,58 @@
-aW1wb3J0IHsgbGlzdFJldmVudWUgfSBmcm9tICJAL2xpYi9ub3Rpb24vcmV2ZW51ZSI7CmltcG9ydCB7IGxpc3RBbGxMZWFkcyB9IGZyb20gIkAvbGliL25vdGlvbi9sZWFkcyI7CmltcG9ydCB7IEVycm9yU3RhdGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3RhdGVzIjsKaW1wb3J0IHsgUmV2ZW51ZVRhYnMgfSBmcm9tICIuL19SZXZlbnVlVGFicyI7CgpleHBvcnQgY29uc3QgcmV2YWxpZGF0ZSA9IDMwOwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gUmV2ZW51ZVBhZ2UoKSB7CiAgY29uc3QgW3JldlIsIGxlYWRzUl0gPSBhd2FpdCBQcm9taXNlLmFsbFNldHRsZWQoW2xpc3RSZXZlbnVlKCksIGxpc3RBbGxMZWFkcygpXSk7CgogIGlmIChyZXZSLnN0YXR1cyA9PT0gInJlamVjdGVkIikgewogICAgcmV0dXJuICgKICAgICAgPEVycm9yU3RhdGUKICAgICAgICB0aXRsZT0iUmV2ZW51ZSBmYWlsZWQgdG8gbG9hZCIKICAgICAgICBkZXNjcmlwdGlvbj17KHJldlIucmVhc29uIGFzIEVycm9yKT8ubWVzc2FnZX0KICAgICAgLz4KICAgICk7CiAgfQoKICBjb25zdCByZXZlbnVlID0gcmV2Ui52YWx1ZTsKICBjb25zdCBsZWFkcyA9IGxlYWRzUi5zdGF0dXMgPT09ICJmdWxmaWxsZWQiID8gbGVhZHNSLnZhbHVlIDogW107CiAgY29uc3QgbGVhZE5hbWVCeUlkID0gbmV3IE1hcChsZWFkcy5tYXAoKGwpID0+IFtsLmlkLCBsLm5hbWVdKSk7CgogIC8vIEFnZ3JlZ2F0ZSBieSBNb250aCAoWVlZWS1NTSkKICBjb25zdCBieU1vbnRoID0gbmV3IE1hcDxzdHJpbmcsIHsgbW9udGg6IHN0cmluZzsgY291bnQ6IG51bWJlcjsgdG90YWw6IG51bWJlciB9PigpOwogIGZvciAoY29uc3QgciBvZiByZXZlbnVlKSB7CiAgICBpZiAoci5zdGF0dXMgIT09ICJQYWlkIikgY29udGludWU7CiAgICBjb25zdCBrZXkgPSByLm1vbnRoIHx8IChyLnBheW1lbnREYXRlID8gci5wYXltZW50RGF0ZS5zbGljZSgwLCA3KSA6ICLigJQiKTsKICAgIGlmICgha2V5KSBjb250aW51ZTsKICAgIGNvbnN0IGN1ciA9IGJ5TW9udGguZ2V0KGtleSkgPz8geyBtb250aDoga2V5LCBjb3VudDogMCwgdG90YWw6IDAgfTsKICAgIGN1ci5jb3VudCArPSAxOwogICAgY3VyLnRvdGFsICs9IHIuYW1vdW50ID8/IDA7CiAgICBieU1vbnRoLnNldChrZXksIGN1cik7CiAgfQogIGNvbnN0IG1vbnRobHlSb3dzID0gQXJyYXkuZnJvbShieU1vbnRoLnZhbHVlcygpKS5zb3J0KChhLCBiKSA9PgogICAgYS5tb250aC5sb2NhbGVDb21wYXJlKGIubW9udGgpLAogICk7CgogIGNvbnN0IGdyYW5kVG90YWwgPSByZXZlbnVlCiAgICAuZmlsdGVyKChyKSA9PiByLnN0YXR1cyA9PT0gIlBhaWQiKQogICAgLnJlZHVjZSgoYWNjLCByKSA9PiBhY2MgKyAoci5hbW91bnQgPz8gMCksIDApOwoKICByZXR1cm4gKAogICAgPFJldmVudWVUYWJzCiAgICAgIHBheW1lbnRzPXtyZXZlbnVlLm1hcCgocikgPT4gKHsKICAgICAgICBpZDogci5pZCwKICAgICAgICBsZWFkTmFtZTogci5sZWFkSWQgPyBsZWFkTmFtZUJ5SWQuZ2V0KHIubGVhZElkKSA/PyAi4oCUIiA6ICLigJQiLAogICAgICAgIHNlcnZpY2U6IHIuc2VydmljZSwKICAgICAgICBhbW91bnQ6IHIuYW1vdW50LAogICAgICAgIHBheW1lbnREYXRlOiByLnBheW1lbnREYXRlLAogICAgICAgIHN0cmlwZVBheW1lbnRJZDogci5zdHJpcGVQYXltZW50SWQsCiAgICAgICAgc3RhdHVzOiByLnN0YXR1cywKICAgICAgfSkpfQogICAgICBtb250aGx5PXttb250aGx5Um93c30KICAgICAgZ3JhbmRUb3RhbD17Z3JhbmRUb3RhbH0KICAgIC8+CiAgKTsKfQo=
+import { listRevenue } from "@/lib/notion/revenue";
+import { listAllLeads } from "@/lib/notion/leads";
+import { ErrorState } from "@/components/ui/states";
+import { RevenueTabs } from "./_RevenueTabs";
+
+export const revalidate = 30;
+
+export default async function RevenuePage() {
+  const [revR, leadsR] = await Promise.allSettled([listRevenue(), listAllLeads()]);
+
+  if (revR.status === "rejected") {
+    return (
+      <ErrorState
+        title="Revenue failed to load"
+        description={(revR.reason as Error)?.message}
+      />
+    );
+  }
+
+  const revenue = revR.value;
+  const leads = leadsR.status === "fulfilled" ? leadsR.value : [];
+  const leadNameById = new Map(leads.map((l) => [l.id, l.name]));
+
+  // Aggregate by Month (YYYY-MM)
+  const byMonth = new Map<string, { month: string; count: number; total: number }>();
+  for (const r of revenue) {
+    if (r.status !== "Paid") continue;
+    const key = r.month || (r.paymentDate ? r.paymentDate.slice(0, 7) : "—");
+    if (!key) continue;
+    const cur = byMonth.get(key) ?? { month: key, count: 0, total: 0 };
+    cur.count += 1;
+    cur.total += r.amount ?? 0;
+    byMonth.set(key, cur);
+  }
+  const monthlyRows = Array.from(byMonth.values()).sort((a, b) =>
+    a.month.localeCompare(b.month),
+  );
+
+  const grandTotal = revenue
+    .filter((r) => r.status === "Paid")
+    .reduce((acc, r) => acc + (r.amount ?? 0), 0);
+
+  return (
+    <RevenueTabs
+      payments={revenue.map((r) => ({
+        id: r.id,
+        leadName: r.leadId ? leadNameById.get(r.leadId) ?? "—" : "—",
+        service: r.service,
+        amount: r.amount,
+        paymentDate: r.paymentDate,
+        stripePaymentId: r.stripePaymentId,
+        status: r.status,
+      }))}
+      monthly={monthlyRows}
+      grandTotal={grandTotal}
+    />
+  );
+}

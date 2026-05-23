@@ -1,1 +1,28 @@
-aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgcmVqZWN0T3V0cmVhY2ggfSBmcm9tICJAL2xpYi9ub3Rpb24vbGlua2VkaW4iOwppbXBvcnQgeyBIdHRwRXJyb3IsIHJlcXVpcmVSb2xlIH0gZnJvbSAiQC9saWIvYXV0aC9zZXNzaW9uIjsKaW1wb3J0IHsgYnVzdCwgVEFHIH0gZnJvbSAiQC9saWIvdXRpbHMvcmV2YWxpZGF0ZSI7Cgpjb25zdCBCb2R5ID0gei5vYmplY3QoewogIG5vdGVzOiB6LnN0cmluZygpLm1heCgyMDAwKS5vcHRpb25hbCgpLAp9KTsKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBQT1NUKHJlcTogUmVxdWVzdCwgeyBwYXJhbXMgfTogeyBwYXJhbXM6IHsgaWQ6IHN0cmluZyB9IH0pIHsKICB0cnkgewogICAgYXdhaXQgcmVxdWlyZVJvbGUoWyJBZG1pbiIsICJTdGFmZiJdKTsKICAgIGNvbnN0IGJvZHkgPSBCb2R5LnNhZmVQYXJzZShhd2FpdCByZXEuanNvbigpLmNhdGNoKCgpID0+ICh7fSkpKTsKICAgIGlmICghYm9keS5zdWNjZXNzKSB7CiAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiAiSW52YWxpZCBib2R5IiB9LCB7IHN0YXR1czogNDAwIH0pOwogICAgfQogICAgYXdhaXQgcmVqZWN0T3V0cmVhY2gocGFyYW1zLmlkLCBib2R5LmRhdGEubm90ZXMpOwogICAgYnVzdChUQUcubGlua2VkaW4sIFRBRy5hY3Rpdml0eSk7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBvazogdHJ1ZSB9KTsKICB9IGNhdGNoIChlcnIpIHsKICAgIGlmIChlcnIgaW5zdGFuY2VvZiBIdHRwRXJyb3IpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6IGVyci5tZXNzYWdlIH0sIHsgc3RhdHVzOiBlcnIuc3RhdHVzIH0pOwogICAgfQogICAgY29uc29sZS5lcnJvcigiWy9hcGkvbGlua2VkaW4vcmVqZWN0XSIsIGVycik7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIkludGVybmFsIGVycm9yIiB9LCB7IHN0YXR1czogNTAwIH0pOwogIH0KfQo=
+import { NextResponse } from "next/server";
+import { z } from "zod";
+import { rejectOutreach } from "@/lib/notion/linkedin";
+import { HttpError, requireRole } from "@/lib/auth/session";
+import { bust, TAG } from "@/lib/utils/revalidate";
+
+const Body = z.object({
+  notes: z.string().max(2000).optional(),
+});
+
+export async function POST(req: Request, { params }: { params: { id: string } }) {
+  try {
+    await requireRole(["Admin", "Staff"]);
+    const body = Body.safeParse(await req.json().catch(() => ({})));
+    if (!body.success) {
+      return NextResponse.json({ error: "Invalid body" }, { status: 400 });
+    }
+    await rejectOutreach(params.id, body.data.notes);
+    bust(TAG.linkedin, TAG.activity);
+    return NextResponse.json({ ok: true });
+  } catch (err) {
+    if (err instanceof HttpError) {
+      return NextResponse.json({ error: err.message }, { status: err.status });
+    }
+    console.error("[/api/linkedin/reject]", err);
+    return NextResponse.json({ error: "Internal error" }, { status: 500 });
+  }
+}

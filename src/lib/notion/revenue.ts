@@ -1,1 +1,172 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IG5vdGlvbiB9IGZyb20gIi4vY2xpZW50IjsKaW1wb3J0IHsgREIgfSBmcm9tICIuL2lkcyI7CmltcG9ydCB7IGNhY2hlZCwgVEFHIH0gZnJvbSAiLi9jYWNoZSI7CmltcG9ydCB7CiAgZ2V0RGF0ZSwKICBnZXROdW1iZXIsCiAgZ2V0UmVsYXRpb25JZHMsCiAgZ2V0UmljaFRleHQsCiAgZ2V0U2VsZWN0LAogIGdldFRpdGxlLAogIGlzRnVsbFBhZ2UsCiAgdHlwZSBQYWdlLAp9IGZyb20gIi4vcGFyc2VycyI7CmltcG9ydCB7IGRheXNBZ28sIHN0YXJ0T2ZNb250aFlZWVlNTSwgdG9JU08gfSBmcm9tICJAL2xpYi91dGlscy9kYXRlcyI7CmltcG9ydCB0eXBlIHsgQWN0aXZpdHlJdGVtIH0gZnJvbSAiQC9saWIvdHlwZXMvZG9tYWluIjsKCmV4cG9ydCBpbnRlcmZhY2UgUmV2ZW51ZUVudHJ5IHsKICBpZDogc3RyaW5nOwogIHRpdGxlOiBzdHJpbmc7CiAgbGVhZElkOiBzdHJpbmcgfCBudWxsOwogIHNlcnZpY2U6IHN0cmluZyB8IG51bGw7ICAgICAgICAvLyAiVGllciBJIiB8ICJUaWVyIElJIiB8ICJUaWVyIElJSSIgfCAiVGllciBJViIKICBhbW91bnQ6IG51bWJlciB8IG51bGw7CiAgcGF5bWVudERhdGU6IHN0cmluZyB8IG51bGw7CiAgc3RyaXBlUGF5bWVudElkOiBzdHJpbmc7CiAgc3RyaXBlRXZlbnRJZDogc3RyaW5nOwogIHN0YXR1czogc3RyaW5nIHwgbnVsbDsgICAgICAgICAgLy8gIlBhaWQiIHwgIlBlbmRpbmciIHwgIlJlZnVuZGVkIgogIG1vbnRoOiBzdHJpbmc7ICAgICAgICAgICAgICAgICAgLy8gIllZWVktTU0iCiAgbGFzdEVkaXRlZFRpbWU6IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIHBhcnNlUmV2ZW51ZShwYWdlOiBQYWdlKTogUmV2ZW51ZUVudHJ5IHsKICBjb25zdCBsZWFkSWRzID0gZ2V0UmVsYXRpb25JZHMocGFnZSwgIkxlYWQiKTsKICByZXR1cm4gewogICAgaWQ6IHBhZ2UuaWQsCiAgICB0aXRsZTogZ2V0VGl0bGUocGFnZSwgIlJldmVudWUgRW50cnkiKSwKICAgIGxlYWRJZDogbGVhZElkc1swXSA/PyBudWxsLAogICAgc2VydmljZTogZ2V0U2VsZWN0KHBhZ2UsICJTZXJ2aWNlIiksCiAgICBhbW91bnQ6IGdldE51bWJlcihwYWdlLCAiQW1vdW50IiksCiAgICBwYXltZW50RGF0ZTogZ2V0RGF0ZShwYWdlLCAiUGF5bWVudCBEYXRlIiksCiAgICBzdHJpcGVQYXltZW50SWQ6IGdldFJpY2hUZXh0KHBhZ2UsICJTdHJpcGUgUGF5bWVudCBJRCIpLAogICAgc3RyaXBlRXZlbnRJZDogZ2V0UmljaFRleHQocGFnZSwgIlN0cmlwZSBFdmVudCBJRCIpLAogICAgc3RhdHVzOiBnZXRTZWxlY3QocGFnZSwgIlN0YXR1cyIpLAogICAgbW9udGg6IGdldFJpY2hUZXh0KHBhZ2UsICJNb250aCIpLAogICAgbGFzdEVkaXRlZFRpbWU6IHBhZ2UubGFzdF9lZGl0ZWRfdGltZSwKICB9Owp9CgpleHBvcnQgY29uc3QgbGlzdFJldmVudWUgPSBjYWNoZWQoCiAgYXN5bmMgKCk6IFByb21pc2U8UmV2ZW51ZUVudHJ5W10+ID0+IHsKICAgIGNvbnN0IHJlc3VsdHM6IFJldmVudWVFbnRyeVtdID0gW107CiAgICBsZXQgY3Vyc29yOiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgICBkbyB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgICAgIGRhdGFiYXNlX2lkOiBEQi5yZXZlbnVlLAogICAgICAgIHBhZ2Vfc2l6ZTogMTAwLAogICAgICAgIHN0YXJ0X2N1cnNvcjogY3Vyc29yLAogICAgICAgIHNvcnRzOiBbeyBwcm9wZXJ0eTogIlBheW1lbnQgRGF0ZSIsIGRpcmVjdGlvbjogImRlc2NlbmRpbmciIH1dLAogICAgICB9KTsKICAgICAgZm9yIChjb25zdCBwYWdlIG9mIHJlcy5yZXN1bHRzKSB7CiAgICAgICAgaWYgKCFpc0Z1bGxQYWdlKHBhZ2UpKSBjb250aW51ZTsKICAgICAgICByZXN1bHRzLnB1c2gocGFyc2VSZXZlbnVlKHBhZ2UpKTsKICAgICAgfQogICAgICBjdXJzb3IgPSByZXMuaGFzX21vcmUgPyAocmVzLm5leHRfY3Vyc29yID8/IHVuZGVmaW5lZCkgOiB1bmRlZmluZWQ7CiAgICB9IHdoaWxlIChjdXJzb3IpOwogICAgcmV0dXJuIHJlc3VsdHM7CiAgfSwKICBbInJldmVudWU6YWxsIl0sCiAgeyB0YWdzOiBbVEFHLnJldmVudWVdIH0sCik7CgpleHBvcnQgY29uc3Qgc3VtUmV2ZW51ZVRoaXNNb250aCA9IGNhY2hlZCgKICBhc3luYyAoKTogUHJvbWlzZTxudW1iZXI+ID0+IHsKICAgIGNvbnN0IHltID0gc3RhcnRPZk1vbnRoWVlZWU1NKCk7CiAgICBsZXQgdG90YWwgPSAwOwogICAgbGV0IGN1cnNvcjogc3RyaW5nIHwgdW5kZWZpbmVkOwogICAgZG8gewogICAgICBjb25zdCByZXMgPSBhd2FpdCBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgICAgICBkYXRhYmFzZV9pZDogREIucmV2ZW51ZSwKICAgICAgICBwYWdlX3NpemU6IDEwMCwKICAgICAgICBzdGFydF9jdXJzb3I6IGN1cnNvciwKICAgICAgICBmaWx0ZXI6IHsKICAgICAgICAgIGFuZDogWwogICAgICAgICAgICB7IHByb3BlcnR5OiAiTW9udGgiLCByaWNoX3RleHQ6IHsgZXF1YWxzOiB5bSB9IH0sCiAgICAgICAgICAgIHsgcHJvcGVydHk6ICJTdGF0dXMiLCBzZWxlY3Q6IHsgZXF1YWxzOiAiUGFpZCIgfSB9LAogICAgICAgICAgXSwKICAgICAgICB9LAogICAgICB9KTsKICAgICAgZm9yIChjb25zdCBwYWdlIG9mIHJlcy5yZXN1bHRzKSB7CiAgICAgICAgaWYgKCFpc0Z1bGxQYWdlKHBhZ2UpKSBjb250aW51ZTsKICAgICAgICB0b3RhbCArPSBnZXROdW1iZXIocGFnZSwgIkFtb3VudCIpID8/IDA7CiAgICAgIH0KICAgICAgY3Vyc29yID0gcmVzLmhhc19tb3JlID8gKHJlcy5uZXh0X2N1cnNvciA/PyB1bmRlZmluZWQpIDogdW5kZWZpbmVkOwogICAgfSB3aGlsZSAoY3Vyc29yKTsKICAgIHJldHVybiB0b3RhbDsKICB9LAogIFsicmV2ZW51ZTpzdW0tdGhpcy1tb250aCJdLAogIHsgdGFnczogW1RBRy5yZXZlbnVlXSB9LAopOwoKLyoqIFN1bSByZXZlbnVlIGZvciBwYWlkIHJlY29yZHMgd2l0aGluIFtzdGFydERheXNBZ28sIGVuZERheXNBZ29dLiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc3VtUmV2ZW51ZUluUmFuZ2UoCiAgc3RhcnREYXlzQWdvOiBudW1iZXIsCiAgZW5kRGF5c0FnbzogbnVtYmVyLAopOiBQcm9taXNlPG51bWJlcj4gewogIGNvbnN0IHN0YXJ0SVNPID0gdG9JU08oZGF5c0FnbyhzdGFydERheXNBZ28pKTsKICBjb25zdCBlbmRJU08gPSB0b0lTTyhkYXlzQWdvKGVuZERheXNBZ28pKTsKICBsZXQgdG90YWwgPSAwOwogIGxldCBjdXJzb3I6IHN0cmluZyB8IHVuZGVmaW5lZDsKICBkbyB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgICAgZGF0YWJhc2VfaWQ6IERCLnJldmVudWUsCiAgICAgIHBhZ2Vfc2l6ZTogMTAwLAogICAgICBzdGFydF9jdXJzb3I6IGN1cnNvciwKICAgICAgZmlsdGVyOiB7CiAgICAgICAgYW5kOiBbCiAgICAgICAgICB7IHByb3BlcnR5OiAiU3RhdHVzIiwgc2VsZWN0OiB7IGVxdWFsczogIlBhaWQiIH0gfSwKICAgICAgICAgIHsgcHJvcGVydHk6ICJQYXltZW50IERhdGUiLCBkYXRlOiB7IG9uX29yX2FmdGVyOiBzdGFydElTTyB9IH0sCiAgICAgICAgICB7IHByb3BlcnR5OiAiUGF5bWVudCBEYXRlIiwgZGF0ZTogeyBiZWZvcmU6IGVuZElTTyB9IH0sCiAgICAgICAgXSwKICAgICAgfSwKICAgIH0pOwogICAgZm9yIChjb25zdCBwYWdlIG9mIHJlcy5yZXN1bHRzKSB7CiAgICAgIGlmICghaXNGdWxsUGFnZShwYWdlKSkgY29udGludWU7CiAgICAgIHRvdGFsICs9IGdldE51bWJlcihwYWdlLCAiQW1vdW50IikgPz8gMDsKICAgIH0KICAgIGN1cnNvciA9IHJlcy5oYXNfbW9yZSA/IChyZXMubmV4dF9jdXJzb3IgPz8gdW5kZWZpbmVkKSA6IHVuZGVmaW5lZDsKICB9IHdoaWxlIChjdXJzb3IpOwogIHJldHVybiB0b3RhbDsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldFJldmVudWVGb3JMZWFkKGxlYWRJZDogc3RyaW5nKTogUHJvbWlzZTxSZXZlbnVlRW50cnlbXT4gewogIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgZGF0YWJhc2VfaWQ6IERCLnJldmVudWUsCiAgICBwYWdlX3NpemU6IDUwLAogICAgZmlsdGVyOiB7IHByb3BlcnR5OiAiTGVhZCIsIHJlbGF0aW9uOiB7IGNvbnRhaW5zOiBsZWFkSWQgfSB9LAogICAgc29ydHM6IFt7IHByb3BlcnR5OiAiUGF5bWVudCBEYXRlIiwgZGlyZWN0aW9uOiAiZGVzY2VuZGluZyIgfV0sCiAgfSk7CiAgcmV0dXJuIHJlcy5yZXN1bHRzLmZpbHRlcihpc0Z1bGxQYWdlKS5tYXAocGFyc2VSZXZlbnVlKTsKfQoKZXhwb3J0IGNvbnN0IHJlY2VudFJldmVudWVBY3Rpdml0eSA9IGNhY2hlZCgKICBhc3luYyAobGltaXQgPSAxMCk6IFByb21pc2U8QWN0aXZpdHlJdGVtW10+ID0+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgICBkYXRhYmFzZV9pZDogREIucmV2ZW51ZSwKICAgICAgcGFnZV9zaXplOiBsaW1pdCwKICAgICAgc29ydHM6IFt7IHRpbWVzdGFtcDogImxhc3RfZWRpdGVkX3RpbWUiLCBkaXJlY3Rpb246ICJkZXNjZW5kaW5nIiB9XSwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5yZXN1bHRzLmZpbHRlcihpc0Z1bGxQYWdlKS5tYXAoKHBhZ2UpID0+IHsKICAgICAgY29uc3QgciA9IHBhcnNlUmV2ZW51ZShwYWdlKTsKICAgICAgY29uc3QgYW10ID0KICAgICAgICByLmFtb3VudCAhPSBudWxsCiAgICAgICAgICA/IG5ldyBJbnRsLk51bWJlckZvcm1hdCgiZW4tVVMiLCB7CiAgICAgICAgICAgICAgc3R5bGU6ICJjdXJyZW5jeSIsCiAgICAgICAgICAgICAgY3VycmVuY3k6ICJVU0QiLAogICAgICAgICAgICAgIG1heGltdW1GcmFjdGlvbkRpZ2l0czogMCwKICAgICAgICAgICAgfSkuZm9ybWF0KHIuYW1vdW50KQogICAgICAgICAgOiAiJOKAlCI7CiAgICAgIGNvbnN0IGRldGFpbCA9IFthbXQsIHIuc2VydmljZSwgci5zdGF0dXNdLmZpbHRlcihCb29sZWFuKS5qb2luKCIgwrcgIik7CiAgICAgIHJldHVybiB7CiAgICAgICAgc291cmNlOiAicmV2ZW51ZSIgYXMgY29uc3QsCiAgICAgICAgaWQ6IHIuaWQsCiAgICAgICAgdGl0bGU6IHIudGl0bGUgfHwgIlBheW1lbnQgcmVjb3JkZWQiLAogICAgICAgIGRldGFpbCwKICAgICAgICB0aW1lc3RhbXA6IHIubGFzdEVkaXRlZFRpbWUsCiAgICAgICAgaHJlZjogci5sZWFkSWQgPyBgL2xlYWRzLyR7ci5sZWFkSWR9YCA6ICIvcmV2ZW51ZSIsCiAgICAgIH07CiAgICB9KTsKICB9LAogIFsicmV2ZW51ZTphY3Rpdml0eSJdLAogIHsgdGFnczogW1RBRy5yZXZlbnVlLCBUQUcuYWN0aXZpdHldIH0sCik7Cg==
+import "server-only";
+import { notion } from "./client";
+import { DB } from "./ids";
+import { cached, TAG } from "./cache";
+import {
+  getDate,
+  getNumber,
+  getRelationIds,
+  getRichText,
+  getSelect,
+  getTitle,
+  isFullPage,
+  type Page,
+} from "./parsers";
+import { daysAgo, startOfMonthYYYYMM, toISO } from "@/lib/utils/dates";
+import type { ActivityItem } from "@/lib/types/domain";
+
+export interface RevenueEntry {
+  id: string;
+  title: string;
+  leadId: string | null;
+  service: string | null;        // "Tier I" | "Tier II" | "Tier III" | "Tier IV"
+  amount: number | null;
+  paymentDate: string | null;
+  stripePaymentId: string;
+  stripeEventId: string;
+  status: string | null;          // "Paid" | "Pending" | "Refunded"
+  month: string;                  // "YYYY-MM"
+  lastEditedTime: string;
+}
+
+export function parseRevenue(page: Page): RevenueEntry {
+  const leadIds = getRelationIds(page, "Lead");
+  return {
+    id: page.id,
+    title: getTitle(page, "Revenue Entry"),
+    leadId: leadIds[0] ?? null,
+    service: getSelect(page, "Service"),
+    amount: getNumber(page, "Amount"),
+    paymentDate: getDate(page, "Payment Date"),
+    stripePaymentId: getRichText(page, "Stripe Payment ID"),
+    stripeEventId: getRichText(page, "Stripe Event ID"),
+    status: getSelect(page, "Status"),
+    month: getRichText(page, "Month"),
+    lastEditedTime: page.last_edited_time,
+  };
+}
+
+export const listRevenue = cached(
+  async (): Promise<RevenueEntry[]> => {
+    const results: RevenueEntry[] = [];
+    let cursor: string | undefined;
+    do {
+      const res = await notion.databases.query({
+        database_id: DB.revenue,
+        page_size: 100,
+        start_cursor: cursor,
+        sorts: [{ property: "Payment Date", direction: "descending" }],
+      });
+      for (const page of res.results) {
+        if (!isFullPage(page)) continue;
+        results.push(parseRevenue(page));
+      }
+      cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+    } while (cursor);
+    return results;
+  },
+  ["revenue:all"],
+  { tags: [TAG.revenue] },
+);
+
+export const sumRevenueThisMonth = cached(
+  async (): Promise<number> => {
+    const ym = startOfMonthYYYYMM();
+    let total = 0;
+    let cursor: string | undefined;
+    do {
+      const res = await notion.databases.query({
+        database_id: DB.revenue,
+        page_size: 100,
+        start_cursor: cursor,
+        filter: {
+          and: [
+            { property: "Month", rich_text: { equals: ym } },
+            { property: "Status", select: { equals: "Paid" } },
+          ],
+        },
+      });
+      for (const page of res.results) {
+        if (!isFullPage(page)) continue;
+        total += getNumber(page, "Amount") ?? 0;
+      }
+      cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+    } while (cursor);
+    return total;
+  },
+  ["revenue:sum-this-month"],
+  { tags: [TAG.revenue] },
+);
+
+/** Sum revenue for paid records within [startDaysAgo, endDaysAgo]. */
+export async function sumRevenueInRange(
+  startDaysAgo: number,
+  endDaysAgo: number,
+): Promise<number> {
+  const startISO = toISO(daysAgo(startDaysAgo));
+  const endISO = toISO(daysAgo(endDaysAgo));
+  let total = 0;
+  let cursor: string | undefined;
+  do {
+    const res = await notion.databases.query({
+      database_id: DB.revenue,
+      page_size: 100,
+      start_cursor: cursor,
+      filter: {
+        and: [
+          { property: "Status", select: { equals: "Paid" } },
+          { property: "Payment Date", date: { on_or_after: startISO } },
+          { property: "Payment Date", date: { before: endISO } },
+        ],
+      },
+    });
+    for (const page of res.results) {
+      if (!isFullPage(page)) continue;
+      total += getNumber(page, "Amount") ?? 0;
+    }
+    cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+  } while (cursor);
+  return total;
+}
+
+export async function getRevenueForLead(leadId: string): Promise<RevenueEntry[]> {
+  const res = await notion.databases.query({
+    database_id: DB.revenue,
+    page_size: 50,
+    filter: { property: "Lead", relation: { contains: leadId } },
+    sorts: [{ property: "Payment Date", direction: "descending" }],
+  });
+  return res.results.filter(isFullPage).map(parseRevenue);
+}
+
+export const recentRevenueActivity = cached(
+  async (limit = 10): Promise<ActivityItem[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.revenue,
+      page_size: limit,
+      sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+    });
+    return res.results.filter(isFullPage).map((page) => {
+      const r = parseRevenue(page);
+      const amt =
+        r.amount != null
+          ? new Intl.NumberFormat("en-US", {
+              style: "currency",
+              currency: "USD",
+              maximumFractionDigits: 0,
+            }).format(r.amount)
+          : "$—";
+      const detail = [amt, r.service, r.status].filter(Boolean).join(" · ");
+      return {
+        source: "revenue" as const,
+        id: r.id,
+        title: r.title || "Payment recorded",
+        detail,
+        timestamp: r.lastEditedTime,
+        href: r.leadId ? `/leads/${r.leadId}` : "/revenue",
+      };
+    });
+  },
+  ["revenue:activity"],
+  { tags: [TAG.revenue, TAG.activity] },
+);

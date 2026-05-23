@@ -1,1 +1,20 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgU2Vzc2lvblByb3ZpZGVyIH0gZnJvbSAibmV4dC1hdXRoL3JlYWN0IjsKaW1wb3J0IHsgVGhlbWVQcm92aWRlciB9IGZyb20gIm5leHQtdGhlbWVzIjsKaW1wb3J0IHR5cGUgeyBSZWFjdE5vZGUgfSBmcm9tICJyZWFjdCI7CgpleHBvcnQgZnVuY3Rpb24gUHJvdmlkZXJzKHsgY2hpbGRyZW4gfTogeyBjaGlsZHJlbjogUmVhY3ROb2RlIH0pIHsKICByZXR1cm4gKAogICAgPFNlc3Npb25Qcm92aWRlcj4KICAgICAgPFRoZW1lUHJvdmlkZXIKICAgICAgICBhdHRyaWJ1dGU9ImNsYXNzIgogICAgICAgIGRlZmF1bHRUaGVtZT0ibGlnaHQiCiAgICAgICAgZW5hYmxlU3lzdGVtPXtmYWxzZX0KICAgICAgICBkaXNhYmxlVHJhbnNpdGlvbk9uQ2hhbmdlPXtmYWxzZX0KICAgICAgPgogICAgICAgIHtjaGlsZHJlbn0KICAgICAgPC9UaGVtZVByb3ZpZGVyPgogICAgPC9TZXNzaW9uUHJvdmlkZXI+CiAgKTsKfQo=
+"use client";
+
+import { SessionProvider } from "next-auth/react";
+import { ThemeProvider } from "next-themes";
+import type { ReactNode } from "react";
+
+export function Providers({ children }: { children: ReactNode }) {
+  return (
+    <SessionProvider>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="light"
+        enableSystem={false}
+        disableTransitionOnChange={false}
+      >
+        {children}
+      </ThemeProvider>
+    </SessionProvider>
+  );
+}

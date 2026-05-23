@@ -1,1 +1,87 @@
-aW1wb3J0IHsgQ2FsZW5kYXJEYXlzLCBCdWlsZGluZyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7CiAgU3RhdHVzQmFkZ2UsCiAgdG9uZUZvclByaW9yaXR5LAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9TdGF0dXNCYWRnZSI7CmltcG9ydCB0eXBlIHsgUGlwZWxpbmVFbnRyeSB9IGZyb20gIkAvbGliL25vdGlvbi9waXBlbGluZSI7CmltcG9ydCB7IGRheXNCZXR3ZWVuLCBmb3JtYXRSZWxhdGl2ZSB9IGZyb20gIkAvbGliL3V0aWxzL2RhdGVzIjsKaW1wb3J0IHsgY24gfSBmcm9tICJAL2xpYi91dGlscy9jbGFzc25hbWVzIjsKCmV4cG9ydCBpbnRlcmZhY2UgQ2FyZExlYWRJbmZvIHsKICBuYW1lOiBzdHJpbmc7CiAgY29tcGFueTogc3RyaW5nOwogIHNjb3JlUGN0OiBudW1iZXIgfCBudWxsOwogIGNsYXNzaWZpY2F0aW9uOiBzdHJpbmcgfCBudWxsOwp9CgpleHBvcnQgZnVuY3Rpb24gUGlwZWxpbmVDYXJkKHsKICBlbnRyeSwKICBsZWFkLAogIG9uQ2xpY2ssCn06IHsKICBlbnRyeTogUGlwZWxpbmVFbnRyeTsKICBsZWFkPzogQ2FyZExlYWRJbmZvOwogIG9uQ2xpY2s/OiAoKSA9PiB2b2lkOwp9KSB7CiAgY29uc3QgZGF5cyA9IGVudHJ5LnN0YWdlRGF0ZSA/IGRheXNCZXR3ZWVuKGVudHJ5LnN0YWdlRGF0ZSkgOiBudWxsOwogIGNvbnN0IHNjb3JlQ29sb3IgPQogICAgbGVhZD8uc2NvcmVQY3QgPT0gbnVsbAogICAgICA/ICJ0ZXh0LXRleHQtbXV0ZWQiCiAgICAgIDogbGVhZC5zY29yZVBjdCA8IDQwCiAgICAgID8gInRleHQtYnJhbmQtZGFuZ2VyIgogICAgICA6IGxlYWQuc2NvcmVQY3QgPCA2NQogICAgICA/ICJ0ZXh0LWJyYW5kLXdhcm5pbmciCiAgICAgIDogbGVhZC5zY29yZVBjdCA8IDg1CiAgICAgID8gInRleHQtYnJhbmQtaW5mbyIKICAgICAgOiAidGV4dC1icmFuZC1zdWNjZXNzIjsKCiAgcmV0dXJuICgKICAgIDxidXR0b24KICAgICAgdHlwZT0iYnV0dG9uIgogICAgICBvbkNsaWNrPXtvbkNsaWNrfQogICAgICBjbGFzc05hbWU9Imdyb3VwIGZsZXggdy1mdWxsIGZsZXgtY29sIGdhcC0yIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctc3VyZmFjZSBwLTMgdGV4dC1sZWZ0IHRyYW5zaXRpb24gaG92ZXI6Ym9yZGVyLWJyYW5kLXByaW1hcnkvNDAgaG92ZXI6Ymctc3VyZmFjZS1lbGV2YXRlZCIKICAgID4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idHJ1bmNhdGUgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtdGV4dC1wcmltYXJ5Ij4KICAgICAgICAgICAge2xlYWQ/Lm5hbWUgfHwgZW50cnkudGl0bGUgfHwgIih1bm5hbWVkKSJ9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIHtsZWFkPy5jb21wYW55ICYmICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTAuNSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB0cnVuY2F0ZSB0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgICAgIDxCdWlsZGluZyBjbGFzc05hbWU9ImgtMyB3LTMiIC8+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0cnVuY2F0ZSI+e2xlYWQuY29tcGFueX08L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgICB7bGVhZD8uc2NvcmVQY3QgIT0gbnVsbCAmJiAoCiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2NuKCJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGFidWxhci1udW1zIiwgc2NvcmVDb2xvcil9PgogICAgICAgICAgICB7TWF0aC5yb3VuZChsZWFkLnNjb3JlUGN0KX0lCiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgIHtlbnRyeS5wcmlvcml0eSAmJiAoCiAgICAgICAgICA8U3RhdHVzQmFkZ2UgbGFiZWw9e2VudHJ5LnByaW9yaXR5fSB0b25lPXt0b25lRm9yUHJpb3JpdHkoZW50cnkucHJpb3JpdHkpfSAvPgogICAgICAgICl9CiAgICAgICAge2xlYWQ/LmNsYXNzaWZpY2F0aW9uICYmICgKICAgICAgICAgIDxTdGF0dXNCYWRnZSBsYWJlbD17bGVhZC5jbGFzc2lmaWNhdGlvbn0gdG9uZT0iaW5mbyIgLz4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIHsoZW50cnkuc3RhZ2VEYXRlIHx8IGRheXMgIT0gbnVsbCkgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gdGV4dC14cyB0ZXh0LXRleHQtbXV0ZWQiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgIDxDYWxlbmRhckRheXMgY2xhc3NOYW1lPSJoLTMgdy0zIiAvPgogICAgICAgICAgICB7ZW50cnkuc3RhZ2VEYXRlID8gZm9ybWF0UmVsYXRpdmUoZW50cnkuc3RhZ2VEYXRlKSA6ICLigJQifQogICAgICAgICAgPC9zcGFuPgogICAgICAgICAge2RheXMgIT0gbnVsbCAmJiAoCiAgICAgICAgICAgIDxzcGFuPgogICAgICAgICAgICAgIHtkYXlzID09PSAwID8gInRvZGF5IiA6IGAke2RheXN9ZCBpbiBzdGFnZWB9CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICA8L2J1dHRvbj4KICApOwp9Cg==
+import { CalendarDays, Building } from "lucide-react";
+import {
+  StatusBadge,
+  toneForPriority,
+} from "@/components/ui/StatusBadge";
+import type { PipelineEntry } from "@/lib/notion/pipeline";
+import { daysBetween, formatRelative } from "@/lib/utils/dates";
+import { cn } from "@/lib/utils/classnames";
+
+export interface CardLeadInfo {
+  name: string;
+  company: string;
+  scorePct: number | null;
+  classification: string | null;
+}
+
+export function PipelineCard({
+  entry,
+  lead,
+  onClick,
+}: {
+  entry: PipelineEntry;
+  lead?: CardLeadInfo;
+  onClick?: () => void;
+}) {
+  const days = entry.stageDate ? daysBetween(entry.stageDate) : null;
+  const scoreColor =
+    lead?.scorePct == null
+      ? "text-text-muted"
+      : lead.scorePct < 40
+      ? "text-brand-danger"
+      : lead.scorePct < 65
+      ? "text-brand-warning"
+      : lead.scorePct < 85
+      ? "text-brand-info"
+      : "text-brand-success";
+
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="group flex w-full flex-col gap-2 rounded-lg border border-border bg-surface p-3 text-left transition hover:border-brand-primary/40 hover:bg-surface-elevated"
+    >
+      <div className="flex items-start justify-between gap-2">
+        <div className="min-w-0">
+          <div className="truncate text-sm font-semibold text-text-primary">
+            {lead?.name || entry.title || "(unnamed)"}
+          </div>
+          {lead?.company && (
+            <div className="mt-0.5 flex items-center gap-1 truncate text-xs text-text-secondary">
+              <Building className="h-3 w-3" />
+              <span className="truncate">{lead.company}</span>
+            </div>
+          )}
+        </div>
+        {lead?.scorePct != null && (
+          <span className={cn("text-sm font-semibold tabular-nums", scoreColor)}>
+            {Math.round(lead.scorePct)}%
+          </span>
+        )}
+      </div>
+
+      <div className="flex flex-wrap items-center gap-1.5">
+        {entry.priority && (
+          <StatusBadge label={entry.priority} tone={toneForPriority(entry.priority)} />
+        )}
+        {lead?.classification && (
+          <StatusBadge label={lead.classification} tone="info" />
+        )}
+      </div>
+
+      {(entry.stageDate || days != null) && (
+        <div className="flex items-center justify-between text-xs text-text-muted">
+          <span className="flex items-center gap-1">
+            <CalendarDays className="h-3 w-3" />
+            {entry.stageDate ? formatRelative(entry.stageDate) : "—"}
+          </span>
+          {days != null && (
+            <span>
+              {days === 0 ? "today" : `${days}d in stage`}
+            </span>
+          )}
+        </div>
+      )}
+    </button>
+  );
+}

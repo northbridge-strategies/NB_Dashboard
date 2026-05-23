@@ -1,1 +1,51 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgTWVudSwgQmVsbCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IHVzZVBhdGhuYW1lIH0gZnJvbSAibmV4dC9uYXZpZ2F0aW9uIjsKaW1wb3J0IHsgTkFWX0lURU1TIH0gZnJvbSAiQC9saWIvY29uc3RhbnRzL25hdiI7CmltcG9ydCB7IFN5c3RlbUhlYWx0aERvdCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9TeXN0ZW1IZWFsdGhEb3QiOwoKZnVuY3Rpb24gcGFnZVRpdGxlRm9yKHBhdGhuYW1lOiBzdHJpbmcpOiBzdHJpbmcgewogIGlmIChwYXRobmFtZSA9PT0gIi8iKSByZXR1cm4gIkhvbWUiOwogIGlmIChwYXRobmFtZS5zdGFydHNXaXRoKCIvcHJvZmlsZSIpKSByZXR1cm4gIlByb2ZpbGUiOwogIGNvbnN0IG1hdGNoID0gTkFWX0lURU1TLmZpbmQoCiAgICAobikgPT4gbi5ocmVmICE9PSAiLyIgJiYgcGF0aG5hbWUuc3RhcnRzV2l0aChuLmhyZWYpLAogICk7CiAgcmV0dXJuIG1hdGNoPy5sYWJlbCA/PyAiRGFzaGJvYXJkIjsKfQoKZXhwb3J0IGZ1bmN0aW9uIFRvcGJhcih7IG9uT3Blbk1vYmlsZSB9OiB7IG9uT3Blbk1vYmlsZTogKCkgPT4gdm9pZCB9KSB7CiAgY29uc3QgcGF0aG5hbWUgPSB1c2VQYXRobmFtZSgpID8/ICIvIjsKICBjb25zdCB0aXRsZSA9IHBhZ2VUaXRsZUZvcihwYXRobmFtZSk7CgogIHJldHVybiAoCiAgICA8aGVhZGVyIGNsYXNzTmFtZT0ic3RpY2t5IHRvcC0wIHotMjAgZmxleCBoLTE2IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBiZy1iZy84NSBweC00IGJhY2tkcm9wLWJsdXIgc206cHgtNiI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IG1pbi13LTAgaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICA8YnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBvbkNsaWNrPXtvbk9wZW5Nb2JpbGV9CiAgICAgICAgICBhcmlhLWxhYmVsPSJPcGVuIG1lbnUiCiAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGgtOSB3LTkgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgdGV4dC10ZXh0LXNlY29uZGFyeSB0cmFuc2l0aW9uIGhvdmVyOmJnLXN1cmZhY2UtZWxldmF0ZWQgaG92ZXI6dGV4dC10ZXh0LXByaW1hcnkgbGc6aGlkZGVuIgogICAgICAgID4KICAgICAgICAgIDxNZW51IGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGFiZWwtY2FwcyB0ZXh0LXRleHQtbXV0ZWQiPk9wZXJhdGlvbnM8L2Rpdj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRydW5jYXRlIHRleHQtYmFzZSBmb250LXNlbWlib2xkIHRleHQtdGV4dC1wcmltYXJ5IHNtOnRleHQtbGciPgogICAgICAgICAgICB7dGl0bGV9CiAgICAgICAgICA8L2gxPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggc2hyaW5rLTAgaXRlbXMtY2VudGVyIGdhcC0yIHNtOmdhcC0zIj4KICAgICAgICA8U3lzdGVtSGVhbHRoRG90IC8+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgYXJpYS1sYWJlbD0iTm90aWZpY2F0aW9ucyIKICAgICAgICAgIGNsYXNzTmFtZT0iaGlkZGVuIGgtOSB3LTkgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgdGV4dC10ZXh0LXNlY29uZGFyeSB0cmFuc2l0aW9uIGhvdmVyOmJnLXN1cmZhY2UtZWxldmF0ZWQgaG92ZXI6dGV4dC10ZXh0LXByaW1hcnkgc206aW5saW5lLWZsZXgiCiAgICAgICAgPgogICAgICAgICAgPEJlbGwgY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvaGVhZGVyPgogICk7Cn0K
+"use client";
+
+import { Menu, Bell } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { NAV_ITEMS } from "@/lib/constants/nav";
+import { SystemHealthDot } from "@/components/ui/SystemHealthDot";
+
+function pageTitleFor(pathname: string): string {
+  if (pathname === "/") return "Home";
+  if (pathname.startsWith("/profile")) return "Profile";
+  const match = NAV_ITEMS.find(
+    (n) => n.href !== "/" && pathname.startsWith(n.href),
+  );
+  return match?.label ?? "Dashboard";
+}
+
+export function Topbar({ onOpenMobile }: { onOpenMobile: () => void }) {
+  const pathname = usePathname() ?? "/";
+  const title = pageTitleFor(pathname);
+
+  return (
+    <header className="sticky top-0 z-20 flex h-16 items-center justify-between gap-3 border-b border-border bg-bg/85 px-4 backdrop-blur sm:px-6">
+      <div className="flex min-w-0 items-center gap-3">
+        <button
+          type="button"
+          onClick={onOpenMobile}
+          aria-label="Open menu"
+          className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md border border-border text-text-secondary transition hover:bg-surface-elevated hover:text-text-primary lg:hidden"
+        >
+          <Menu className="h-4 w-4" />
+        </button>
+        <div className="min-w-0">
+          <div className="label-caps text-text-muted">Operations</div>
+          <h1 className="truncate text-base font-semibold text-text-primary sm:text-lg">
+            {title}
+          </h1>
+        </div>
+      </div>
+      <div className="flex shrink-0 items-center gap-2 sm:gap-3">
+        <SystemHealthDot />
+        <button
+          type="button"
+          aria-label="Notifications"
+          className="hidden h-9 w-9 items-center justify-center rounded-md border border-border text-text-secondary transition hover:bg-surface-elevated hover:text-text-primary sm:inline-flex"
+        >
+          <Bell className="h-4 w-4" />
+        </button>
+      </div>
+    </header>
+  );
+}

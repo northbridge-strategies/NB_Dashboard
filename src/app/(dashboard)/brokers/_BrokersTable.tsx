@@ -1,1 +1,192 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlUm91dGVyLCB1c2VTZWFyY2hQYXJhbXMgfSBmcm9tICJuZXh0L25hdmlnYXRpb24iOwppbXBvcnQgeyBMaW5rZWRpbiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IERhdGFUYWJsZSwgdHlwZSBDb2x1bW4gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvRGF0YVRhYmxlIjsKaW1wb3J0IHsgU3RhdHVzQmFkZ2UsIHR5cGUgQmFkZ2VUb25lIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL1N0YXR1c0JhZGdlIjsKaW1wb3J0IHsgQnJva2VyQXBwcm92ZUJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy9icm9rZXJzL0Jyb2tlckFjdGlvbnMiOwppbXBvcnQgeyBmb3JtYXRDdXJyZW5jeSB9IGZyb20gIkAvbGliL3V0aWxzL2Zvcm1hdCI7CmltcG9ydCB7IGZvcm1hdFJlbGF0aXZlIH0gZnJvbSAiQC9saWIvdXRpbHMvZGF0ZXMiOwoKZXhwb3J0IGludGVyZmFjZSBCcm9rZXJSb3cgewogIGlkOiBzdHJpbmc7CiAgbGlzdGluZ1RpdGxlOiBzdHJpbmc7CiAgYXNraW5nUHJpY2U6IG51bWJlciB8IG51bGw7CiAgaW5kdXN0cnk6IHN0cmluZzsKICBsb2NhdGlvbjogc3RyaW5nOwogIG93bmVyRGVwZW5kZW5jeVNpZ25hbHM6IHN0cmluZzsKICBicm9rZXJOYW1lOiBzdHJpbmc7CiAgYnJva2VyTGlua2VkSW5Vcmw6IHN0cmluZyB8IG51bGw7CiAgZGF0ZURpc2NvdmVyZWQ6IHN0cmluZyB8IG51bGw7CiAgc291cmNlOiBzdHJpbmcgfCBudWxsOwogIHN0YXR1czogc3RyaW5nIHwgbnVsbDsKICBhcHByb3ZlZEJ5RG91ZzogYm9vbGVhbjsKfQoKY29uc3QgU1RBVFVTX1RPTkU6IFJlY29yZDxzdHJpbmcsIEJhZGdlVG9uZT4gPSB7CiAgIkF3YWl0aW5nIFJldmlldyI6ICJ3YXJuaW5nIiwKICAiQXBwcm92ZWQgZm9yIE91dHJlYWNoIjogInN1Y2Nlc3MiLAogIFJlamVjdGVkOiAiZGFuZ2VyIiwKICAiQWxyZWFkeSBpbiBQaXBlbGluZSI6ICJtdXRlZCIsCn07CgpleHBvcnQgZnVuY3Rpb24gQnJva2Vyc1RhYmxlKHsKICByb3dzLAogIHNob3dBbGwsCn06IHsKICByb3dzOiBCcm9rZXJSb3dbXTsKICBzaG93QWxsOiBib29sZWFuOwp9KSB7CiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CiAgY29uc3QgcGFyYW1zID0gdXNlU2VhcmNoUGFyYW1zKCk7CgogIGZ1bmN0aW9uIHRvZ2dsZUFsbCgpIHsKICAgIGNvbnN0IHEgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKHBhcmFtcz8udG9TdHJpbmcoKSk7CiAgICBpZiAoc2hvd0FsbCkgcS5kZWxldGUoImFsbCIpOwogICAgZWxzZSBxLnNldCgiYWxsIiwgIjEiKTsKICAgIGNvbnN0IHFzID0gcS50b1N0cmluZygpOwogICAgcm91dGVyLnJlcGxhY2UoIi9icm9rZXJzIiArIChxcyA/IGA/JHtxc31gIDogIiIpKTsKICB9CgogIGNvbnN0IGNvbHVtbnM6IENvbHVtbjxCcm9rZXJSb3c+W10gPSBbCiAgICB7CiAgICAgIGtleTogImxpc3RpbmciLAogICAgICBoZWFkZXI6ICJMaXN0aW5nIiwKICAgICAgc29ydDogKHIpID0+IHIubGlzdGluZ1RpdGxlLnRvTG93ZXJDYXNlKCksCiAgICAgIHJlbmRlcjogKHIpID0+ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idHJ1bmNhdGUgZm9udC1tZWRpdW0iPntyLmxpc3RpbmdUaXRsZSB8fCAi4oCUIn08L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0cnVuY2F0ZSB0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgICB7W3IuaW5kdXN0cnksIHIubG9jYXRpb25dLmZpbHRlcihCb29sZWFuKS5qb2luKCIgwrcgIikgfHwgIuKAlCJ9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogImFza2luZ1ByaWNlIiwKICAgICAgaGVhZGVyOiAiQXNraW5nIiwKICAgICAgc29ydDogKHIpID0+IHIuYXNraW5nUHJpY2UsCiAgICAgIGFsaWduOiAicmlnaHQiLAogICAgICBoaWRlT25Nb2JpbGU6IHRydWUsCiAgICAgIHJlbmRlcjogKHIpID0+ICgKICAgICAgICA8c3BhbiBjbGFzc05hbWU9IndoaXRlc3BhY2Utbm93cmFwIHRhYnVsYXItbnVtcyI+e2Zvcm1hdEN1cnJlbmN5KHIuYXNraW5nUHJpY2UpfTwvc3Bhbj4KICAgICAgKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogInNpZ25hbHMiLAogICAgICBoZWFkZXI6ICJPd25lci1EZXBlbmRlbmN5IFNpZ25hbHMiLAogICAgICBoaWRlT25UYWJsZXQ6IHRydWUsCiAgICAgIHJlbmRlcjogKHIpID0+CiAgICAgICAgci5vd25lckRlcGVuZGVuY3lTaWduYWxzID8gKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJsaW5lLWNsYW1wLTIgbWF4LXctbWQgdGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAge3Iub3duZXJEZXBlbmRlbmN5U2lnbmFsc30KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICApIDogKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXRleHQtbXV0ZWQiPuKAlDwvc3Bhbj4KICAgICAgICApLAogICAgfSwKICAgIHsKICAgICAga2V5OiAiYnJva2VyIiwKICAgICAgaGVhZGVyOiAiQnJva2VyIiwKICAgICAgc29ydDogKHIpID0+IHIuYnJva2VyTmFtZS50b0xvd2VyQ2FzZSgpLAogICAgICByZW5kZXI6IChyKSA9PiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idHJ1bmNhdGUiPntyLmJyb2tlck5hbWUgfHwgIuKAlCJ9PC9zcGFuPgogICAgICAgICAge3IuYnJva2VyTGlua2VkSW5VcmwgJiYgKAogICAgICAgICAgICA8YQogICAgICAgICAgICAgIGhyZWY9e3IuYnJva2VyTGlua2VkSW5Vcmx9CiAgICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICAgICAgcmVsPSJub3JlZmVycmVyIgogICAgICAgICAgICAgIG9uQ2xpY2s9eyhlKSA9PiBlLnN0b3BQcm9wYWdhdGlvbigpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1icmFuZC1pbmZvIGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICBhcmlhLWxhYmVsPSJCcm9rZXIgTGlua2VkSW4iCiAgICAgICAgICAgICAgdGl0bGU9e3IuYnJva2VyTGlua2VkSW5Vcmx9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8TGlua2VkaW4gY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgPC9hPgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogImRhdGUiLAogICAgICBoZWFkZXI6ICJEaXNjb3ZlcmVkIiwKICAgICAgc29ydDogKHIpID0+IHIuZGF0ZURpc2NvdmVyZWQgPz8gIiIsCiAgICAgIGhpZGVPbk1vYmlsZTogdHJ1ZSwKICAgICAgcmVuZGVyOiAocikgPT4KICAgICAgICByLmRhdGVEaXNjb3ZlcmVkID8gKAogICAgICAgICAgZm9ybWF0UmVsYXRpdmUoci5kYXRlRGlzY292ZXJlZCkKICAgICAgICApIDogKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXRleHQtbXV0ZWQiPuKAlDwvc3Bhbj4KICAgICAgICApLAogICAgfSwKICAgIHsKICAgICAga2V5OiAic291cmNlIiwKICAgICAgaGVhZGVyOiAiU291cmNlIiwKICAgICAgc29ydDogKHIpID0+IHIuc291cmNlID8/ICIiLAogICAgICBoaWRlT25Nb2JpbGU6IHRydWUsCiAgICAgIHJlbmRlcjogKHIpID0+CiAgICAgICAgci5zb3VyY2UgPyAoCiAgICAgICAgICA8U3RhdHVzQmFkZ2UgbGFiZWw9e3Iuc291cmNlfSB0b25lPSJpbmZvIiAvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtdGV4dC1tdXRlZCI+4oCUPC9zcGFuPgogICAgICAgICksCiAgICB9LAogICAgewogICAgICBrZXk6ICJzdGF0dXMiLAogICAgICBoZWFkZXI6ICJTdGF0dXMiLAogICAgICBzb3J0OiAocikgPT4gci5zdGF0dXMgPz8gIiIsCiAgICAgIHJlbmRlcjogKHIpID0+CiAgICAgICAgci5zdGF0dXMgPyAoCiAgICAgICAgICA8U3RhdHVzQmFkZ2UKICAgICAgICAgICAgbGFiZWw9e3Iuc3RhdHVzfQogICAgICAgICAgICB0b25lPXtTVEFUVVNfVE9ORVtyLnN0YXR1c10gPz8gIm5ldXRyYWwifQogICAgICAgICAgLz4KICAgICAgICApIDogKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXRleHQtbXV0ZWQiPuKAlDwvc3Bhbj4KICAgICAgICApLAogICAgfSwKICAgIHsKICAgICAga2V5OiAiYWN0aW9ucyIsCiAgICAgIGhlYWRlcjogIiIsCiAgICAgIHdpZHRoOiAidy0zMiIsCiAgICAgIHJlbmRlcjogKHIpID0+CiAgICAgICAgci5zdGF0dXMgPT09ICJBd2FpdGluZyBSZXZpZXciICYmICFyLmFwcHJvdmVkQnlEb3VnID8gKAogICAgICAgICAgPEJyb2tlckFwcHJvdmVCdXR0b24gaWQ9e3IuaWR9IC8+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZXh0LW11dGVkIj7igJQ8L3NwYW4+CiAgICAgICAgKSwKICAgIH0sCiAgXTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICB7c2hvd0FsbAogICAgICAgICAgICA/ICJTaG93aW5nIGFsbCBicm9rZXIgbGlzdGluZ3MuIgogICAgICAgICAgICA6ICJTaG93aW5nIG9ubHkgbGlzdGluZ3MgYXdhaXRpbmcgRG91ZydzIHJldmlldy4ifQogICAgICAgIDwvcD4KICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICB0eXBlPSJjaGVja2JveCIKICAgICAgICAgICAgY2hlY2tlZD17c2hvd0FsbH0KICAgICAgICAgICAgb25DaGFuZ2U9e3RvZ2dsZUFsbH0KICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTQgdy00IHJvdW5kZWQgYm9yZGVyLWJvcmRlciBiZy1iZyBhY2NlbnQtYnJhbmQtcHJpbWFyeSIKICAgICAgICAgIC8+CiAgICAgICAgICBTaG93IGFsbCBzdGF0dXNlcwogICAgICAgIDwvbGFiZWw+CiAgICAgIDwvZGl2PgoKICAgICAgPERhdGFUYWJsZQogICAgICAgIHJvd3M9e3Jvd3N9CiAgICAgICAgY29sdW1ucz17Y29sdW1uc30KICAgICAgICBzZWFyY2hhYmxlPXsocikgPT4KICAgICAgICAgIGAke3IubGlzdGluZ1RpdGxlfSAke3IuYnJva2VyTmFtZX0gJHtyLmluZHVzdHJ5fSAke3IubG9jYXRpb259YAogICAgICAgIH0KICAgICAgICBzZWFyY2hQbGFjZWhvbGRlcj0iU2VhcmNoIGxpc3RpbmcsIGJyb2tlciwgaW5kdXN0cnnigKYiCiAgICAgICAgZW1wdHlUaXRsZT17c2hvd0FsbCA/ICJObyBicm9rZXIgbGlzdGluZ3MiIDogIk5vIGxpc3RpbmdzIGF3YWl0aW5nIHJldmlldyJ9CiAgICAgIC8+CiAgICA8L2Rpdj4KICApOwp9Cg==
+"use client";
+
+import { useRouter, useSearchParams } from "next/navigation";
+import { Linkedin } from "lucide-react";
+import { DataTable, type Column } from "@/components/ui/DataTable";
+import { StatusBadge, type BadgeTone } from "@/components/ui/StatusBadge";
+import { BrokerApproveButton } from "@/components/brokers/BrokerActions";
+import { formatCurrency } from "@/lib/utils/format";
+import { formatRelative } from "@/lib/utils/dates";
+
+export interface BrokerRow {
+  id: string;
+  listingTitle: string;
+  askingPrice: number | null;
+  industry: string;
+  location: string;
+  ownerDependencySignals: string;
+  brokerName: string;
+  brokerLinkedInUrl: string | null;
+  dateDiscovered: string | null;
+  source: string | null;
+  status: string | null;
+  approvedByDoug: boolean;
+}
+
+const STATUS_TONE: Record<string, BadgeTone> = {
+  "Awaiting Review": "warning",
+  "Approved for Outreach": "success",
+  Rejected: "danger",
+  "Already in Pipeline": "muted",
+};
+
+export function BrokersTable({
+  rows,
+  showAll,
+}: {
+  rows: BrokerRow[];
+  showAll: boolean;
+}) {
+  const router = useRouter();
+  const params = useSearchParams();
+
+  function toggleAll() {
+    const q = new URLSearchParams(params?.toString());
+    if (showAll) q.delete("all");
+    else q.set("all", "1");
+    const qs = q.toString();
+    router.replace("/brokers" + (qs ? `?${qs}` : ""));
+  }
+
+  const columns: Column<BrokerRow>[] = [
+    {
+      key: "listing",
+      header: "Listing",
+      sort: (r) => r.listingTitle.toLowerCase(),
+      render: (r) => (
+        <div className="min-w-0">
+          <div className="truncate font-medium">{r.listingTitle || "—"}</div>
+          <div className="truncate text-xs text-text-secondary">
+            {[r.industry, r.location].filter(Boolean).join(" · ") || "—"}
+          </div>
+        </div>
+      ),
+    },
+    {
+      key: "askingPrice",
+      header: "Asking",
+      sort: (r) => r.askingPrice,
+      align: "right",
+      hideOnMobile: true,
+      render: (r) => (
+        <span className="whitespace-nowrap tabular-nums">{formatCurrency(r.askingPrice)}</span>
+      ),
+    },
+    {
+      key: "signals",
+      header: "Owner-Dependency Signals",
+      hideOnTablet: true,
+      render: (r) =>
+        r.ownerDependencySignals ? (
+          <span className="line-clamp-2 max-w-md text-xs text-text-secondary">
+            {r.ownerDependencySignals}
+          </span>
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "broker",
+      header: "Broker",
+      sort: (r) => r.brokerName.toLowerCase(),
+      render: (r) => (
+        <div className="flex items-center gap-2">
+          <span className="truncate">{r.brokerName || "—"}</span>
+          {r.brokerLinkedInUrl && (
+            <a
+              href={r.brokerLinkedInUrl}
+              target="_blank"
+              rel="noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="text-brand-info hover:underline"
+              aria-label="Broker LinkedIn"
+              title={r.brokerLinkedInUrl}
+            >
+              <Linkedin className="h-3.5 w-3.5" />
+            </a>
+          )}
+        </div>
+      ),
+    },
+    {
+      key: "date",
+      header: "Discovered",
+      sort: (r) => r.dateDiscovered ?? "",
+      hideOnMobile: true,
+      render: (r) =>
+        r.dateDiscovered ? (
+          formatRelative(r.dateDiscovered)
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "source",
+      header: "Source",
+      sort: (r) => r.source ?? "",
+      hideOnMobile: true,
+      render: (r) =>
+        r.source ? (
+          <StatusBadge label={r.source} tone="info" />
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "status",
+      header: "Status",
+      sort: (r) => r.status ?? "",
+      render: (r) =>
+        r.status ? (
+          <StatusBadge
+            label={r.status}
+            tone={STATUS_TONE[r.status] ?? "neutral"}
+          />
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "actions",
+      header: "",
+      width: "w-32",
+      render: (r) =>
+        r.status === "Awaiting Review" && !r.approvedByDoug ? (
+          <BrokerApproveButton id={r.id} />
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+  ];
+
+  return (
+    <div className="space-y-3">
+      <div className="flex items-center justify-between">
+        <p className="text-xs text-text-secondary">
+          {showAll
+            ? "Showing all broker listings."
+            : "Showing only listings awaiting Doug's review."}
+        </p>
+        <label className="inline-flex items-center gap-2 text-sm text-text-secondary">
+          <input
+            type="checkbox"
+            checked={showAll}
+            onChange={toggleAll}
+            className="h-4 w-4 rounded border-border bg-bg accent-brand-primary"
+          />
+          Show all statuses
+        </label>
+      </div>
+
+      <DataTable
+        rows={rows}
+        columns={columns}
+        searchable={(r) =>
+          `${r.listingTitle} ${r.brokerName} ${r.industry} ${r.location}`
+        }
+        searchPlaceholder="Search listing, broker, industry…"
+        emptyTitle={showAll ? "No broker listings" : "No listings awaiting review"}
+      />
+    </div>
+  );
+}

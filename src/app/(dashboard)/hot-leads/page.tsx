@@ -1,1 +1,68 @@
-aW1wb3J0IHsgRmxhbWUgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBsaXN0SG90TGVhZHMgfSBmcm9tICJAL2xpYi9ub3Rpb24vbGVhZHMiOwppbXBvcnQgeyBsaXN0U2NvcmVzIH0gZnJvbSAiQC9saWIvbm90aW9uL3Njb3JlcyI7CmltcG9ydCB7IEVycm9yU3RhdGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3RhdGVzIjsKaW1wb3J0IHsgSG90TGVhZHNUYWJsZSwgdHlwZSBIb3RMZWFkUm93IH0gZnJvbSAiLi9fSG90TGVhZHNUYWJsZSI7CmltcG9ydCB7IGRheXNCZXR3ZWVuIH0gZnJvbSAiQC9saWIvdXRpbHMvZGF0ZXMiOwoKZXhwb3J0IGNvbnN0IHJldmFsaWRhdGUgPSAzMDsKCmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIEhvdExlYWRzUGFnZSgpIHsKICBjb25zdCBbbGVhZHNSLCBzY29yZXNSXSA9IGF3YWl0IFByb21pc2UuYWxsU2V0dGxlZChbbGlzdEhvdExlYWRzKCksIGxpc3RTY29yZXMoKV0pOwoKICBpZiAobGVhZHNSLnN0YXR1cyA9PT0gInJlamVjdGVkIikgewogICAgcmV0dXJuICgKICAgICAgPEVycm9yU3RhdGUKICAgICAgICB0aXRsZT0iSG90IExlYWRzIGZhaWxlZCB0byBsb2FkIgogICAgICAgIGRlc2NyaXB0aW9uPXsobGVhZHNSLnJlYXNvbiBhcyBFcnJvcik/Lm1lc3NhZ2V9CiAgICAgIC8+CiAgICApOwogIH0KCiAgY29uc3QgbGVhZHMgPSBsZWFkc1IudmFsdWU7CiAgY29uc3Qgc2NvcmVzID0gc2NvcmVzUi5zdGF0dXMgPT09ICJmdWxmaWxsZWQiID8gc2NvcmVzUi52YWx1ZSA6IFtdOwoKICBjb25zdCBzY29yZUJ5TGVhZCA9IG5ldyBNYXA8c3RyaW5nLCAodHlwZW9mIHNjb3JlcylbbnVtYmVyXT4oKTsKICBmb3IgKGNvbnN0IHMgb2Ygc2NvcmVzKSB7CiAgICBpZiAoIXMubGVhZElkKSBjb250aW51ZTsKICAgIGNvbnN0IHByZXYgPSBzY29yZUJ5TGVhZC5nZXQocy5sZWFkSWQpOwogICAgaWYgKCFwcmV2IHx8IHMubGFzdEVkaXRlZFRpbWUgPiBwcmV2Lmxhc3RFZGl0ZWRUaW1lKSBzY29yZUJ5TGVhZC5zZXQocy5sZWFkSWQsIHMpOwogIH0KCiAgY29uc3Qgcm93czogSG90TGVhZFJvd1tdID0gbGVhZHMubWFwKChsKSA9PiB7CiAgICBjb25zdCBzID0gc2NvcmVCeUxlYWQuZ2V0KGwuaWQpOwogICAgY29uc3QgcmVmRGF0ZSA9IGwubGFzdENvbnRhY3RlZCA/PyBsLmxhc3RBY3Rpdml0eURhdGU7CiAgICByZXR1cm4gewogICAgICBpZDogbC5pZCwKICAgICAgbmFtZTogbC5uYW1lLAogICAgICBjb21wYW55OiBsLmNvbXBhbnksCiAgICAgIHNjb3JlUGN0OiBzPy5zY29yZVBjdCA/PyBudWxsLAogICAgICBjbGFzc2lmaWNhdGlvbjogcz8uY2xhc3NpZmljYXRpb24gPz8gbnVsbCwKICAgICAgcGhvbmU6IGwucGhvbmUsCiAgICAgIGVtYWlsOiBsLmVtYWlsLAogICAgICBzb3VyY2U6IGwuc291cmNlLAogICAgICBsYXN0QWN0aXZpdHlEYXRlOiBsLmxhc3RBY3Rpdml0eURhdGUsCiAgICAgIGRheXNTaW5jZUNvbnRhY3Q6IHJlZkRhdGUgPyBkYXlzQmV0d2VlbihyZWZEYXRlKSA6IG51bGwsCiAgICB9OwogIH0pOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1icmFuZC1hY2NlbnQvNDAgYmctYnJhbmQtYWNjZW50LzEwIHAtNCI+CiAgICAgICAgPEZsYW1lIGNsYXNzTmFtZT0ibXQtMC41IGgtNSB3LTUgc2hyaW5rLTAgdGV4dC1icmFuZC1hY2NlbnQiIC8+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICAgICAgICBDaGVjayB0aGlzIGZpcnN0IGV2ZXJ5IG1vcm5pbmcKICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTAuNSB0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgICBUaGVzZSBsZWFkcyBoYXZlIFByaW9yaXR5ID0gSG90IHZpYSB0aGUgUGlwZWxpbmUgcm9sbHVwLiBTb3J0IGJ5CiAgICAgICAgICAgICZsZHF1bztMYXN0IEFjdGl2aXR5JnJkcXVvOyBvciAmbGRxdW87RGF5cyBzaW5jZSBjb250YWN0JnJkcXVvOyB0bwogICAgICAgICAgICB0cmlhZ2UuCiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8SG90TGVhZHNUYWJsZSByb3dzPXtyb3dzfSAvPgogICAgPC9kaXY+CiAgKTsKfQo=
+import { Flame } from "lucide-react";
+import { listHotLeads } from "@/lib/notion/leads";
+import { listScores } from "@/lib/notion/scores";
+import { ErrorState } from "@/components/ui/states";
+import { HotLeadsTable, type HotLeadRow } from "./_HotLeadsTable";
+import { daysBetween } from "@/lib/utils/dates";
+
+export const revalidate = 30;
+
+export default async function HotLeadsPage() {
+  const [leadsR, scoresR] = await Promise.allSettled([listHotLeads(), listScores()]);
+
+  if (leadsR.status === "rejected") {
+    return (
+      <ErrorState
+        title="Hot Leads failed to load"
+        description={(leadsR.reason as Error)?.message}
+      />
+    );
+  }
+
+  const leads = leadsR.value;
+  const scores = scoresR.status === "fulfilled" ? scoresR.value : [];
+
+  const scoreByLead = new Map<string, (typeof scores)[number]>();
+  for (const s of scores) {
+    if (!s.leadId) continue;
+    const prev = scoreByLead.get(s.leadId);
+    if (!prev || s.lastEditedTime > prev.lastEditedTime) scoreByLead.set(s.leadId, s);
+  }
+
+  const rows: HotLeadRow[] = leads.map((l) => {
+    const s = scoreByLead.get(l.id);
+    const refDate = l.lastContacted ?? l.lastActivityDate;
+    return {
+      id: l.id,
+      name: l.name,
+      company: l.company,
+      scorePct: s?.scorePct ?? null,
+      classification: s?.classification ?? null,
+      phone: l.phone,
+      email: l.email,
+      source: l.source,
+      lastActivityDate: l.lastActivityDate,
+      daysSinceContact: refDate ? daysBetween(refDate) : null,
+    };
+  });
+
+  return (
+    <div className="space-y-4">
+      <div className="flex items-start gap-3 rounded-xl border border-brand-accent/40 bg-brand-accent/10 p-4">
+        <Flame className="mt-0.5 h-5 w-5 shrink-0 text-brand-accent" />
+        <div>
+          <div className="text-sm font-semibold text-text-primary">
+            Check this first every morning
+          </div>
+          <div className="mt-0.5 text-xs text-text-secondary">
+            These leads have Priority = Hot via the Pipeline rollup. Sort by
+            &ldquo;Last Activity&rdquo; or &ldquo;Days since contact&rdquo; to
+            triage.
+          </div>
+        </div>
+      </div>
+
+      <HotLeadsTable rows={rows} />
+    </div>
+  );
+}

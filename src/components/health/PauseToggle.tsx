@@ -1,1 +1,50 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgUGF1c2UsIFBsYXkgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB1c2VBY3Rpb24gfSBmcm9tICJAL2xpYi9ob29rcy91c2VBY3Rpb24iOwoKZXhwb3J0IGZ1bmN0aW9uIFBhdXNlVG9nZ2xlKHsKICBwYXVzZWQsCiAgaXNBZG1pbiwKfTogewogIHBhdXNlZDogYm9vbGVhbjsKICBpc0FkbWluOiBib29sZWFuOwp9KSB7CiAgY29uc3QgYWN0aW9uID0gdXNlQWN0aW9uKCk7CgogIGlmICghaXNBZG1pbikgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctc3VyZmFjZSBweC00IHB5LTMgdGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICBQYXVzZS9SZXN1bWUgY29udHJvbHMgYXJlIHJlc3RyaWN0ZWQgdG8gQWRtaW4gdXNlcnMuCiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyI+CiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgb25DbGljaz17KCkgPT4gdm9pZCBhY3Rpb24ucnVuKCIvYXBpL3N5c3RlbS9wYXVzZSIpfQogICAgICAgIGRpc2FibGVkPXtwYXVzZWQgfHwgYWN0aW9uLnN0YXRlID09PSAicGVuZGluZyJ9CiAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGZsZXgtMSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJyYW5kLWRhbmdlci80MCBiZy1icmFuZC1kYW5nZXIgcHgtNCBweS0zIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LXdoaXRlIHRyYW5zaXRpb24gaG92ZXI6b3BhY2l0eS05MCBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQgZGlzYWJsZWQ6b3BhY2l0eS01MCIKICAgICAgPgogICAgICAgIDxQYXVzZSBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgR0xPQkFMIFBBVVNFCiAgICAgIDwvYnV0dG9uPgogICAgICA8YnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIG9uQ2xpY2s9eygpID0+IHZvaWQgYWN0aW9uLnJ1bigiL2FwaS9zeXN0ZW0vcmVzdW1lIil9CiAgICAgICAgZGlzYWJsZWQ9eyFwYXVzZWQgfHwgYWN0aW9uLnN0YXRlID09PSAicGVuZGluZyJ9CiAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGZsZXgtMSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJyYW5kLXN1Y2Nlc3MvNDAgYmctYnJhbmQtc3VjY2VzcyBweC00IHB5LTMgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtd2hpdGUgdHJhbnNpdGlvbiBob3ZlcjpvcGFjaXR5LTkwIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwIgogICAgICA+CiAgICAgICAgPFBsYXkgY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgIFJFU1VNRSBTWVNURU0KICAgICAgPC9idXR0b24+CiAgICAgIHthY3Rpb24uZXJyb3IgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYnJhbmQtZGFuZ2VyLzMwIGJnLWJyYW5kLWRhbmdlci8xMCBweC0zIHB5LTIgdGV4dC14cyB0ZXh0LWJyYW5kLWRhbmdlciI+CiAgICAgICAgICB7YWN0aW9uLmVycm9yfQogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfQo=
+"use client";
+
+import { Pause, Play } from "lucide-react";
+import { useAction } from "@/lib/hooks/useAction";
+
+export function PauseToggle({
+  paused,
+  isAdmin,
+}: {
+  paused: boolean;
+  isAdmin: boolean;
+}) {
+  const action = useAction();
+
+  if (!isAdmin) {
+    return (
+      <div className="rounded-md border border-border bg-surface px-4 py-3 text-xs text-text-secondary">
+        Pause/Resume controls are restricted to Admin users.
+      </div>
+    );
+  }
+
+  return (
+    <div className="flex flex-col gap-3 sm:flex-row">
+      <button
+        type="button"
+        onClick={() => void action.run("/api/system/pause")}
+        disabled={paused || action.state === "pending"}
+        className="flex flex-1 items-center justify-center gap-2 rounded-lg border border-brand-danger/40 bg-brand-danger px-4 py-3 text-sm font-semibold text-white transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+      >
+        <Pause className="h-4 w-4" />
+        GLOBAL PAUSE
+      </button>
+      <button
+        type="button"
+        onClick={() => void action.run("/api/system/resume")}
+        disabled={!paused || action.state === "pending"}
+        className="flex flex-1 items-center justify-center gap-2 rounded-lg border border-brand-success/40 bg-brand-success px-4 py-3 text-sm font-semibold text-white transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+      >
+        <Play className="h-4 w-4" />
+        RESUME SYSTEM
+      </button>
+      {action.error && (
+        <div className="rounded-md border border-brand-danger/30 bg-brand-danger/10 px-3 py-2 text-xs text-brand-danger">
+          {action.error}
+        </div>
+      )}
+    </div>
+  );
+}

@@ -1,1 +1,175 @@
-IyBOb3J0aGJyaWRnZSBTdHJhdGVnaWVzIOKAlCBPcGVyYXRpb25zIERhc2hib2FyZAoKSW50ZXJuYWwgQ1JNIGFuZCBvcGVyYXRpb25zIGRhc2hib2FyZCBmb3IgTm9ydGhicmlkZ2UgU3RyYXRlZ2llcy4gQnVpbHQgb24gTmV4dC5qcyAxNCwgVGFpbHdpbmQsIE5leHRBdXRoLCBhbmQgTm90aW9uIGFzIHRoZSBkYXRhIGxheWVyLgoKIyMgU3RhY2sKCi0gKipGcmFtZXdvcms6KiogTmV4dC5qcyAxNCAoQXBwIFJvdXRlcikgKyBUeXBlU2NyaXB0IHN0cmljdAotICoqVUk6KiogVGFpbHdpbmQgQ1NTLCBJbnRlciBmb250LCBkYXJrIG1vZGUgZGVmYXVsdCAoYG5leHQtdGhlbWVzYCkKLSAqKkF1dGg6KiogTmV4dEF1dGggY3JlZGVudGlhbHMgcHJvdmlkZXIsIGJjcnlwdCBoYXNoZXMgaW4gYGNvbmZpZy91c2Vycy5qc29uYAotICoqRGF0YToqKiAxMCBOb3Rpb24gZGF0YWJhc2VzIChubyBzZXBhcmF0ZSBEQiDigJQgTm90aW9uIGlzIHRoZSBzb3VyY2Ugb2YgdHJ1dGgpCi0gKipQb2xsaW5nOioqIFNXUiAoMTBzIHJlZnJlc2ggb24gYC9oZWFsdGhgLCA2MHMgb24gdGhlIHRvcGJhciBzdGF0dXMgZG90KQotICoqQ2hhcnRzOioqIFJlY2hhcnRzIChyZXZlbnVlIGJ5IG1vbnRoKQotICoqRGVwbG95OioqIFZlcmNlbAoKIyMgUGFnZXMKCnwgUGF0aCAgICAgICAgICAgICB8IFB1cnBvc2UgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IC0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgL2AgICAgICAgICAgICAgIHwgSG9tZSDigJQgNiBzdGF0IGNhcmRzICh3aXRoIHZzLWxhc3Qtd2VlayB0cmVuZCksIHJlY2VudCBhY3Rpdml0eSBmZWVkLCBzeXN0ZW0gcXVpY2sgYWN0aW9ucyAgICAgICAgICAgIHwKfCBgL3BpcGVsaW5lYCAgICAgIHwgS2FuYmFuIGJvYXJkIGdyb3VwZWQgYnkgU3RhZ2Ugd2l0aCBwcmlvcml0eS9jbGFzc2lmaWNhdGlvbiBmaWx0ZXJzIGFuZCBzbGlkZS1vdmVyIGRldGFpbHMgICAgICAgICAgICB8CnwgYC9ob3QtbGVhZHNgICAgICB8IFNvcnRhYmxlLCBmaWx0ZXJlZCB0YWJsZSBvZiBsZWFkcyB3aGVyZSBQaXBlbGluZS5Qcmlvcml0eSA9IEhvdCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGAvc2NvcmVzYCAgICAgICAgfCBEaWFnbm9zdGljIFNjb3JlcyB3aXRoIDUtZ2F0ZSBicmVha2Rvd24gYW5kIEhJVEwgYXBwcm92ZS9yZWplY3QgYWN0aW9ucyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgL3JldmVudWVgICAgICAgIHwgQWxsIHBheW1lbnRzICsgbW9udGhseSBiYXIgY2hhcnQgKyBwZXItbW9udGggcm9sbHVwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYC9saW5rZWRpbmAgICAgICB8IExpbmtlZEluIE91dHJlYWNoIHdpdGggYXBwcm92ZSwgZWRpdC1hbmQtYXBwcm92ZSwgcmVqZWN0OyAiTmVlZHMgQXR0ZW50aW9uIiB0YWIgICAgICAgICAgICAgICAgICAgICAgfAp8IGAvYnJva2Vyc2AgICAgICAgfCBCcm9rZXIgRGlzY292ZXJ5IFF1ZXVlIHdpdGggb25lLWNsaWNrIGFwcHJvdmUgdG8gZmlyZSBBZ2VudCAxMCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgL2NoYW5uZWxzYCAgICAgIHwgTGVhZCB2b2x1bWUgKyBjb252ZXJzaW9uIGdyb3VwZWQgYnkgVHJhZmZpYyBTb3VyY2UsIHdpdGggZGF0ZS1yYW5nZSBmaWx0ZXIgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYC9jb250ZW50YCAgICAgICB8IENvbnRlbnQgQ2FsZW5kYXIg4oCUIEJvYXJkIChncm91cGVkIGJ5IHN0YXR1cykgYW5kIExpc3Qgdmlld3M7IEFkZCBDb250ZW50IGZvcm0gICAgICAgICAgICAgICAgICAgICAgICB8CnwgYC9oZWFsdGhgICAgICAgICB8IFN5c3RlbSBIZWFsdGgg4oCUIHBhdXNlL3Jlc3VtZSBjb250cm9scyAoQWRtaW4pLCBzZXZlcml0eSByb2xsdXAsIGF1dG8tcmVmcmVzaGluZyBlcnJvciBsb2cgICAgICAgICAgICB8CnwgYC9tYW51YWwtcmV2aWV3YCB8IERpYWdub3N0aWMgU2NvcmVzIHJlamVjdGVkIHRvIE1hbnVhbCBSZXZpZXcsIHdpdGggZWRpdGFibGUgcGVyLXJlY29yZCBub3RlcyAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGAvc2V0dGluZ3NgICAgICAgfCBBZG1pbiBvbmx5IOKAlCB1c2VyIGxpc3QsIHN5c3RlbSBjb25maWcsIGVudi1kZXJpdmVkIEFQSSBzdGF0dXMgZ3JpZCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAoKIyMgUXVpY2sgc3RhcnQKCmBgYGJhc2gKbnBtIGluc3RhbGwKY3AgLmVudi5leGFtcGxlIC5lbnYubG9jYWwgICAgICAgIyB0aGVuIGZpbGwgaW4gTk9USU9OX1RPS0VOICsgTkVYVEFVVEhfU0VDUkVUCm5wbSBydW4gZGV2CmBgYAoKT3BlbiA8aHR0cDovL2xvY2FsaG9zdDozMDAwPi4gWW91J2xsIGJlIHJlZGlyZWN0ZWQgdG8gYC9sb2dpbmAuCgojIyBEZWZhdWx0IGRldmVsb3BtZW50IGNyZWRlbnRpYWxzCgpUaGUgc2VlZCBgY29uZmlnL3VzZXJzLmpzb25gIHNoaXBzIHdpdGggYSBkZXZlbG9wbWVudCBwYXNzd29yZCBmb3IgYm90aCBEb3VnIGFuZCBIYXNoaXI6CgotICoqRW1haWw6KiogYGRvdWdAbm9ydGhicmlkZ2VzdHJhdGVnaWVzLmNvbWAgb3IgYGhhc2hpckBub3J0aGJyaWRnZXN0cmF0ZWdpZXMuY29tYAotICoqUGFzc3dvcmQ6KiogYENoYW5nZU1lMTIzIWAKCioqUmVwbGFjZSB0aGVzZSBiZWZvcmUgZGVwbG95aW5nLioqIFNlZSAiQWRkaW5nIG9yIHJvdGF0aW5nIHVzZXJzIiBiZWxvdy4KCiMjIEVudmlyb25tZW50IHZhcmlhYmxlcwoKQWxsIHZhbHVlcyBsaXZlIGluIGAuZW52LmxvY2FsYCBmb3IgZGV2ZWxvcG1lbnQgYW5kIGluIHRoZSBWZXJjZWwgcHJvamVjdCBzZXR0aW5ncyBmb3IgcHJvZHVjdGlvbi4gU2VlIFtgLmVudi5leGFtcGxlYF0oLi8uZW52LmV4YW1wbGUpIGZvciB0aGUgZnVsbCBsaXN0LiBOb3Rpb24gREIgSURzIGFyZSBwcmUtZmlsbGVkIOKAlCBvbmx5IGBOT1RJT05fVE9LRU5gLCBgTkVYVEFVVEhfU0VDUkVUYCwgYW5kIGBORVhUQVVUSF9VUkxgIG5lZWQgdG8gYmUgc2V0IHBlci1lbnZpcm9ubWVudC4KCiMjIEFkZGluZyBvciByb3RhdGluZyB1c2VycwoKMS4gR2VuZXJhdGUgYSBiY3J5cHQgaGFzaCBmb3IgdGhlIG5ldyBwYXNzd29yZDoKICAgYGBgYmFzaAogICBucG0gcnVuIGhhc2gtcGFzc3dvcmQgLS0gJ1RoZU5ld1Bhc3N3b3JkIScKICAgYGBgCjIuIEVkaXQgW2Bjb25maWcvdXNlcnMuanNvbmBdKC4vY29uZmlnL3VzZXJzLmpzb24pIGFuZCBhZGQgb3IgdXBkYXRlIHRoZSB1c2VyIHJlY29yZDoKICAgYGBganNvbgogICB7CiAgICAgImlkIjogIm5ld3VzZXIiLAogICAgICJuYW1lIjogIk5ldyBVc2VyIiwKICAgICAiZW1haWwiOiAibmV3QG5vcnRoYnJpZGdlc3RyYXRlZ2llcy5jb20iLAogICAgICJyb2xlIjogIkFkbWluIiwKICAgICAicGFzc3dvcmRIYXNoIjogIjxwYXN0ZSBoYXNoPiIKICAgfQogICBgYGAKMy4gQ29tbWl0IGFuZCByZWRlcGxveS4gVmVyY2VsJ3MgZmlsZXN5c3RlbSBpcyByZWFkLW9ubHkgYXQgcnVudGltZSwgc28gdXNlciBjaGFuZ2VzIHJlcXVpcmUgYSBkZXBsb3kuCgpSb2xlczogYEFkbWluYCB8IGBTdGFmZmAgfCBgQ2xpZW50YCAoQ2xpZW50IHVudXNlZCBpbiB2MTsgcmVzZXJ2ZWQgZm9yIHRoZSBwbGFubmVkIGNsaWVudCBwb3J0YWwgaW4gUGhhc2UgMikuCgojIyBOb3Rpb24gc2NoZW1hIG1pZ3JhdGlvbgoKQSBvbmUtb2ZmIG1pZ3JhdGlvbiBhZGRzIHR3byBwcm9wZXJ0aWVzIHVzZWQgYnkgdGhlIGRhc2hib2FyZDoKCi0gKipMZWFkcyDihpIgUHJpb3JpdHkqKiAocm9sbHVwIG92ZXIgYPCfkrAgUGlwZWxpbmVgIHJlbGF0aW9uLCBgUHJpb3JpdHlgIHNlbGVjdCwgYHNob3dfb3JpZ2luYWxgKQotICoqRGlhZ25vc3RpYyBTY29yZXMg4oaSIE1hbnVhbCBSZXZpZXcgTm90ZXMqKiAocmljaF90ZXh0KQoKQWxyZWFkeSBhcHBsaWVkIHRvIHRoZSBsaXZlIHdvcmtzcGFjZS4gVG8gcmUtYXBwbHkgKGlkZW1wb3RlbnQg4oCUIHNhZmUgdG8gcmUtcnVuKToKCmBgYGJhc2gKUFlUSE9OVVRGOD0xIHB5dGhvbiBzY3JpcHRzL25vdGlvbi1taWdyYXRlLXYxLnB5CmBgYAoKIyMgU2NyaXB0cwoKLSBgbnBtIHJ1biBkZXZgIOKAlCBsb2NhbCBkZXYgc2VydmVyIG9uIHBvcnQgMzAwMAotIGBucG0gcnVuIGJ1aWxkYCDigJQgcHJvZHVjdGlvbiBidWlsZCAocnVuIGJlZm9yZSBwdXNoaW5nIHRvIHZlcmlmeSkKLSBgbnBtIHJ1biBzdGFydGAg4oCUIHByb2R1Y3Rpb24gc2VydmVyIChhZnRlciBidWlsZCkKLSBgbnBtIHJ1biBsaW50YCDigJQgTmV4dC9FU0xpbnQKLSBgbnBtIHJ1biB0eXBlY2hlY2tgIOKAlCBzdHJpY3QgVHlwZVNjcmlwdCBjaGVjaywgbm8gZW1pdAotIGBucG0gcnVuIGhhc2gtcGFzc3dvcmQgLS0gJzxwYXNzd29yZD4nYCDigJQgZ2VuZXJhdGUgYSBiY3J5cHQgaGFzaCBmb3IgYHVzZXJzLmpzb25gCi0gYG5vZGUgc2NyaXB0cy9zbW9rZS1ub3Rpb24ubWpzYCDigJQgc2FuaXR5LWNoZWNrIGFsbCBOb3Rpb24gZmlsdGVyIHNoYXBlcyB0aGUgZGFzaGJvYXJkIHVzZXMKCiMjIFByb2plY3QgbGF5b3V0CgpgYGAKc3JjLwogIGFwcC8KICAgIChhdXRoKS9sb2dpbi8gICAgICAgICAgICAgICAgTG9naW4gcGFnZSAoU3VzcGVuc2Utd3JhcHBlZCkKICAgIChkYXNoYm9hcmQpLyAgICAgICAgICAgICAgICAgQXV0aGVudGljYXRlZCBzaGVsbCDigJQgc2lkZWJhciArIHRvcGJhcgogICAgICA8cGFnZT4vcGFnZS50c3ggICAgICAgICAgICBTZXJ2ZXIgY29tcG9uZW50LCByZWFkcyBOb3Rpb24gdmlhIGNhY2hlZCBoZWxwZXJzCiAgICAgIDxwYWdlPi9fPC4uLj4udHN4ICAgICAgICAgIENsaWVudCBjb21wb25lbnRzIChhY3Rpb24gYnV0dG9ucywgZm9ybXMsIHRhYnMpCiAgICBhcGkvCiAgICAgIGF1dGgvWy4uLm5leHRhdXRoXS8gICAgICAgIE5leHRBdXRoIGNyZWRlbnRpYWxzIHJvdXRlCiAgICAgIDxyZXNvdXJjZT4vW2lkXS88YWN0aW9uPi8gIE9uZSByb3V0ZSBwZXIgd3JpdGUgYWN0aW9uICh6b2QtdmFsaWRhdGVkLCByb2xlLWdhdGVkKQogICAgICBoZWFsdGgvc25hcHNob3QvICAgICAgICAgICBQb2xsZWQgYnkgL2hlYWx0aCBldmVyeSAxMHMKICAgICAgc3lzdGVtLyhwYXVzZXxyZXN1bWUpLyAgICAgQWRtaW4tb25seSBzeXN0ZW0gY29udHJvbHMKICAgIGVycm9yLnRzeCwgbG9hZGluZy50c3gsIG5vdC1mb3VuZC50c3gKICBjb21wb25lbnRzLwogICAgbGF5b3V0LyAgICAgICAgICAgICAgICAgICAgICBTaWRlYmFyLCBUb3BiYXIsIFRoZW1lVG9nZ2xlLCBVc2VyTWVudQogICAgdWkvICAgICAgICAgICAgICAgICAgICAgICAgICBSZXVzYWJsZSBwcmltaXRpdmVzIChTdGF0Q2FyZCwgRGF0YVRhYmxlLCBTbGlkZU92ZXIsIOKApikKICAgIHBpcGVsaW5lLywgc2NvcmVzLywgbGlua2VkaW4vLCBicm9rZXJzLywgY29udGVudC8sIGhlYWx0aC8sIGhvbWUvCiAgbGliLwogICAgYXV0aC8gICAgICAgICAgICAgICAgICAgICAgICBOZXh0QXV0aCBvcHRpb25zICsgc2Vzc2lvbiBoZWxwZXJzIChzZXJ2ZXItb25seSkKICAgIG5vdGlvbi8gICAgICAgICAgICAgICAgICAgICAgVHlwZWQgTm90aW9uIGNsaWVudCArIHBlci1EQiBoZWxwZXJzIChzZXJ2ZXItb25seSkKICAgICAgY2xpZW50LnRzLCBpZHMudHMsIHBhcnNlcnMudHMsIGNhY2hlLnRzCiAgICAgIGxlYWRzLnRzLCBzY29yZXMudHMsIHBpcGVsaW5lLnRzLCBsaW5rZWRpbi50cywgcmV2ZW51ZS50cywKICAgICAgYnJva2Vycy50cywgY29udGVudC50cywgaGVhbHRoLnRzLCBjb25maWcudHMsIGFjdGl2aXR5LnRzCiAgICB0eXBlcy8gICAgICAgICAgICAgICAgICAgICAgIFNoYXJlZCBUUyB0eXBlcwogICAgdXRpbHMvICAgICAgICAgICAgICAgICAgICAgICBjbigpLCBjb29raWVzLCBkYXRlcywgZm9ybWF0LCByZXZhbGlkYXRlCiAgICBjb25zdGFudHMvICAgICAgICAgICAgICAgICAgIE5hdiwgZGVzaWduIHRva2VucwogICAgaG9va3MvdXNlQWN0aW9uLnRzICAgICAgICAgICBPcHRpbWlzdGljLVVJIHdyaXRlLWFjdGlvbiBoZWxwZXIKY29uZmlnL3VzZXJzLmpzb24gICAgICAgICAgICAgICAgU291cmNlIG9mIHRydXRoIGZvciBhcHBsaWNhdGlvbiB1c2VycwpwdWJsaWMvbG9nby5wbmcgICAgICAgICAgICAgICAgICBCcmFuZCBsb2dvCnNjcmlwdHMvCiAgbm90aW9uLW1pZ3JhdGUtdjEucHkgICAgICAgICAgIE9uZS1vZmYgTm90aW9uIHNjaGVtYSBtaWdyYXRpb24gKGlkZW1wb3RlbnQpCiAgc21va2Utbm90aW9uLm1qcyAgICAgICAgICAgICAgIFJlYWQtb25seSBzbW9rZSB0ZXN0IGZvciBmaWx0ZXIgc2hhcGVzCiAgaGFzaC1wYXNzd29yZC5tanMgICAgICAgICAgICAgIEdlbmVyYXRlIGJjcnlwdCBoYXNoZXMgZm9yIHVzZXJzLmpzb24KYGBgCgojIyBEZXBsb3ltZW50IHRvIFZlcmNlbAoKMS4gKipQdXNoIHRoZSBwcm9qZWN0IHRvIEdpdEh1Yi4qKiBGcm9tIHRoZSBwcm9qZWN0IGRpcmVjdG9yeToKICAgYGBgYmFzaAogICBnaXQgaW5pdAogICBnaXQgYWRkIC4KICAgZ2l0IGNvbW1pdCAtbSAiSW5pdGlhbCBjb21taXQiCiAgIGdoIHJlcG8gY3JlYXRlIG5vcnRoYnJpZGdlLWRhc2hib2FyZCAtLXByaXZhdGUgLS1zb3VyY2U9LiAtLXB1c2gKICAgYGBgCjIuICoqSW1wb3J0IGludG8gVmVyY2VsLioqIFZpc2l0IDxodHRwczovL3ZlcmNlbC5jb20vbmV3PiBhbmQgc2VsZWN0IHRoZSByZXBvLiBWZXJjZWwgYXV0by1kZXRlY3RzIE5leHQuanMg4oCUIG5vIGJ1aWxkIHNldHRpbmdzIHRvIGNoYW5nZS4KMy4gKipBZGQgZW52aXJvbm1lbnQgdmFyaWFibGVzLioqIEluIFZlcmNlbCDihpIgUHJvamVjdCBTZXR0aW5ncyDihpIgRW52aXJvbm1lbnQgVmFyaWFibGVzLCBhZGQgZXZlcnkga2V5IGZyb20gW2AuZW52LmV4YW1wbGVgXSguLy5lbnYuZXhhbXBsZSk6CiAgIC0gYE5PVElPTl9UT0tFTmAg4oCUIHRoZSBOb3Rpb24gaW50ZWdyYXRpb24gdG9rZW4KICAgLSBBbGwgMTAgYE5PVElPTl8qX0RCYCBJRHMgKGFscmVhZHkgaW4gYC5lbnYuZXhhbXBsZWAg4oCUIGNvcHkgdGhlIHZhbHVlcykKICAgLSBgTkVYVEFVVEhfU0VDUkVUYCDigJQgZ2VuZXJhdGUgYSBmcmVzaCBvbmUgd2l0aCBgb3BlbnNzbCByYW5kIC1iYXNlNjQgMzJgCiAgIC0gYE5FWFRBVVRIX1VSTGAg4oCUIHlvdXIgcHJvZHVjdGlvbiBVUkwgKGUuZy4gYGh0dHBzOi8vbm9ydGhicmlkZ2UtZGFzaGJvYXJkLnZlcmNlbC5hcHBgKQo0LiAqKkdlbmVyYXRlIHByb2R1Y3Rpb24gcGFzc3dvcmQgaGFzaGVzKiogKGRvIE5PVCB1c2UgdGhlIGRldiBgQ2hhbmdlTWUxMjMhYCBoYXNoKToKICAgYGBgYmFzaAogICBucG0gcnVuIGhhc2gtcGFzc3dvcmQgLS0gJ2RvdWctcmVhbC1wYXNzd29yZCcKICAgbnBtIHJ1biBoYXNoLXBhc3N3b3JkIC0tICdoYXNoaXItcmVhbC1wYXNzd29yZCcKICAgYGBgCiAgIFVwZGF0ZSBgY29uZmlnL3VzZXJzLmpzb25gLCBjb21taXQsIGFuZCBwdXNoLiBWZXJjZWwgd2lsbCByZWRlcGxveS4KNS4gKipDb25uZWN0IGEgY3VzdG9tIGRvbWFpbioqIChvcHRpb25hbCkuIEluIFZlcmNlbCDihpIgUHJvamVjdCDihpIgRG9tYWlucywgYWRkIGUuZy4gYG9wcy5ub3J0aGJyaWRnZXN0cmF0ZWdpZXMuY29tYCBhbmQgZm9sbG93IHRoZSBETlMgaW5zdHJ1Y3Rpb25zLgo2LiAqKlNtb2tlLXRlc3QgaW4gcHJvZHVjdGlvbjoqKgogICAtIExvZyBpbiB3aXRoIGVhY2ggQWRtaW4gdXNlci4KICAgLSBIaXQgZXZlcnkgcGFnZSBpbiB0aGUgc2lkZWJhciBuYXYuCiAgIC0gVmVyaWZ5IHRoZSB0b3BiYXIgU3lzdGVtIGRvdCB0dXJucyBncmVlbi4KICAgLSBBcHByb3ZlIGEgdGVzdCByZWNvcmQgaW4gYC9zY29yZXNgIG9yIGAvYnJva2Vyc2AgYW5kIGNvbmZpcm0gTm90aW9uIHVwZGF0ZXMuCgojIyBDYWNoaW5nICYgcGVyZm9ybWFuY2UKCi0gQWxsIE5vdGlvbiByZWFkcyBhcmUgd3JhcHBlZCBpbiBgdW5zdGFibGVfY2FjaGVgIHdpdGggcGVyLURCIHRhZ3MgKGRlZmF1bHQgMzBzIHJldmFsaWRhdGU7IDEwcyBmb3IgYC9oZWFsdGhgIGFuZCBgL2FwaS9oZWFsdGgvc25hcHNob3RgKS4KLSBXcml0ZSBhY3Rpb25zIGNhbGwgYHJldmFsaWRhdGVUYWcoKWAgb24gdGhlIGFmZmVjdGVkIERCcyBhbmQgb24gYG5vdGlvbjphY3Rpdml0eWAgc28gdGhlIGhvbWUgZmVlZCB1cGRhdGVzIGltbWVkaWF0ZWx5LgotIFBhZ2VzIHdpdGggaGlnaCByZWFkIGZhbi1vdXQgKGUuZy4gSG9tZSB3aXRoIDEyIHBhcmFsbGVsIHF1ZXJpZXMpIHVzZSBgUHJvbWlzZS5hbGxTZXR0bGVkYCBzbyBhIHNpbmdsZSBzbG93IHF1ZXJ5IHdvbid0IGZhaWwgdGhlIHdob2xlIHBhZ2UuCi0gVGFibGVzIHBhZ2luYXRlIGF0IDUwIHJvd3MuCi0gVGhlIHRvcGJhciBgU3lzdGVtSGVhbHRoRG90YCBwb2xscyBldmVyeSA2MHM7IHRoZSBgL2hlYWx0aGAgbG9nIHRhYmxlIHBvbGxzIGV2ZXJ5IDEwcy4KCiMjIFBoYXNlIDIgaG9va3MKCi0gVGhlIGBDbGllbnRgIHJvbGUgaXMgYWxyZWFkeSBwYXJ0IG9mIHRoZSBgUm9sZWAgdW5pb24g4oCUIGFkZGluZyBhIGAvcG9ydGFsYCByb3V0ZSB0aGF0IGZpbHRlcnMgZXZlcnl0aGluZyBieSBgc2Vzc2lvbi51c2VyLmlkYCBpcyBhIHNtYWxsIGFkZGl0aXZlIGNoYW5nZS4KLSBgdXNlQWN0aW9uYCBpcyBnZW5lcmljOyBzYW1lIHBhdHRlcm4gZm9yIGFueSBmdXR1cmUgd3JpdGUgcm91dGUuCi0gVGhlIE5vdGlvbiBjbGllbnQgbGF5ZXIgaXMgc3RydWN0dXJlZCBzbyBhIG5ldyBkYXRhYmFzZSBpcyBvbmUgbmV3IGZpbGUgaW4gYGxpYi9ub3Rpb24vYC4K
+# Northbridge Strategies — Operations Dashboard
+
+Internal CRM and operations dashboard for Northbridge Strategies. Built on Next.js 14, Tailwind, NextAuth, and Notion as the data layer.
+
+## Stack
+
+- **Framework:** Next.js 14 (App Router) + TypeScript strict
+- **UI:** Tailwind CSS, Inter font, dark mode default (`next-themes`)
+- **Auth:** NextAuth credentials provider, bcrypt hashes in `config/users.json`
+- **Data:** 10 Notion databases (no separate DB — Notion is the source of truth)
+- **Polling:** SWR (10s refresh on `/health`, 60s on the topbar status dot)
+- **Charts:** Recharts (revenue by month)
+- **Deploy:** Vercel
+
+## Pages
+
+| Path             | Purpose                                                                                              |
+| ---------------- | ---------------------------------------------------------------------------------------------------- |
+| `/`              | Home — 6 stat cards (with vs-last-week trend), recent activity feed, system quick actions            |
+| `/pipeline`      | Kanban board grouped by Stage with priority/classification filters and slide-over details            |
+| `/hot-leads`     | Sortable, filtered table of leads where Pipeline.Priority = Hot                                      |
+| `/scores`        | Diagnostic Scores with 5-gate breakdown and HITL approve/reject actions                              |
+| `/revenue`       | All payments + monthly bar chart + per-month rollup                                                  |
+| `/linkedin`      | LinkedIn Outreach with approve, edit-and-approve, reject; "Needs Attention" tab                      |
+| `/brokers`       | Broker Discovery Queue with one-click approve to fire Agent 10                                       |
+| `/channels`      | Lead volume + conversion grouped by Traffic Source, with date-range filter                           |
+| `/content`       | Content Calendar — Board (grouped by status) and List views; Add Content form                        |
+| `/health`        | System Health — pause/resume controls (Admin), severity rollup, auto-refreshing error log            |
+| `/manual-review` | Diagnostic Scores rejected to Manual Review, with editable per-record notes                          |
+| `/settings`      | Admin only — user list, system config, env-derived API status grid                                   |
+
+## Quick start
+
+```bash
+npm install
+cp .env.example .env.local       # then fill in NOTION_TOKEN + NEXTAUTH_SECRET
+npm run dev
+```
+
+Open <http://localhost:3000>. You'll be redirected to `/login`.
+
+## Default development credentials
+
+The seed `config/users.json` ships with a development password for both Doug and Hashir:
+
+- **Email:** `doug@northbridgestrategies.com` or `hashir@northbridgestrategies.com`
+- **Password:** `ChangeMe123!`
+
+**Replace these before deploying.** See "Adding or rotating users" below.
+
+## Environment variables
+
+All values live in `.env.local` for development and in the Vercel project settings for production. See [`.env.example`](./.env.example) for the full list. Notion DB IDs are pre-filled — only `NOTION_TOKEN`, `NEXTAUTH_SECRET`, and `NEXTAUTH_URL` need to be set per-environment.
+
+## Adding or rotating users
+
+1. Generate a bcrypt hash for the new password:
+   ```bash
+   npm run hash-password -- 'TheNewPassword!'
+   ```
+2. Edit [`config/users.json`](./config/users.json) and add or update the user record:
+   ```json
+   {
+     "id": "newuser",
+     "name": "New User",
+     "email": "new@northbridgestrategies.com",
+     "role": "Admin",
+     "passwordHash": "<paste hash>"
+   }
+   ```
+3. Commit and redeploy. Vercel's filesystem is read-only at runtime, so user changes require a deploy.
+
+Roles: `Admin` | `Staff` | `Client` (Client unused in v1; reserved for the planned client portal in Phase 2).
+
+## Notion schema migration
+
+A one-off migration adds two properties used by the dashboard:
+
+- **Leads → Priority** (rollup over `💰 Pipeline` relation, `Priority` select, `show_original`)
+- **Diagnostic Scores → Manual Review Notes** (rich_text)
+
+Already applied to the live workspace. To re-apply (idempotent — safe to re-run):
+
+```bash
+PYTHONUTF8=1 python scripts/notion-migrate-v1.py
+```
+
+## Scripts
+
+- `npm run dev` — local dev server on port 3000
+- `npm run build` — production build (run before pushing to verify)
+- `npm run start` — production server (after build)
+- `npm run lint` — Next/ESLint
+- `npm run typecheck` — strict TypeScript check, no emit
+- `npm run hash-password -- '<password>'` — generate a bcrypt hash for `users.json`
+- `node scripts/smoke-notion.mjs` — sanity-check all Notion filter shapes the dashboard uses
+
+## Project layout
+
+```
+src/
+  app/
+    (auth)/login/                Login page (Suspense-wrapped)
+    (dashboard)/                 Authenticated shell — sidebar + topbar
+      <page>/page.tsx            Server component, reads Notion via cached helpers
+      <page>/_<...>.tsx          Client components (action buttons, forms, tabs)
+    api/
+      auth/[...nextauth]/        NextAuth credentials route
+      <resource>/[id]/<action>/  One route per write action (zod-validated, role-gated)
+      health/snapshot/           Polled by /health every 10s
+      system/(pause|resume)/     Admin-only system controls
+    error.tsx, loading.tsx, not-found.tsx
+  components/
+    layout/                      Sidebar, Topbar, ThemeToggle, UserMenu
+    ui/                          Reusable primitives (StatCard, DataTable, SlideOver, …)
+    pipeline/, scores/, linkedin/, brokers/, content/, health/, home/
+  lib/
+    auth/                        NextAuth options + session helpers (server-only)
+    notion/                      Typed Notion client + per-DB helpers (server-only)
+      client.ts, ids.ts, parsers.ts, cache.ts
+      leads.ts, scores.ts, pipeline.ts, linkedin.ts, revenue.ts,
+      brokers.ts, content.ts, health.ts, config.ts, activity.ts
+    types/                       Shared TS types
+    utils/                       cn(), cookies, dates, format, revalidate
+    constants/                   Nav, design tokens
+    hooks/useAction.ts           Optimistic-UI write-action helper
+config/users.json                Source of truth for application users
+public/logo.png                  Brand logo
+scripts/
+  notion-migrate-v1.py           One-off Notion schema migration (idempotent)
+  smoke-notion.mjs               Read-only smoke test for filter shapes
+  hash-password.mjs              Generate bcrypt hashes for users.json
+```
+
+## Deployment to Vercel
+
+1. **Push the project to GitHub.** From the project directory:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   gh repo create northbridge-dashboard --private --source=. --push
+   ```
+2. **Import into Vercel.** Visit <https://vercel.com/new> and select the repo. Vercel auto-detects Next.js — no build settings to change.
+3. **Add environment variables.** In Vercel → Project Settings → Environment Variables, add every key from [`.env.example`](./.env.example):
+   - `NOTION_TOKEN` — the Notion integration token
+   - All 10 `NOTION_*_DB` IDs (already in `.env.example` — copy the values)
+   - `NEXTAUTH_SECRET` — generate a fresh one with `openssl rand -base64 32`
+   - `NEXTAUTH_URL` — your production URL (e.g. `https://northbridge-dashboard.vercel.app`)
+4. **Generate production password hashes** (do NOT use the dev `ChangeMe123!` hash):
+   ```bash
+   npm run hash-password -- 'doug-real-password'
+   npm run hash-password -- 'hashir-real-password'
+   ```
+   Update `config/users.json`, commit, and push. Vercel will redeploy.
+5. **Connect a custom domain** (optional). In Vercel → Project → Domains, add e.g. `ops.northbridgestrategies.com` and follow the DNS instructions.
+6. **Smoke-test in production:**
+   - Log in with each Admin user.
+   - Hit every page in the sidebar nav.
+   - Verify the topbar System dot turns green.
+   - Approve a test record in `/scores` or `/brokers` and confirm Notion updates.
+
+## Caching & performance
+
+- All Notion reads are wrapped in `unstable_cache` with per-DB tags (default 30s revalidate; 10s for `/health` and `/api/health/snapshot`).
+- Write actions call `revalidateTag()` on the affected DBs and on `notion:activity` so the home feed updates immediately.
+- Pages with high read fan-out (e.g. Home with 12 parallel queries) use `Promise.allSettled` so a single slow query won't fail the whole page.
+- Tables paginate at 50 rows.
+- The topbar `SystemHealthDot` polls every 60s; the `/health` log table polls every 10s.
+
+## Phase 2 hooks
+
+- The `Client` role is already part of the `Role` union — adding a `/portal` route that filters everything by `session.user.id` is a small additive change.
+- `useAction` is generic; same pattern for any future write route.
+- The Notion client layer is structured so a new database is one new file in `lib/notion/`.

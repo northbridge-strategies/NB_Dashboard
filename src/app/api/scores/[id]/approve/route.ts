@@ -1,1 +1,19 @@
-aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyB1cGRhdGVTY29yZUhJVEwgfSBmcm9tICJAL2xpYi9ub3Rpb24vc2NvcmVzIjsKaW1wb3J0IHsgSHR0cEVycm9yLCByZXF1aXJlUm9sZSB9IGZyb20gIkAvbGliL2F1dGgvc2Vzc2lvbiI7CmltcG9ydCB7IGJ1c3QsIFRBRyB9IGZyb20gIkAvbGliL3V0aWxzL3JldmFsaWRhdGUiOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QoX3JlcTogUmVxdWVzdCwgeyBwYXJhbXMgfTogeyBwYXJhbXM6IHsgaWQ6IHN0cmluZyB9IH0pIHsKICB0cnkgewogICAgYXdhaXQgcmVxdWlyZVJvbGUoWyJBZG1pbiIsICJTdGFmZiJdKTsKICAgIGF3YWl0IHVwZGF0ZVNjb3JlSElUTChwYXJhbXMuaWQsICJBcHByb3ZlZCIpOwogICAgYnVzdChUQUcuc2NvcmVzLCBUQUcuYWN0aXZpdHkpOwogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgb2s6IHRydWUgfSk7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICBpZiAoZXJyIGluc3RhbmNlb2YgSHR0cEVycm9yKSB7CiAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGVycm9yOiBlcnIubWVzc2FnZSB9LCB7IHN0YXR1czogZXJyLnN0YXR1cyB9KTsKICAgIH0KICAgIGNvbnNvbGUuZXJyb3IoIlsvYXBpL3Njb3Jlcy9hcHByb3ZlXSIsIGVycik7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIkludGVybmFsIGVycm9yIiB9LCB7IHN0YXR1czogNTAwIH0pOwogIH0KfQo=
+import { NextResponse } from "next/server";
+import { updateScoreHITL } from "@/lib/notion/scores";
+import { HttpError, requireRole } from "@/lib/auth/session";
+import { bust, TAG } from "@/lib/utils/revalidate";
+
+export async function POST(_req: Request, { params }: { params: { id: string } }) {
+  try {
+    await requireRole(["Admin", "Staff"]);
+    await updateScoreHITL(params.id, "Approved");
+    bust(TAG.scores, TAG.activity);
+    return NextResponse.json({ ok: true });
+  } catch (err) {
+    if (err instanceof HttpError) {
+      return NextResponse.json({ error: err.message }, { status: err.status });
+    }
+    console.error("[/api/scores/approve]", err);
+    return NextResponse.json({ error: "Internal error" }, { status: 500 });
+  }
+}

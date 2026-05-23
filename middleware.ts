@@ -1,1 +1,6 @@
-ZXhwb3J0IHsgZGVmYXVsdCB9IGZyb20gIm5leHQtYXV0aC9taWRkbGV3YXJlIjsKCmV4cG9ydCBjb25zdCBjb25maWcgPSB7CiAgLy8gUHJvdGVjdCBldmVyeXRoaW5nIGV4Y2VwdDogc3RhdGljIGFzc2V0cywgTmV4dEF1dGggQVBJIHJvdXRlcywgdGhlIGxvZ2luIHBhZ2UsIGFuZCB0aGUgcHVibGljIGZvbGRlci4KICBtYXRjaGVyOiBbIi8oKD8hYXBpL2F1dGh8X25leHQvc3RhdGljfF9uZXh0L2ltYWdlfGZhdmljb24uaWNvfGxvZ28ucG5nfGxvZ2luKS4qKSJdLAp9Owo=
+export { default } from "next-auth/middleware";
+
+export const config = {
+  // Protect everything except: static assets, NextAuth API routes, the login page, and the public folder.
+  matcher: ["/((?!api/auth|_next/static|_next/image|favicon.ico|logo.png|login).*)"],
+};

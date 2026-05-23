@@ -1,1 +1,186 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IG5vdGlvbiB9IGZyb20gIi4vY2xpZW50IjsKaW1wb3J0IHsgREIgfSBmcm9tICIuL2lkcyI7CmltcG9ydCB7IGNhY2hlZCwgVEFHIH0gZnJvbSAiLi9jYWNoZSI7CmltcG9ydCB7CiAgZ2V0Q2hlY2tib3gsCiAgZ2V0RGF0ZSwKICBnZXROdW1iZXIsCiAgZ2V0UmVsYXRpb25JZHMsCiAgZ2V0UmljaFRleHQsCiAgZ2V0U2VsZWN0LAogIGdldFRpdGxlLAogIGdldFVybCwKICBpc0Z1bGxQYWdlLAogIHR5cGUgUGFnZSwKfSBmcm9tICIuL3BhcnNlcnMiOwppbXBvcnQgdHlwZSB7IEFjdGl2aXR5SXRlbSwgQ2xhc3NpZmljYXRpb24sIEhJVExBY3Rpb24gfSBmcm9tICJAL2xpYi90eXBlcy9kb21haW4iOwoKZXhwb3J0IGludGVyZmFjZSBEaWFnbm9zdGljU2NvcmUgewogIGlkOiBzdHJpbmc7CiAgdGl0bGU6IHN0cmluZzsKICBsZWFkSWQ6IHN0cmluZyB8IG51bGw7CiAgcmF3U2NvcmU6IG51bWJlciB8IG51bGw7CiAgc2NvcmVQY3Q6IG51bWJlciB8IG51bGw7CiAgY2xhc3NpZmljYXRpb246IENsYXNzaWZpY2F0aW9uIHwgbnVsbDsKICBhdXRob3JpdHk6IG51bWJlciB8IG51bGw7CiAgcHJvY2VzczogbnVtYmVyIHwgbnVsbDsKICBwcmljaW5nOiBudW1iZXIgfCBudWxsOwogIHJldmVudWU6IG51bWJlciB8IG51bGw7CiAgZmluYW5jaWFsOiBudW1iZXIgfCBudWxsOwogIGZsYWdzOiBzdHJpbmc7CiAgbWFudWFsUmV2aWV3Tm90ZXM6IHN0cmluZzsKICByZXBvcnREcmFmdEdlbmVyYXRlZDogYm9vbGVhbjsKICByZXBvcnREcmFmdFVybDogc3RyaW5nIHwgbnVsbDsKICBoaXRsQWN0aW9uOiBISVRMQWN0aW9uIHwgbnVsbDsKICByZXBvcnREZWxpdmVyZWQ6IGJvb2xlYW47CiAgZGF0ZUNvbXBsZXRlZDogc3RyaW5nIHwgbnVsbDsKICBsYXN0RWRpdGVkVGltZTogc3RyaW5nOwp9CgpleHBvcnQgZnVuY3Rpb24gcGFyc2VTY29yZShwYWdlOiBQYWdlKTogRGlhZ25vc3RpY1Njb3JlIHsKICBjb25zdCBsZWFkSWRzID0gZ2V0UmVsYXRpb25JZHMocGFnZSwgIkxlYWQiKTsKICByZXR1cm4gewogICAgaWQ6IHBhZ2UuaWQsCiAgICB0aXRsZTogZ2V0VGl0bGUocGFnZSwgIlNjb3JlIEVudHJ5IiksCiAgICBsZWFkSWQ6IGxlYWRJZHNbMF0gPz8gbnVsbCwKICAgIHJhd1Njb3JlOiBnZXROdW1iZXIocGFnZSwgIlJhdyBTY29yZSIpLAogICAgc2NvcmVQY3Q6IGdldE51bWJlcihwYWdlLCAiU2NvcmUgUGN0IiksCiAgICBjbGFzc2lmaWNhdGlvbjogZ2V0U2VsZWN0KHBhZ2UsICJDbGFzc2lmaWNhdGlvbiIpIGFzIENsYXNzaWZpY2F0aW9uIHwgbnVsbCwKICAgIGF1dGhvcml0eTogZ2V0TnVtYmVyKHBhZ2UsICJBdXRob3JpdHkgU2NvcmUiKSwKICAgIHByb2Nlc3M6IGdldE51bWJlcihwYWdlLCAiUHJvY2VzcyBTY29yZSIpLAogICAgcHJpY2luZzogZ2V0TnVtYmVyKHBhZ2UsICJQcmljaW5nIFNjb3JlIiksCiAgICByZXZlbnVlOiBnZXROdW1iZXIocGFnZSwgIlJldmVudWUgU2NvcmUiKSwKICAgIGZpbmFuY2lhbDogZ2V0TnVtYmVyKHBhZ2UsICJGaW5hbmNpYWwgU2NvcmUiKSwKICAgIGZsYWdzOiBnZXRSaWNoVGV4dChwYWdlLCAiRmxhZ3MiKSwKICAgIG1hbnVhbFJldmlld05vdGVzOiBnZXRSaWNoVGV4dChwYWdlLCAiTWFudWFsIFJldmlldyBOb3RlcyIpLAogICAgcmVwb3J0RHJhZnRHZW5lcmF0ZWQ6IGdldENoZWNrYm94KHBhZ2UsICJSZXBvcnQgRHJhZnQgR2VuZXJhdGVkIiksCiAgICByZXBvcnREcmFmdFVybDogZ2V0VXJsKHBhZ2UsICJSZXBvcnQgRHJhZnQgVVJMIiksCiAgICBoaXRsQWN0aW9uOiBnZXRTZWxlY3QocGFnZSwgIlJlcG9ydCBISVRMIEFjdGlvbiIpIGFzIEhJVExBY3Rpb24gfCBudWxsLAogICAgcmVwb3J0RGVsaXZlcmVkOiBnZXRDaGVja2JveChwYWdlLCAiUmVwb3J0IERlbGl2ZXJlZCIpLAogICAgZGF0ZUNvbXBsZXRlZDogZ2V0RGF0ZShwYWdlLCAiRGF0ZSBDb21wbGV0ZWQiKSwKICAgIGxhc3RFZGl0ZWRUaW1lOiBwYWdlLmxhc3RfZWRpdGVkX3RpbWUsCiAgfTsKfQoKZXhwb3J0IGNvbnN0IGxpc3RTY29yZXMgPSBjYWNoZWQoCiAgYXN5bmMgKCk6IFByb21pc2U8RGlhZ25vc3RpY1Njb3JlW10+ID0+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgICBkYXRhYmFzZV9pZDogREIuc2NvcmVzLAogICAgICBzb3J0czogW3sgcHJvcGVydHk6ICJEYXRlIENvbXBsZXRlZCIsIGRpcmVjdGlvbjogImRlc2NlbmRpbmciIH1dLAogICAgICBwYWdlX3NpemU6IDEwMCwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5yZXN1bHRzLmZpbHRlcihpc0Z1bGxQYWdlKS5tYXAocGFyc2VTY29yZSk7CiAgfSwKICBbInNjb3JlczphbGwiXSwKICB7IHRhZ3M6IFtUQUcuc2NvcmVzXSB9LAopOwoKZXhwb3J0IGNvbnN0IGxpc3RNYW51YWxSZXZpZXdTY29yZXMgPSBjYWNoZWQoCiAgYXN5bmMgKCk6IFByb21pc2U8RGlhZ25vc3RpY1Njb3JlW10+ID0+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgICBkYXRhYmFzZV9pZDogREIuc2NvcmVzLAogICAgICBmaWx0ZXI6IHsKICAgICAgICBwcm9wZXJ0eTogIlJlcG9ydCBISVRMIEFjdGlvbiIsCiAgICAgICAgc2VsZWN0OiB7IGVxdWFsczogIlJlamVjdGVkLU1hbnVhbCBSZXZpZXciIH0sCiAgICAgIH0sCiAgICAgIHNvcnRzOiBbeyBwcm9wZXJ0eTogIkRhdGUgQ29tcGxldGVkIiwgZGlyZWN0aW9uOiAiZGVzY2VuZGluZyIgfV0sCiAgICAgIHBhZ2Vfc2l6ZTogMTAwLAogICAgfSk7CiAgICByZXR1cm4gcmVzLnJlc3VsdHMuZmlsdGVyKGlzRnVsbFBhZ2UpLm1hcChwYXJzZVNjb3JlKTsKICB9LAogIFsic2NvcmVzOm1hbnVhbC1yZXZpZXciXSwKICB7IHRhZ3M6IFtUQUcuc2NvcmVzXSB9LAopOwoKZXhwb3J0IGNvbnN0IGNvdW50UGVuZGluZ1JlcG9ydHMgPSBjYWNoZWQoCiAgYXN5bmMgKCk6IFByb21pc2U8bnVtYmVyPiA9PiB7CiAgICBsZXQgY291bnQgPSAwOwogICAgbGV0IGN1cnNvcjogc3RyaW5nIHwgdW5kZWZpbmVkOwogICAgZG8gewogICAgICBjb25zdCByZXMgPSBhd2FpdCBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgICAgICBkYXRhYmFzZV9pZDogREIuc2NvcmVzLAogICAgICAgIHBhZ2Vfc2l6ZTogMTAwLAogICAgICAgIHN0YXJ0X2N1cnNvcjogY3Vyc29yLAogICAgICAgIGZpbHRlcjogewogICAgICAgICAgYW5kOiBbCiAgICAgICAgICAgIHsgcHJvcGVydHk6ICJSZXBvcnQgRHJhZnQgR2VuZXJhdGVkIiwgY2hlY2tib3g6IHsgZXF1YWxzOiB0cnVlIH0gfSwKICAgICAgICAgICAgeyBwcm9wZXJ0eTogIlJlcG9ydCBISVRMIEFjdGlvbiIsIHNlbGVjdDogeyBlcXVhbHM6ICJQZW5kaW5nIiB9IH0sCiAgICAgICAgICBdLAogICAgICAgIH0sCiAgICAgIH0pOwogICAgICBjb3VudCArPSByZXMucmVzdWx0cy5sZW5ndGg7CiAgICAgIGN1cnNvciA9IHJlcy5oYXNfbW9yZSA/IChyZXMubmV4dF9jdXJzb3IgPz8gdW5kZWZpbmVkKSA6IHVuZGVmaW5lZDsKICAgIH0gd2hpbGUgKGN1cnNvcik7CiAgICByZXR1cm4gY291bnQ7CiAgfSwKICBbInNjb3Jlczpjb3VudC1wZW5kaW5nIl0sCiAgeyB0YWdzOiBbVEFHLnNjb3Jlc10gfSwKKTsKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB1cGRhdGVTY29yZUhJVEwoCiAgaWQ6IHN0cmluZywKICBhY3Rpb246IEhJVExBY3Rpb24sCiAgbWFudWFsUmV2aWV3Tm90ZXM/OiBzdHJpbmcsCik6IFByb21pc2U8dm9pZD4gewogIGNvbnN0IHByb3BlcnRpZXM6IFJlY29yZDxzdHJpbmcsIHVua25vd24+ID0gewogICAgIlJlcG9ydCBISVRMIEFjdGlvbiI6IHsgc2VsZWN0OiB7IG5hbWU6IGFjdGlvbiB9IH0sCiAgfTsKICBpZiAobWFudWFsUmV2aWV3Tm90ZXMgIT09IHVuZGVmaW5lZCkgewogICAgcHJvcGVydGllc1siTWFudWFsIFJldmlldyBOb3RlcyJdID0gewogICAgICByaWNoX3RleHQ6IFt7IHR5cGU6ICJ0ZXh0IiwgdGV4dDogeyBjb250ZW50OiBtYW51YWxSZXZpZXdOb3RlcyB9IH1dLAogICAgfTsKICB9CiAgYXdhaXQgbm90aW9uLnBhZ2VzLnVwZGF0ZSh7IHBhZ2VfaWQ6IGlkLCBwcm9wZXJ0aWVzOiBwcm9wZXJ0aWVzIGFzIG5ldmVyIH0pOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gdXBkYXRlTWFudWFsUmV2aWV3Tm90ZXMoaWQ6IHN0cmluZywgbm90ZXM6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogIGF3YWl0IG5vdGlvbi5wYWdlcy51cGRhdGUoewogICAgcGFnZV9pZDogaWQsCiAgICBwcm9wZXJ0aWVzOiB7CiAgICAgICJNYW51YWwgUmV2aWV3IE5vdGVzIjogewogICAgICAgIHJpY2hfdGV4dDogW3sgdHlwZTogInRleHQiLCB0ZXh0OiB7IGNvbnRlbnQ6IG5vdGVzIH0gfV0sCiAgICAgIH0sCiAgICB9IGFzIG5ldmVyLAogIH0pOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0U2NvcmVzRm9yTGVhZChsZWFkSWQ6IHN0cmluZyk6IFByb21pc2U8RGlhZ25vc3RpY1Njb3JlW10+IHsKICBjb25zdCByZXMgPSBhd2FpdCBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgIGRhdGFiYXNlX2lkOiBEQi5zY29yZXMsCiAgICBwYWdlX3NpemU6IDUwLAogICAgZmlsdGVyOiB7IHByb3BlcnR5OiAiTGVhZCIsIHJlbGF0aW9uOiB7IGNvbnRhaW5zOiBsZWFkSWQgfSB9LAogICAgc29ydHM6IFt7IHByb3BlcnR5OiAiRGF0ZSBDb21wbGV0ZWQiLCBkaXJlY3Rpb246ICJkZXNjZW5kaW5nIiB9XSwKICB9KTsKICByZXR1cm4gcmVzLnJlc3VsdHMuZmlsdGVyKGlzRnVsbFBhZ2UpLm1hcChwYXJzZVNjb3JlKTsKfQoKZXhwb3J0IGNvbnN0IHJlY2VudFNjb3JlQWN0aXZpdHkgPSBjYWNoZWQoCiAgYXN5bmMgKGxpbWl0ID0gMTApOiBQcm9taXNlPEFjdGl2aXR5SXRlbVtdPiA9PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgICAgZGF0YWJhc2VfaWQ6IERCLnNjb3JlcywKICAgICAgcGFnZV9zaXplOiBsaW1pdCwKICAgICAgc29ydHM6IFt7IHRpbWVzdGFtcDogImxhc3RfZWRpdGVkX3RpbWUiLCBkaXJlY3Rpb246ICJkZXNjZW5kaW5nIiB9XSwKICAgIH0pOwogICAgcmV0dXJuIHJlcy5yZXN1bHRzLmZpbHRlcihpc0Z1bGxQYWdlKS5tYXAoKHBhZ2UpID0+IHsKICAgICAgY29uc3QgcyA9IHBhcnNlU2NvcmUocGFnZSk7CiAgICAgIGNvbnN0IGRldGFpbCA9IFsKICAgICAgICBzLnNjb3JlUGN0ICE9IG51bGwgPyBgJHtNYXRoLnJvdW5kKHMuc2NvcmVQY3QpfSVgIDogbnVsbCwKICAgICAgICBzLmNsYXNzaWZpY2F0aW9uLAogICAgICAgIHMuaGl0bEFjdGlvbiwKICAgICAgXQogICAgICAgIC5maWx0ZXIoQm9vbGVhbikKICAgICAgICAuam9pbigiIMK3ICIpOwogICAgICByZXR1cm4gewogICAgICAgIHNvdXJjZTogInNjb3JlIiBhcyBjb25zdCwKICAgICAgICBpZDogcy5pZCwKICAgICAgICB0aXRsZTogcy50aXRsZSB8fCAiU2NvcmUgdXBkYXRlZCIsCiAgICAgICAgZGV0YWlsOiBkZXRhaWwgfHwgIkRpYWdub3N0aWMgc2NvcmUiLAogICAgICAgIHRpbWVzdGFtcDogcy5sYXN0RWRpdGVkVGltZSwKICAgICAgICBocmVmOiBzLmxlYWRJZCA/IGAvbGVhZHMvJHtzLmxlYWRJZH1gIDogIi9zY29yZXMiLAogICAgICB9OwogICAgfSk7CiAgfSwKICBbInNjb3JlczphY3Rpdml0eSJdLAogIHsgdGFnczogW1RBRy5zY29yZXMsIFRBRy5hY3Rpdml0eV0gfSwKKTsK
+import "server-only";
+import { notion } from "./client";
+import { DB } from "./ids";
+import { cached, TAG } from "./cache";
+import {
+  getCheckbox,
+  getDate,
+  getNumber,
+  getRelationIds,
+  getRichText,
+  getSelect,
+  getTitle,
+  getUrl,
+  isFullPage,
+  type Page,
+} from "./parsers";
+import type { ActivityItem, Classification, HITLAction } from "@/lib/types/domain";
+
+export interface DiagnosticScore {
+  id: string;
+  title: string;
+  leadId: string | null;
+  rawScore: number | null;
+  scorePct: number | null;
+  classification: Classification | null;
+  authority: number | null;
+  process: number | null;
+  pricing: number | null;
+  revenue: number | null;
+  financial: number | null;
+  flags: string;
+  manualReviewNotes: string;
+  reportDraftGenerated: boolean;
+  reportDraftUrl: string | null;
+  hitlAction: HITLAction | null;
+  reportDelivered: boolean;
+  dateCompleted: string | null;
+  lastEditedTime: string;
+}
+
+export function parseScore(page: Page): DiagnosticScore {
+  const leadIds = getRelationIds(page, "Lead");
+  return {
+    id: page.id,
+    title: getTitle(page, "Score Entry"),
+    leadId: leadIds[0] ?? null,
+    rawScore: getNumber(page, "Raw Score"),
+    scorePct: getNumber(page, "Score Pct"),
+    classification: getSelect(page, "Classification") as Classification | null,
+    authority: getNumber(page, "Authority Score"),
+    process: getNumber(page, "Process Score"),
+    pricing: getNumber(page, "Pricing Score"),
+    revenue: getNumber(page, "Revenue Score"),
+    financial: getNumber(page, "Financial Score"),
+    flags: getRichText(page, "Flags"),
+    manualReviewNotes: getRichText(page, "Manual Review Notes"),
+    reportDraftGenerated: getCheckbox(page, "Report Draft Generated"),
+    reportDraftUrl: getUrl(page, "Report Draft URL"),
+    hitlAction: getSelect(page, "Report HITL Action") as HITLAction | null,
+    reportDelivered: getCheckbox(page, "Report Delivered"),
+    dateCompleted: getDate(page, "Date Completed"),
+    lastEditedTime: page.last_edited_time,
+  };
+}
+
+export const listScores = cached(
+  async (): Promise<DiagnosticScore[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.scores,
+      sorts: [{ property: "Date Completed", direction: "descending" }],
+      page_size: 100,
+    });
+    return res.results.filter(isFullPage).map(parseScore);
+  },
+  ["scores:all"],
+  { tags: [TAG.scores] },
+);
+
+export const listManualReviewScores = cached(
+  async (): Promise<DiagnosticScore[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.scores,
+      filter: {
+        property: "Report HITL Action",
+        select: { equals: "Rejected-Manual Review" },
+      },
+      sorts: [{ property: "Date Completed", direction: "descending" }],
+      page_size: 100,
+    });
+    return res.results.filter(isFullPage).map(parseScore);
+  },
+  ["scores:manual-review"],
+  { tags: [TAG.scores] },
+);
+
+export const countPendingReports = cached(
+  async (): Promise<number> => {
+    let count = 0;
+    let cursor: string | undefined;
+    do {
+      const res = await notion.databases.query({
+        database_id: DB.scores,
+        page_size: 100,
+        start_cursor: cursor,
+        filter: {
+          and: [
+            { property: "Report Draft Generated", checkbox: { equals: true } },
+            { property: "Report HITL Action", select: { equals: "Pending" } },
+          ],
+        },
+      });
+      count += res.results.length;
+      cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+    } while (cursor);
+    return count;
+  },
+  ["scores:count-pending"],
+  { tags: [TAG.scores] },
+);
+
+export async function updateScoreHITL(
+  id: string,
+  action: HITLAction,
+  manualReviewNotes?: string,
+): Promise<void> {
+  const properties: Record<string, unknown> = {
+    "Report HITL Action": { select: { name: action } },
+  };
+  if (manualReviewNotes !== undefined) {
+    properties["Manual Review Notes"] = {
+      rich_text: [{ type: "text", text: { content: manualReviewNotes } }],
+    };
+  }
+  await notion.pages.update({ page_id: id, properties: properties as never });
+}
+
+export async function updateManualReviewNotes(id: string, notes: string): Promise<void> {
+  await notion.pages.update({
+    page_id: id,
+    properties: {
+      "Manual Review Notes": {
+        rich_text: [{ type: "text", text: { content: notes } }],
+      },
+    } as never,
+  });
+}
+
+export async function getScoresForLead(leadId: string): Promise<DiagnosticScore[]> {
+  const res = await notion.databases.query({
+    database_id: DB.scores,
+    page_size: 50,
+    filter: { property: "Lead", relation: { contains: leadId } },
+    sorts: [{ property: "Date Completed", direction: "descending" }],
+  });
+  return res.results.filter(isFullPage).map(parseScore);
+}
+
+export const recentScoreActivity = cached(
+  async (limit = 10): Promise<ActivityItem[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.scores,
+      page_size: limit,
+      sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+    });
+    return res.results.filter(isFullPage).map((page) => {
+      const s = parseScore(page);
+      const detail = [
+        s.scorePct != null ? `${Math.round(s.scorePct)}%` : null,
+        s.classification,
+        s.hitlAction,
+      ]
+        .filter(Boolean)
+        .join(" · ");
+      return {
+        source: "score" as const,
+        id: s.id,
+        title: s.title || "Score updated",
+        detail: detail || "Diagnostic score",
+        timestamp: s.lastEditedTime,
+        href: s.leadId ? `/leads/${s.leadId}` : "/scores",
+      };
+    });
+  },
+  ["scores:activity"],
+  { tags: [TAG.scores, TAG.activity] },
+);

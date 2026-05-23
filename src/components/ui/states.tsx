@@ -1,1 +1,91 @@
-aW1wb3J0IHsgTG9hZGVyMiwgQWxlcnRDaXJjbGUsIEluYm94LCB0eXBlIEx1Y2lkZUljb24gfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzL2NsYXNzbmFtZXMiOwoKZXhwb3J0IGZ1bmN0aW9uIExvYWRpbmdTdGF0ZSh7IGxhYmVsID0gIkxvYWRpbmfigKYiLCBjbGFzc05hbWUgfTogeyBsYWJlbD86IHN0cmluZzsgY2xhc3NOYW1lPzogc3RyaW5nIH0pIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9e2NuKCJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtdGV4dC1zZWNvbmRhcnkiLCBjbGFzc05hbWUpfT4KICAgICAgPExvYWRlcjIgY2xhc3NOYW1lPSJoLTQgdy00IGFuaW1hdGUtc3BpbiIgLz4KICAgICAgPHNwYW4+e2xhYmVsfTwvc3Bhbj4KICAgIDwvZGl2PgogICk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBFcnJvclN0YXRlKHsKICB0aXRsZSA9ICJTb21ldGhpbmcgd2VudCB3cm9uZyIsCiAgZGVzY3JpcHRpb24sCiAgb25SZXRyeSwKICBjbGFzc05hbWUsCn06IHsKICB0aXRsZT86IHN0cmluZzsKICBkZXNjcmlwdGlvbj86IHN0cmluZzsKICBvblJldHJ5PzogKCkgPT4gdm9pZDsKICBjbGFzc05hbWU/OiBzdHJpbmc7Cn0pIHsKICByZXR1cm4gKAogICAgPGRpdgogICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICJmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYnJhbmQtZGFuZ2VyLzMwIGJnLWJyYW5kLWRhbmdlci81IHAtOCB0ZXh0LWNlbnRlciIsCiAgICAgICAgY2xhc3NOYW1lLAogICAgICApfQogICAgPgogICAgICA8QWxlcnRDaXJjbGUgY2xhc3NOYW1lPSJoLTYgdy02IHRleHQtYnJhbmQtZGFuZ2VyIiAvPgogICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXRleHQtcHJpbWFyeSI+e3RpdGxlfTwvZGl2PgogICAgICB7ZGVzY3JpcHRpb24gJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy1tZCB0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkiPntkZXNjcmlwdGlvbn08L2Rpdj4KICAgICAgKX0KICAgICAge29uUmV0cnkgJiYgKAogICAgICAgIDxidXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIG9uQ2xpY2s9e29uUmV0cnl9CiAgICAgICAgICBjbGFzc05hbWU9Im10LTIgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBweC0zIHB5LTEuNSB0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkgaG92ZXI6Ymctc3VyZmFjZS1lbGV2YXRlZCBob3Zlcjp0ZXh0LXRleHQtcHJpbWFyeSIKICAgICAgICA+CiAgICAgICAgICBSZXRyeQogICAgICAgIDwvYnV0dG9uPgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIEVtcHR5U3RhdGUoewogIHRpdGxlLAogIGRlc2NyaXB0aW9uLAogIGljb246IEljb24gPSBJbmJveCwKICBjbGFzc05hbWUsCn06IHsKICB0aXRsZTogc3RyaW5nOwogIGRlc2NyaXB0aW9uPzogc3RyaW5nOwogIGljb24/OiBMdWNpZGVJY29uOwogIGNsYXNzTmFtZT86IHN0cmluZzsKfSkgewogIHJldHVybiAoCiAgICA8ZGl2CiAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0zIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1kYXNoZWQgYm9yZGVyLWJvcmRlciBiZy1zdXJmYWNlIHB4LTYgcHktMTIgdGV4dC1jZW50ZXIiLAogICAgICAgIGNsYXNzTmFtZSwKICAgICAgKX0KICAgID4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaC0xMCB3LTEwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctc3VyZmFjZS1lbGV2YXRlZCB0ZXh0LXRleHQtbXV0ZWQiPgogICAgICAgIDxJY29uIGNsYXNzTmFtZT0iaC01IHctNSIgLz4KICAgICAgPC9kaXY+CiAgICAgIDxkaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC10ZXh0LXByaW1hcnkiPnt0aXRsZX08L2Rpdj4KICAgICAgICB7ZGVzY3JpcHRpb24gJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgbWF4LXctbWQgdGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAge2Rlc2NyaXB0aW9ufQogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9CgpleHBvcnQgZnVuY3Rpb24gU2tlbGV0b24oeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgewogIHJldHVybiAoCiAgICA8ZGl2CiAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgImFuaW1hdGUtcHVsc2Ugcm91bmRlZC1tZCBiZy1zdXJmYWNlLWVsZXZhdGVkIiwKICAgICAgICBjbGFzc05hbWUsCiAgICAgICl9CiAgICAvPgogICk7Cn0K
+import { Loader2, AlertCircle, Inbox, type LucideIcon } from "lucide-react";
+import { cn } from "@/lib/utils/classnames";
+
+export function LoadingState({ label = "Loading…", className }: { label?: string; className?: string }) {
+  return (
+    <div className={cn("flex items-center gap-2 text-sm text-text-secondary", className)}>
+      <Loader2 className="h-4 w-4 animate-spin" />
+      <span>{label}</span>
+    </div>
+  );
+}
+
+export function ErrorState({
+  title = "Something went wrong",
+  description,
+  onRetry,
+  className,
+}: {
+  title?: string;
+  description?: string;
+  onRetry?: () => void;
+  className?: string;
+}) {
+  return (
+    <div
+      className={cn(
+        "flex flex-col items-center justify-center gap-2 rounded-lg border border-brand-danger/30 bg-brand-danger/5 p-8 text-center",
+        className,
+      )}
+    >
+      <AlertCircle className="h-6 w-6 text-brand-danger" />
+      <div className="text-sm font-medium text-text-primary">{title}</div>
+      {description && (
+        <div className="max-w-md text-xs text-text-secondary">{description}</div>
+      )}
+      {onRetry && (
+        <button
+          type="button"
+          onClick={onRetry}
+          className="mt-2 rounded-md border border-border px-3 py-1.5 text-xs text-text-secondary hover:bg-surface-elevated hover:text-text-primary"
+        >
+          Retry
+        </button>
+      )}
+    </div>
+  );
+}
+
+export function EmptyState({
+  title,
+  description,
+  icon: Icon = Inbox,
+  className,
+}: {
+  title: string;
+  description?: string;
+  icon?: LucideIcon;
+  className?: string;
+}) {
+  return (
+    <div
+      className={cn(
+        "flex flex-col items-center justify-center gap-3 rounded-lg border border-dashed border-border bg-surface px-6 py-12 text-center",
+        className,
+      )}
+    >
+      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-surface-elevated text-text-muted">
+        <Icon className="h-5 w-5" />
+      </div>
+      <div>
+        <div className="text-sm font-medium text-text-primary">{title}</div>
+        {description && (
+          <div className="mt-1 max-w-md text-xs text-text-secondary">
+            {description}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export function Skeleton({ className }: { className?: string }) {
+  return (
+    <div
+      className={cn(
+        "animate-pulse rounded-md bg-surface-elevated",
+        className,
+      )}
+    />
+  );
+}

@@ -1,1 +1,146 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExvY2ssIExvYWRlcjIsIFNhdmUsIEV5ZSwgRXllT2ZmIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgdXNlQWN0aW9uIH0gZnJvbSAiQC9saWIvaG9va3MvdXNlQWN0aW9uIjsKCmV4cG9ydCBmdW5jdGlvbiBQYXNzd29yZEZvcm0oKSB7CiAgY29uc3QgW2N1cnJlbnQsIHNldEN1cnJlbnRdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtuZXh0LCBzZXROZXh0XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbY29uZmlybSwgc2V0Q29uZmlybV0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW3Nob3dQYXNzd29yZHMsIHNldFNob3dQYXNzd29yZHNdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IGFjdGlvbiA9IHVzZUFjdGlvbigpOwoKICBjb25zdCBtYXRjaEVycm9yID0gbmV4dCAmJiBjb25maXJtICYmIG5leHQgIT09IGNvbmZpcm0gPyAiUGFzc3dvcmRzIGRvbid0IG1hdGNoIiA6IG51bGw7CiAgY29uc3QgbGVuZ3RoRXJyb3IgPSBuZXh0Lmxlbmd0aCA+IDAgJiYgbmV4dC5sZW5ndGggPCA4ID8gIlVzZSBhdCBsZWFzdCA4IGNoYXJhY3RlcnMiIDogbnVsbDsKICBjb25zdCBsb2NhbEVycm9yID0gbWF0Y2hFcnJvciB8fCBsZW5ndGhFcnJvcjsKICBjb25zdCBjYW5TdWJtaXQgPQogICAgY3VycmVudC5sZW5ndGggPiAwICYmCiAgICBuZXh0Lmxlbmd0aCA+PSA4ICYmCiAgICBuZXh0ID09PSBjb25maXJtICYmCiAgICBhY3Rpb24uc3RhdGUgIT09ICJwZW5kaW5nIjsKCiAgYXN5bmMgZnVuY3Rpb24gc3VibWl0KGU6IFJlYWN0LkZvcm1FdmVudCkgewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgaWYgKCFjYW5TdWJtaXQpIHJldHVybjsKICAgIGNvbnN0IHIgPSBhd2FpdCBhY3Rpb24ucnVuKCIvYXBpL3Byb2ZpbGUvcGFzc3dvcmQiLCB7CiAgICAgIG1ldGhvZDogIlBVVCIsCiAgICAgIGJvZHk6IHsgY3VycmVudFBhc3N3b3JkOiBjdXJyZW50LCBuZXdQYXNzd29yZDogbmV4dCB9LAogICAgfSk7CiAgICBpZiAoci5vaykgewogICAgICBzZXRDdXJyZW50KCIiKTsKICAgICAgc2V0TmV4dCgiIik7CiAgICAgIHNldENvbmZpcm0oIiIpOwogICAgfQogIH0KCiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1zdXJmYWNlIHAtNiI+CiAgICAgIDxoMyBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LXRleHQtcHJpbWFyeSI+CiAgICAgICAgPExvY2sgY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgIENoYW5nZSBwYXNzd29yZAogICAgICA8L2gzPgogICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICBZb3UmYXBvcztsbCBzdGF5IHNpZ25lZCBpbiBhZnRlciBjaGFuZ2luZyB5b3VyIHBhc3N3b3JkLgogICAgICA8L3A+CgogICAgICA8Zm9ybSBvblN1Ym1pdD17c3VibWl0fSBjbGFzc05hbWU9Im10LTUgc3BhY2UteS00Ij4KICAgICAgICA8UGFzc3dvcmRGaWVsZAogICAgICAgICAgbGFiZWw9IkN1cnJlbnQgcGFzc3dvcmQiCiAgICAgICAgICB2YWx1ZT17Y3VycmVudH0KICAgICAgICAgIG9uQ2hhbmdlPXtzZXRDdXJyZW50fQogICAgICAgICAgc2hvdz17c2hvd1Bhc3N3b3Jkc30KICAgICAgICAgIGF1dG9Db21wbGV0ZT0iY3VycmVudC1wYXNzd29yZCIKICAgICAgICAvPgogICAgICAgIDxQYXNzd29yZEZpZWxkCiAgICAgICAgICBsYWJlbD0iTmV3IHBhc3N3b3JkIgogICAgICAgICAgdmFsdWU9e25leHR9CiAgICAgICAgICBvbkNoYW5nZT17c2V0TmV4dH0KICAgICAgICAgIHNob3c9e3Nob3dQYXNzd29yZHN9CiAgICAgICAgICBhdXRvQ29tcGxldGU9Im5ldy1wYXNzd29yZCIKICAgICAgICAgIGhpbnQ9IkF0IGxlYXN0IDggY2hhcmFjdGVycy4iCiAgICAgICAgLz4KICAgICAgICA8UGFzc3dvcmRGaWVsZAogICAgICAgICAgbGFiZWw9IkNvbmZpcm0gbmV3IHBhc3N3b3JkIgogICAgICAgICAgdmFsdWU9e2NvbmZpcm19CiAgICAgICAgICBvbkNoYW5nZT17c2V0Q29uZmlybX0KICAgICAgICAgIHNob3c9e3Nob3dQYXNzd29yZHN9CiAgICAgICAgICBhdXRvQ29tcGxldGU9Im5ldy1wYXNzd29yZCIKICAgICAgICAvPgoKICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgPGlucHV0CiAgICAgICAgICAgIHR5cGU9ImNoZWNrYm94IgogICAgICAgICAgICBjaGVja2VkPXtzaG93UGFzc3dvcmRzfQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFNob3dQYXNzd29yZHMoZS50YXJnZXQuY2hlY2tlZCl9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUgcm91bmRlZCBib3JkZXItYm9yZGVyIGJnLWJnIGFjY2VudC1icmFuZC1wcmltYXJ5IgogICAgICAgICAgLz4KICAgICAgICAgIHtzaG93UGFzc3dvcmRzID8gKAogICAgICAgICAgICA8PgogICAgICAgICAgICAgIDxFeWVPZmYgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4gSGlkZSBwYXNzd29yZHMKICAgICAgICAgICAgPC8+CiAgICAgICAgICApIDogKAogICAgICAgICAgICA8PgogICAgICAgICAgICAgIDxFeWUgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4gU2hvdyBwYXNzd29yZHMKICAgICAgICAgICAgPC8+CiAgICAgICAgICApfQogICAgICAgIDwvbGFiZWw+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBwdC00IHRleHQteHMiPgogICAgICAgICAge2FjdGlvbi5lcnJvciA/ICgKICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLWRhbmdlciI+e2FjdGlvbi5lcnJvcn08L3NwYW4+CiAgICAgICAgICApIDogbG9jYWxFcnJvciA/ICgKICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLXdhcm5pbmciPntsb2NhbEVycm9yfTwvc3Bhbj4KICAgICAgICAgICkgOiBhY3Rpb24uc3RhdGUgPT09ICJzdWNjZXNzIiA/ICgKICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWJyYW5kLXN1Y2Nlc3MiPlBhc3N3b3JkIHVwZGF0ZWQuPC9zcGFuPgogICAgICAgICAgKSA6ICgKICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXRleHQtbXV0ZWQiPk1pbiA4IGNoYXJzLCBtdXN0IG1hdGNoLjwvc3Bhbj4KICAgICAgICAgICl9CgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJzdWJtaXQiCiAgICAgICAgICAgIGRpc2FibGVkPXshY2FuU3VibWl0fQogICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQtbWQgYmctYnJhbmQtcHJpbWFyeSBweC0zIHB5LTEuNSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtd2hpdGUgdHJhbnNpdGlvbiBob3ZlcjpiZy1icmFuZC1wcmltYXJ5LWhvdmVyIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTUwIgogICAgICAgICAgPgogICAgICAgICAgICB7YWN0aW9uLnN0YXRlID09PSAicGVuZGluZyIgPyAoCiAgICAgICAgICAgICAgPExvYWRlcjIgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSBhbmltYXRlLXNwaW4iIC8+CiAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgPFNhdmUgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgKX0KICAgICAgICAgICAgVXBkYXRlIFBhc3N3b3JkCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9mb3JtPgogICAgPC9zZWN0aW9uPgogICk7Cn0KCmZ1bmN0aW9uIFBhc3N3b3JkRmllbGQoewogIGxhYmVsLAogIHZhbHVlLAogIG9uQ2hhbmdlLAogIHNob3csCiAgYXV0b0NvbXBsZXRlLAogIGhpbnQsCn06IHsKICBsYWJlbDogc3RyaW5nOwogIHZhbHVlOiBzdHJpbmc7CiAgb25DaGFuZ2U6ICh2OiBzdHJpbmcpID0+IHZvaWQ7CiAgc2hvdzogYm9vbGVhbjsKICBhdXRvQ29tcGxldGU6IHN0cmluZzsKICBoaW50Pzogc3RyaW5nOwp9KSB7CiAgcmV0dXJuICgKICAgIDxsYWJlbCBjbGFzc05hbWU9ImJsb2NrIj4KICAgICAgPHNwYW4gY2xhc3NOYW1lPSJsYWJlbC1jYXBzIG1iLTEuNSBibG9jayB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij57bGFiZWx9PC9zcGFuPgogICAgICA8aW5wdXQKICAgICAgICB0eXBlPXtzaG93ID8gInRleHQiIDogInBhc3N3b3JkIn0KICAgICAgICB2YWx1ZT17dmFsdWV9CiAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBvbkNoYW5nZShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgYXV0b0NvbXBsZXRlPXthdXRvQ29tcGxldGV9CiAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1iZyBweC0zIHB5LTIgdGV4dC1zbSB0ZXh0LXRleHQtcHJpbWFyeSBmb2N1czpib3JkZXItYnJhbmQtcHJpbWFyeSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0xIGZvY3VzOnJpbmctYnJhbmQtcHJpbWFyeSIKICAgICAgLz4KICAgICAge2hpbnQgJiYgPHNwYW4gY2xhc3NOYW1lPSJtdC0xIGJsb2NrIHRleHQteHMgdGV4dC10ZXh0LW11dGVkIj57aGludH08L3NwYW4+fQogICAgPC9sYWJlbD4KICApOwp9Cg==
+"use client";
+
+import { useState } from "react";
+import { Lock, Loader2, Save, Eye, EyeOff } from "lucide-react";
+import { useAction } from "@/lib/hooks/useAction";
+
+export function PasswordForm() {
+  const [current, setCurrent] = useState("");
+  const [next, setNext] = useState("");
+  const [confirm, setConfirm] = useState("");
+  const [showPasswords, setShowPasswords] = useState(false);
+  const action = useAction();
+
+  const matchError = next && confirm && next !== confirm ? "Passwords don't match" : null;
+  const lengthError = next.length > 0 && next.length < 8 ? "Use at least 8 characters" : null;
+  const localError = matchError || lengthError;
+  const canSubmit =
+    current.length > 0 &&
+    next.length >= 8 &&
+    next === confirm &&
+    action.state !== "pending";
+
+  async function submit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!canSubmit) return;
+    const r = await action.run("/api/profile/password", {
+      method: "PUT",
+      body: { currentPassword: current, newPassword: next },
+    });
+    if (r.ok) {
+      setCurrent("");
+      setNext("");
+      setConfirm("");
+    }
+  }
+
+  return (
+    <section className="rounded-xl border border-border bg-surface p-6">
+      <h3 className="flex items-center gap-2 text-sm font-semibold text-text-primary">
+        <Lock className="h-4 w-4" />
+        Change password
+      </h3>
+      <p className="mt-1 text-xs text-text-secondary">
+        You&apos;ll stay signed in after changing your password.
+      </p>
+
+      <form onSubmit={submit} className="mt-5 space-y-4">
+        <PasswordField
+          label="Current password"
+          value={current}
+          onChange={setCurrent}
+          show={showPasswords}
+          autoComplete="current-password"
+        />
+        <PasswordField
+          label="New password"
+          value={next}
+          onChange={setNext}
+          show={showPasswords}
+          autoComplete="new-password"
+          hint="At least 8 characters."
+        />
+        <PasswordField
+          label="Confirm new password"
+          value={confirm}
+          onChange={setConfirm}
+          show={showPasswords}
+          autoComplete="new-password"
+        />
+
+        <label className="flex items-center gap-2 text-xs text-text-secondary">
+          <input
+            type="checkbox"
+            checked={showPasswords}
+            onChange={(e) => setShowPasswords(e.target.checked)}
+            className="h-3.5 w-3.5 rounded border-border bg-bg accent-brand-primary"
+          />
+          {showPasswords ? (
+            <>
+              <EyeOff className="h-3.5 w-3.5" /> Hide passwords
+            </>
+          ) : (
+            <>
+              <Eye className="h-3.5 w-3.5" /> Show passwords
+            </>
+          )}
+        </label>
+
+        <div className="flex items-center justify-between border-t border-border pt-4 text-xs">
+          {action.error ? (
+            <span className="text-brand-danger">{action.error}</span>
+          ) : localError ? (
+            <span className="text-brand-warning">{localError}</span>
+          ) : action.state === "success" ? (
+            <span className="text-brand-success">Password updated.</span>
+          ) : (
+            <span className="text-text-muted">Min 8 chars, must match.</span>
+          )}
+
+          <button
+            type="submit"
+            disabled={!canSubmit}
+            className="inline-flex items-center gap-1.5 rounded-md bg-brand-primary px-3 py-1.5 text-xs font-medium text-white transition hover:bg-brand-primary-hover disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            {action.state === "pending" ? (
+              <Loader2 className="h-3.5 w-3.5 animate-spin" />
+            ) : (
+              <Save className="h-3.5 w-3.5" />
+            )}
+            Update Password
+          </button>
+        </div>
+      </form>
+    </section>
+  );
+}
+
+function PasswordField({
+  label,
+  value,
+  onChange,
+  show,
+  autoComplete,
+  hint,
+}: {
+  label: string;
+  value: string;
+  onChange: (v: string) => void;
+  show: boolean;
+  autoComplete: string;
+  hint?: string;
+}) {
+  return (
+    <label className="block">
+      <span className="label-caps mb-1.5 block text-text-secondary">{label}</span>
+      <input
+        type={show ? "text" : "password"}
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        autoComplete={autoComplete}
+        className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+      />
+      {hint && <span className="mt-1 block text-xs text-text-muted">{hint}</span>}
+    </label>
+  );
+}

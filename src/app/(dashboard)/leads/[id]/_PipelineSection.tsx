@@ -1,1 +1,125 @@
-aW1wb3J0IHsgTGlzdENoZWNrcywgQ2FsZW5kYXIsIFBob25lIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsKICBTdGF0dXNCYWRnZSwKICB0b25lRm9yUHJpb3JpdHksCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL1N0YXR1c0JhZGdlIjsKaW1wb3J0IHsgU2VjdGlvbkNhcmQsIEVtcHR5U2VjdGlvbiB9IGZyb20gIi4vX1NlY3Rpb25DYXJkIjsKaW1wb3J0IHsgZm9ybWF0UmVsYXRpdmUgfSBmcm9tICJAL2xpYi91dGlscy9kYXRlcyI7CmltcG9ydCB7IGZvcm1hdEN1cnJlbmN5IH0gZnJvbSAiQC9saWIvdXRpbHMvZm9ybWF0IjsKaW1wb3J0IHR5cGUgeyBQaXBlbGluZUVudHJ5IH0gZnJvbSAiQC9saWIvbm90aW9uL3BpcGVsaW5lIjsKCmV4cG9ydCBmdW5jdGlvbiBQaXBlbGluZVNlY3Rpb24oewogIGVudHJ5LAogIGFsbCwKICBsZWFkSWQ6IF9sZWFkSWQsCn06IHsKICBlbnRyeTogUGlwZWxpbmVFbnRyeSB8IG51bGw7CiAgYWxsOiBQaXBlbGluZUVudHJ5W107CiAgbGVhZElkOiBzdHJpbmc7Cn0pIHsKICBpZiAoIWVudHJ5KSB7CiAgICByZXR1cm4gKAogICAgICA8U2VjdGlvbkNhcmQgaWNvbj17TGlzdENoZWNrc30gdGl0bGU9IlBpcGVsaW5lIiB0b25lPSJhY2NlbnQiPgogICAgICAgIDxFbXB0eVNlY3Rpb24gbWVzc2FnZT0iTm8gcGlwZWxpbmUgZW50cnkgeWV0LiBXaWxsIGFwcGVhciBvbmNlIHRoZSBsZWFkIGlzIHF1YWxpZmllZCBvciBib29rZWQgZm9yIGEgY2FsbC4iIC8+CiAgICAgIDwvU2VjdGlvbkNhcmQ+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxTZWN0aW9uQ2FyZAogICAgICBpY29uPXtMaXN0Q2hlY2tzfQogICAgICB0aXRsZT0iUGlwZWxpbmUiCiAgICAgIGNvdW50PXthbGwubGVuZ3RoID4gMSA/IGFsbC5sZW5ndGggOiB1bmRlZmluZWR9CiAgICAgIG5vdGlvbklkPXtlbnRyeS5pZH0KICAgICAgdG9uZT0iYWNjZW50IgogICAgPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgIHtlbnRyeS5zdGFnZSAmJiAoCiAgICAgICAgICAgIDxTdGF0dXNCYWRnZSBsYWJlbD17ZW50cnkuc3RhZ2V9IHRvbmU9ImluZm8iIC8+CiAgICAgICAgICApfQogICAgICAgICAge2VudHJ5LnByaW9yaXR5ICYmICgKICAgICAgICAgICAgPFN0YXR1c0JhZGdlCiAgICAgICAgICAgICAgbGFiZWw9e2VudHJ5LnByaW9yaXR5fQogICAgICAgICAgICAgIHRvbmU9e3RvbmVGb3JQcmlvcml0eShlbnRyeS5wcmlvcml0eSl9CiAgICAgICAgICAgIC8+CiAgICAgICAgICApfQogICAgICAgICAge2VudHJ5LmNhbGxPdXRjb21lICYmICgKICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJsYWJlbC1jYXBzIHRleHQtdGV4dC1tdXRlZCI+CiAgICAgICAgICAgICAge2VudHJ5LmNhbGxPdXRjb21lfQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICApfQogICAgICAgICAge2VudHJ5LnN0YWdlRGF0ZSAmJiAoCiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWwtYXV0byB0ZXh0LXhzIHRleHQtdGV4dC1tdXRlZCI+CiAgICAgICAgICAgICAgSW4gc3RhZ2Ugc2luY2Uge2Zvcm1hdFJlbGF0aXZlKGVudHJ5LnN0YWdlRGF0ZSl9CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIGdhcC0zIHRleHQteHMgc206Z3JpZC1jb2xzLTIiPgogICAgICAgICAge2VudHJ5Lm1lZXRpbmdEYXRlICYmICgKICAgICAgICAgICAgPEZpZWxkCiAgICAgICAgICAgICAgaWNvbj17PENhbGVuZGFyIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIC8+fQogICAgICAgICAgICAgIGxhYmVsPSJNZWV0aW5nIERhdGUiCiAgICAgICAgICAgICAgdmFsdWU9e25ldyBEYXRlKGVudHJ5Lm1lZXRpbmdEYXRlKS50b0xvY2FsZVN0cmluZyh1bmRlZmluZWQsIHsKICAgICAgICAgICAgICAgIHdlZWtkYXk6ICJzaG9ydCIsCiAgICAgICAgICAgICAgICBtb250aDogInNob3J0IiwKICAgICAgICAgICAgICAgIGRheTogIm51bWVyaWMiLAogICAgICAgICAgICAgICAgaG91cjogIm51bWVyaWMiLAogICAgICAgICAgICAgICAgbWludXRlOiAiMi1kaWdpdCIsCiAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgIC8+CiAgICAgICAgICApfQogICAgICAgICAge2VudHJ5LmNhbGxPdXRjb21lICYmICgKICAgICAgICAgICAgPEZpZWxkCiAgICAgICAgICAgICAgaWNvbj17PFBob25lIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIC8+fQogICAgICAgICAgICAgIGxhYmVsPSJDYWxsIE91dGNvbWUiCiAgICAgICAgICAgICAgdmFsdWU9e2VudHJ5LmNhbGxPdXRjb21lfQogICAgICAgICAgICAvPgogICAgICAgICAgKX0KICAgICAgICAgIHtlbnRyeS50aWVySVBheW1lbnREYXRlICYmICgKICAgICAgICAgICAgPEZpZWxkCiAgICAgICAgICAgICAgbGFiZWw9IlRpZXIgSSBQYXltZW50IgogICAgICAgICAgICAgIHZhbHVlPXtuZXcgRGF0ZShlbnRyeS50aWVySVBheW1lbnREYXRlKS50b0xvY2FsZURhdGVTdHJpbmcoKX0KICAgICAgICAgICAgLz4KICAgICAgICAgICl9CiAgICAgICAgICB7ZW50cnkudGllcklBbW91bnQgIT0gbnVsbCAmJiAoCiAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iVGllciBJIEFtb3VudCIgdmFsdWU9e2Zvcm1hdEN1cnJlbmN5KGVudHJ5LnRpZXJJQW1vdW50KX0gLz4KICAgICAgICAgICl9CiAgICAgICAgICB7ZW50cnkubmV4dEFjdGlvbiAmJiAoCiAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iTmV4dCBBY3Rpb24iIHZhbHVlPXtlbnRyeS5uZXh0QWN0aW9ufSAvPgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAge2VudHJ5Lm5vdGVzICYmICgKICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsYWJlbC1jYXBzIG1iLTIgdGV4dC10ZXh0LW11dGVkIj5Ob3RlczwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0id2hpdGVzcGFjZS1wcmUtd3JhcCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJnLzQwIHAtMyB0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgICAgIHtlbnRyeS5ub3Rlc30KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICA8L2Rpdj4KICAgIDwvU2VjdGlvbkNhcmQ+CiAgKTsKfQoKZnVuY3Rpb24gRmllbGQoewogIGljb24sCiAgbGFiZWwsCiAgdmFsdWUsCn06IHsKICBpY29uPzogUmVhY3QuUmVhY3ROb2RlOwogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKfSkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1iZy80MCBwLTMiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibGFiZWwtY2FwcyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHRleHQtdGV4dC1tdXRlZCI+CiAgICAgICAge2ljb259CiAgICAgICAge2xhYmVsfQogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgdGV4dC10ZXh0LXByaW1hcnkiPnt2YWx1ZX08L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0K
+import { ListChecks, Calendar, Phone } from "lucide-react";
+import {
+  StatusBadge,
+  toneForPriority,
+} from "@/components/ui/StatusBadge";
+import { SectionCard, EmptySection } from "./_SectionCard";
+import { formatRelative } from "@/lib/utils/dates";
+import { formatCurrency } from "@/lib/utils/format";
+import type { PipelineEntry } from "@/lib/notion/pipeline";
+
+export function PipelineSection({
+  entry,
+  all,
+  leadId: _leadId,
+}: {
+  entry: PipelineEntry | null;
+  all: PipelineEntry[];
+  leadId: string;
+}) {
+  if (!entry) {
+    return (
+      <SectionCard icon={ListChecks} title="Pipeline" tone="accent">
+        <EmptySection message="No pipeline entry yet. Will appear once the lead is qualified or booked for a call." />
+      </SectionCard>
+    );
+  }
+
+  return (
+    <SectionCard
+      icon={ListChecks}
+      title="Pipeline"
+      count={all.length > 1 ? all.length : undefined}
+      notionId={entry.id}
+      tone="accent"
+    >
+      <div className="space-y-4">
+        <div className="flex flex-wrap items-center gap-2">
+          {entry.stage && (
+            <StatusBadge label={entry.stage} tone="info" />
+          )}
+          {entry.priority && (
+            <StatusBadge
+              label={entry.priority}
+              tone={toneForPriority(entry.priority)}
+            />
+          )}
+          {entry.callOutcome && (
+            <span className="label-caps text-text-muted">
+              {entry.callOutcome}
+            </span>
+          )}
+          {entry.stageDate && (
+            <span className="ml-auto text-xs text-text-muted">
+              In stage since {formatRelative(entry.stageDate)}
+            </span>
+          )}
+        </div>
+
+        <div className="grid grid-cols-1 gap-3 text-xs sm:grid-cols-2">
+          {entry.meetingDate && (
+            <Field
+              icon={<Calendar className="h-3.5 w-3.5" />}
+              label="Meeting Date"
+              value={new Date(entry.meetingDate).toLocaleString(undefined, {
+                weekday: "short",
+                month: "short",
+                day: "numeric",
+                hour: "numeric",
+                minute: "2-digit",
+              })}
+            />
+          )}
+          {entry.callOutcome && (
+            <Field
+              icon={<Phone className="h-3.5 w-3.5" />}
+              label="Call Outcome"
+              value={entry.callOutcome}
+            />
+          )}
+          {entry.tierIPaymentDate && (
+            <Field
+              label="Tier I Payment"
+              value={new Date(entry.tierIPaymentDate).toLocaleDateString()}
+            />
+          )}
+          {entry.tierIAmount != null && (
+            <Field label="Tier I Amount" value={formatCurrency(entry.tierIAmount)} />
+          )}
+          {entry.nextAction && (
+            <Field label="Next Action" value={entry.nextAction} />
+          )}
+        </div>
+
+        {entry.notes && (
+          <div>
+            <div className="label-caps mb-2 text-text-muted">Notes</div>
+            <div className="whitespace-pre-wrap rounded-md border border-border bg-bg/40 p-3 text-xs text-text-secondary">
+              {entry.notes}
+            </div>
+          </div>
+        )}
+      </div>
+    </SectionCard>
+  );
+}
+
+function Field({
+  icon,
+  label,
+  value,
+}: {
+  icon?: React.ReactNode;
+  label: string;
+  value: string;
+}) {
+  return (
+    <div className="rounded-md border border-border bg-bg/40 p-3">
+      <div className="label-caps flex items-center gap-1.5 text-text-muted">
+        {icon}
+        {label}
+      </div>
+      <div className="mt-1 text-text-primary">{value}</div>
+    </div>
+  );
+}

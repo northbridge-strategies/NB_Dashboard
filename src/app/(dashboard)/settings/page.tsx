@@ -1,1 +1,200 @@
-aW1wb3J0IHsgcmVkaXJlY3QgfSBmcm9tICJuZXh0L25hdmlnYXRpb24iOwppbXBvcnQgeyBVc2VycywgQ29nLCBQbHVnLCBCZWxsIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgZ2V0U2Vzc2lvbiB9IGZyb20gIkAvbGliL2F1dGgvc2Vzc2lvbiI7CmltcG9ydCB7IGxpc3RVc2VycyB9IGZyb20gIkAvbGliL2F1dGgvdXNlcnMiOwppbXBvcnQgeyBnZXRQcm9kdWN0aW9uQ29uZmlnIH0gZnJvbSAiQC9saWIvbm90aW9uL2NvbmZpZyI7CmltcG9ydCB7CiAgU3RhdHVzQmFkZ2UsCiAgdG9uZUZvckxpZmVjeWNsZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvU3RhdHVzQmFkZ2UiOwoKZXhwb3J0IGNvbnN0IGR5bmFtaWMgPSAiZm9yY2UtZHluYW1pYyI7CgpleHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBTZXR0aW5nc1BhZ2UoKSB7CiAgY29uc3QgdXNlciA9IGF3YWl0IGdldFNlc3Npb24oKTsKICBpZiAoIXVzZXIpIHJlZGlyZWN0KCIvbG9naW4iKTsKICBpZiAodXNlci5yb2xlICE9PSAiQWRtaW4iKSB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1zdXJmYWNlIHAtOCB0ZXh0LWNlbnRlciI+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQgdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICAgICAgQWNjZXNzIGRlbmllZAogICAgICAgIDwvaDI+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQtc20gdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICBTZXR0aW5ncyBhcmUgcmVzdHJpY3RlZCB0byBBZG1pbiB1c2Vycy4KICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIGNvbnN0IFt1c2VycywgY29uZmlnXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgIGxpc3RVc2VycygpLmNhdGNoKCgpID0+IFtdKSwKICAgIGdldFByb2R1Y3Rpb25Db25maWcoKS5jYXRjaCgoKSA9PiBudWxsKSwKICBdKTsKCiAgLy8gRGV0ZWN0IHdoaWNoIGVudi12YXItYmFja2VkIGludGVncmF0aW9ucyBhcmUgY29ubmVjdGVkLgogIGNvbnN0IGludGVncmF0aW9ucyA9IFsKICAgIHsgbmFtZTogIk5vdGlvbiIsIGVudjogIk5PVElPTl9UT0tFTiIgfSwKICAgIHsgbmFtZTogIk5leHRBdXRoIiwgZW52OiAiTkVYVEFVVEhfU0VDUkVUIiB9LAogICAgeyBuYW1lOiAiU3RyaXBlIiwgZW52OiAiU1RSSVBFX1NFQ1JFVF9LRVkiIH0sCiAgICB7IG5hbWU6ICJUd2lsaW8iLCBlbnY6ICJUV0lMSU9fQVVUSF9UT0tFTiIgfSwKICAgIHsgbmFtZTogIk1ha2UuY29tIiwgZW52OiAiTUFLRV9XRUJIT09LX1VSTCIgfSwKICBdOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktOCBtYXgtdy00eGwiPgogICAgICB7LyogVVNFUlMgKi99CiAgICAgIDxTZWN0aW9uIGljb249e1VzZXJzfSB0aXRsZT0iVXNlciBNYW5hZ2VtZW50Ij4KICAgICAgICA8cCBjbGFzc05hbWU9Im1iLTMgdGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgIFVzZXJzIGxpdmUgaW4gdGhlIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tb25vIj5EYXNoYm9hcmQgVXNlcnM8L3NwYW4+IE5vdGlvbgogICAgICAgICAgZGF0YWJhc2UuIEVhY2ggcGVyc29uIGNhbiBlZGl0IHRoZWlyIG93biBwcm9maWxlIGFuZCBwYXNzd29yZCBmcm9teyIgIn0KICAgICAgICAgIDxhIGhyZWY9Ii9wcm9maWxlIiBjbGFzc05hbWU9InRleHQtYnJhbmQtaW5mbyBob3Zlcjp1bmRlcmxpbmUiPgogICAgICAgICAgICAvcHJvZmlsZQogICAgICAgICAgPC9hPgogICAgICAgICAgLiBUbyBhZGQgYSBuZXcgdXNlciwgY3JlYXRlIGEgcm93IGluIE5vdGlvbiAob3IgZXh0ZW5kIHRoaXMgVUkgbGF0ZXIpLgogICAgICAgIDwvcD4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ib3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctc3VyZmFjZSI+CiAgICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJ3LWZ1bGwgdGV4dC1zbSI+CiAgICAgICAgICAgIDx0aGVhZD4KICAgICAgICAgICAgICA8dHIgY2xhc3NOYW1lPSJib3JkZXItYiBib3JkZXItYm9yZGVyIGJnLXN1cmZhY2UtZWxldmF0ZWQvNTAiPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0ibGFiZWwtY2FwcyBweC00IHB5LTIuNSB0ZXh0LWxlZnQgZm9udC1tZWRpdW0gdGV4dC10ZXh0LW11dGVkIj4KICAgICAgICAgICAgICAgICAgTmFtZQogICAgICAgICAgICAgICAgPC90aD4KICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9ImxhYmVsLWNhcHMgcHgtNCBweS0yLjUgdGV4dC1sZWZ0IGZvbnQtbWVkaXVtIHRleHQtdGV4dC1tdXRlZCI+CiAgICAgICAgICAgICAgICAgIEVtYWlsCiAgICAgICAgICAgICAgICA8L3RoPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0ibGFiZWwtY2FwcyBweC00IHB5LTIuNSB0ZXh0LWxlZnQgZm9udC1tZWRpdW0gdGV4dC10ZXh0LW11dGVkIj4KICAgICAgICAgICAgICAgICAgUm9sZQogICAgICAgICAgICAgICAgPC90aD4KICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICA8L3RoZWFkPgogICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAge3VzZXJzLm1hcCgodSkgPT4gKAogICAgICAgICAgICAgICAgPHRyIGtleT17dS5pZH0gY2xhc3NOYW1lPSJib3JkZXItYiBib3JkZXItYm9yZGVyIGxhc3Q6Ym9yZGVyLTAiPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTMgZm9udC1tZWRpdW0gdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAgICAgIHt1Lm5hbWV9CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij57dS5lbWFpbH08L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTMiPgogICAgICAgICAgICAgICAgICAgIDxTdGF0dXNCYWRnZSBsYWJlbD17dS5yb2xlfSB0b25lPXt0b25lRm9yTGlmZWN5Y2xlKHUucm9sZSl9IC8+CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgPC90YWJsZT4KICAgICAgICA8L2Rpdj4KICAgICAgPC9TZWN0aW9uPgoKICAgICAgey8qIFNZU1RFTSBDT05GSUcgKi99CiAgICAgIDxTZWN0aW9uIGljb249e0NvZ30gdGl0bGU9IlN5c3RlbSBDb25maWciPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIGdhcC00IHNtOmdyaWQtY29scy0zIj4KICAgICAgICAgIDxDb25maWdUaWxlCiAgICAgICAgICAgIGxhYmVsPSJHbG9iYWwgUGF1c2UiCiAgICAgICAgICAgIHZhbHVlPXtjb25maWcgPyAoY29uZmlnLmdsb2JhbFBhdXNlID8gIlBhdXNlZCIgOiAiUnVubmluZyIpIDogIuKAlCJ9CiAgICAgICAgICAgIHRvbmU9e2NvbmZpZz8uZ2xvYmFsUGF1c2UgPyAiZGFuZ2VyIiA6ICJzdWNjZXNzIn0KICAgICAgICAgIC8+CiAgICAgICAgICA8Q29uZmlnVGlsZQogICAgICAgICAgICBsYWJlbD0iTGFzdCBQYXVzZSBFdmVudCIKICAgICAgICAgICAgdmFsdWU9ewogICAgICAgICAgICAgIGNvbmZpZz8ubGFzdFBhdXNlRXZlbnQKICAgICAgICAgICAgICAgID8gbmV3IERhdGUoY29uZmlnLmxhc3RQYXVzZUV2ZW50KS50b0xvY2FsZVN0cmluZygpCiAgICAgICAgICAgICAgICA6ICLigJQiCiAgICAgICAgICAgIH0KICAgICAgICAgIC8+CiAgICAgICAgICA8Q29uZmlnVGlsZQogICAgICAgICAgICBsYWJlbD0iTGFzdCBSZXN1bWUgRXZlbnQiCiAgICAgICAgICAgIHZhbHVlPXsKICAgICAgICAgICAgICBjb25maWc/Lmxhc3RSZXN1bWVFdmVudAogICAgICAgICAgICAgICAgPyBuZXcgRGF0ZShjb25maWcubGFzdFJlc3VtZUV2ZW50KS50b0xvY2FsZVN0cmluZygpCiAgICAgICAgICAgICAgICA6ICLigJQiCiAgICAgICAgICAgIH0KICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvU2VjdGlvbj4KCiAgICAgIHsvKiBBUEkgU1RBVFVTICovfQogICAgICA8U2VjdGlvbiBpY29uPXtQbHVnfSB0aXRsZT0iQVBJIFN0YXR1cyI+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJtYi0zIHRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICBDb25uZWN0aW9uIHN0YXRlIGlzIGluZmVycmVkIGZyb20gZW52aXJvbm1lbnQgdmFyaWFibGVzLiBBIGNvbm5lY3RlZAogICAgICAgICAgaW50ZWdyYXRpb24gbWVhbnMgYSB0b2tlbi9zZWNyZXQgaXMgc2V0IGluIHRoaXMgZW52aXJvbm1lbnQg4oCUIGl0IGRvZXMKICAgICAgICAgIG5vdCB2YWxpZGF0ZSB0aGUgY3JlZGVudGlhbC4KICAgICAgICA8L3A+CiAgICAgICAgPHVsIGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBnYXAtMiBzbTpncmlkLWNvbHMtMiI+CiAgICAgICAgICB7aW50ZWdyYXRpb25zLm1hcCgoaSkgPT4gewogICAgICAgICAgICBjb25zdCBjb25uZWN0ZWQgPSBCb29sZWFuKHByb2Nlc3MuZW52W2kuZW52XSk7CiAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgPGxpCiAgICAgICAgICAgICAgICBrZXk9e2kubmFtZX0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctc3VyZmFjZSBweC00IHB5LTMiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAgICAgIHtpLm5hbWV9CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQteHMgdGV4dC10ZXh0LW11dGVkIj4KICAgICAgICAgICAgICAgICAgICB7aS5lbnZ9CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8U3RhdHVzQmFkZ2UKICAgICAgICAgICAgICAgICAgbGFiZWw9e2Nvbm5lY3RlZCA/ICJDb25uZWN0ZWQiIDogIk5vdCBjb25maWd1cmVkIn0KICAgICAgICAgICAgICAgICAgdG9uZT17Y29ubmVjdGVkID8gInN1Y2Nlc3MiIDogIm11dGVkIn0KICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgKTsKICAgICAgICAgIH0pfQogICAgICAgIDwvdWw+CiAgICAgIDwvU2VjdGlvbj4KCiAgICAgIHsvKiBOT1RJRklDQVRJT04gUFJFRlMgKi99CiAgICAgIDxTZWN0aW9uIGljb249e0JlbGx9IHRpdGxlPSJOb3RpZmljYXRpb24gUHJlZmVyZW5jZXMiPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgIE5vdGlmaWNhdGlvbiByb3V0aW5nIChEb3VnJmFwb3M7cyBtb2JpbGUgZm9yIFNNUywgZW1haWwgZm9yIGNyaXRpY2FsCiAgICAgICAgICBhbGVydHMpIGlzIGNvbmZpZ3VyZWQgaW4gTWFrZS5jb20gc2NlbmFyaW8gc2V0dGluZ3MsIG5vdCBoZXJlLiBUaGlzCiAgICAgICAgICBwYW5lbCBpcyByZXNlcnZlZCBmb3IgZnV0dXJlIHBlci11c2VyIGRhc2hib2FyZCBwcmVmZXJlbmNlcy4KICAgICAgICA8L3A+CiAgICAgIDwvU2VjdGlvbj4KICAgIDwvZGl2PgogICk7Cn0KCmZ1bmN0aW9uIFNlY3Rpb24oewogIGljb246IEljb24sCiAgdGl0bGUsCiAgY2hpbGRyZW4sCn06IHsKICBpY29uOiB0eXBlb2YgVXNlcnM7CiAgdGl0bGU6IHN0cmluZzsKICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlOwp9KSB7CiAgcmV0dXJuICgKICAgIDxzZWN0aW9uPgogICAgICA8aDIgY2xhc3NOYW1lPSJtYi0zIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtYmFzZSBmb250LXNlbWlib2xkIHRleHQtdGV4dC1wcmltYXJ5Ij4KICAgICAgICA8SWNvbiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAge3RpdGxlfQogICAgICA8L2gyPgogICAgICB7Y2hpbGRyZW59CiAgICA8L3NlY3Rpb24+CiAgKTsKfQoKZnVuY3Rpb24gQ29uZmlnVGlsZSh7CiAgbGFiZWwsCiAgdmFsdWUsCiAgdG9uZSA9ICJkZWZhdWx0IiwKfTogewogIGxhYmVsOiBzdHJpbmc7CiAgdmFsdWU6IHN0cmluZzsKICB0b25lPzogImRlZmF1bHQiIHwgInN1Y2Nlc3MiIHwgImRhbmdlciI7Cn0pIHsKICBjb25zdCBjb2xvckNsYXNzID0KICAgIHRvbmUgPT09ICJzdWNjZXNzIgogICAgICA/ICJ0ZXh0LWJyYW5kLXN1Y2Nlc3MiCiAgICAgIDogdG9uZSA9PT0gImRhbmdlciIKICAgICAgPyAidGV4dC1icmFuZC1kYW5nZXIiCiAgICAgIDogInRleHQtdGV4dC1wcmltYXJ5IjsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctc3VyZmFjZSBwLTQiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibGFiZWwtY2FwcyB0ZXh0LXRleHQtbXV0ZWQiPntsYWJlbH08L2Rpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9eyJtdC0yIHRleHQtc20gZm9udC1tZWRpdW0gIiArIGNvbG9yQ2xhc3N9Pnt2YWx1ZX08L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0K
+import { redirect } from "next/navigation";
+import { Users, Cog, Plug, Bell } from "lucide-react";
+import { getSession } from "@/lib/auth/session";
+import { listUsers } from "@/lib/auth/users";
+import { getProductionConfig } from "@/lib/notion/config";
+import {
+  StatusBadge,
+  toneForLifecycle,
+} from "@/components/ui/StatusBadge";
+
+export const dynamic = "force-dynamic";
+
+export default async function SettingsPage() {
+  const user = await getSession();
+  if (!user) redirect("/login");
+  if (user.role !== "Admin") {
+    return (
+      <div className="rounded-lg border border-border bg-surface p-8 text-center">
+        <h2 className="text-base font-semibold text-text-primary">
+          Access denied
+        </h2>
+        <p className="mt-2 text-sm text-text-secondary">
+          Settings are restricted to Admin users.
+        </p>
+      </div>
+    );
+  }
+
+  const [users, config] = await Promise.all([
+    listUsers().catch(() => []),
+    getProductionConfig().catch(() => null),
+  ]);
+
+  // Detect which env-var-backed integrations are connected.
+  const integrations = [
+    { name: "Notion", env: "NOTION_TOKEN" },
+    { name: "NextAuth", env: "NEXTAUTH_SECRET" },
+    { name: "Stripe", env: "STRIPE_SECRET_KEY" },
+    { name: "Twilio", env: "TWILIO_AUTH_TOKEN" },
+    { name: "Make.com", env: "MAKE_WEBHOOK_URL" },
+  ];
+
+  return (
+    <div className="space-y-8 max-w-4xl">
+      {/* USERS */}
+      <Section icon={Users} title="User Management">
+        <p className="mb-3 text-xs text-text-secondary">
+          Users live in the <span className="font-mono">Dashboard Users</span> Notion
+          database. Each person can edit their own profile and password from{" "}
+          <a href="/profile" className="text-brand-info hover:underline">
+            /profile
+          </a>
+          . To add a new user, create a row in Notion (or extend this UI later).
+        </p>
+        <div className="overflow-hidden rounded-xl border border-border bg-surface">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border bg-surface-elevated/50">
+                <th className="label-caps px-4 py-2.5 text-left font-medium text-text-muted">
+                  Name
+                </th>
+                <th className="label-caps px-4 py-2.5 text-left font-medium text-text-muted">
+                  Email
+                </th>
+                <th className="label-caps px-4 py-2.5 text-left font-medium text-text-muted">
+                  Role
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {users.map((u) => (
+                <tr key={u.id} className="border-b border-border last:border-0">
+                  <td className="px-4 py-3 font-medium text-text-primary">
+                    {u.name}
+                  </td>
+                  <td className="px-4 py-3 text-text-secondary">{u.email}</td>
+                  <td className="px-4 py-3">
+                    <StatusBadge label={u.role} tone={toneForLifecycle(u.role)} />
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </Section>
+
+      {/* SYSTEM CONFIG */}
+      <Section icon={Cog} title="System Config">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <ConfigTile
+            label="Global Pause"
+            value={config ? (config.globalPause ? "Paused" : "Running") : "—"}
+            tone={config?.globalPause ? "danger" : "success"}
+          />
+          <ConfigTile
+            label="Last Pause Event"
+            value={
+              config?.lastPauseEvent
+                ? new Date(config.lastPauseEvent).toLocaleString()
+                : "—"
+            }
+          />
+          <ConfigTile
+            label="Last Resume Event"
+            value={
+              config?.lastResumeEvent
+                ? new Date(config.lastResumeEvent).toLocaleString()
+                : "—"
+            }
+          />
+        </div>
+      </Section>
+
+      {/* API STATUS */}
+      <Section icon={Plug} title="API Status">
+        <p className="mb-3 text-xs text-text-secondary">
+          Connection state is inferred from environment variables. A connected
+          integration means a token/secret is set in this environment — it does
+          not validate the credential.
+        </p>
+        <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+          {integrations.map((i) => {
+            const connected = Boolean(process.env[i.env]);
+            return (
+              <li
+                key={i.name}
+                className="flex items-center justify-between rounded-md border border-border bg-surface px-4 py-3"
+              >
+                <div>
+                  <div className="text-sm font-medium text-text-primary">
+                    {i.name}
+                  </div>
+                  <div className="font-mono text-xs text-text-muted">
+                    {i.env}
+                  </div>
+                </div>
+                <StatusBadge
+                  label={connected ? "Connected" : "Not configured"}
+                  tone={connected ? "success" : "muted"}
+                />
+              </li>
+            );
+          })}
+        </ul>
+      </Section>
+
+      {/* NOTIFICATION PREFS */}
+      <Section icon={Bell} title="Notification Preferences">
+        <p className="text-xs text-text-secondary">
+          Notification routing (Doug&apos;s mobile for SMS, email for critical
+          alerts) is configured in Make.com scenario settings, not here. This
+          panel is reserved for future per-user dashboard preferences.
+        </p>
+      </Section>
+    </div>
+  );
+}
+
+function Section({
+  icon: Icon,
+  title,
+  children,
+}: {
+  icon: typeof Users;
+  title: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <section>
+      <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-text-primary">
+        <Icon className="h-4 w-4" />
+        {title}
+      </h2>
+      {children}
+    </section>
+  );
+}
+
+function ConfigTile({
+  label,
+  value,
+  tone = "default",
+}: {
+  label: string;
+  value: string;
+  tone?: "default" | "success" | "danger";
+}) {
+  const colorClass =
+    tone === "success"
+      ? "text-brand-success"
+      : tone === "danger"
+      ? "text-brand-danger"
+      : "text-text-primary";
+  return (
+    <div className="rounded-xl border border-border bg-surface p-4">
+      <div className="label-caps text-text-muted">{label}</div>
+      <div className={"mt-2 text-sm font-medium " + colorClass}>{value}</div>
+    </div>
+  );
+}

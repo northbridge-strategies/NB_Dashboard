@@ -1,1 +1,12 @@
-ZXhwb3J0IHR5cGUgUm9sZSA9ICJBZG1pbiIgfCAiU3RhZmYiIHwgIkNsaWVudCI7CgpleHBvcnQgaW50ZXJmYWNlIFNlc3Npb25Vc2VyIHsKICBpZDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICBlbWFpbDogc3RyaW5nOwogIHJvbGU6IFJvbGU7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgU3RvcmVkVXNlciBleHRlbmRzIFNlc3Npb25Vc2VyIHsKICBwYXNzd29yZEhhc2g6IHN0cmluZzsKfQo=
+export type Role = "Admin" | "Staff" | "Client";
+
+export interface SessionUser {
+  id: string;
+  name: string;
+  email: string;
+  role: Role;
+}
+
+export interface StoredUser extends SessionUser {
+  passwordHash: string;
+}

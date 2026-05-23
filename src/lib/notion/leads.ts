@@ -1,1 +1,265 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IG5vdGlvbiB9IGZyb20gIi4vY2xpZW50IjsKaW1wb3J0IHsgREIgfSBmcm9tICIuL2lkcyI7CmltcG9ydCB7IGNhY2hlZCwgVEFHIH0gZnJvbSAiLi9jYWNoZSI7CmltcG9ydCB7CiAgZ2V0Q2hlY2tib3gsCiAgZ2V0RGF0ZSwKICBnZXRFbWFpbCwKICBnZXRQaG9uZSwKICBnZXRSaWNoVGV4dCwKICBnZXRSb2xsdXBTZWxlY3QsCiAgZ2V0U2VsZWN0LAogIGdldFRpdGxlLAogIGlzRnVsbFBhZ2UsCiAgdHlwZSBQYWdlLAp9IGZyb20gIi4vcGFyc2VycyI7CmltcG9ydCB0eXBlIHsgQWN0aXZpdHlJdGVtLCBMaWZlY3ljbGVTdGF0ZSwgUHJpb3JpdHkgfSBmcm9tICJAL2xpYi90eXBlcy9kb21haW4iOwppbXBvcnQgeyBkYXlzQWdvLCB0b0lTTyB9IGZyb20gIkAvbGliL3V0aWxzL2RhdGVzIjsKCmV4cG9ydCBpbnRlcmZhY2UgTGVhZCB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgZmlyc3ROYW1lOiBzdHJpbmc7CiAgbGFzdE5hbWU6IHN0cmluZzsKICBlbWFpbDogc3RyaW5nIHwgbnVsbDsKICBwaG9uZTogc3RyaW5nIHwgbnVsbDsKICBjb21wYW55OiBzdHJpbmc7CiAgaW5kdXN0cnk6IHN0cmluZyB8IG51bGw7CiAgcmV2ZW51ZVJhbmdlOiBzdHJpbmcgfCBudWxsOwogIGxpZmVjeWNsZVN0YXRlOiBMaWZlY3ljbGVTdGF0ZSB8IG51bGw7CiAgc291cmNlOiBzdHJpbmcgfCBudWxsOwogIHRyYWZmaWNTb3VyY2U6IHN0cmluZyB8IG51bGw7CiAgcHJpb3JpdHk6IFByaW9yaXR5IHwgbnVsbDsgICAgICAgLy8gRnJvbSByb2xsdXAgb3ZlciDwn5KwIFBpcGVsaW5lIHJlbGF0aW9uCiAgbGFzdEFjdGl2aXR5RGF0ZTogc3RyaW5nIHwgbnVsbDsKICBsYXN0Q29udGFjdGVkOiBzdHJpbmcgfCBudWxsOwogIGRvdWdOb3RpZmllZDogYm9vbGVhbjsKICBjcmVhdGVkVGltZTogc3RyaW5nOwogIGxhc3RFZGl0ZWRUaW1lOiBzdHJpbmc7Cn0KCmV4cG9ydCBmdW5jdGlvbiBwYXJzZUxlYWQocGFnZTogUGFnZSk6IExlYWQgewogIHJldHVybiB7CiAgICBpZDogcGFnZS5pZCwKICAgIG5hbWU6IGdldFRpdGxlKHBhZ2UsICJMZWFkIE5hbWUiKSwKICAgIGZpcnN0TmFtZTogZ2V0UmljaFRleHQocGFnZSwgIkZpcnN0IE5hbWUiKSwKICAgIGxhc3ROYW1lOiBnZXRSaWNoVGV4dChwYWdlLCAiTGFzdCBOYW1lIiksCiAgICBlbWFpbDogZ2V0RW1haWwocGFnZSwgIkVtYWlsIiksCiAgICBwaG9uZTogZ2V0UGhvbmUocGFnZSwgIlBob25lIiksCiAgICBjb21wYW55OiBnZXRSaWNoVGV4dChwYWdlLCAiQ29tcGFueSIpLAogICAgaW5kdXN0cnk6IGdldFNlbGVjdChwYWdlLCAiSW5kdXN0cnkiKSwKICAgIHJldmVudWVSYW5nZTogZ2V0U2VsZWN0KHBhZ2UsICJSZXZlbnVlIFJhbmdlIiksCiAgICBsaWZlY3ljbGVTdGF0ZTogZ2V0U2VsZWN0KHBhZ2UsICJMaWZlY3ljbGUgU3RhdGUiKSBhcyBMaWZlY3ljbGVTdGF0ZSB8IG51bGwsCiAgICBzb3VyY2U6IGdldFNlbGVjdChwYWdlLCAiU291cmNlIiksCiAgICB0cmFmZmljU291cmNlOiBnZXRTZWxlY3QocGFnZSwgIlRyYWZmaWMgU291cmNlIiksCiAgICBwcmlvcml0eTogZ2V0Um9sbHVwU2VsZWN0KHBhZ2UsICJQcmlvcml0eSIpIGFzIFByaW9yaXR5IHwgbnVsbCwKICAgIGxhc3RBY3Rpdml0eURhdGU6IGdldERhdGUocGFnZSwgIkxhc3QgQWN0aXZpdHkgRGF0ZSIpLAogICAgbGFzdENvbnRhY3RlZDogZ2V0RGF0ZShwYWdlLCAiTGFzdCBDb250YWN0ZWQiKSwKICAgIGRvdWdOb3RpZmllZDogZ2V0Q2hlY2tib3gocGFnZSwgIkRvdWcgTm90aWZpZWQiKSwKICAgIGNyZWF0ZWRUaW1lOiBwYWdlLmNyZWF0ZWRfdGltZSwKICAgIGxhc3RFZGl0ZWRUaW1lOiBwYWdlLmxhc3RfZWRpdGVkX3RpbWUsCiAgfTsKfQoKY29uc3QgVEVSTUlOQUxfTElGRUNZQ0xFOiBMaWZlY3ljbGVTdGF0ZVtdID0gWyJDb21wbGV0ZSIsICJDbG9zZWQgTG9zdCJdOwoKZXhwb3J0IGNvbnN0IGxpc3RBbGxMZWFkcyA9IGNhY2hlZCgKICBhc3luYyAoKTogUHJvbWlzZTxMZWFkW10+ID0+IHsKICAgIGNvbnN0IHJlc3VsdHM6IExlYWRbXSA9IFtdOwogICAgbGV0IGN1cnNvcjogc3RyaW5nIHwgdW5kZWZpbmVkOwogICAgZG8gewogICAgICBjb25zdCByZXMgPSBhd2FpdCBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgICAgICBkYXRhYmFzZV9pZDogREIubGVhZHMsCiAgICAgICAgcGFnZV9zaXplOiAxMDAsCiAgICAgICAgc3RhcnRfY3Vyc29yOiBjdXJzb3IsCiAgICAgICAgc29ydHM6IFt7IHRpbWVzdGFtcDogImxhc3RfZWRpdGVkX3RpbWUiLCBkaXJlY3Rpb246ICJkZXNjZW5kaW5nIiB9XSwKICAgICAgfSk7CiAgICAgIGZvciAoY29uc3QgcGFnZSBvZiByZXMucmVzdWx0cykgewogICAgICAgIGlmICghaXNGdWxsUGFnZShwYWdlKSkgY29udGludWU7CiAgICAgICAgcmVzdWx0cy5wdXNoKHBhcnNlTGVhZChwYWdlKSk7CiAgICAgIH0KICAgICAgY3Vyc29yID0gcmVzLmhhc19tb3JlID8gKHJlcy5uZXh0X2N1cnNvciA/PyB1bmRlZmluZWQpIDogdW5kZWZpbmVkOwogICAgfSB3aGlsZSAoY3Vyc29yKTsKICAgIHJldHVybiByZXN1bHRzOwogIH0sCiAgWyJsZWFkczphbGwiXSwKICB7IHRhZ3M6IFtUQUcubGVhZHNdIH0sCik7CgpleHBvcnQgY29uc3QgbGlzdEFjdGl2ZUxlYWRzID0gY2FjaGVkKAogIGFzeW5jICgpOiBQcm9taXNlPExlYWRbXT4gPT4gewogICAgY29uc3QgcmVzdWx0czogTGVhZFtdID0gW107CiAgICBsZXQgY3Vyc29yOiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgICBkbyB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgICAgIGRhdGFiYXNlX2lkOiBEQi5sZWFkcywKICAgICAgICBwYWdlX3NpemU6IDEwMCwKICAgICAgICBzdGFydF9jdXJzb3I6IGN1cnNvciwKICAgICAgICBzb3J0czogW3sgdGltZXN0YW1wOiAibGFzdF9lZGl0ZWRfdGltZSIsIGRpcmVjdGlvbjogImRlc2NlbmRpbmciIH1dLAogICAgICB9KTsKICAgICAgZm9yIChjb25zdCBwYWdlIG9mIHJlcy5yZXN1bHRzKSB7CiAgICAgICAgaWYgKCFpc0Z1bGxQYWdlKHBhZ2UpKSBjb250aW51ZTsKICAgICAgICBjb25zdCBsZWFkID0gcGFyc2VMZWFkKHBhZ2UpOwogICAgICAgIGlmICghbGVhZC5saWZlY3ljbGVTdGF0ZSB8fCAhVEVSTUlOQUxfTElGRUNZQ0xFLmluY2x1ZGVzKGxlYWQubGlmZWN5Y2xlU3RhdGUpKSB7CiAgICAgICAgICByZXN1bHRzLnB1c2gobGVhZCk7CiAgICAgICAgfQogICAgICB9CiAgICAgIGN1cnNvciA9IHJlcy5oYXNfbW9yZSA/IChyZXMubmV4dF9jdXJzb3IgPz8gdW5kZWZpbmVkKSA6IHVuZGVmaW5lZDsKICAgIH0gd2hpbGUgKGN1cnNvcik7CiAgICByZXR1cm4gcmVzdWx0czsKICB9LAogIFsibGVhZHM6YWN0aXZlIl0sCiAgeyB0YWdzOiBbVEFHLmxlYWRzXSB9LAopOwoKZXhwb3J0IGNvbnN0IGxpc3RIb3RMZWFkcyA9IGNhY2hlZCgKICBhc3luYyAoKTogUHJvbWlzZTxMZWFkW10+ID0+IHsKICAgIC8vIFNpbmdsZS1EQiBxdWVyeSB0aGFua3MgdG8gdGhlIGBQcmlvcml0eWAgcm9sbHVwIGFkZGVkIGJ5IG1pZ3JhdGlvbiB2MS4KICAgIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgICBkYXRhYmFzZV9pZDogREIubGVhZHMsCiAgICAgIGZpbHRlcjogewogICAgICAgIGFuZDogWwogICAgICAgICAgewogICAgICAgICAgICBwcm9wZXJ0eTogIlByaW9yaXR5IiwKICAgICAgICAgICAgcm9sbHVwOiB7CiAgICAgICAgICAgICAgYW55OiB7IHNlbGVjdDogeyBlcXVhbHM6ICJIb3QiIH0gfSwKICAgICAgICAgICAgfSwKICAgICAgICAgIH0sCiAgICAgICAgICB7CiAgICAgICAgICAgIHByb3BlcnR5OiAiTGlmZWN5Y2xlIFN0YXRlIiwKICAgICAgICAgICAgc2VsZWN0OiB7IGRvZXNfbm90X2VxdWFsOiAiQ2xvc2VkIExvc3QiIH0sCiAgICAgICAgICB9LAogICAgICAgICAgewogICAgICAgICAgICBwcm9wZXJ0eTogIkxpZmVjeWNsZSBTdGF0ZSIsCiAgICAgICAgICAgIHNlbGVjdDogeyBkb2VzX25vdF9lcXVhbDogIkNvbXBsZXRlIiB9LAogICAgICAgICAgfSwKICAgICAgICBdLAogICAgICB9LAogICAgICBzb3J0czogW3sgcHJvcGVydHk6ICJMYXN0IEFjdGl2aXR5IERhdGUiLCBkaXJlY3Rpb246ICJkZXNjZW5kaW5nIiB9XSwKICAgICAgcGFnZV9zaXplOiAxMDAsCiAgICB9KTsKICAgIHJldHVybiByZXMucmVzdWx0cy5maWx0ZXIoaXNGdWxsUGFnZSkubWFwKHBhcnNlTGVhZCk7CiAgfSwKICBbImxlYWRzOmhvdCJdLAogIHsgdGFnczogW1RBRy5sZWFkc10gfSwKKTsKCmV4cG9ydCBjb25zdCBjb3VudEhvdExlYWRzID0gY2FjaGVkKAogIGFzeW5jICgpOiBQcm9taXNlPG51bWJlcj4gPT4gewogICAgbGV0IGNvdW50ID0gMDsKICAgIGxldCBjdXJzb3I6IHN0cmluZyB8IHVuZGVmaW5lZDsKICAgIGRvIHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgbm90aW9uLmRhdGFiYXNlcy5xdWVyeSh7CiAgICAgICAgZGF0YWJhc2VfaWQ6IERCLmxlYWRzLAogICAgICAgIHBhZ2Vfc2l6ZTogMTAwLAogICAgICAgIHN0YXJ0X2N1cnNvcjogY3Vyc29yLAogICAgICAgIGZpbHRlcjogewogICAgICAgICAgcHJvcGVydHk6ICJQcmlvcml0eSIsCiAgICAgICAgICByb2xsdXA6IHsgYW55OiB7IHNlbGVjdDogeyBlcXVhbHM6ICJIb3QiIH0gfSB9LAogICAgICAgIH0sCiAgICAgIH0pOwogICAgICBjb3VudCArPSByZXMucmVzdWx0cy5sZW5ndGg7CiAgICAgIGN1cnNvciA9IHJlcy5oYXNfbW9yZSA/IChyZXMubmV4dF9jdXJzb3IgPz8gdW5kZWZpbmVkKSA6IHVuZGVmaW5lZDsKICAgIH0gd2hpbGUgKGN1cnNvcik7CiAgICByZXR1cm4gY291bnQ7CiAgfSwKICBbImxlYWRzOmNvdW50LWhvdCJdLAogIHsgdGFnczogW1RBRy5sZWFkc10gfSwKKTsKCmV4cG9ydCBjb25zdCBjb3VudEFjdGl2ZUxlYWRzID0gY2FjaGVkKAogIGFzeW5jICgpOiBQcm9taXNlPG51bWJlcj4gPT4gewogICAgbGV0IGNvdW50ID0gMDsKICAgIGxldCBjdXJzb3I6IHN0cmluZyB8IHVuZGVmaW5lZDsKICAgIGRvIHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgbm90aW9uLmRhdGFiYXNlcy5xdWVyeSh7CiAgICAgICAgZGF0YWJhc2VfaWQ6IERCLmxlYWRzLAogICAgICAgIHBhZ2Vfc2l6ZTogMTAwLAogICAgICAgIHN0YXJ0X2N1cnNvcjogY3Vyc29yLAogICAgICAgIGZpbHRlcjogewogICAgICAgICAgYW5kOiBbCiAgICAgICAgICAgIHsgcHJvcGVydHk6ICJMaWZlY3ljbGUgU3RhdGUiLCBzZWxlY3Q6IHsgZG9lc19ub3RfZXF1YWw6ICJDbG9zZWQgTG9zdCIgfSB9LAogICAgICAgICAgICB7IHByb3BlcnR5OiAiTGlmZWN5Y2xlIFN0YXRlIiwgc2VsZWN0OiB7IGRvZXNfbm90X2VxdWFsOiAiQ29tcGxldGUiIH0gfSwKICAgICAgICAgIF0sCiAgICAgICAgfSwKICAgICAgfSk7CiAgICAgIGNvdW50ICs9IHJlcy5yZXN1bHRzLmxlbmd0aDsKICAgICAgY3Vyc29yID0gcmVzLmhhc19tb3JlID8gKHJlcy5uZXh0X2N1cnNvciA/PyB1bmRlZmluZWQpIDogdW5kZWZpbmVkOwogICAgfSB3aGlsZSAoY3Vyc29yKTsKICAgIHJldHVybiBjb3VudDsKICB9LAogIFsibGVhZHM6Y291bnQtYWN0aXZlIl0sCiAgeyB0YWdzOiBbVEFHLmxlYWRzXSB9LAopOwoKLyoqCiAqIENvdW50cyBsZWFkcyBjcmVhdGVkIGluIFtzdGFydERheXNBZ28sIGVuZERheXNBZ29dIHdpbmRvdy4KICogVXNlZCBieSB0cmVuZC12cy1sYXN0LXdlZWsgc3RhdCBjYXJkcy4KICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjb3VudExlYWRzSW5SYW5nZShzdGFydERheXNBZ286IG51bWJlciwgZW5kRGF5c0FnbzogbnVtYmVyKTogUHJvbWlzZTxudW1iZXI+IHsKICBjb25zdCBzdGFydElTTyA9IHRvSVNPKGRheXNBZ28oc3RhcnREYXlzQWdvKSk7CiAgY29uc3QgZW5kSVNPID0gdG9JU08oZGF5c0FnbyhlbmREYXlzQWdvKSk7CiAgbGV0IGNvdW50ID0gMDsKICBsZXQgY3Vyc29yOiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgZG8gewogICAgY29uc3QgcmVzID0gYXdhaXQgbm90aW9uLmRhdGFiYXNlcy5xdWVyeSh7CiAgICAgIGRhdGFiYXNlX2lkOiBEQi5sZWFkcywKICAgICAgcGFnZV9zaXplOiAxMDAsCiAgICAgIHN0YXJ0X2N1cnNvcjogY3Vyc29yLAogICAgICBmaWx0ZXI6IHsKICAgICAgICBhbmQ6IFsKICAgICAgICAgIHsgdGltZXN0YW1wOiAiY3JlYXRlZF90aW1lIiwgY3JlYXRlZF90aW1lOiB7IG9uX29yX2FmdGVyOiBzdGFydElTTyB9IH0sCiAgICAgICAgICB7IHRpbWVzdGFtcDogImNyZWF0ZWRfdGltZSIsIGNyZWF0ZWRfdGltZTogeyBiZWZvcmU6IGVuZElTTyB9IH0sCiAgICAgICAgXSwKICAgICAgfSwKICAgIH0pOwogICAgY291bnQgKz0gcmVzLnJlc3VsdHMubGVuZ3RoOwogICAgY3Vyc29yID0gcmVzLmhhc19tb3JlID8gKHJlcy5uZXh0X2N1cnNvciA/PyB1bmRlZmluZWQpIDogdW5kZWZpbmVkOwogIH0gd2hpbGUgKGN1cnNvcik7CiAgcmV0dXJuIGNvdW50Owp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0TGVhZChpZDogc3RyaW5nKTogUHJvbWlzZTxMZWFkIHwgbnVsbD4gewogIGNvbnN0IHBhZ2UgPSBhd2FpdCBub3Rpb24ucGFnZXMucmV0cmlldmUoeyBwYWdlX2lkOiBpZCB9KTsKICBpZiAoIWlzRnVsbFBhZ2UocGFnZSkpIHJldHVybiBudWxsOwogIHJldHVybiBwYXJzZUxlYWQocGFnZSk7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRMZWFkTmFtZXMoaWRzOiBzdHJpbmdbXSk6IFByb21pc2U8TWFwPHN0cmluZywgc3RyaW5nPj4gewogIGNvbnN0IG1hcCA9IG5ldyBNYXA8c3RyaW5nLCBzdHJpbmc+KCk7CiAgaWYgKGlkcy5sZW5ndGggPT09IDApIHJldHVybiBtYXA7CiAgY29uc3QgdW5pcXVlID0gQXJyYXkuZnJvbShuZXcgU2V0KGlkcykpOwogIGNvbnN0IHBhZ2VzID0gYXdhaXQgUHJvbWlzZS5hbGwoCiAgICB1bmlxdWUubWFwKChpZCkgPT4gbm90aW9uLnBhZ2VzLnJldHJpZXZlKHsgcGFnZV9pZDogaWQgfSkuY2F0Y2goKCkgPT4gbnVsbCkpLAogICk7CiAgZm9yIChjb25zdCBwYWdlIG9mIHBhZ2VzKSB7CiAgICBpZiAocGFnZSAmJiBpc0Z1bGxQYWdlKHBhZ2UpKSB7CiAgICAgIG1hcC5zZXQocGFnZS5pZCwgZ2V0VGl0bGUocGFnZSwgIkxlYWQgTmFtZSIpIHx8ICIodW5uYW1lZCkiKTsKICAgIH0KICB9CiAgcmV0dXJuIG1hcDsKfQoKLyoqIE1vc3QtcmVjZW50bHktZWRpdGVkIGxlYWRzLCBmb3IgdGhlIGFjdGl2aXR5IGZlZWQuICovCmV4cG9ydCBjb25zdCByZWNlbnRMZWFkQWN0aXZpdHkgPSBjYWNoZWQoCiAgYXN5bmMgKGxpbWl0ID0gMTApOiBQcm9taXNlPEFjdGl2aXR5SXRlbVtdPiA9PiB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBub3Rpb24uZGF0YWJhc2VzLnF1ZXJ5KHsKICAgICAgZGF0YWJhc2VfaWQ6IERCLmxlYWRzLAogICAgICBwYWdlX3NpemU6IGxpbWl0LAogICAgICBzb3J0czogW3sgdGltZXN0YW1wOiAibGFzdF9lZGl0ZWRfdGltZSIsIGRpcmVjdGlvbjogImRlc2NlbmRpbmciIH1dLAogICAgfSk7CiAgICByZXR1cm4gcmVzLnJlc3VsdHMuZmlsdGVyKGlzRnVsbFBhZ2UpLm1hcCgocGFnZSkgPT4gewogICAgICBjb25zdCBsID0gcGFyc2VMZWFkKHBhZ2UpOwogICAgICByZXR1cm4gewogICAgICAgIHNvdXJjZTogImxlYWQiIGFzIGNvbnN0LAogICAgICAgIGlkOiBsLmlkLAogICAgICAgIHRpdGxlOiBsLm5hbWUgfHwgIih1bm5hbWVkIGxlYWQpIiwKICAgICAgICBkZXRhaWw6IFtsLmNvbXBhbnksIGwubGlmZWN5Y2xlU3RhdGVdLmZpbHRlcihCb29sZWFuKS5qb2luKCIgwrcgIikgfHwgIkxlYWQgdXBkYXRlZCIsCiAgICAgICAgdGltZXN0YW1wOiBsLmxhc3RFZGl0ZWRUaW1lLAogICAgICAgIGhyZWY6IGAvbGVhZHMvJHtsLmlkfWAsCiAgICAgIH07CiAgICB9KTsKICB9LAogIFsibGVhZHM6YWN0aXZpdHkiXSwKICB7IHRhZ3M6IFtUQUcubGVhZHMsIFRBRy5hY3Rpdml0eV0gfSwKKTsK
+import "server-only";
+import { notion } from "./client";
+import { DB } from "./ids";
+import { cached, TAG } from "./cache";
+import {
+  getCheckbox,
+  getDate,
+  getEmail,
+  getPhone,
+  getRichText,
+  getRollupSelect,
+  getSelect,
+  getTitle,
+  isFullPage,
+  type Page,
+} from "./parsers";
+import type { ActivityItem, LifecycleState, Priority } from "@/lib/types/domain";
+import { daysAgo, toISO } from "@/lib/utils/dates";
+
+export interface Lead {
+  id: string;
+  name: string;
+  firstName: string;
+  lastName: string;
+  email: string | null;
+  phone: string | null;
+  company: string;
+  industry: string | null;
+  revenueRange: string | null;
+  lifecycleState: LifecycleState | null;
+  source: string | null;
+  trafficSource: string | null;
+  priority: Priority | null;       // From rollup over 💰 Pipeline relation
+  lastActivityDate: string | null;
+  lastContacted: string | null;
+  dougNotified: boolean;
+  createdTime: string;
+  lastEditedTime: string;
+}
+
+export function parseLead(page: Page): Lead {
+  return {
+    id: page.id,
+    name: getTitle(page, "Lead Name"),
+    firstName: getRichText(page, "First Name"),
+    lastName: getRichText(page, "Last Name"),
+    email: getEmail(page, "Email"),
+    phone: getPhone(page, "Phone"),
+    company: getRichText(page, "Company"),
+    industry: getSelect(page, "Industry"),
+    revenueRange: getSelect(page, "Revenue Range"),
+    lifecycleState: getSelect(page, "Lifecycle State") as LifecycleState | null,
+    source: getSelect(page, "Source"),
+    trafficSource: getSelect(page, "Traffic Source"),
+    priority: getRollupSelect(page, "Priority") as Priority | null,
+    lastActivityDate: getDate(page, "Last Activity Date"),
+    lastContacted: getDate(page, "Last Contacted"),
+    dougNotified: getCheckbox(page, "Doug Notified"),
+    createdTime: page.created_time,
+    lastEditedTime: page.last_edited_time,
+  };
+}
+
+const TERMINAL_LIFECYCLE: LifecycleState[] = ["Complete", "Closed Lost"];
+
+export const listAllLeads = cached(
+  async (): Promise<Lead[]> => {
+    const results: Lead[] = [];
+    let cursor: string | undefined;
+    do {
+      const res = await notion.databases.query({
+        database_id: DB.leads,
+        page_size: 100,
+        start_cursor: cursor,
+        sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+      });
+      for (const page of res.results) {
+        if (!isFullPage(page)) continue;
+        results.push(parseLead(page));
+      }
+      cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+    } while (cursor);
+    return results;
+  },
+  ["leads:all"],
+  { tags: [TAG.leads] },
+);
+
+export const listActiveLeads = cached(
+  async (): Promise<Lead[]> => {
+    const results: Lead[] = [];
+    let cursor: string | undefined;
+    do {
+      const res = await notion.databases.query({
+        database_id: DB.leads,
+        page_size: 100,
+        start_cursor: cursor,
+        sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+      });
+      for (const page of res.results) {
+        if (!isFullPage(page)) continue;
+        const lead = parseLead(page);
+        if (!lead.lifecycleState || !TERMINAL_LIFECYCLE.includes(lead.lifecycleState)) {
+          results.push(lead);
+        }
+      }
+      cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+    } while (cursor);
+    return results;
+  },
+  ["leads:active"],
+  { tags: [TAG.leads] },
+);
+
+export const listHotLeads = cached(
+  async (): Promise<Lead[]> => {
+    // Single-DB query thanks to the `Priority` rollup added by migration v1.
+    const res = await notion.databases.query({
+      database_id: DB.leads,
+      filter: {
+        and: [
+          {
+            property: "Priority",
+            rollup: {
+              any: { select: { equals: "Hot" } },
+            },
+          },
+          {
+            property: "Lifecycle State",
+            select: { does_not_equal: "Closed Lost" },
+          },
+          {
+            property: "Lifecycle State",
+            select: { does_not_equal: "Complete" },
+          },
+        ],
+      },
+      sorts: [{ property: "Last Activity Date", direction: "descending" }],
+      page_size: 100,
+    });
+    return res.results.filter(isFullPage).map(parseLead);
+  },
+  ["leads:hot"],
+  { tags: [TAG.leads] },
+);
+
+export const countHotLeads = cached(
+  async (): Promise<number> => {
+    let count = 0;
+    let cursor: string | undefined;
+    do {
+      const res = await notion.databases.query({
+        database_id: DB.leads,
+        page_size: 100,
+        start_cursor: cursor,
+        filter: {
+          property: "Priority",
+          rollup: { any: { select: { equals: "Hot" } } },
+        },
+      });
+      count += res.results.length;
+      cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+    } while (cursor);
+    return count;
+  },
+  ["leads:count-hot"],
+  { tags: [TAG.leads] },
+);
+
+export const countActiveLeads = cached(
+  async (): Promise<number> => {
+    let count = 0;
+    let cursor: string | undefined;
+    do {
+      const res = await notion.databases.query({
+        database_id: DB.leads,
+        page_size: 100,
+        start_cursor: cursor,
+        filter: {
+          and: [
+            { property: "Lifecycle State", select: { does_not_equal: "Closed Lost" } },
+            { property: "Lifecycle State", select: { does_not_equal: "Complete" } },
+          ],
+        },
+      });
+      count += res.results.length;
+      cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+    } while (cursor);
+    return count;
+  },
+  ["leads:count-active"],
+  { tags: [TAG.leads] },
+);
+
+/**
+ * Counts leads created in [startDaysAgo, endDaysAgo] window.
+ * Used by trend-vs-last-week stat cards.
+ */
+export async function countLeadsInRange(startDaysAgo: number, endDaysAgo: number): Promise<number> {
+  const startISO = toISO(daysAgo(startDaysAgo));
+  const endISO = toISO(daysAgo(endDaysAgo));
+  let count = 0;
+  let cursor: string | undefined;
+  do {
+    const res = await notion.databases.query({
+      database_id: DB.leads,
+      page_size: 100,
+      start_cursor: cursor,
+      filter: {
+        and: [
+          { timestamp: "created_time", created_time: { on_or_after: startISO } },
+          { timestamp: "created_time", created_time: { before: endISO } },
+        ],
+      },
+    });
+    count += res.results.length;
+    cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+  } while (cursor);
+  return count;
+}
+
+export async function getLead(id: string): Promise<Lead | null> {
+  const page = await notion.pages.retrieve({ page_id: id });
+  if (!isFullPage(page)) return null;
+  return parseLead(page);
+}
+
+export async function getLeadNames(ids: string[]): Promise<Map<string, string>> {
+  const map = new Map<string, string>();
+  if (ids.length === 0) return map;
+  const unique = Array.from(new Set(ids));
+  const pages = await Promise.all(
+    unique.map((id) => notion.pages.retrieve({ page_id: id }).catch(() => null)),
+  );
+  for (const page of pages) {
+    if (page && isFullPage(page)) {
+      map.set(page.id, getTitle(page, "Lead Name") || "(unnamed)");
+    }
+  }
+  return map;
+}
+
+/** Most-recently-edited leads, for the activity feed. */
+export const recentLeadActivity = cached(
+  async (limit = 10): Promise<ActivityItem[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.leads,
+      page_size: limit,
+      sorts: [{ timestamp: "last_edited_time", direction: "descending" }],
+    });
+    return res.results.filter(isFullPage).map((page) => {
+      const l = parseLead(page);
+      return {
+        source: "lead" as const,
+        id: l.id,
+        title: l.name || "(unnamed lead)",
+        detail: [l.company, l.lifecycleState].filter(Boolean).join(" · ") || "Lead updated",
+        timestamp: l.lastEditedTime,
+        href: `/leads/${l.id}`,
+      };
+    });
+  },
+  ["leads:activity"],
+  { tags: [TAG.leads, TAG.activity] },
+);

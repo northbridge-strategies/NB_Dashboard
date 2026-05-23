@@ -1,1 +1,8 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IENsaWVudCB9IGZyb20gIkBub3Rpb25ocS9jbGllbnQiOwoKaWYgKCFwcm9jZXNzLmVudi5OT1RJT05fVE9LRU4pIHsKICB0aHJvdyBuZXcgRXJyb3IoIk5PVElPTl9UT0tFTiBpcyBub3Qgc2V0Iik7Cn0KCmV4cG9ydCBjb25zdCBub3Rpb24gPSBuZXcgQ2xpZW50KHsgYXV0aDogcHJvY2Vzcy5lbnYuTk9USU9OX1RPS0VOIH0pOwo=
+import "server-only";
+import { Client } from "@notionhq/client";
+
+if (!process.env.NOTION_TOKEN) {
+  throw new Error("NOTION_TOKEN is not set");
+}
+
+export const notion = new Client({ auth: process.env.NOTION_TOKEN });

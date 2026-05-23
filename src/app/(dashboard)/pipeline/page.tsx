@@ -1,1 +1,55 @@
-aW1wb3J0IHsgS2FuYmFuQm9hcmQsIHR5cGUgS2FuYmFuTGVhZEluZm8gfSBmcm9tICJAL2NvbXBvbmVudHMvcGlwZWxpbmUvS2FuYmFuQm9hcmQiOwppbXBvcnQgeyBFcnJvclN0YXRlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N0YXRlcyI7CmltcG9ydCB7IGxpc3RQaXBlbGluZSB9IGZyb20gIkAvbGliL25vdGlvbi9waXBlbGluZSI7CmltcG9ydCB7IGxpc3RBbGxMZWFkcyB9IGZyb20gIkAvbGliL25vdGlvbi9sZWFkcyI7CmltcG9ydCB7IGxpc3RTY29yZXMgfSBmcm9tICJAL2xpYi9ub3Rpb24vc2NvcmVzIjsKCmV4cG9ydCBjb25zdCByZXZhbGlkYXRlID0gMzA7CgpleHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBQaXBlbGluZVBhZ2UoKSB7CiAgY29uc3QgW2VudHJpZXNSLCBsZWFkc1IsIHNjb3Jlc1JdID0gYXdhaXQgUHJvbWlzZS5hbGxTZXR0bGVkKFsKICAgIGxpc3RQaXBlbGluZSgpLAogICAgbGlzdEFsbExlYWRzKCksCiAgICBsaXN0U2NvcmVzKCksCiAgXSk7CgogIGlmIChlbnRyaWVzUi5zdGF0dXMgPT09ICJyZWplY3RlZCIpIHsKICAgIHJldHVybiAoCiAgICAgIDxFcnJvclN0YXRlCiAgICAgICAgdGl0bGU9IlBpcGVsaW5lIGZhaWxlZCB0byBsb2FkIgogICAgICAgIGRlc2NyaXB0aW9uPSJDb3VsZCBub3QgZmV0Y2ggZnJvbSBOb3Rpb24uIFRyeSByZWZyZXNoaW5nLiIKICAgICAgLz4KICAgICk7CiAgfQoKICBjb25zdCBlbnRyaWVzID0gZW50cmllc1IudmFsdWU7CiAgY29uc3QgbGVhZHMgPSBsZWFkc1Iuc3RhdHVzID09PSAiZnVsZmlsbGVkIiA/IGxlYWRzUi52YWx1ZSA6IFtdOwogIGNvbnN0IHNjb3JlcyA9IHNjb3Jlc1Iuc3RhdHVzID09PSAiZnVsZmlsbGVkIiA/IHNjb3Jlc1IudmFsdWUgOiBbXTsKCiAgLy8gTGF0ZXN0IHNjb3JlIHBlciBsZWFkIChEaWFnbm9zdGljIFNjb3JlcyBoYXMgYXQgbW9zdCBvbmUgY3VycmVudCBwZXIgbGVhZCwgYnV0IGJlIHNhZmUpCiAgY29uc3QgbGF0ZXN0U2NvcmVCeUxlYWQgPSBuZXcgTWFwPHN0cmluZywgKHR5cGVvZiBzY29yZXMpW251bWJlcl0+KCk7CiAgZm9yIChjb25zdCBzIG9mIHNjb3JlcykgewogICAgaWYgKCFzLmxlYWRJZCkgY29udGludWU7CiAgICBjb25zdCBwcmV2ID0gbGF0ZXN0U2NvcmVCeUxlYWQuZ2V0KHMubGVhZElkKTsKICAgIGlmICghcHJldiB8fCAocy5sYXN0RWRpdGVkVGltZSA+IHByZXYubGFzdEVkaXRlZFRpbWUpKSB7CiAgICAgIGxhdGVzdFNjb3JlQnlMZWFkLnNldChzLmxlYWRJZCwgcyk7CiAgICB9CiAgfQoKICBjb25zdCBsZWFkQnlJZCA9IG5ldyBNYXA8c3RyaW5nLCBLYW5iYW5MZWFkSW5mbz4oKTsKICBmb3IgKGNvbnN0IGxlYWQgb2YgbGVhZHMpIHsKICAgIGNvbnN0IHNjb3JlID0gbGF0ZXN0U2NvcmVCeUxlYWQuZ2V0KGxlYWQuaWQpOwogICAgbGVhZEJ5SWQuc2V0KGxlYWQuaWQsIHsKICAgICAgbmFtZTogbGVhZC5uYW1lLAogICAgICBjb21wYW55OiBsZWFkLmNvbXBhbnksCiAgICAgIHNjb3JlUGN0OiBzY29yZT8uc2NvcmVQY3QgPz8gbnVsbCwKICAgICAgY2xhc3NpZmljYXRpb246IHNjb3JlPy5jbGFzc2lmaWNhdGlvbiA/PyBudWxsLAogICAgICBlbWFpbDogbGVhZC5lbWFpbCwKICAgICAgcGhvbmU6IGxlYWQucGhvbmUsCiAgICAgIGluZHVzdHJ5OiBsZWFkLmluZHVzdHJ5LAogICAgICBsaWZlY3ljbGVTdGF0ZTogbGVhZC5saWZlY3ljbGVTdGF0ZSwKICAgIH0pOwogIH0KCiAgcmV0dXJuIDxLYW5iYW5Cb2FyZCBlbnRyaWVzPXtlbnRyaWVzfSBsZWFkQnlJZD17bGVhZEJ5SWR9IC8+Owp9Cg==
+import { KanbanBoard, type KanbanLeadInfo } from "@/components/pipeline/KanbanBoard";
+import { ErrorState } from "@/components/ui/states";
+import { listPipeline } from "@/lib/notion/pipeline";
+import { listAllLeads } from "@/lib/notion/leads";
+import { listScores } from "@/lib/notion/scores";
+
+export const revalidate = 30;
+
+export default async function PipelinePage() {
+  const [entriesR, leadsR, scoresR] = await Promise.allSettled([
+    listPipeline(),
+    listAllLeads(),
+    listScores(),
+  ]);
+
+  if (entriesR.status === "rejected") {
+    return (
+      <ErrorState
+        title="Pipeline failed to load"
+        description="Could not fetch from Notion. Try refreshing."
+      />
+    );
+  }
+
+  const entries = entriesR.value;
+  const leads = leadsR.status === "fulfilled" ? leadsR.value : [];
+  const scores = scoresR.status === "fulfilled" ? scoresR.value : [];
+
+  // Latest score per lead (Diagnostic Scores has at most one current per lead, but be safe)
+  const latestScoreByLead = new Map<string, (typeof scores)[number]>();
+  for (const s of scores) {
+    if (!s.leadId) continue;
+    const prev = latestScoreByLead.get(s.leadId);
+    if (!prev || (s.lastEditedTime > prev.lastEditedTime)) {
+      latestScoreByLead.set(s.leadId, s);
+    }
+  }
+
+  const leadById = new Map<string, KanbanLeadInfo>();
+  for (const lead of leads) {
+    const score = latestScoreByLead.get(lead.id);
+    leadById.set(lead.id, {
+      name: lead.name,
+      company: lead.company,
+      scorePct: score?.scorePct ?? null,
+      classification: score?.classification ?? null,
+      email: lead.email,
+      phone: lead.phone,
+      industry: lead.industry,
+      lifecycleState: lead.lifecycleState,
+    });
+  }
+
+  return <KanbanBoard entries={entries} leadById={leadById} />;
+}

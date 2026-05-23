@@ -1,1 +1,74 @@
-aW1wb3J0IHsgTGlua2VkaW4gfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgewogIFN0YXR1c0JhZGdlLAogIHRvbmVGb3JISVRMLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS9TdGF0dXNCYWRnZSI7CmltcG9ydCB7IFNlY3Rpb25DYXJkLCBFbXB0eVNlY3Rpb24gfSBmcm9tICIuL19TZWN0aW9uQ2FyZCI7CmltcG9ydCB7IGZvcm1hdFJlbGF0aXZlIH0gZnJvbSAiQC9saWIvdXRpbHMvZGF0ZXMiOwppbXBvcnQgdHlwZSB7IE91dHJlYWNoRW50cnkgfSBmcm9tICJAL2xpYi9ub3Rpb24vbGlua2VkaW4iOwoKZXhwb3J0IGZ1bmN0aW9uIE91dHJlYWNoU2VjdGlvbih7CiAgZW50cmllcywKICBsZWFkSWQ6IF9sZWFkSWQsCn06IHsKICBlbnRyaWVzOiBPdXRyZWFjaEVudHJ5W107CiAgbGVhZElkOiBzdHJpbmc7Cn0pIHsKICBpZiAoZW50cmllcy5sZW5ndGggPT09IDApIHsKICAgIC8vIExpbmtlZEluIG91dHJlYWNoIGlzIHVuY29tbW9uIOKAlCBvbmx5IHNob3cgZW1wdHkgc3RhdGUgd2hlbiB0aGVyZSdzIGRhdGEuCiAgICAvLyBGb3IgbW9zdCBsZWFkcywgaGlkZSBlbnRpcmVseS4KICAgIHJldHVybiBudWxsOwogIH0KCiAgcmV0dXJuICgKICAgIDxTZWN0aW9uQ2FyZAogICAgICBpY29uPXtMaW5rZWRpbn0KICAgICAgdGl0bGU9IkxpbmtlZEluIE91dHJlYWNoIgogICAgICBjb3VudD17ZW50cmllcy5sZW5ndGh9CiAgICAgIHRvbmU9ImluZm8iCiAgICA+CiAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAge2VudHJpZXMubWFwKChvKSA9PiAoCiAgICAgICAgICA8bGkKICAgICAgICAgICAga2V5PXtvLmlkfQogICAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctYmcvNDAgcC0zIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAge28uY29udGFjdE5hbWV9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIHtvLmNvbXBhbnkgJiYgKAogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgICAgICAgICDCtyB7by5jb21wYW55fQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAge28uc3RhZ2UgJiYgPFN0YXR1c0JhZGdlIGxhYmVsPXtvLnN0YWdlfSB0b25lPSJpbmZvIiAvPn0KICAgICAgICAgICAgICB7by5oaXRsQWN0aW9uICYmICgKICAgICAgICAgICAgICAgIDxTdGF0dXNCYWRnZQogICAgICAgICAgICAgICAgICBsYWJlbD17by5oaXRsQWN0aW9ufQogICAgICAgICAgICAgICAgICB0b25lPXt0b25lRm9ySElUTChvLmhpdGxBY3Rpb24pfQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIHtvLmxhc3RNZXNzYWdlRGF0ZSAmJiAoCiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1sLWF1dG8gdGV4dC14cyB0ZXh0LXRleHQtbXV0ZWQiPgogICAgICAgICAgICAgICAgICB7Zm9ybWF0UmVsYXRpdmUoby5sYXN0TWVzc2FnZURhdGUpfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICB7by5kcmFmdERNICYmICgKICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgbGluZS1jbGFtcC0zIHRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAgICB7by5kcmFmdERNfQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvbGk+CiAgICAgICAgKSl9CiAgICAgIDwvdWw+CiAgICA8L1NlY3Rpb25DYXJkPgogICk7Cn0KCi8vIERlZmF1bHQgZXhwb3J0IHRvIHNhdGlzZnkgYW55IHBvdGVudGlhbCBleHBlY3RhdGlvbnM7IG5vdCB1c2VkIGRpcmVjdGx5LgpleHBvcnQgZGVmYXVsdCBPdXRyZWFjaFNlY3Rpb247CgovLyBFbXB0eSBzZWN0aW9uIGhlbHBlciBpZiBuZWVkZWQgYnkgcm91dGUKZXhwb3J0IHsgRW1wdHlTZWN0aW9uIH07Cg==
+import { Linkedin } from "lucide-react";
+import {
+  StatusBadge,
+  toneForHITL,
+} from "@/components/ui/StatusBadge";
+import { SectionCard, EmptySection } from "./_SectionCard";
+import { formatRelative } from "@/lib/utils/dates";
+import type { OutreachEntry } from "@/lib/notion/linkedin";
+
+export function OutreachSection({
+  entries,
+  leadId: _leadId,
+}: {
+  entries: OutreachEntry[];
+  leadId: string;
+}) {
+  if (entries.length === 0) {
+    // LinkedIn outreach is uncommon — only show empty state when there's data.
+    // For most leads, hide entirely.
+    return null;
+  }
+
+  return (
+    <SectionCard
+      icon={Linkedin}
+      title="LinkedIn Outreach"
+      count={entries.length}
+      tone="info"
+    >
+      <ul className="space-y-2">
+        {entries.map((o) => (
+          <li
+            key={o.id}
+            className="rounded-lg border border-border bg-bg/40 p-3"
+          >
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-sm font-medium text-text-primary">
+                {o.contactName}
+              </span>
+              {o.company && (
+                <span className="text-xs text-text-secondary">
+                  · {o.company}
+                </span>
+              )}
+              {o.stage && <StatusBadge label={o.stage} tone="info" />}
+              {o.hitlAction && (
+                <StatusBadge
+                  label={o.hitlAction}
+                  tone={toneForHITL(o.hitlAction)}
+                />
+              )}
+              {o.lastMessageDate && (
+                <span className="ml-auto text-xs text-text-muted">
+                  {formatRelative(o.lastMessageDate)}
+                </span>
+              )}
+            </div>
+            {o.draftDM && (
+              <p className="mt-2 line-clamp-3 text-xs text-text-secondary">
+                {o.draftDM}
+              </p>
+            )}
+          </li>
+        ))}
+      </ul>
+    </SectionCard>
+  );
+}
+
+// Default export to satisfy any potential expectations; not used directly.
+export default OutreachSection;
+
+// Empty section helper if needed by route
+export { EmptySection };

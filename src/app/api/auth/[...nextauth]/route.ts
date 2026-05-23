@@ -1,1 +1,6 @@
-aW1wb3J0IE5leHRBdXRoIGZyb20gIm5leHQtYXV0aCI7CmltcG9ydCB7IGF1dGhPcHRpb25zIH0gZnJvbSAiQC9saWIvYXV0aC9vcHRpb25zIjsKCmNvbnN0IGhhbmRsZXIgPSBOZXh0QXV0aChhdXRoT3B0aW9ucyk7CgpleHBvcnQgeyBoYW5kbGVyIGFzIEdFVCwgaGFuZGxlciBhcyBQT1NUIH07Cg==
+import NextAuth from "next-auth";
+import { authOptions } from "@/lib/auth/options";
+
+const handler = NextAuth(authOptions);
+
+export { handler as GET, handler as POST };

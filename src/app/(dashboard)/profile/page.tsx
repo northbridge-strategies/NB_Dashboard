@@ -1,1 +1,49 @@
-aW1wb3J0IHsgcmVkaXJlY3QgfSBmcm9tICJuZXh0L25hdmlnYXRpb24iOwppbXBvcnQgeyBnZXRTZXNzaW9uIH0gZnJvbSAiQC9saWIvYXV0aC9zZXNzaW9uIjsKaW1wb3J0IHsgZmluZFVzZXJCeUlkIH0gZnJvbSAiQC9saWIvbm90aW9uL3VzZXJzIjsKaW1wb3J0IHsgRXJyb3JTdGF0ZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zdGF0ZXMiOwppbXBvcnQgeyBQcm9maWxlRm9ybSB9IGZyb20gIi4vX1Byb2ZpbGVGb3JtIjsKaW1wb3J0IHsgUGFzc3dvcmRGb3JtIH0gZnJvbSAiLi9fUGFzc3dvcmRGb3JtIjsKCmV4cG9ydCBjb25zdCBkeW5hbWljID0gImZvcmNlLWR5bmFtaWMiOwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gUHJvZmlsZVBhZ2UoKSB7CiAgY29uc3Qgc2Vzc2lvbiA9IGF3YWl0IGdldFNlc3Npb24oKTsKICBpZiAoIXNlc3Npb24pIHJlZGlyZWN0KCIvbG9naW4iKTsKCiAgY29uc3QgdXNlciA9IGF3YWl0IGZpbmRVc2VyQnlJZChzZXNzaW9uLmlkKS5jYXRjaCgoKSA9PiBudWxsKTsKCiAgaWYgKCF1c2VyKSB7CiAgICByZXR1cm4gKAogICAgICA8RXJyb3JTdGF0ZQogICAgICAgIHRpdGxlPSJQcm9maWxlIG5vdCBmb3VuZCIKICAgICAgICBkZXNjcmlwdGlvbj0iWW91ciBhY2NvdW50IHJlY29yZCBjb3VsZG4ndCBiZSBsb2FkZWQgZnJvbSBOb3Rpb24uIElmIHRoaXMgcGVyc2lzdHMsIGNvbnRhY3QgYW4gYWRtaW4uIgogICAgICAvPgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctMnhsIHNwYWNlLXktOCI+CiAgICAgIDxoZWFkZXI+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQgdGV4dC10ZXh0LXByaW1hcnkiPllvdXIgUHJvZmlsZTwvaDI+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICBTdG9yZWQgaW4gdGhlIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tb25vIj5EYXNoYm9hcmQgVXNlcnM8L3NwYW4+IE5vdGlvbgogICAgICAgICAgZGF0YWJhc2UuIEVtYWlsIGFuZCByb2xlIGFyZSByZWFkLW9ubHkg4oCUIGFzayBhbiBhZG1pbiB0byBjaGFuZ2UgdGhvc2UuCiAgICAgICAgPC9wPgogICAgICA8L2hlYWRlcj4KCiAgICAgIDxQcm9maWxlRm9ybQogICAgICAgIGluaXRpYWw9e3sKICAgICAgICAgIG5hbWU6IHVzZXIubmFtZSwKICAgICAgICAgIGVtYWlsOiB1c2VyLmVtYWlsLAogICAgICAgICAgcm9sZTogdXNlci5yb2xlLAogICAgICAgICAgYXZhdGFyVXJsOiB1c2VyLmF2YXRhclVybCwKICAgICAgICAgIGNyZWF0ZWRUaW1lOiB1c2VyLmNyZWF0ZWRUaW1lLAogICAgICAgICAgbGFzdFNpZ25JbjogdXNlci5sYXN0U2lnbkluLAogICAgICAgIH19CiAgICAgIC8+CgogICAgICA8UGFzc3dvcmRGb3JtIC8+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { redirect } from "next/navigation";
+import { getSession } from "@/lib/auth/session";
+import { findUserById } from "@/lib/notion/users";
+import { ErrorState } from "@/components/ui/states";
+import { ProfileForm } from "./_ProfileForm";
+import { PasswordForm } from "./_PasswordForm";
+
+export const dynamic = "force-dynamic";
+
+export default async function ProfilePage() {
+  const session = await getSession();
+  if (!session) redirect("/login");
+
+  const user = await findUserById(session.id).catch(() => null);
+
+  if (!user) {
+    return (
+      <ErrorState
+        title="Profile not found"
+        description="Your account record couldn't be loaded from Notion. If this persists, contact an admin."
+      />
+    );
+  }
+
+  return (
+    <div className="max-w-2xl space-y-8">
+      <header>
+        <h2 className="text-base font-semibold text-text-primary">Your Profile</h2>
+        <p className="mt-1 text-xs text-text-secondary">
+          Stored in the <span className="font-mono">Dashboard Users</span> Notion
+          database. Email and role are read-only — ask an admin to change those.
+        </p>
+      </header>
+
+      <ProfileForm
+        initial={{
+          name: user.name,
+          email: user.email,
+          role: user.role,
+          avatarUrl: user.avatarUrl,
+          createdTime: user.createdTime,
+          lastSignIn: user.lastSignIn,
+        }}
+      />
+
+      <PasswordForm />
+    </div>
+  );
+}

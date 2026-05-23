@@ -1,1 +1,36 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlVGhlbWUgfSBmcm9tICJuZXh0LXRoZW1lcyI7CmltcG9ydCB7IE1vb24sIFN1biB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMvY2xhc3NuYW1lcyI7CgpleHBvcnQgZnVuY3Rpb24gVGhlbWVUb2dnbGUoeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgewogIGNvbnN0IHsgcmVzb2x2ZWRUaGVtZSwgc2V0VGhlbWUgfSA9IHVzZVRoZW1lKCk7CiAgY29uc3QgW21vdW50ZWQsIHNldE1vdW50ZWRdID0gdXNlU3RhdGUoZmFsc2UpOwoKICAvLyBBdm9pZCBoeWRyYXRpb24gbWlzbWF0Y2gg4oCUIHRoZW1lIGlzIHVuZGVmaW5lZCBvbiBzZXJ2ZXIuCiAgdXNlRWZmZWN0KCgpID0+IHNldE1vdW50ZWQodHJ1ZSksIFtdKTsKCiAgY29uc3QgaXNEYXJrID0gbW91bnRlZCAmJiByZXNvbHZlZFRoZW1lID09PSAiZGFyayI7CgogIHJldHVybiAoCiAgICA8YnV0dG9uCiAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgb25DbGljaz17KCkgPT4gc2V0VGhlbWUoaXNEYXJrID8gImxpZ2h0IiA6ICJkYXJrIil9CiAgICAgIGFyaWEtbGFiZWw9IlRvZ2dsZSB0aGVtZSIKICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAiaW5saW5lLWZsZXggaC05IHctOSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciB0ZXh0LXRleHQtc2Vjb25kYXJ5IGhvdmVyOmJnLXN1cmZhY2UtZWxldmF0ZWQgaG92ZXI6dGV4dC10ZXh0LXByaW1hcnkiLAogICAgICAgIGNsYXNzTmFtZSwKICAgICAgKX0KICAgID4KICAgICAgeyFtb3VudGVkID8gKAogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYmxvY2sgaC00IHctNCIgLz4KICAgICAgKSA6IGlzRGFyayA/ICgKICAgICAgICA8U3VuIGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAgKSA6ICgKICAgICAgICA8TW9vbiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICl9CiAgICA8L2J1dHRvbj4KICApOwp9Cg==
+"use client";
+
+import { useTheme } from "next-themes";
+import { Moon, Sun } from "lucide-react";
+import { useEffect, useState } from "react";
+import { cn } from "@/lib/utils/classnames";
+
+export function ThemeToggle({ className }: { className?: string }) {
+  const { resolvedTheme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  // Avoid hydration mismatch — theme is undefined on server.
+  useEffect(() => setMounted(true), []);
+
+  const isDark = mounted && resolvedTheme === "dark";
+
+  return (
+    <button
+      type="button"
+      onClick={() => setTheme(isDark ? "light" : "dark")}
+      aria-label="Toggle theme"
+      className={cn(
+        "inline-flex h-9 w-9 items-center justify-center rounded-md border border-border text-text-secondary hover:bg-surface-elevated hover:text-text-primary",
+        className,
+      )}
+    >
+      {!mounted ? (
+        <span className="block h-4 w-4" />
+      ) : isDark ? (
+        <Sun className="h-4 w-4" />
+      ) : (
+        <Moon className="h-4 w-4" />
+      )}
+    </button>
+  );
+}

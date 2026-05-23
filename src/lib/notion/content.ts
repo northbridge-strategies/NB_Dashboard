@@ -1,1 +1,99 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IG5vdGlvbiB9IGZyb20gIi4vY2xpZW50IjsKaW1wb3J0IHsgREIgfSBmcm9tICIuL2lkcyI7CmltcG9ydCB7IGNhY2hlZCwgVEFHIH0gZnJvbSAiLi9jYWNoZSI7CmltcG9ydCB7CiAgZ2V0RGF0ZSwKICBnZXRSaWNoVGV4dCwKICBnZXRTZWxlY3QsCiAgZ2V0VGl0bGUsCiAgZ2V0VXJsLAogIGlzRnVsbFBhZ2UsCiAgdHlwZSBQYWdlLAp9IGZyb20gIi4vcGFyc2VycyI7CgpleHBvcnQgdHlwZSBDb250ZW50U3RhdHVzID0gIkRyYWZ0IiB8ICJSZWFkeSB0byBQdWJsaXNoIiB8ICJQdWJsaXNoZWQiIHwgIkFyY2hpdmVkIjsKZXhwb3J0IHR5cGUgQ29udGVudFR5cGUgPSAiTGlua2VkSW4gUG9zdCIgfCAiU3Vic3RhY2sgQXJ0aWNsZSIgfCAiVmlkZW8gU2NyaXB0IiB8ICJBZCBDb3B5IjsKZXhwb3J0IHR5cGUgQ29udGVudFBsYXRmb3JtID0gIkxpbmtlZEluIiB8ICJTdWJzdGFjayIgfCAiWW91VHViZSIgfCAiT3RoZXIiOwoKZXhwb3J0IGludGVyZmFjZSBDb250ZW50SXRlbSB7CiAgaWQ6IHN0cmluZzsKICB0aXRsZTogc3RyaW5nOwogIHRvcGljOiBzdHJpbmc7CiAgY29udGVudFR5cGU6IENvbnRlbnRUeXBlIHwgbnVsbDsKICBzdGF0dXM6IENvbnRlbnRTdGF0dXMgfCBudWxsOwogIHB1Ymxpc2hEYXRlOiBzdHJpbmcgfCBudWxsOwogIHBsYXRmb3JtOiBDb250ZW50UGxhdGZvcm0gfCBudWxsOwogIHV0bUxpbms6IHN0cmluZyB8IG51bGw7CiAgZW5nYWdlbWVudE5vdGVzOiBzdHJpbmc7CiAgbGFzdEVkaXRlZFRpbWU6IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIHBhcnNlQ29udGVudChwYWdlOiBQYWdlKTogQ29udGVudEl0ZW0gewogIHJldHVybiB7CiAgICBpZDogcGFnZS5pZCwKICAgIHRpdGxlOiBnZXRUaXRsZShwYWdlLCAiVGl0bGUiKSwKICAgIHRvcGljOiBnZXRSaWNoVGV4dChwYWdlLCAiVG9waWMiKSwKICAgIGNvbnRlbnRUeXBlOiBnZXRTZWxlY3QocGFnZSwgIkNvbnRlbnQgVHlwZSIpIGFzIENvbnRlbnRUeXBlIHwgbnVsbCwKICAgIHN0YXR1czogZ2V0U2VsZWN0KHBhZ2UsICJTdGF0dXMiKSBhcyBDb250ZW50U3RhdHVzIHwgbnVsbCwKICAgIHB1Ymxpc2hEYXRlOiBnZXREYXRlKHBhZ2UsICJQdWJsaXNoIERhdGUiKSwKICAgIHBsYXRmb3JtOiBnZXRTZWxlY3QocGFnZSwgIlBsYXRmb3JtIikgYXMgQ29udGVudFBsYXRmb3JtIHwgbnVsbCwKICAgIHV0bUxpbms6IGdldFVybChwYWdlLCAiVVRNIExpbmsiKSwKICAgIGVuZ2FnZW1lbnROb3RlczogZ2V0UmljaFRleHQocGFnZSwgIkVuZ2FnZW1lbnQgTm90ZXMiKSwKICAgIGxhc3RFZGl0ZWRUaW1lOiBwYWdlLmxhc3RfZWRpdGVkX3RpbWUsCiAgfTsKfQoKZXhwb3J0IGNvbnN0IGxpc3RDb250ZW50ID0gY2FjaGVkKAogIGFzeW5jICgpOiBQcm9taXNlPENvbnRlbnRJdGVtW10+ID0+IHsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IG5vdGlvbi5kYXRhYmFzZXMucXVlcnkoewogICAgICBkYXRhYmFzZV9pZDogREIuY29udGVudCwKICAgICAgcGFnZV9zaXplOiAxMDAsCiAgICAgIHNvcnRzOiBbeyBwcm9wZXJ0eTogIlB1Ymxpc2ggRGF0ZSIsIGRpcmVjdGlvbjogImRlc2NlbmRpbmciIH1dLAogICAgfSk7CiAgICByZXR1cm4gcmVzLnJlc3VsdHMuZmlsdGVyKGlzRnVsbFBhZ2UpLm1hcChwYXJzZUNvbnRlbnQpOwogIH0sCiAgWyJjb250ZW50OmFsbCJdLAogIHsgdGFnczogW1RBRy5jb250ZW50XSB9LAopOwoKZXhwb3J0IGludGVyZmFjZSBDcmVhdGVDb250ZW50SW5wdXQgewogIHRpdGxlOiBzdHJpbmc7CiAgdG9waWM/OiBzdHJpbmc7CiAgY29udGVudFR5cGU/OiBDb250ZW50VHlwZTsKICBzdGF0dXM/OiBDb250ZW50U3RhdHVzOwogIHB1Ymxpc2hEYXRlPzogc3RyaW5nIHwgbnVsbDsKICBwbGF0Zm9ybT86IENvbnRlbnRQbGF0Zm9ybTsKICB1dG1MaW5rPzogc3RyaW5nIHwgbnVsbDsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGNyZWF0ZUNvbnRlbnQoaW5wdXQ6IENyZWF0ZUNvbnRlbnRJbnB1dCk6IFByb21pc2U8c3RyaW5nPiB7CiAgY29uc3QgcHJvcGVydGllczogUmVjb3JkPHN0cmluZywgdW5rbm93bj4gPSB7CiAgICBUaXRsZTogeyB0aXRsZTogW3sgdHlwZTogInRleHQiLCB0ZXh0OiB7IGNvbnRlbnQ6IGlucHV0LnRpdGxlIH0gfV0gfSwKICB9OwogIGlmIChpbnB1dC50b3BpYykgewogICAgcHJvcGVydGllcy5Ub3BpYyA9IHsKICAgICAgcmljaF90ZXh0OiBbeyB0eXBlOiAidGV4dCIsIHRleHQ6IHsgY29udGVudDogaW5wdXQudG9waWMgfSB9XSwKICAgIH07CiAgfQogIGlmIChpbnB1dC5jb250ZW50VHlwZSkgewogICAgcHJvcGVydGllc1siQ29udGVudCBUeXBlIl0gPSB7IHNlbGVjdDogeyBuYW1lOiBpbnB1dC5jb250ZW50VHlwZSB9IH07CiAgfQogIGlmIChpbnB1dC5zdGF0dXMpIHsKICAgIHByb3BlcnRpZXMuU3RhdHVzID0geyBzZWxlY3Q6IHsgbmFtZTogaW5wdXQuc3RhdHVzIH0gfTsKICB9CiAgaWYgKGlucHV0LnB1Ymxpc2hEYXRlKSB7CiAgICBwcm9wZXJ0aWVzWyJQdWJsaXNoIERhdGUiXSA9IHsgZGF0ZTogeyBzdGFydDogaW5wdXQucHVibGlzaERhdGUgfSB9OwogIH0KICBpZiAoaW5wdXQucGxhdGZvcm0pIHsKICAgIHByb3BlcnRpZXMuUGxhdGZvcm0gPSB7IHNlbGVjdDogeyBuYW1lOiBpbnB1dC5wbGF0Zm9ybSB9IH07CiAgfQogIGlmIChpbnB1dC51dG1MaW5rKSB7CiAgICBwcm9wZXJ0aWVzWyJVVE0gTGluayJdID0geyB1cmw6IGlucHV0LnV0bUxpbmsgfTsKICB9CiAgY29uc3QgcmVzID0gYXdhaXQgbm90aW9uLnBhZ2VzLmNyZWF0ZSh7CiAgICBwYXJlbnQ6IHsgZGF0YWJhc2VfaWQ6IERCLmNvbnRlbnQgfSwKICAgIHByb3BlcnRpZXM6IHByb3BlcnRpZXMgYXMgbmV2ZXIsCiAgfSk7CiAgcmV0dXJuIHJlcy5pZDsKfQo=
+import "server-only";
+import { notion } from "./client";
+import { DB } from "./ids";
+import { cached, TAG } from "./cache";
+import {
+  getDate,
+  getRichText,
+  getSelect,
+  getTitle,
+  getUrl,
+  isFullPage,
+  type Page,
+} from "./parsers";
+
+export type ContentStatus = "Draft" | "Ready to Publish" | "Published" | "Archived";
+export type ContentType = "LinkedIn Post" | "Substack Article" | "Video Script" | "Ad Copy";
+export type ContentPlatform = "LinkedIn" | "Substack" | "YouTube" | "Other";
+
+export interface ContentItem {
+  id: string;
+  title: string;
+  topic: string;
+  contentType: ContentType | null;
+  status: ContentStatus | null;
+  publishDate: string | null;
+  platform: ContentPlatform | null;
+  utmLink: string | null;
+  engagementNotes: string;
+  lastEditedTime: string;
+}
+
+export function parseContent(page: Page): ContentItem {
+  return {
+    id: page.id,
+    title: getTitle(page, "Title"),
+    topic: getRichText(page, "Topic"),
+    contentType: getSelect(page, "Content Type") as ContentType | null,
+    status: getSelect(page, "Status") as ContentStatus | null,
+    publishDate: getDate(page, "Publish Date"),
+    platform: getSelect(page, "Platform") as ContentPlatform | null,
+    utmLink: getUrl(page, "UTM Link"),
+    engagementNotes: getRichText(page, "Engagement Notes"),
+    lastEditedTime: page.last_edited_time,
+  };
+}
+
+export const listContent = cached(
+  async (): Promise<ContentItem[]> => {
+    const res = await notion.databases.query({
+      database_id: DB.content,
+      page_size: 100,
+      sorts: [{ property: "Publish Date", direction: "descending" }],
+    });
+    return res.results.filter(isFullPage).map(parseContent);
+  },
+  ["content:all"],
+  { tags: [TAG.content] },
+);
+
+export interface CreateContentInput {
+  title: string;
+  topic?: string;
+  contentType?: ContentType;
+  status?: ContentStatus;
+  publishDate?: string | null;
+  platform?: ContentPlatform;
+  utmLink?: string | null;
+}
+
+export async function createContent(input: CreateContentInput): Promise<string> {
+  const properties: Record<string, unknown> = {
+    Title: { title: [{ type: "text", text: { content: input.title } }] },
+  };
+  if (input.topic) {
+    properties.Topic = {
+      rich_text: [{ type: "text", text: { content: input.topic } }],
+    };
+  }
+  if (input.contentType) {
+    properties["Content Type"] = { select: { name: input.contentType } };
+  }
+  if (input.status) {
+    properties.Status = { select: { name: input.status } };
+  }
+  if (input.publishDate) {
+    properties["Publish Date"] = { date: { start: input.publishDate } };
+  }
+  if (input.platform) {
+    properties.Platform = { select: { name: input.platform } };
+  }
+  if (input.utmLink) {
+    properties["UTM Link"] = { url: input.utmLink };
+  }
+  const res = await notion.pages.create({
+    parent: { database_id: DB.content },
+    properties: properties as never,
+  });
+  return res.id;
+}

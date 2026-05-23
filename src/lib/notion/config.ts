@@ -1,1 +1,62 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IG5vdGlvbiB9IGZyb20gIi4vY2xpZW50IjsKaW1wb3J0IHsgREIgfSBmcm9tICIuL2lkcyI7CmltcG9ydCB7IGNhY2hlZCwgVEFHIH0gZnJvbSAiLi9jYWNoZSI7CmltcG9ydCB7IGdldENoZWNrYm94LCBnZXREYXRlLCBnZXRSaWNoVGV4dCwgZ2V0VGl0bGUsIGlzRnVsbFBhZ2UgfSBmcm9tICIuL3BhcnNlcnMiOwoKZXhwb3J0IGludGVyZmFjZSBTeXN0ZW1Db25maWcgewogIHBhZ2VJZDogc3RyaW5nOwogIGNvbmZpZ0tleTogc3RyaW5nOwogIGdsb2JhbFBhdXNlOiBib29sZWFuOwogIGxhc3RQYXVzZUV2ZW50OiBzdHJpbmcgfCBudWxsOwogIGxhc3RSZXN1bWVFdmVudDogc3RyaW5nIHwgbnVsbDsKICBub3Rlczogc3RyaW5nOwp9Cgpjb25zdCBQUk9EVUNUSU9OX0NPTkZJR19LRVkgPSAiUHJvZHVjdGlvbiBDb25maWciOwoKZXhwb3J0IGNvbnN0IGdldFByb2R1Y3Rpb25Db25maWcgPSBjYWNoZWQoCiAgYXN5bmMgKCk6IFByb21pc2U8U3lzdGVtQ29uZmlnIHwgbnVsbD4gPT4gewogICAgY29uc3QgcmVzID0gYXdhaXQgbm90aW9uLmRhdGFiYXNlcy5xdWVyeSh7CiAgICAgIGRhdGFiYXNlX2lkOiBEQi5jb25maWcsCiAgICAgIGZpbHRlcjogewogICAgICAgIHByb3BlcnR5OiAiQ29uZmlnIEtleSIsCiAgICAgICAgdGl0bGU6IHsgZXF1YWxzOiBQUk9EVUNUSU9OX0NPTkZJR19LRVkgfSwKICAgICAgfSwKICAgICAgcGFnZV9zaXplOiAxLAogICAgfSk7CiAgICBjb25zdCBwYWdlID0gcmVzLnJlc3VsdHNbMF07CiAgICBpZiAoIXBhZ2UgfHwgIWlzRnVsbFBhZ2UocGFnZSkpIHJldHVybiBudWxsOwogICAgcmV0dXJuIHsKICAgICAgcGFnZUlkOiBwYWdlLmlkLAogICAgICBjb25maWdLZXk6IGdldFRpdGxlKHBhZ2UsICJDb25maWcgS2V5IiksCiAgICAgIGdsb2JhbFBhdXNlOiBnZXRDaGVja2JveChwYWdlLCAiR2xvYmFsIFBhdXNlIiksCiAgICAgIGxhc3RQYXVzZUV2ZW50OiBnZXREYXRlKHBhZ2UsICJMYXN0IFBhdXNlIEV2ZW50IiksCiAgICAgIGxhc3RSZXN1bWVFdmVudDogZ2V0RGF0ZShwYWdlLCAiTGFzdCBSZXN1bWUgRXZlbnQiKSwKICAgICAgbm90ZXM6IGdldFJpY2hUZXh0KHBhZ2UsICJOb3RlcyIpLAogICAgfTsKICB9LAogIFsiY29uZmlnOnByb2R1Y3Rpb24iXSwKICB7IHRhZ3M6IFtUQUcuY29uZmlnXSwgcmV2YWxpZGF0ZTogMTAgfSwKKTsKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzZXRHbG9iYWxQYXVzZShwYXVzZWQ6IGJvb2xlYW4pOiBQcm9taXNlPHZvaWQ+IHsKICBjb25zdCBjb25maWcgPSBhd2FpdCBnZXRQcm9kdWN0aW9uQ29uZmlnKCk7CiAgaWYgKCFjb25maWcpIHRocm93IG5ldyBFcnJvcigiUHJvZHVjdGlvbiBDb25maWcgcmVjb3JkIG5vdCBmb3VuZCIpOwogIGNvbnN0IHByb3BlcnRpZXM6IFJlY29yZDxzdHJpbmcsIHVua25vd24+ID0gewogICAgIkdsb2JhbCBQYXVzZSI6IHsgY2hlY2tib3g6IHBhdXNlZCB9LAogIH07CiAgaWYgKHBhdXNlZCkgewogICAgcHJvcGVydGllc1siTGFzdCBQYXVzZSBFdmVudCJdID0gewogICAgICBkYXRlOiB7IHN0YXJ0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkgfSwKICAgIH07CiAgfSBlbHNlIHsKICAgIHByb3BlcnRpZXNbIkxhc3QgUmVzdW1lIEV2ZW50Il0gPSB7CiAgICAgIGRhdGU6IHsgc3RhcnQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9LAogICAgfTsKICB9CiAgYXdhaXQgbm90aW9uLnBhZ2VzLnVwZGF0ZSh7CiAgICBwYWdlX2lkOiBjb25maWcucGFnZUlkLAogICAgcHJvcGVydGllczogcHJvcGVydGllcyBhcyBuZXZlciwKICB9KTsKfQo=
+import "server-only";
+import { notion } from "./client";
+import { DB } from "./ids";
+import { cached, TAG } from "./cache";
+import { getCheckbox, getDate, getRichText, getTitle, isFullPage } from "./parsers";
+
+export interface SystemConfig {
+  pageId: string;
+  configKey: string;
+  globalPause: boolean;
+  lastPauseEvent: string | null;
+  lastResumeEvent: string | null;
+  notes: string;
+}
+
+const PRODUCTION_CONFIG_KEY = "Production Config";
+
+export const getProductionConfig = cached(
+  async (): Promise<SystemConfig | null> => {
+    const res = await notion.databases.query({
+      database_id: DB.config,
+      filter: {
+        property: "Config Key",
+        title: { equals: PRODUCTION_CONFIG_KEY },
+      },
+      page_size: 1,
+    });
+    const page = res.results[0];
+    if (!page || !isFullPage(page)) return null;
+    return {
+      pageId: page.id,
+      configKey: getTitle(page, "Config Key"),
+      globalPause: getCheckbox(page, "Global Pause"),
+      lastPauseEvent: getDate(page, "Last Pause Event"),
+      lastResumeEvent: getDate(page, "Last Resume Event"),
+      notes: getRichText(page, "Notes"),
+    };
+  },
+  ["config:production"],
+  { tags: [TAG.config], revalidate: 10 },
+);
+
+export async function setGlobalPause(paused: boolean): Promise<void> {
+  const config = await getProductionConfig();
+  if (!config) throw new Error("Production Config record not found");
+  const properties: Record<string, unknown> = {
+    "Global Pause": { checkbox: paused },
+  };
+  if (paused) {
+    properties["Last Pause Event"] = {
+      date: { start: new Date().toISOString() },
+    };
+  } else {
+    properties["Last Resume Event"] = {
+      date: { start: new Date().toISOString() },
+    };
+  }
+  await notion.pages.update({
+    page_id: config.pageId,
+    properties: properties as never,
+  });
+}

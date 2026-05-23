@@ -1,1 +1,90 @@
-aW1wb3J0IHsgbGlzdEFsbExlYWRzIH0gZnJvbSAiQC9saWIvbm90aW9uL2xlYWRzIjsKaW1wb3J0IHsgbGlzdFJldmVudWUgfSBmcm9tICJAL2xpYi9ub3Rpb24vcmV2ZW51ZSI7CmltcG9ydCB7IEVycm9yU3RhdGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc3RhdGVzIjsKaW1wb3J0IHsgQ2hhbm5lbHNUYWJsZSwgdHlwZSBDaGFubmVsUm93IH0gZnJvbSAiLi9fQ2hhbm5lbHNUYWJsZSI7CgpleHBvcnQgY29uc3QgcmV2YWxpZGF0ZSA9IDMwOwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gQ2hhbm5lbHNQYWdlKHsKICBzZWFyY2hQYXJhbXMsCn06IHsKICBzZWFyY2hQYXJhbXM/OiB7IHJhbmdlPzogc3RyaW5nIH07Cn0pIHsKICBjb25zdCByYW5nZSA9IChzZWFyY2hQYXJhbXM/LnJhbmdlIGFzICI3IiB8ICIzMCIgfCAiOTAiIHwgImFsbCIpID8/ICJhbGwiOwoKICBjb25zdCBbbGVhZHNSLCByZXZSXSA9IGF3YWl0IFByb21pc2UuYWxsU2V0dGxlZChbbGlzdEFsbExlYWRzKCksIGxpc3RSZXZlbnVlKCldKTsKICBpZiAobGVhZHNSLnN0YXR1cyA9PT0gInJlamVjdGVkIikgewogICAgcmV0dXJuICgKICAgICAgPEVycm9yU3RhdGUKICAgICAgICB0aXRsZT0iQ2hhbm5lbHMgZmFpbGVkIHRvIGxvYWQiCiAgICAgICAgZGVzY3JpcHRpb249eyhsZWFkc1IucmVhc29uIGFzIEVycm9yKT8ubWVzc2FnZX0KICAgICAgLz4KICAgICk7CiAgfQoKICBjb25zdCBsZWFkcyA9IGxlYWRzUi52YWx1ZTsKICBjb25zdCByZXZlbnVlID0gcmV2Ui5zdGF0dXMgPT09ICJmdWxmaWxsZWQiID8gcmV2Ui52YWx1ZSA6IFtdOwoKICAvLyBGaWx0ZXIgbGVhZHMgYnkgZGF0ZSByYW5nZSBiYXNlZCBvbiBjcmVhdGVkVGltZQogIGNvbnN0IGN1dG9mZiA9CiAgICByYW5nZSA9PT0gImFsbCIKICAgICAgPyBudWxsCiAgICAgIDogbmV3IERhdGUoRGF0ZS5ub3coKSAtIHBhcnNlSW50KHJhbmdlLCAxMCkgKiA4Nl80MDBfMDAwKS50b0lTT1N0cmluZygpOwoKICBjb25zdCBsZWFkc0luUmFuZ2UgPSBjdXRvZmYgPyBsZWFkcy5maWx0ZXIoKGwpID0+IGwuY3JlYXRlZFRpbWUgPj0gY3V0b2ZmKSA6IGxlYWRzOwoKICAvLyBCdWlsZCBwZXItY2hhbm5lbCBidWNrZXRzIGtleWVkIGJ5IFRyYWZmaWMgU291cmNlCiAgdHlwZSBCdWNrZXQgPSB7CiAgICBjaGFubmVsOiBzdHJpbmc7CiAgICBsZWFkSWRzOiBTZXQ8c3RyaW5nPjsKICAgIHF1YWxpZmllZDogbnVtYmVyOwogICAgcGFpZDogbnVtYmVyOwogICAgcmV2ZW51ZTogbnVtYmVyOwogIH07CiAgY29uc3QgY2hhbm5lbHMgPSBuZXcgTWFwPHN0cmluZywgQnVja2V0PigpOwogIGZvciAoY29uc3QgbGVhZCBvZiBsZWFkc0luUmFuZ2UpIHsKICAgIGNvbnN0IGtleSA9IGxlYWQudHJhZmZpY1NvdXJjZSA/PyAiVW5rbm93biI7CiAgICBjb25zdCBiID0gY2hhbm5lbHMuZ2V0KGtleSkgPz8gewogICAgICBjaGFubmVsOiBrZXksCiAgICAgIGxlYWRJZHM6IG5ldyBTZXQoKSwKICAgICAgcXVhbGlmaWVkOiAwLAogICAgICBwYWlkOiAwLAogICAgICByZXZlbnVlOiAwLAogICAgfTsKICAgIGIubGVhZElkcy5hZGQobGVhZC5pZCk7CiAgICBpZiAobGVhZC5saWZlY3ljbGVTdGF0ZSAmJiBsZWFkLmxpZmVjeWNsZVN0YXRlICE9PSAiTGVhZCIpIGIucXVhbGlmaWVkICs9IDE7CiAgICBpZiAobGVhZC5saWZlY3ljbGVTdGF0ZSA9PT0gIlBhaWQiIHx8IGxlYWQubGlmZWN5Y2xlU3RhdGUgPT09ICJBY3RpdmUiKSBiLnBhaWQgKz0gMTsKICAgIGNoYW5uZWxzLnNldChrZXksIGIpOwogIH0KCiAgLy8gQWRkIHJldmVudWUgcGVyIGNoYW5uZWwg4oCUIG1hdGNoIHJldmVudWUgcmVjb3JkcyB2aWEgTGVhZCByZWxhdGlvbgogIGNvbnN0IGxlYWRCeUlkID0gbmV3IE1hcChsZWFkcy5tYXAoKGwpID0+IFtsLmlkLCBsXSkpOwogIGZvciAoY29uc3QgciBvZiByZXZlbnVlKSB7CiAgICBpZiAoci5zdGF0dXMgIT09ICJQYWlkIiB8fCAhci5sZWFkSWQpIGNvbnRpbnVlOwogICAgY29uc3QgbGVhZCA9IGxlYWRCeUlkLmdldChyLmxlYWRJZCk7CiAgICBpZiAoIWxlYWQpIGNvbnRpbnVlOwogICAgaWYgKGN1dG9mZiAmJiAoci5wYXltZW50RGF0ZSA/PyByLmxhc3RFZGl0ZWRUaW1lKSA8IGN1dG9mZikgY29udGludWU7CiAgICBjb25zdCBjaGFubmVsID0gbGVhZC50cmFmZmljU291cmNlID8/ICJVbmtub3duIjsKICAgIGNvbnN0IGIgPSBjaGFubmVscy5nZXQoY2hhbm5lbCk7CiAgICBpZiAoYikgYi5yZXZlbnVlICs9IHIuYW1vdW50ID8/IDA7CiAgfQoKICBjb25zdCBtYXhMZWFkcyA9IE1hdGgubWF4KDEsIC4uLkFycmF5LmZyb20oY2hhbm5lbHMudmFsdWVzKCkpLm1hcCgoYikgPT4gYi5sZWFkSWRzLnNpemUpKTsKCiAgY29uc3Qgcm93czogQ2hhbm5lbFJvd1tdID0gQXJyYXkuZnJvbShjaGFubmVscy52YWx1ZXMoKSkKICAgIC5tYXAoKGIpID0+IHsKICAgICAgY29uc3QgdG90YWwgPSBiLmxlYWRJZHMuc2l6ZTsKICAgICAgcmV0dXJuIHsKICAgICAgICBjaGFubmVsOiBiLmNoYW5uZWwsCiAgICAgICAgdG90YWxMZWFkczogdG90YWwsCiAgICAgICAgcXVhbGlmaWVkOiBiLnF1YWxpZmllZCwKICAgICAgICBwYWlkOiBiLnBhaWQsCiAgICAgICAgcmV2ZW51ZTogYi5yZXZlbnVlLAogICAgICAgIGNvbnZlcnNpb25SYXRlOiB0b3RhbCA+IDAgPyAoYi5wYWlkIC8gdG90YWwpICogMTAwIDogMCwKICAgICAgICByZWxhdGl2ZUZpbGw6IChiLmxlYWRJZHMuc2l6ZSAvIG1heExlYWRzKSAqIDEwMCwKICAgICAgfTsKICAgIH0pCiAgICAuc29ydCgoYSwgYikgPT4gYi50b3RhbExlYWRzIC0gYS50b3RhbExlYWRzKTsKCiAgcmV0dXJuIDxDaGFubmVsc1RhYmxlIHJvd3M9e3Jvd3N9IHJhbmdlPXtyYW5nZX0gLz47Cn0K
+import { listAllLeads } from "@/lib/notion/leads";
+import { listRevenue } from "@/lib/notion/revenue";
+import { ErrorState } from "@/components/ui/states";
+import { ChannelsTable, type ChannelRow } from "./_ChannelsTable";
+
+export const revalidate = 30;
+
+export default async function ChannelsPage({
+  searchParams,
+}: {
+  searchParams?: { range?: string };
+}) {
+  const range = (searchParams?.range as "7" | "30" | "90" | "all") ?? "all";
+
+  const [leadsR, revR] = await Promise.allSettled([listAllLeads(), listRevenue()]);
+  if (leadsR.status === "rejected") {
+    return (
+      <ErrorState
+        title="Channels failed to load"
+        description={(leadsR.reason as Error)?.message}
+      />
+    );
+  }
+
+  const leads = leadsR.value;
+  const revenue = revR.status === "fulfilled" ? revR.value : [];
+
+  // Filter leads by date range based on createdTime
+  const cutoff =
+    range === "all"
+      ? null
+      : new Date(Date.now() - parseInt(range, 10) * 86_400_000).toISOString();
+
+  const leadsInRange = cutoff ? leads.filter((l) => l.createdTime >= cutoff) : leads;
+
+  // Build per-channel buckets keyed by Traffic Source
+  type Bucket = {
+    channel: string;
+    leadIds: Set<string>;
+    qualified: number;
+    paid: number;
+    revenue: number;
+  };
+  const channels = new Map<string, Bucket>();
+  for (const lead of leadsInRange) {
+    const key = lead.trafficSource ?? "Unknown";
+    const b = channels.get(key) ?? {
+      channel: key,
+      leadIds: new Set(),
+      qualified: 0,
+      paid: 0,
+      revenue: 0,
+    };
+    b.leadIds.add(lead.id);
+    if (lead.lifecycleState && lead.lifecycleState !== "Lead") b.qualified += 1;
+    if (lead.lifecycleState === "Paid" || lead.lifecycleState === "Active") b.paid += 1;
+    channels.set(key, b);
+  }
+
+  // Add revenue per channel — match revenue records via Lead relation
+  const leadById = new Map(leads.map((l) => [l.id, l]));
+  for (const r of revenue) {
+    if (r.status !== "Paid" || !r.leadId) continue;
+    const lead = leadById.get(r.leadId);
+    if (!lead) continue;
+    if (cutoff && (r.paymentDate ?? r.lastEditedTime) < cutoff) continue;
+    const channel = lead.trafficSource ?? "Unknown";
+    const b = channels.get(channel);
+    if (b) b.revenue += r.amount ?? 0;
+  }
+
+  const maxLeads = Math.max(1, ...Array.from(channels.values()).map((b) => b.leadIds.size));
+
+  const rows: ChannelRow[] = Array.from(channels.values())
+    .map((b) => {
+      const total = b.leadIds.size;
+      return {
+        channel: b.channel,
+        totalLeads: total,
+        qualified: b.qualified,
+        paid: b.paid,
+        revenue: b.revenue,
+        conversionRate: total > 0 ? (b.paid / total) * 100 : 0,
+        relativeFill: (b.leadIds.size / maxLeads) * 100,
+      };
+    })
+    .sort((a, b) => b.totalLeads - a.totalLeads);
+
+  return <ChannelsTable rows={rows} range={range} />;
+}

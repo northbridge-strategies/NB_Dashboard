@@ -1,1 +1,163 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IEltYWdlIGZyb20gIm5leHQvaW1hZ2UiOwppbXBvcnQgeyB1c2VQYXRobmFtZSB9IGZyb20gIm5leHQvbmF2aWdhdGlvbiI7CmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENoZXZyb25MZWZ0LCBDaGV2cm9uUmlnaHQsIFggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB2aXNpYmxlTmF2IH0gZnJvbSAiQC9saWIvY29uc3RhbnRzL25hdiI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMvY2xhc3NuYW1lcyI7CmltcG9ydCB7IFRoZW1lVG9nZ2xlIH0gZnJvbSAiLi9UaGVtZVRvZ2dsZSI7CmltcG9ydCB7IFVzZXJNZW51LCB0eXBlIFVzZXJNZW51VXNlciB9IGZyb20gIi4vVXNlck1lbnUiOwoKY29uc3QgT05FX1lFQVIgPSA2MCAqIDYwICogMjQgKiAzNjU7CgpmdW5jdGlvbiBzZXRTaWRlYmFyQ29va2llKGNvbGxhcHNlZDogYm9vbGVhbikgewogIGRvY3VtZW50LmNvb2tpZSA9IGBzaWRlYmFyLWNvbGxhcHNlZD0ke2NvbGxhcHNlZCA/ICIxIiA6ICIwIn07IFBhdGg9LzsgTWF4LUFnZT0ke09ORV9ZRUFSfTsgU2FtZVNpdGU9TGF4YDsKfQoKZXhwb3J0IGZ1bmN0aW9uIFNpZGViYXIoewogIHVzZXIsCiAgaW5pdGlhbENvbGxhcHNlZCwKICBtb2JpbGVPcGVuLAogIG9uQ2xvc2VNb2JpbGUsCn06IHsKICB1c2VyOiBVc2VyTWVudVVzZXI7CiAgaW5pdGlhbENvbGxhcHNlZDogYm9vbGVhbjsKICBtb2JpbGVPcGVuOiBib29sZWFuOwogIG9uQ2xvc2VNb2JpbGU6ICgpID0+IHZvaWQ7Cn0pIHsKICAvLyBPbiBkZXNrdG9wLCAiY29sbGFwc2VkIiBtZWFucyBuYXJyb3cgcmFpbC4gTW9iaWxlIGlnbm9yZXMgY29sbGFwc2VkIOKAlAogIC8vIHRoZSBkcmF3ZXIgaXMgYWx3YXlzIGZ1bGwtd2lkdGggd2hlbiBvcGVuLgogIGNvbnN0IFtjb2xsYXBzZWQsIHNldENvbGxhcHNlZF0gPSB1c2VTdGF0ZShpbml0aWFsQ29sbGFwc2VkKTsKICBjb25zdCBwYXRobmFtZSA9IHVzZVBhdGhuYW1lKCk7CiAgY29uc3QgaXRlbXMgPSB2aXNpYmxlTmF2KHVzZXIucm9sZSk7CgogIC8vIEF1dG8tY2xvc2UgbW9iaWxlIGRyYXdlciBvbiByb3V0ZSBjaGFuZ2UKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKG1vYmlsZU9wZW4pIG9uQ2xvc2VNb2JpbGUoKTsKICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSByZWFjdC1ob29rcy9leGhhdXN0aXZlLWRlcHMKICB9LCBbcGF0aG5hbWVdKTsKCiAgY29uc3QgdG9nZ2xlID0gKCkgPT4gewogICAgY29uc3QgbmV4dCA9ICFjb2xsYXBzZWQ7CiAgICBzZXRDb2xsYXBzZWQobmV4dCk7CiAgICBzZXRTaWRlYmFyQ29va2llKG5leHQpOwogIH07CgogIHJldHVybiAoCiAgICA8YXNpZGUKICAgICAgYXJpYS1sYWJlbD0iUHJpbWFyeSIKICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAiei00MCBmbGV4IGgtc2NyZWVuIGZsZXgtY29sIGJvcmRlci1yIGJvcmRlci1ib3JkZXIgYmctc3VyZmFjZSIsCiAgICAgICAgLy8gTW9iaWxlOiBmdWxsLXNjcmVlbiBkcmF3ZXIsIGZpeGVkLXBvc2l0aW9uZWQsIHNsaWRlIGluL291dAogICAgICAgICJmaXhlZCBpbnNldC15LTAgbGVmdC0wIHctNjQgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tMjAwIiwKICAgICAgICBtb2JpbGVPcGVuID8gInRyYW5zbGF0ZS14LTAiIDogIi10cmFuc2xhdGUteC1mdWxsIiwKICAgICAgICAvLyBEZXNrdG9wOiBzdGlja3kgaW4gZmxvdywgY29udHJpYnV0ZXMgdG8gbGF5b3V0IHdpZHRoCiAgICAgICAgImxnOnN0aWNreSBsZzp0b3AtMCBsZzp0cmFuc2xhdGUteC0wIGxnOnRyYW5zaXRpb24tW3dpZHRoXSIsCiAgICAgICAgY29sbGFwc2VkID8gImxnOnctMTYiIDogImxnOnctNjQiLAogICAgICApfQogICAgPgogICAgICB7LyogRmxvYXRpbmcgY29sbGFwc2UgdG9nZ2xlIOKAlCBkZXNrdG9wIG9ubHkgKi99CiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgb25DbGljaz17dG9nZ2xlfQogICAgICAgIGFyaWEtbGFiZWw9e2NvbGxhcHNlZCA/ICJFeHBhbmQgc2lkZWJhciIgOiAiQ29sbGFwc2Ugc2lkZWJhciJ9CiAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSByaWdodC0wIHRvcC0yMCB6LTMwIGhpZGRlbiBoLTcgdy03IHRyYW5zbGF0ZS14LTEvMiBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLXN1cmZhY2UgdGV4dC10ZXh0LXNlY29uZGFyeSBzaGFkb3ctc20gdHJhbnNpdGlvbiBob3ZlcjpiZy1zdXJmYWNlLWVsZXZhdGVkIGhvdmVyOnRleHQtdGV4dC1wcmltYXJ5IGxnOmlubGluZS1mbGV4IgogICAgICA+CiAgICAgICAge2NvbGxhcHNlZCA/IDxDaGV2cm9uUmlnaHQgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4gOiA8Q2hldnJvbkxlZnQgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz59CiAgICAgIDwvYnV0dG9uPgoKICAgICAgey8qIEhlYWRlcjogbG9nbyArIG1vYmlsZS1vbmx5IGNsb3NlIGJ1dHRvbiAqL30KICAgICAgPGRpdgogICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAiZmxleCBoLTE2IGl0ZW1zLWNlbnRlciBib3JkZXItYiBib3JkZXItYm9yZGVyIHB4LTMiLAogICAgICAgICAgY29sbGFwc2VkID8gImxnOmp1c3RpZnktY2VudGVyIiA6ICJsZzpqdXN0aWZ5LXN0YXJ0IiwKICAgICAgICAgICJqdXN0aWZ5LWJldHdlZW4iLAogICAgICAgICl9CiAgICAgID4KICAgICAgICA8TGluawogICAgICAgICAgaHJlZj0iLyIKICAgICAgICAgIGFyaWEtbGFiZWw9Ik5vcnRoYnJpZGdlIFN0cmF0ZWdpZXMg4oCUIEhvbWUiCiAgICAgICAgICB0aXRsZT0iTm9ydGhicmlkZ2UgU3RyYXRlZ2llcyIKICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICJmbGV4IGl0ZW1zLWNlbnRlciIsCiAgICAgICAgICAgIGNvbGxhcHNlZCAmJiAibGc6anVzdGlmeS1jZW50ZXIiLAogICAgICAgICAgKX0KICAgICAgICA+CiAgICAgICAgICA8SW1hZ2UKICAgICAgICAgICAgc3JjPSIvbG9nby5wbmciCiAgICAgICAgICAgIGFsdD0iTm9ydGhicmlkZ2UgU3RyYXRlZ2llcyIKICAgICAgICAgICAgd2lkdGg9e2NvbGxhcHNlZCA/IDQwIDogMTQwfQogICAgICAgICAgICBoZWlnaHQ9e2NvbGxhcHNlZCA/IDQwIDogNDB9CiAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgIm9iamVjdC1jb250YWluIiwKICAgICAgICAgICAgICBjb2xsYXBzZWQgPyAibGc6aC05IGxnOnctOSIgOiAiIiwKICAgICAgICAgICAgKX0KICAgICAgICAgICAgcHJpb3JpdHkKICAgICAgICAgIC8+CiAgICAgICAgPC9MaW5rPgoKICAgICAgICB7LyogTW9iaWxlIGNsb3NlIGJ1dHRvbiAqL30KICAgICAgICA8YnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBvbkNsaWNrPXtvbkNsb3NlTW9iaWxlfQogICAgICAgICAgYXJpYS1sYWJlbD0iQ2xvc2UgbWVudSIKICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaC04IHctOCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCB0ZXh0LXRleHQtc2Vjb25kYXJ5IGhvdmVyOmJnLXN1cmZhY2UtZWxldmF0ZWQgaG92ZXI6dGV4dC10ZXh0LXByaW1hcnkgbGc6aGlkZGVuIgogICAgICAgID4KICAgICAgICAgIDxYIGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAgICA8L2J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICB7LyogTmF2IGl0ZW1zICovfQogICAgICA8bmF2IGNsYXNzTmFtZT0iZmxleC0xIHNwYWNlLXktMSBvdmVyZmxvdy15LWF1dG8gcC0yIj4KICAgICAgICB7aXRlbXMubWFwKChpdGVtKSA9PiB7CiAgICAgICAgICBjb25zdCBhY3RpdmUgPQogICAgICAgICAgICBpdGVtLmhyZWYgPT09ICIvIiA/IHBhdGhuYW1lID09PSAiLyIgOiBwYXRobmFtZS5zdGFydHNXaXRoKGl0ZW0uaHJlZik7CiAgICAgICAgICBjb25zdCBJY29uID0gaXRlbS5pY29uOwogICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICBrZXk9e2l0ZW0uaHJlZn0KICAgICAgICAgICAgICBocmVmPXtpdGVtLmhyZWZ9CiAgICAgICAgICAgICAgdGl0bGU9e2NvbGxhcHNlZCA/IGl0ZW0ubGFiZWwgOiB1bmRlZmluZWR9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgICAgICJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyByb3VuZGVkLW1kIHB4LTMgcHktMiB0ZXh0LXNtIHRyYW5zaXRpb24tY29sb3JzIiwKICAgICAgICAgICAgICAgIGNvbGxhcHNlZCAmJiAibGc6anVzdGlmeS1jZW50ZXIgbGc6cHgtMCIsCiAgICAgICAgICAgICAgICBhY3RpdmUKICAgICAgICAgICAgICAgICAgPyAiYmctYnJhbmQtcHJpbWFyeSB0ZXh0LXdoaXRlIgogICAgICAgICAgICAgICAgICA6ICJ0ZXh0LXRleHQtc2Vjb25kYXJ5IGhvdmVyOmJnLXN1cmZhY2UtZWxldmF0ZWQgaG92ZXI6dGV4dC10ZXh0LXByaW1hcnkiLAogICAgICAgICAgICAgICl9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8SWNvbiBjbGFzc05hbWU9ImgtNCB3LTQgc2hyaW5rLTAiIC8+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtjbigidHJ1bmNhdGUiLCBjb2xsYXBzZWQgJiYgImxnOmhpZGRlbiIpfT4KICAgICAgICAgICAgICAgIHtpdGVtLmxhYmVsfQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgKTsKICAgICAgICB9KX0KICAgICAgPC9uYXY+CgogICAgICB7LyogQm90dG9tOiB0aGVtZSB0b2dnbGUgKyB1c2VyICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIGJvcmRlci10IGJvcmRlci1ib3JkZXIgcC0yIj4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzc05hbWU9e2NuKAogICAgICAgICAgICAiZmxleCBpdGVtcy1jZW50ZXIiLAogICAgICAgICAgICBjb2xsYXBzZWQgPyAibGc6anVzdGlmeS1jZW50ZXIiIDogImxnOmp1c3RpZnktYmV0d2VlbiIsCiAgICAgICAgICAgICJqdXN0aWZ5LWJldHdlZW4iLAogICAgICAgICAgKX0KICAgICAgICA+CiAgICAgICAgICA8VGhlbWVUb2dnbGUgLz4KICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgImxhYmVsLWNhcHMgdGV4dC10ZXh0LW11dGVkIiwKICAgICAgICAgICAgICBjb2xsYXBzZWQgJiYgImxnOmhpZGRlbiIsCiAgICAgICAgICAgICl9CiAgICAgICAgICA+CiAgICAgICAgICAgIHYwLjEKICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8VXNlck1lbnUgdXNlcj17dXNlcn0gY29sbGFwc2VkPXtjb2xsYXBzZWR9IC8+CiAgICAgIDwvZGl2PgogICAgPC9hc2lkZT4KICApOwp9Cg==
+"use client";
+
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import { visibleNav } from "@/lib/constants/nav";
+import { cn } from "@/lib/utils/classnames";
+import { ThemeToggle } from "./ThemeToggle";
+import { UserMenu, type UserMenuUser } from "./UserMenu";
+
+const ONE_YEAR = 60 * 60 * 24 * 365;
+
+function setSidebarCookie(collapsed: boolean) {
+  document.cookie = `sidebar-collapsed=${collapsed ? "1" : "0"}; Path=/; Max-Age=${ONE_YEAR}; SameSite=Lax`;
+}
+
+export function Sidebar({
+  user,
+  initialCollapsed,
+  mobileOpen,
+  onCloseMobile,
+}: {
+  user: UserMenuUser;
+  initialCollapsed: boolean;
+  mobileOpen: boolean;
+  onCloseMobile: () => void;
+}) {
+  // On desktop, "collapsed" means narrow rail. Mobile ignores collapsed —
+  // the drawer is always full-width when open.
+  const [collapsed, setCollapsed] = useState(initialCollapsed);
+  const pathname = usePathname();
+  const items = visibleNav(user.role);
+
+  // Auto-close mobile drawer on route change
+  useEffect(() => {
+    if (mobileOpen) onCloseMobile();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
+
+  const toggle = () => {
+    const next = !collapsed;
+    setCollapsed(next);
+    setSidebarCookie(next);
+  };
+
+  return (
+    <aside
+      aria-label="Primary"
+      className={cn(
+        "z-40 flex h-screen flex-col border-r border-border bg-surface",
+        // Mobile: full-screen drawer, fixed-positioned, slide in/out
+        "fixed inset-y-0 left-0 w-64 transition-transform duration-200",
+        mobileOpen ? "translate-x-0" : "-translate-x-full",
+        // Desktop: sticky in flow, contributes to layout width
+        "lg:sticky lg:top-0 lg:translate-x-0 lg:transition-[width]",
+        collapsed ? "lg:w-16" : "lg:w-64",
+      )}
+    >
+      {/* Floating collapse toggle — desktop only */}
+      <button
+        type="button"
+        onClick={toggle}
+        aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
+        className="absolute right-0 top-20 z-30 hidden h-7 w-7 translate-x-1/2 items-center justify-center rounded-full border border-border bg-surface text-text-secondary shadow-sm transition hover:bg-surface-elevated hover:text-text-primary lg:inline-flex"
+      >
+        {collapsed ? <ChevronRight className="h-3.5 w-3.5" /> : <ChevronLeft className="h-3.5 w-3.5" />}
+      </button>
+
+      {/* Header: logo + mobile-only close button */}
+      <div
+        className={cn(
+          "flex h-16 items-center border-b border-border px-3",
+          collapsed ? "lg:justify-center" : "lg:justify-start",
+          "justify-between",
+        )}
+      >
+        <Link
+          href="/"
+          aria-label="Northbridge Strategies — Home"
+          title="Northbridge Strategies"
+          className={cn(
+            "flex items-center",
+            collapsed && "lg:justify-center",
+          )}
+        >
+          <Image
+            src="/logo.png"
+            alt="Northbridge Strategies"
+            width={collapsed ? 40 : 140}
+            height={collapsed ? 40 : 40}
+            className={cn(
+              "object-contain",
+              collapsed ? "lg:h-9 lg:w-9" : "",
+            )}
+            priority
+          />
+        </Link>
+
+        {/* Mobile close button */}
+        <button
+          type="button"
+          onClick={onCloseMobile}
+          aria-label="Close menu"
+          className="inline-flex h-8 w-8 items-center justify-center rounded-md text-text-secondary hover:bg-surface-elevated hover:text-text-primary lg:hidden"
+        >
+          <X className="h-4 w-4" />
+        </button>
+      </div>
+
+      {/* Nav items */}
+      <nav className="flex-1 space-y-1 overflow-y-auto p-2">
+        {items.map((item) => {
+          const active =
+            item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+          const Icon = item.icon;
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              title={collapsed ? item.label : undefined}
+              className={cn(
+                "flex items-center gap-3 rounded-md px-3 py-2 text-sm transition-colors",
+                collapsed && "lg:justify-center lg:px-0",
+                active
+                  ? "bg-brand-primary text-white"
+                  : "text-text-secondary hover:bg-surface-elevated hover:text-text-primary",
+              )}
+            >
+              <Icon className="h-4 w-4 shrink-0" />
+              <span className={cn("truncate", collapsed && "lg:hidden")}>
+                {item.label}
+              </span>
+            </Link>
+          );
+        })}
+      </nav>
+
+      {/* Bottom: theme toggle + user */}
+      <div className="space-y-2 border-t border-border p-2">
+        <div
+          className={cn(
+            "flex items-center",
+            collapsed ? "lg:justify-center" : "lg:justify-between",
+            "justify-between",
+          )}
+        >
+          <ThemeToggle />
+          <span
+            className={cn(
+              "label-caps text-text-muted",
+              collapsed && "lg:hidden",
+            )}
+          >
+            v0.1
+          </span>
+        </div>
+        <UserMenu user={user} collapsed={collapsed} />
+      </div>
+    </aside>
+  );
+}

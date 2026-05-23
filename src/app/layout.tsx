@@ -1,1 +1,25 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwppbXBvcnQgeyBJbnRlciB9IGZyb20gIm5leHQvZm9udC9nb29nbGUiOwppbXBvcnQgeyBQcm92aWRlcnMgfSBmcm9tICIuL3Byb3ZpZGVycyI7CmltcG9ydCAiLi9nbG9iYWxzLmNzcyI7Cgpjb25zdCBpbnRlciA9IEludGVyKHsKICBzdWJzZXRzOiBbImxhdGluIl0sCiAgdmFyaWFibGU6ICItLWZvbnQtaW50ZXIiLAogIGRpc3BsYXk6ICJzd2FwIiwKfSk7CgpleHBvcnQgY29uc3QgbWV0YWRhdGE6IE1ldGFkYXRhID0gewogIHRpdGxlOiAiTm9ydGhicmlkZ2UgU3RyYXRlZ2llcyDigJQgT3BlcmF0aW9ucyBEYXNoYm9hcmQiLAogIGRlc2NyaXB0aW9uOiAiSW50ZXJuYWwgQ1JNIGFuZCBvcGVyYXRpb25zIGRhc2hib2FyZCBmb3IgTm9ydGhicmlkZ2UgU3RyYXRlZ2llcy4iLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUm9vdExheW91dCh7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZSB9KSB7CiAgcmV0dXJuICgKICAgIDxodG1sIGxhbmc9ImVuIiBzdXBwcmVzc0h5ZHJhdGlvbldhcm5pbmcgY2xhc3NOYW1lPXtpbnRlci52YXJpYWJsZX0+CiAgICAgIDxib2R5IGNsYXNzTmFtZT0iZm9udC1zYW5zIGFudGlhbGlhc2VkIj4KICAgICAgICA8UHJvdmlkZXJzPntjaGlsZHJlbn08L1Byb3ZpZGVycz4KICAgICAgPC9ib2R5PgogICAgPC9odG1sPgogICk7Cn0K
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import { Providers } from "./providers";
+import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "Northbridge Strategies — Operations Dashboard",
+  description: "Internal CRM and operations dashboard for Northbridge Strategies.",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" suppressHydrationWarning className={inter.variable}>
+      <body className="font-sans antialiased">
+        <Providers>{children}</Providers>
+      </body>
+    </html>
+  );
+}

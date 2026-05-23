@@ -1,1 +1,45 @@
-aW1wb3J0IHR5cGUgeyBSb2xlIH0gZnJvbSAiQC9saWIvdHlwZXMvYXV0aCI7CmltcG9ydCB7CiAgSG9tZSwKICBVc2VycywKICBMaXN0Q2hlY2tzLAogIEZsYW1lLAogIEZpbGVUZXh0LAogIERvbGxhclNpZ24sCiAgQnJpZWZjYXNlLAogIEJ1aWxkaW5nMiwKICBCYXJDaGFydDMsCiAgUGVuTGluZSwKICBBY3Rpdml0eSwKICBBbGVydFRyaWFuZ2xlLAogIFNldHRpbmdzLAogIHR5cGUgTHVjaWRlSWNvbiwKfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKZXhwb3J0IGludGVyZmFjZSBOYXZJdGVtIHsKICBocmVmOiBzdHJpbmc7CiAgbGFiZWw6IHN0cmluZzsKICBpY29uOiBMdWNpZGVJY29uOwogIC8qKiBJZiBzZXQsIG9ubHkgdGhlc2Ugcm9sZXMgY2FuIHNlZSB0aGlzIG5hdiBpdGVtLiAqLwogIHJvbGVzPzogUm9sZVtdOwp9CgpleHBvcnQgY29uc3QgTkFWX0lURU1TOiBOYXZJdGVtW10gPSBbCiAgeyBocmVmOiAiLyIsIGxhYmVsOiAiSG9tZSIsIGljb246IEhvbWUgfSwKICB7IGhyZWY6ICIvbGVhZHMiLCBsYWJlbDogIkFsbCBMZWFkcyIsIGljb246IFVzZXJzIH0sCiAgeyBocmVmOiAiL3BpcGVsaW5lIiwgbGFiZWw6ICJQaXBlbGluZSIsIGljb246IExpc3RDaGVja3MgfSwKICB7IGhyZWY6ICIvaG90LWxlYWRzIiwgbGFiZWw6ICJIb3QgTGVhZHMiLCBpY29uOiBGbGFtZSB9LAogIHsgaHJlZjogIi9zY29yZXMiLCBsYWJlbDogIkRpYWdub3N0aWMgU2NvcmVzIiwgaWNvbjogRmlsZVRleHQgfSwKICB7IGhyZWY6ICIvcmV2ZW51ZSIsIGxhYmVsOiAiUmV2ZW51ZSIsIGljb246IERvbGxhclNpZ24gfSwKICB7IGhyZWY6ICIvbGlua2VkaW4iLCBsYWJlbDogIkxpbmtlZEluIE91dHJlYWNoIiwgaWNvbjogQnJpZWZjYXNlIH0sCiAgeyBocmVmOiAiL2Jyb2tlcnMiLCBsYWJlbDogIkJyb2tlciBRdWV1ZSIsIGljb246IEJ1aWxkaW5nMiB9LAogIHsgaHJlZjogIi9jaGFubmVscyIsIGxhYmVsOiAiQ2hhbm5lbCBQZXJmb3JtYW5jZSIsIGljb246IEJhckNoYXJ0MyB9LAogIHsgaHJlZjogIi9jb250ZW50IiwgbGFiZWw6ICJDb250ZW50IENhbGVuZGFyIiwgaWNvbjogUGVuTGluZSB9LAogIHsgaHJlZjogIi9oZWFsdGgiLCBsYWJlbDogIlN5c3RlbSBIZWFsdGgiLCBpY29uOiBBY3Rpdml0eSB9LAogIHsgaHJlZjogIi9tYW51YWwtcmV2aWV3IiwgbGFiZWw6ICJNYW51YWwgUmV2aWV3IiwgaWNvbjogQWxlcnRUcmlhbmdsZSB9LAogIHsgaHJlZjogIi9zZXR0aW5ncyIsIGxhYmVsOiAiU2V0dGluZ3MiLCBpY29uOiBTZXR0aW5ncywgcm9sZXM6IFsiQWRtaW4iXSB9LApdOwoKZXhwb3J0IGZ1bmN0aW9uIHZpc2libGVOYXYocm9sZTogUm9sZSk6IE5hdkl0ZW1bXSB7CiAgcmV0dXJuIE5BVl9JVEVNUy5maWx0ZXIoKGl0ZW0pID0+ICFpdGVtLnJvbGVzIHx8IGl0ZW0ucm9sZXMuaW5jbHVkZXMocm9sZSkpOwp9Cg==
+import type { Role } from "@/lib/types/auth";
+import {
+  Home,
+  Users,
+  ListChecks,
+  Flame,
+  FileText,
+  DollarSign,
+  Briefcase,
+  Building2,
+  BarChart3,
+  PenLine,
+  Activity,
+  AlertTriangle,
+  Settings,
+  type LucideIcon,
+} from "lucide-react";
+
+export interface NavItem {
+  href: string;
+  label: string;
+  icon: LucideIcon;
+  /** If set, only these roles can see this nav item. */
+  roles?: Role[];
+}
+
+export const NAV_ITEMS: NavItem[] = [
+  { href: "/", label: "Home", icon: Home },
+  { href: "/leads", label: "All Leads", icon: Users },
+  { href: "/pipeline", label: "Pipeline", icon: ListChecks },
+  { href: "/hot-leads", label: "Hot Leads", icon: Flame },
+  { href: "/scores", label: "Diagnostic Scores", icon: FileText },
+  { href: "/revenue", label: "Revenue", icon: DollarSign },
+  { href: "/linkedin", label: "LinkedIn Outreach", icon: Briefcase },
+  { href: "/brokers", label: "Broker Queue", icon: Building2 },
+  { href: "/channels", label: "Channel Performance", icon: BarChart3 },
+  { href: "/content", label: "Content Calendar", icon: PenLine },
+  { href: "/health", label: "System Health", icon: Activity },
+  { href: "/manual-review", label: "Manual Review", icon: AlertTriangle },
+  { href: "/settings", label: "Settings", icon: Settings, roles: ["Admin"] },
+];
+
+export function visibleNav(role: Role): NavItem[] {
+  return NAV_ITEMS.filter((item) => !item.roles || item.roles.includes(role));
+}

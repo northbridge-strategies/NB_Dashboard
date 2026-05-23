@@ -1,1 +1,22 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgQ2hlY2sgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB1c2VBY3Rpb24gfSBmcm9tICJAL2xpYi9ob29rcy91c2VBY3Rpb24iOwoKZXhwb3J0IGZ1bmN0aW9uIEJyb2tlckFwcHJvdmVCdXR0b24oeyBpZCB9OiB7IGlkOiBzdHJpbmcgfSkgewogIGNvbnN0IGFwcHJvdmUgPSB1c2VBY3Rpb24oKTsKICByZXR1cm4gKAogICAgPGJ1dHRvbgogICAgICB0eXBlPSJidXR0b24iCiAgICAgIG9uQ2xpY2s9eyhlKSA9PiB7CiAgICAgICAgZS5zdG9wUHJvcGFnYXRpb24oKTsKICAgICAgICB2b2lkIGFwcHJvdmUucnVuKGAvYXBpL2Jyb2tlcnMvJHtpZH0vYXBwcm92ZWApOwogICAgICB9fQogICAgICBkaXNhYmxlZD17YXBwcm92ZS5zdGF0ZSA9PT0gInBlbmRpbmciIHx8IGFwcHJvdmUuc3RhdGUgPT09ICJzdWNjZXNzIn0KICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYnJhbmQtc3VjY2Vzcy80MCBiZy1icmFuZC1zdWNjZXNzLzEwIHB4LTIuNSBweS0xIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1icmFuZC1zdWNjZXNzIGhvdmVyOmJnLWJyYW5kLXN1Y2Nlc3MvMjAgZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIGRpc2FibGVkOm9wYWNpdHktNTAiCiAgICA+CiAgICAgIDxDaGVjayBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPgogICAgICB7YXBwcm92ZS5zdGF0ZSA9PT0gInN1Y2Nlc3MiID8gIkFwcHJvdmVkIiA6ICJBcHByb3ZlIn0KICAgIDwvYnV0dG9uPgogICk7Cn0K
+"use client";
+
+import { Check } from "lucide-react";
+import { useAction } from "@/lib/hooks/useAction";
+
+export function BrokerApproveButton({ id }: { id: string }) {
+  const approve = useAction();
+  return (
+    <button
+      type="button"
+      onClick={(e) => {
+        e.stopPropagation();
+        void approve.run(`/api/brokers/${id}/approve`);
+      }}
+      disabled={approve.state === "pending" || approve.state === "success"}
+      className="inline-flex items-center gap-1.5 rounded-md border border-brand-success/40 bg-brand-success/10 px-2.5 py-1 text-xs font-medium text-brand-success hover:bg-brand-success/20 disabled:cursor-not-allowed disabled:opacity-50"
+    >
+      <Check className="h-3.5 w-3.5" />
+      {approve.state === "success" ? "Approved" : "Approve"}
+    </button>
+  );
+}

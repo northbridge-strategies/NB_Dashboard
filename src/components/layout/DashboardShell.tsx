@@ -1,1 +1,67 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgU2lkZWJhciB9IGZyb20gIi4vU2lkZWJhciI7CmltcG9ydCB7IFRvcGJhciB9IGZyb20gIi4vVG9wYmFyIjsKaW1wb3J0IHR5cGUgeyBVc2VyTWVudVVzZXIgfSBmcm9tICIuL1VzZXJNZW51IjsKCmV4cG9ydCBmdW5jdGlvbiBEYXNoYm9hcmRTaGVsbCh7CiAgdXNlciwKICBpbml0aWFsQ29sbGFwc2VkLAogIGNoaWxkcmVuLAp9OiB7CiAgdXNlcjogVXNlck1lbnVVc2VyOwogIGluaXRpYWxDb2xsYXBzZWQ6IGJvb2xlYW47CiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTsKfSkgewogIGNvbnN0IFttb2JpbGVPcGVuLCBzZXRNb2JpbGVPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgLy8gQ2xvc2UgbW9iaWxlIGRyYXdlciB3aGVuIGVzY2FwZSBwcmVzc2VkCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghbW9iaWxlT3BlbikgcmV0dXJuOwogICAgY29uc3Qgb25LZXkgPSAoZTogS2V5Ym9hcmRFdmVudCkgPT4gewogICAgICBpZiAoZS5rZXkgPT09ICJFc2NhcGUiKSBzZXRNb2JpbGVPcGVuKGZhbHNlKTsKICAgIH07CiAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigia2V5ZG93biIsIG9uS2V5KTsKICAgIHJldHVybiAoKSA9PiB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigia2V5ZG93biIsIG9uS2V5KTsKICB9LCBbbW9iaWxlT3Blbl0pOwoKICAvLyBMb2NrIGJvZHkgc2Nyb2xsIHdoaWxlIG1vYmlsZSBkcmF3ZXIgaXMgb3BlbgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIW1vYmlsZU9wZW4pIHJldHVybjsKICAgIGNvbnN0IHByZXYgPSBkb2N1bWVudC5ib2R5LnN0eWxlLm92ZXJmbG93OwogICAgZG9jdW1lbnQuYm9keS5zdHlsZS5vdmVyZmxvdyA9ICJoaWRkZW4iOwogICAgcmV0dXJuICgpID0+IHsKICAgICAgZG9jdW1lbnQuYm9keS5zdHlsZS5vdmVyZmxvdyA9IHByZXY7CiAgICB9OwogIH0sIFttb2JpbGVPcGVuXSk7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBtaW4taC1zY3JlZW4gYmctYmcgdGV4dC10ZXh0LXByaW1hcnkiPgogICAgICB7LyogTW9iaWxlIGJhY2tkcm9wICovfQogICAgICB7bW9iaWxlT3BlbiAmJiAoCiAgICAgICAgPGRpdgogICAgICAgICAgYXJpYS1oaWRkZW4KICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE1vYmlsZU9wZW4oZmFsc2UpfQogICAgICAgICAgY2xhc3NOYW1lPSJmaXhlZCBpbnNldC0wIHotMzAgYmctYmxhY2svNTAgbGc6aGlkZGVuIgogICAgICAgIC8+CiAgICAgICl9CgogICAgICA8U2lkZWJhcgogICAgICAgIHVzZXI9e3VzZXJ9CiAgICAgICAgaW5pdGlhbENvbGxhcHNlZD17aW5pdGlhbENvbGxhcHNlZH0KICAgICAgICBtb2JpbGVPcGVuPXttb2JpbGVPcGVufQogICAgICAgIG9uQ2xvc2VNb2JpbGU9eygpID0+IHNldE1vYmlsZU9wZW4oZmFsc2UpfQogICAgICAvPgoKICAgICAgey8qIG1pbi13LTAgbGV0cyB0aGUgaW5uZXIgZmxleCBjb2x1bW4gYWN0dWFsbHkgc2hyaW5rIHNvIGNoaWxkcmVuJ3MKICAgICAgICAgIG92ZXJmbG93LXgtYXV0byBraWNrcyBpbiBpbnN0ZWFkIG9mIHB1c2hpbmcgdGhlIHdob2xlIGxheW91dCB3aWRlci4gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IG1pbi1oLXNjcmVlbiBtaW4tdy0wIGZsZXgtMSBmbGV4LWNvbCI+CiAgICAgICAgPFRvcGJhciBvbk9wZW5Nb2JpbGU9eygpID0+IHNldE1vYmlsZU9wZW4odHJ1ZSl9IC8+CiAgICAgICAgPG1haW4gY2xhc3NOYW1lPSJtaW4tdy0wIGZsZXgtMSBweC00IHB5LTUgc206cHgtNiBzbTpweS02Ij4KICAgICAgICAgIHtjaGlsZHJlbn0KICAgICAgICA8L21haW4+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+"use client";
+
+import { useEffect, useState } from "react";
+import { Sidebar } from "./Sidebar";
+import { Topbar } from "./Topbar";
+import type { UserMenuUser } from "./UserMenu";
+
+export function DashboardShell({
+  user,
+  initialCollapsed,
+  children,
+}: {
+  user: UserMenuUser;
+  initialCollapsed: boolean;
+  children: React.ReactNode;
+}) {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  // Close mobile drawer when escape pressed
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setMobileOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [mobileOpen]);
+
+  // Lock body scroll while mobile drawer is open
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [mobileOpen]);
+
+  return (
+    <div className="flex min-h-screen bg-bg text-text-primary">
+      {/* Mobile backdrop */}
+      {mobileOpen && (
+        <div
+          aria-hidden
+          onClick={() => setMobileOpen(false)}
+          className="fixed inset-0 z-30 bg-black/50 lg:hidden"
+        />
+      )}
+
+      <Sidebar
+        user={user}
+        initialCollapsed={initialCollapsed}
+        mobileOpen={mobileOpen}
+        onCloseMobile={() => setMobileOpen(false)}
+      />
+
+      {/* min-w-0 lets the inner flex column actually shrink so children's
+          overflow-x-auto kicks in instead of pushing the whole layout wider. */}
+      <div className="flex min-h-screen min-w-0 flex-1 flex-col">
+        <Topbar onOpenMobile={() => setMobileOpen(true)} />
+        <main className="min-w-0 flex-1 px-4 py-5 sm:px-6 sm:py-6">
+          {children}
+        </main>
+      </div>
+    </div>
+  );
+}

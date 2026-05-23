@@ -1,1 +1,264 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCBMaW5rIGZyb20gIm5leHQvbGluayI7CmltcG9ydCB7IENhbGVuZGFyLCBDaGV2cm9uUmlnaHQsIEJ1aWxkaW5nMiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IFNsaWRlT3ZlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS9TbGlkZU92ZXIiOwppbXBvcnQgewogIFN0YXR1c0JhZGdlLAogIHRvbmVGb3JQcmlvcml0eSwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvU3RhdHVzQmFkZ2UiOwppbXBvcnQgeyBFbXB0eVN0YXRlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3N0YXRlcyI7CmltcG9ydCB7IGNuIH0gZnJvbSAiQC9saWIvdXRpbHMvY2xhc3NuYW1lcyI7CgpleHBvcnQgaW50ZXJmYWNlIE1lZXRpbmdSb3cgewogIGlkOiBzdHJpbmc7CiAgbGVhZE5hbWU6IHN0cmluZzsKICBjb21wYW55OiBzdHJpbmc7CiAgc3RhZ2U6IHN0cmluZyB8IG51bGw7CiAgcHJpb3JpdHk6IHN0cmluZyB8IG51bGw7CiAgbWVldGluZ0RhdGU6IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIFVwY29taW5nTWVldGluZ3MoewogIHVwY29taW5nLAogIHByZXZpb3VzLAp9OiB7CiAgdXBjb21pbmc6IE1lZXRpbmdSb3dbXTsKICBwcmV2aW91czogTWVldGluZ1Jvd1tdOwp9KSB7CiAgY29uc3QgW29wZW4sIHNldE9wZW5dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IG5leHQgPSB1cGNvbWluZ1swXTsKCiAgcmV0dXJuICgKICAgIDw+CiAgICAgIDxidXR0b24KICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgb25DbGljaz17KCkgPT4gc2V0T3Blbih0cnVlKX0KICAgICAgICBjbGFzc05hbWU9Imdyb3VwIGZsZXggdy1mdWxsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1zdXJmYWNlIHB4LTMgcHktMi41IHRleHQtbGVmdCB0cmFuc2l0aW9uIGhvdmVyOmJvcmRlci1icmFuZC1wcmltYXJ5LzQwIGhvdmVyOmJnLXN1cmZhY2UtZWxldmF0ZWQiCiAgICAgID4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yLjUiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGgtNyB3LTcgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgYmctYnJhbmQtaW5mby8xMCB0ZXh0LWJyYW5kLWluZm8iPgogICAgICAgICAgICA8Q2FsZW5kYXIgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXRleHQtcHJpbWFyeSI+CiAgICAgICAgICAgICAgVXBjb21pbmcgTWVldGluZ3MKICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAge3VwY29taW5nLmxlbmd0aCA9PT0gMAogICAgICAgICAgICAgICAgPyAiTm8gbWVldGluZ3Mgc2NoZWR1bGVkIgogICAgICAgICAgICAgICAgOiBuZXh0CiAgICAgICAgICAgICAgICA/IGBOZXh0OiAke2Zvcm1hdE1lZXRpbmdEYXRlKG5leHQubWVldGluZ0RhdGUsICJzaG9ydCIpfWAKICAgICAgICAgICAgICAgIDogYCR7dXBjb21pbmcubGVuZ3RofSBzY2hlZHVsZWRgfQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9zcGFuPgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAge3VwY29taW5nLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InJvdW5kZWQtZnVsbCBiZy1icmFuZC1wcmltYXJ5IHB4LTIgcHktMC41IHRleHQteHMgZm9udC1zZW1pYm9sZCB0ZXh0LXdoaXRlIj4KICAgICAgICAgICAgICB7dXBjb21pbmcubGVuZ3RofQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICApfQogICAgICAgICAgPENoZXZyb25SaWdodCBjbGFzc05hbWU9ImgtNCB3LTQgdGV4dC10ZXh0LW11dGVkIHRyYW5zaXRpb24gZ3JvdXAtaG92ZXI6dHJhbnNsYXRlLXgtMC41IGdyb3VwLWhvdmVyOnRleHQtdGV4dC1wcmltYXJ5IiAvPgogICAgICAgIDwvc3Bhbj4KICAgICAgPC9idXR0b24+CgogICAgICA8U2xpZGVPdmVyCiAgICAgICAgb3Blbj17b3Blbn0KICAgICAgICBvbkNsb3NlPXsoKSA9PiBzZXRPcGVuKGZhbHNlKX0KICAgICAgICB0aXRsZT0iTWVldGluZ3MiCiAgICAgICAgd2lkdGg9Im1heC13LXhsIgogICAgICA+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNiI+CiAgICAgICAgICA8U2VjdGlvbgogICAgICAgICAgICB0aXRsZT0iVXBjb21pbmciCiAgICAgICAgICAgIGNvdW50PXt1cGNvbWluZy5sZW5ndGh9CiAgICAgICAgICAgIHRvbmU9InVwY29taW5nIgogICAgICAgICAgICBlbXB0eT0iTm90aGluZyBvbiB0aGUgY2FsZW5kYXIgeWV0LiIKICAgICAgICAgID4KICAgICAgICAgICAge3VwY29taW5nLm1hcCgobSkgPT4gKAogICAgICAgICAgICAgIDxNZWV0aW5nQ2FyZCBrZXk9e20uaWR9IG1lZXRpbmc9e219IHZhcmlhbnQ9InVwY29taW5nIiAvPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvU2VjdGlvbj4KCiAgICAgICAgICA8U2VjdGlvbgogICAgICAgICAgICB0aXRsZT0iUHJldmlvdXMiCiAgICAgICAgICAgIGNvdW50PXtwcmV2aW91cy5sZW5ndGh9CiAgICAgICAgICAgIHRvbmU9InByZXZpb3VzIgogICAgICAgICAgICBlbXB0eT0iTm8gcGFzdCBtZWV0aW5ncyBvbiBmaWxlLiIKICAgICAgICAgID4KICAgICAgICAgICAge3ByZXZpb3VzLm1hcCgobSkgPT4gKAogICAgICAgICAgICAgIDxNZWV0aW5nQ2FyZCBrZXk9e20uaWR9IG1lZXRpbmc9e219IHZhcmlhbnQ9InByZXZpb3VzIiAvPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvU2VjdGlvbj4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBwdC00Ij4KICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICBocmVmPSIvcGlwZWxpbmUiCiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0T3BlbihmYWxzZSl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtYnJhbmQtaW5mbyBob3Zlcjp1bmRlcmxpbmUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICBPcGVuIFBpcGVsaW5lIGJvYXJkIOKGkgogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9TbGlkZU92ZXI+CiAgICA8Lz4KICApOwp9CgpmdW5jdGlvbiBTZWN0aW9uKHsKICB0aXRsZSwKICBjb3VudCwKICB0b25lLAogIGVtcHR5LAogIGNoaWxkcmVuLAp9OiB7CiAgdGl0bGU6IHN0cmluZzsKICBjb3VudDogbnVtYmVyOwogIHRvbmU6ICJ1cGNvbWluZyIgfCAicHJldmlvdXMiOwogIGVtcHR5OiBzdHJpbmc7CiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTsKfSkgewogIHJldHVybiAoCiAgICA8c2VjdGlvbj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTMgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICA8aDMgY2xhc3NOYW1lPSJsYWJlbC1jYXBzIHRleHQtdGV4dC1tdXRlZCI+e3RpdGxlfTwvaDM+CiAgICAgICAgPHNwYW4KICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICJyb3VuZGVkLWZ1bGwgcHgtMiBweS0wLjUgdGV4dC14cyBmb250LW1lZGl1bSIsCiAgICAgICAgICAgIHRvbmUgPT09ICJ1cGNvbWluZyIKICAgICAgICAgICAgICA/ICJiZy1icmFuZC1pbmZvLzEwIHRleHQtYnJhbmQtaW5mbyIKICAgICAgICAgICAgICA6ICJiZy1zdXJmYWNlLWVsZXZhdGVkIHRleHQtdGV4dC1zZWNvbmRhcnkiLAogICAgICAgICAgKX0KICAgICAgICA+CiAgICAgICAgICB7Y291bnR9CiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KICAgICAge2NvdW50ID09PSAwID8gKAogICAgICAgIDxFbXB0eVN0YXRlIHRpdGxlPXtlbXB0eX0gLz4KICAgICAgKSA6ICgKICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTIiPntjaGlsZHJlbn08L3VsPgogICAgICApfQogICAgPC9zZWN0aW9uPgogICk7Cn0KCmZ1bmN0aW9uIE1lZXRpbmdDYXJkKHsKICBtZWV0aW5nLAogIHZhcmlhbnQsCn06IHsKICBtZWV0aW5nOiBNZWV0aW5nUm93OwogIHZhcmlhbnQ6ICJ1cGNvbWluZyIgfCAicHJldmlvdXMiOwp9KSB7CiAgY29uc3QgaXNQYXN0ID0gdmFyaWFudCA9PT0gInByZXZpb3VzIjsKICBjb25zdCByZWxhdGl2ZSA9IHJlbGF0aXZlVGltZShtZWV0aW5nLm1lZXRpbmdEYXRlKTsKICByZXR1cm4gKAogICAgPGxpCiAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgInJvdW5kZWQtbGcgYm9yZGVyIHAtMyB0cmFuc2l0aW9uIiwKICAgICAgICBpc1Bhc3QKICAgICAgICAgID8gImJvcmRlci1ib3JkZXIgYmctc3VyZmFjZSBvcGFjaXR5LTgwIgogICAgICAgICAgOiAiYm9yZGVyLWJvcmRlciBiZy1zdXJmYWNlIGhvdmVyOmJvcmRlci1icmFuZC1pbmZvLzQwIiwKICAgICAgKX0KICAgID4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgInRydW5jYXRlIHRleHQtc20gZm9udC1tZWRpdW0iLAogICAgICAgICAgICAgIGlzUGFzdCA/ICJ0ZXh0LXRleHQtc2Vjb25kYXJ5IiA6ICJ0ZXh0LXRleHQtcHJpbWFyeSIsCiAgICAgICAgICAgICl9CiAgICAgICAgICA+CiAgICAgICAgICAgIHttZWV0aW5nLmxlYWROYW1lIHx8CiAgICAgICAgICAgICAgbWVldGluZy5jb21wYW55IHx8CiAgICAgICAgICAgICAgbWVldGluZy5pZC5zbGljZSgwLCA4KX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAge21lZXRpbmcuY29tcGFueSAmJiBtZWV0aW5nLmxlYWROYW1lICYmICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHRydW5jYXRlIHRleHQteHMgdGV4dC10ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAgPEJ1aWxkaW5nMiBjbGFzc05hbWU9ImgtMyB3LTMgc2hyaW5rLTAiIC8+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0cnVuY2F0ZSI+e21lZXRpbmcuY29tcGFueX08L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic2hyaW5rLTAgdGV4dC1yaWdodCI+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICAgICAgICAgIndoaXRlc3BhY2Utbm93cmFwIHRleHQteHMgZm9udC1tZWRpdW0iLAogICAgICAgICAgICAgIGlzUGFzdCA/ICJ0ZXh0LXRleHQtbXV0ZWQiIDogInRleHQtYnJhbmQtaW5mbyIsCiAgICAgICAgICAgICl9CiAgICAgICAgICA+CiAgICAgICAgICAgIHtmb3JtYXRNZWV0aW5nRGF0ZShtZWV0aW5nLm1lZXRpbmdEYXRlLCAibG9uZyIpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICB7cmVsYXRpdmUgJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMC41IHRleHQteHMgdGV4dC10ZXh0LW11dGVkIj57cmVsYXRpdmV9PC9kaXY+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsobWVldGluZy5zdGFnZSB8fCBtZWV0aW5nLnByaW9yaXR5KSAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgICAge21lZXRpbmcucHJpb3JpdHkgJiYgKAogICAgICAgICAgICA8U3RhdHVzQmFkZ2UKICAgICAgICAgICAgICBsYWJlbD17bWVldGluZy5wcmlvcml0eX0KICAgICAgICAgICAgICB0b25lPXt0b25lRm9yUHJpb3JpdHkobWVldGluZy5wcmlvcml0eSl9CiAgICAgICAgICAgIC8+CiAgICAgICAgICApfQogICAgICAgICAge21lZXRpbmcuc3RhZ2UgJiYgKAogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImxhYmVsLWNhcHMgdGV4dC10ZXh0LW11dGVkIj57bWVldGluZy5zdGFnZX08L3NwYW4+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9saT4KICApOwp9CgpmdW5jdGlvbiBmb3JtYXRNZWV0aW5nRGF0ZShpc286IHN0cmluZywgbW9kZTogInNob3J0IiB8ICJsb25nIik6IHN0cmluZyB7CiAgY29uc3QgZCA9IG5ldyBEYXRlKGlzbyk7CiAgY29uc3QgaGFzVGltZSA9ICFpc28uZW5kc1dpdGgoIloiKSB8fCAvVFxkezJ9OlxkezJ9Ly50ZXN0KGlzbyk7CiAgLy8gTm90aW9uIHNlbmRzIGRhdGVzIGVpdGhlciBhcyAiWVlZWS1NTS1ERCIgKG5vIHRpbWUpIG9yIGZ1bGwgSVNPLgogIGNvbnN0IGRhdGVPbmx5ID0gL15cZHs0fS1cZHsyfS1cZHsyfSQvLnRlc3QoaXNvKTsKCiAgaWYgKG1vZGUgPT09ICJzaG9ydCIpIHsKICAgIGlmIChkYXRlT25seSkgewogICAgICByZXR1cm4gZC50b0xvY2FsZURhdGVTdHJpbmcodW5kZWZpbmVkLCB7CiAgICAgICAgbW9udGg6ICJzaG9ydCIsCiAgICAgICAgZGF5OiAibnVtZXJpYyIsCiAgICAgIH0pOwogICAgfQogICAgcmV0dXJuIGQudG9Mb2NhbGVTdHJpbmcodW5kZWZpbmVkLCB7CiAgICAgIG1vbnRoOiAic2hvcnQiLAogICAgICBkYXk6ICJudW1lcmljIiwKICAgICAgaG91cjogIm51bWVyaWMiLAogICAgICBtaW51dGU6ICIyLWRpZ2l0IiwKICAgIH0pOwogIH0KICBpZiAoZGF0ZU9ubHkgfHwgIWhhc1RpbWUpIHsKICAgIHJldHVybiBkLnRvTG9jYWxlRGF0ZVN0cmluZyh1bmRlZmluZWQsIHsKICAgICAgd2Vla2RheTogInNob3J0IiwKICAgICAgbW9udGg6ICJzaG9ydCIsCiAgICAgIGRheTogIm51bWVyaWMiLAogICAgfSk7CiAgfQogIHJldHVybiBkLnRvTG9jYWxlU3RyaW5nKHVuZGVmaW5lZCwgewogICAgd2Vla2RheTogInNob3J0IiwKICAgIG1vbnRoOiAic2hvcnQiLAogICAgZGF5OiAibnVtZXJpYyIsCiAgICBob3VyOiAibnVtZXJpYyIsCiAgICBtaW51dGU6ICIyLWRpZ2l0IiwKICB9KTsKfQoKZnVuY3Rpb24gcmVsYXRpdmVUaW1lKGlzbzogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCB7CiAgY29uc3QgZCA9IG5ldyBEYXRlKGlzbyk7CiAgY29uc3QgbXMgPSBkLmdldFRpbWUoKSAtIERhdGUubm93KCk7CiAgY29uc3QgZGF5TXMgPSA4Nl80MDBfMDAwOwogIGNvbnN0IGRheXMgPSBNYXRoLnJvdW5kKG1zIC8gZGF5TXMpOwogIGlmIChkYXlzID09PSAwKSByZXR1cm4gInRvZGF5IjsKICBpZiAoZGF5cyA9PT0gMSkgcmV0dXJuICJ0b21vcnJvdyI7CiAgaWYgKGRheXMgPT09IC0xKSByZXR1cm4gInllc3RlcmRheSI7CiAgaWYgKGRheXMgPiAwICYmIGRheXMgPCAxNCkgcmV0dXJuIGBpbiAke2RheXN9IGRheXNgOwogIGlmIChkYXlzIDwgMCAmJiBkYXlzID4gLTE0KSByZXR1cm4gYCR7TWF0aC5hYnMoZGF5cyl9ZCBhZ29gOwogIHJldHVybiBudWxsOwp9Cg==
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+import { Calendar, ChevronRight, Building2 } from "lucide-react";
+import { SlideOver } from "@/components/ui/SlideOver";
+import {
+  StatusBadge,
+  toneForPriority,
+} from "@/components/ui/StatusBadge";
+import { EmptyState } from "@/components/ui/states";
+import { cn } from "@/lib/utils/classnames";
+
+export interface MeetingRow {
+  id: string;
+  leadName: string;
+  company: string;
+  stage: string | null;
+  priority: string | null;
+  meetingDate: string;
+}
+
+export function UpcomingMeetings({
+  upcoming,
+  previous,
+}: {
+  upcoming: MeetingRow[];
+  previous: MeetingRow[];
+}) {
+  const [open, setOpen] = useState(false);
+  const next = upcoming[0];
+
+  return (
+    <>
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className="group flex w-full items-center justify-between gap-3 rounded-md border border-border bg-surface px-3 py-2.5 text-left transition hover:border-brand-primary/40 hover:bg-surface-elevated"
+      >
+        <span className="flex items-center gap-2.5">
+          <span className="flex h-7 w-7 items-center justify-center rounded-md bg-brand-info/10 text-brand-info">
+            <Calendar className="h-3.5 w-3.5" />
+          </span>
+          <span className="flex flex-col">
+            <span className="text-sm font-medium text-text-primary">
+              Upcoming Meetings
+            </span>
+            <span className="text-xs text-text-secondary">
+              {upcoming.length === 0
+                ? "No meetings scheduled"
+                : next
+                ? `Next: ${formatMeetingDate(next.meetingDate, "short")}`
+                : `${upcoming.length} scheduled`}
+            </span>
+          </span>
+        </span>
+        <span className="flex items-center gap-2">
+          {upcoming.length > 0 && (
+            <span className="rounded-full bg-brand-primary px-2 py-0.5 text-xs font-semibold text-white">
+              {upcoming.length}
+            </span>
+          )}
+          <ChevronRight className="h-4 w-4 text-text-muted transition group-hover:translate-x-0.5 group-hover:text-text-primary" />
+        </span>
+      </button>
+
+      <SlideOver
+        open={open}
+        onClose={() => setOpen(false)}
+        title="Meetings"
+        width="max-w-xl"
+      >
+        <div className="space-y-6">
+          <Section
+            title="Upcoming"
+            count={upcoming.length}
+            tone="upcoming"
+            empty="Nothing on the calendar yet."
+          >
+            {upcoming.map((m) => (
+              <MeetingCard key={m.id} meeting={m} variant="upcoming" />
+            ))}
+          </Section>
+
+          <Section
+            title="Previous"
+            count={previous.length}
+            tone="previous"
+            empty="No past meetings on file."
+          >
+            {previous.map((m) => (
+              <MeetingCard key={m.id} meeting={m} variant="previous" />
+            ))}
+          </Section>
+
+          <div className="border-t border-border pt-4">
+            <Link
+              href="/pipeline"
+              onClick={() => setOpen(false)}
+              className="text-xs font-medium text-brand-info hover:underline"
+            >
+              Open Pipeline board →
+            </Link>
+          </div>
+        </div>
+      </SlideOver>
+    </>
+  );
+}
+
+function Section({
+  title,
+  count,
+  tone,
+  empty,
+  children,
+}: {
+  title: string;
+  count: number;
+  tone: "upcoming" | "previous";
+  empty: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <section>
+      <div className="mb-3 flex items-center justify-between">
+        <h3 className="label-caps text-text-muted">{title}</h3>
+        <span
+          className={cn(
+            "rounded-full px-2 py-0.5 text-xs font-medium",
+            tone === "upcoming"
+              ? "bg-brand-info/10 text-brand-info"
+              : "bg-surface-elevated text-text-secondary",
+          )}
+        >
+          {count}
+        </span>
+      </div>
+      {count === 0 ? (
+        <EmptyState title={empty} />
+      ) : (
+        <ul className="space-y-2">{children}</ul>
+      )}
+    </section>
+  );
+}
+
+function MeetingCard({
+  meeting,
+  variant,
+}: {
+  meeting: MeetingRow;
+  variant: "upcoming" | "previous";
+}) {
+  const isPast = variant === "previous";
+  const relative = relativeTime(meeting.meetingDate);
+  return (
+    <li
+      className={cn(
+        "rounded-lg border p-3 transition",
+        isPast
+          ? "border-border bg-surface opacity-80"
+          : "border-border bg-surface hover:border-brand-info/40",
+      )}
+    >
+      <div className="flex items-start justify-between gap-3">
+        <div className="min-w-0">
+          <div
+            className={cn(
+              "truncate text-sm font-medium",
+              isPast ? "text-text-secondary" : "text-text-primary",
+            )}
+          >
+            {meeting.leadName ||
+              meeting.company ||
+              meeting.id.slice(0, 8)}
+          </div>
+          {meeting.company && meeting.leadName && (
+            <div className="flex items-center gap-1 truncate text-xs text-text-secondary">
+              <Building2 className="h-3 w-3 shrink-0" />
+              <span className="truncate">{meeting.company}</span>
+            </div>
+          )}
+        </div>
+        <div className="shrink-0 text-right">
+          <div
+            className={cn(
+              "whitespace-nowrap text-xs font-medium",
+              isPast ? "text-text-muted" : "text-brand-info",
+            )}
+          >
+            {formatMeetingDate(meeting.meetingDate, "long")}
+          </div>
+          {relative && (
+            <div className="mt-0.5 text-xs text-text-muted">{relative}</div>
+          )}
+        </div>
+      </div>
+
+      {(meeting.stage || meeting.priority) && (
+        <div className="mt-2 flex flex-wrap items-center gap-1.5">
+          {meeting.priority && (
+            <StatusBadge
+              label={meeting.priority}
+              tone={toneForPriority(meeting.priority)}
+            />
+          )}
+          {meeting.stage && (
+            <span className="label-caps text-text-muted">{meeting.stage}</span>
+          )}
+        </div>
+      )}
+    </li>
+  );
+}
+
+function formatMeetingDate(iso: string, mode: "short" | "long"): string {
+  const d = new Date(iso);
+  const hasTime = !iso.endsWith("Z") || /T\d{2}:\d{2}/.test(iso);
+  // Notion sends dates either as "YYYY-MM-DD" (no time) or full ISO.
+  const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(iso);
+
+  if (mode === "short") {
+    if (dateOnly) {
+      return d.toLocaleDateString(undefined, {
+        month: "short",
+        day: "numeric",
+      });
+    }
+    return d.toLocaleString(undefined, {
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+    });
+  }
+  if (dateOnly || !hasTime) {
+    return d.toLocaleDateString(undefined, {
+      weekday: "short",
+      month: "short",
+      day: "numeric",
+    });
+  }
+  return d.toLocaleString(undefined, {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  });
+}
+
+function relativeTime(iso: string): string | null {
+  const d = new Date(iso);
+  const ms = d.getTime() - Date.now();
+  const dayMs = 86_400_000;
+  const days = Math.round(ms / dayMs);
+  if (days === 0) return "today";
+  if (days === 1) return "tomorrow";
+  if (days === -1) return "yesterday";
+  if (days > 0 && days < 14) return `in ${days} days`;
+  if (days < 0 && days > -14) return `${Math.abs(days)}d ago`;
+  return null;
+}

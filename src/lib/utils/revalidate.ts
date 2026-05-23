@@ -1,1 +1,9 @@
-aW1wb3J0ICJzZXJ2ZXItb25seSI7CmltcG9ydCB7IHJldmFsaWRhdGVUYWcgfSBmcm9tICJuZXh0L2NhY2hlIjsKaW1wb3J0IHsgVEFHLCB0eXBlIFRhZyB9IGZyb20gIkAvbGliL25vdGlvbi9jYWNoZSI7CgpleHBvcnQgeyBUQUcgfTsKCmV4cG9ydCBmdW5jdGlvbiBidXN0KC4uLnRhZ3M6IFRhZ1tdKSB7CiAgZm9yIChjb25zdCB0IG9mIHRhZ3MpIHJldmFsaWRhdGVUYWcodCk7Cn0K
+import "server-only";
+import { revalidateTag } from "next/cache";
+import { TAG, type Tag } from "@/lib/notion/cache";
+
+export { TAG };
+
+export function bust(...tags: Tag[]) {
+  for (const t of tags) revalidateTag(t);
+}

@@ -1,1 +1,45 @@
-aW1wb3J0IHsKICBsaXN0QWxsQnJva2VycywKICBsaXN0QXdhaXRpbmdSZXZpZXdCcm9rZXJzLAp9IGZyb20gIkAvbGliL25vdGlvbi9icm9rZXJzIjsKaW1wb3J0IHsgRXJyb3JTdGF0ZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zdGF0ZXMiOwppbXBvcnQgeyBCcm9rZXJzVGFibGUsIHR5cGUgQnJva2VyUm93IH0gZnJvbSAiLi9fQnJva2Vyc1RhYmxlIjsKCmV4cG9ydCBjb25zdCByZXZhbGlkYXRlID0gMzA7CgpleHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBCcm9rZXJzUGFnZSh7CiAgc2VhcmNoUGFyYW1zLAp9OiB7CiAgc2VhcmNoUGFyYW1zPzogeyBhbGw/OiBzdHJpbmcgfTsKfSkgewogIGNvbnN0IHNob3dBbGwgPSBzZWFyY2hQYXJhbXM/LmFsbCA9PT0gIjEiOwoKICBjb25zdCByID0gYXdhaXQgUHJvbWlzZS5hbGxTZXR0bGVkKFsKICAgIHNob3dBbGwgPyBsaXN0QWxsQnJva2VycygpIDogbGlzdEF3YWl0aW5nUmV2aWV3QnJva2VycygpLAogIF0pOwogIGlmIChyWzBdLnN0YXR1cyA9PT0gInJlamVjdGVkIikgewogICAgcmV0dXJuICgKICAgICAgPEVycm9yU3RhdGUKICAgICAgICB0aXRsZT0iQnJva2VycyBmYWlsZWQgdG8gbG9hZCIKICAgICAgICBkZXNjcmlwdGlvbj17KHJbMF0ucmVhc29uIGFzIEVycm9yKT8ubWVzc2FnZX0KICAgICAgLz4KICAgICk7CiAgfQoKICBjb25zdCByb3dzOiBCcm9rZXJSb3dbXSA9IHJbMF0udmFsdWUubWFwKChiKSA9PiAoewogICAgaWQ6IGIuaWQsCiAgICBsaXN0aW5nVGl0bGU6IGIubGlzdGluZ1RpdGxlLAogICAgYXNraW5nUHJpY2U6IGIuYXNraW5nUHJpY2UsCiAgICBpbmR1c3RyeTogYi5pbmR1c3RyeSwKICAgIGxvY2F0aW9uOiBiLmxvY2F0aW9uLAogICAgb3duZXJEZXBlbmRlbmN5U2lnbmFsczogYi5vd25lckRlcGVuZGVuY3lTaWduYWxzLAogICAgYnJva2VyTmFtZTogYi5icm9rZXJOYW1lLAogICAgYnJva2VyTGlua2VkSW5Vcmw6IGIuYnJva2VyTGlua2VkSW5VcmwsCiAgICBkYXRlRGlzY292ZXJlZDogYi5kYXRlRGlzY292ZXJlZCwKICAgIHNvdXJjZTogYi5zb3VyY2UsCiAgICBzdGF0dXM6IGIuc3RhdHVzLAogICAgYXBwcm92ZWRCeURvdWc6IGIuYXBwcm92ZWRCeURvdWcsCiAgfSkpOwoKICByZXR1cm4gPEJyb2tlcnNUYWJsZSByb3dzPXtyb3dzfSBzaG93QWxsPXtzaG93QWxsfSAvPjsKfQo=
+import {
+  listAllBrokers,
+  listAwaitingReviewBrokers,
+} from "@/lib/notion/brokers";
+import { ErrorState } from "@/components/ui/states";
+import { BrokersTable, type BrokerRow } from "./_BrokersTable";
+
+export const revalidate = 30;
+
+export default async function BrokersPage({
+  searchParams,
+}: {
+  searchParams?: { all?: string };
+}) {
+  const showAll = searchParams?.all === "1";
+
+  const r = await Promise.allSettled([
+    showAll ? listAllBrokers() : listAwaitingReviewBrokers(),
+  ]);
+  if (r[0].status === "rejected") {
+    return (
+      <ErrorState
+        title="Brokers failed to load"
+        description={(r[0].reason as Error)?.message}
+      />
+    );
+  }
+
+  const rows: BrokerRow[] = r[0].value.map((b) => ({
+    id: b.id,
+    listingTitle: b.listingTitle,
+    askingPrice: b.askingPrice,
+    industry: b.industry,
+    location: b.location,
+    ownerDependencySignals: b.ownerDependencySignals,
+    brokerName: b.brokerName,
+    brokerLinkedInUrl: b.brokerLinkedInUrl,
+    dateDiscovered: b.dateDiscovered,
+    source: b.source,
+    status: b.status,
+    approvedByDoug: b.approvedByDoug,
+  }));
+
+  return <BrokersTable rows={rows} showAll={showAll} />;
+}

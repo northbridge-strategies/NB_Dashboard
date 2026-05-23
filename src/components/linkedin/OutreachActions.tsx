@@ -1,1 +1,122 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENoZWNrLCBYLCBQZW5jaWwgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB1c2VBY3Rpb24gfSBmcm9tICJAL2xpYi9ob29rcy91c2VBY3Rpb24iOwppbXBvcnQgeyBDb25maXJtRGlhbG9nIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL0NvbmZpcm1EaWFsb2ciOwoKZXhwb3J0IGZ1bmN0aW9uIE91dHJlYWNoQWN0aW9ucyh7CiAgaWQsCiAgaW5pdGlhbERNLAp9OiB7CiAgaWQ6IHN0cmluZzsKICBpbml0aWFsRE06IHN0cmluZzsKfSkgewogIGNvbnN0IFtlZGl0T3Blbiwgc2V0RWRpdE9wZW5dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtyZWplY3RPcGVuLCBzZXRSZWplY3RPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbZHJhZnQsIHNldERyYWZ0XSA9IHVzZVN0YXRlKGluaXRpYWxETSk7CiAgY29uc3QgW3JlamVjdE5vdGVzLCBzZXRSZWplY3ROb3Rlc10gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgYXBwcm92ZSA9IHVzZUFjdGlvbigpOwogIGNvbnN0IHJlamVjdCA9IHVzZUFjdGlvbigpOwoKICBjb25zdCBlZGl0ZWRGcm9tT3JpZ2luYWwgPSBkcmFmdC50cmltKCkgIT09IGluaXRpYWxETS50cmltKCk7CgogIHJldHVybiAoCiAgICA8PgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAganVzdGlmeS1lbmQgZ2FwLTEuNSI+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgb25DbGljaz17KGUpID0+IHsKICAgICAgICAgICAgZS5zdG9wUHJvcGFnYXRpb24oKTsKICAgICAgICAgICAgdm9pZCBhcHByb3ZlLnJ1bihgL2FwaS9saW5rZWRpbi8ke2lkfS9hcHByb3ZlYCk7CiAgICAgICAgICB9fQogICAgICAgICAgZGlzYWJsZWQ9e2FwcHJvdmUuc3RhdGUgPT09ICJwZW5kaW5nIiB8fCBhcHByb3ZlLnN0YXRlID09PSAic3VjY2VzcyJ9CiAgICAgICAgICBhcmlhLWxhYmVsPSJBcHByb3ZlIGFzLWlzIgogICAgICAgICAgdGl0bGU9IkFwcHJvdmUgRE0gYXMtaXMiCiAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGgtNyB3LTcgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1icmFuZC1zdWNjZXNzLzQwIGJnLWJyYW5kLXN1Y2Nlc3MvMTAgdGV4dC1icmFuZC1zdWNjZXNzIGhvdmVyOmJnLWJyYW5kLXN1Y2Nlc3MvMjAgZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIGRpc2FibGVkOm9wYWNpdHktNTAiCiAgICAgICAgPgogICAgICAgICAgPENoZWNrIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIC8+CiAgICAgICAgPC9idXR0b24+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgb25DbGljaz17KGUpID0+IHsKICAgICAgICAgICAgZS5zdG9wUHJvcGFnYXRpb24oKTsKICAgICAgICAgICAgc2V0RWRpdE9wZW4odHJ1ZSk7CiAgICAgICAgICB9fQogICAgICAgICAgYXJpYS1sYWJlbD0iRWRpdCBhbmQgYXBwcm92ZSIKICAgICAgICAgIHRpdGxlPSJFZGl0IGFuZCBhcHByb3ZlIgogICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBoLTcgdy03IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYnJhbmQtaW5mby80MCBiZy1icmFuZC1pbmZvLzEwIHRleHQtYnJhbmQtaW5mbyBob3ZlcjpiZy1icmFuZC1pbmZvLzIwIgogICAgICAgID4KICAgICAgICAgIDxQZW5jaWwgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8YnV0dG9uCiAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICBvbkNsaWNrPXsoZSkgPT4gewogICAgICAgICAgICBlLnN0b3BQcm9wYWdhdGlvbigpOwogICAgICAgICAgICBzZXRSZWplY3RPcGVuKHRydWUpOwogICAgICAgICAgfX0KICAgICAgICAgIGFyaWEtbGFiZWw9IlJlamVjdCIKICAgICAgICAgIHRpdGxlPSJSZWplY3QgRE0iCiAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGgtNyB3LTcgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1icmFuZC1kYW5nZXIvNDAgYmctYnJhbmQtZGFuZ2VyLzEwIHRleHQtYnJhbmQtZGFuZ2VyIGhvdmVyOmJnLWJyYW5kLWRhbmdlci8yMCIKICAgICAgICA+CiAgICAgICAgICA8WCBjbGFzc05hbWU9ImgtMy41IHctMy41IiAvPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIHsoYXBwcm92ZS5lcnJvciB8fCByZWplY3QuZXJyb3IpICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXhzIHRleHQtYnJhbmQtZGFuZ2VyIj4KICAgICAgICAgIHthcHByb3ZlLmVycm9yIHx8IHJlamVjdC5lcnJvcn0KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIDxDb25maXJtRGlhbG9nCiAgICAgICAgb3Blbj17ZWRpdE9wZW59CiAgICAgICAgdGl0bGU9IkVkaXQgYW5kIGFwcHJvdmUgRE0iCiAgICAgICAgZGVzY3JpcHRpb249IkVkaXQgdGhlIGRyYWZ0IGJlbG93IOKAlCBvbmx5IHlvdXIgZWRpdGVkIGNvcHkgd2lsbCBiZSBzZW50LiIKICAgICAgICBjb25maXJtTGFiZWw9e2VkaXRlZEZyb21PcmlnaW5hbCA/ICJTYXZlICYgQXBwcm92ZSIgOiAiQXBwcm92ZSJ9CiAgICAgICAgcGVuZGluZz17YXBwcm92ZS5zdGF0ZSA9PT0gInBlbmRpbmcifQogICAgICAgIG9uQ2FuY2VsPXsoKSA9PiBzZXRFZGl0T3BlbihmYWxzZSl9CiAgICAgICAgb25Db25maXJtPXthc3luYyAoKSA9PiB7CiAgICAgICAgICBjb25zdCByID0gYXdhaXQgYXBwcm92ZS5ydW4oYC9hcGkvbGlua2VkaW4vJHtpZH0vYXBwcm92ZWAsIHsKICAgICAgICAgICAgYm9keTogZWRpdGVkRnJvbU9yaWdpbmFsID8geyBlZGl0ZWRETTogZHJhZnQgfSA6IHVuZGVmaW5lZCwKICAgICAgICAgIH0pOwogICAgICAgICAgaWYgKHIub2spIHNldEVkaXRPcGVuKGZhbHNlKTsKICAgICAgICB9fQogICAgICA+CiAgICAgICAgPHRleHRhcmVhCiAgICAgICAgICB2YWx1ZT17ZHJhZnR9CiAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldERyYWZ0KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgIHJvd3M9ezh9CiAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWJnIHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtdGV4dC1wcmltYXJ5IHBsYWNlaG9sZGVyOnRleHQtdGV4dC1tdXRlZCBmb2N1czpib3JkZXItYnJhbmQtcHJpbWFyeSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0xIGZvY3VzOnJpbmctYnJhbmQtcHJpbWFyeSIKICAgICAgICAvPgogICAgICA8L0NvbmZpcm1EaWFsb2c+CgogICAgICA8Q29uZmlybURpYWxvZwogICAgICAgIG9wZW49e3JlamVjdE9wZW59CiAgICAgICAgdGl0bGU9IlJlamVjdCBETSIKICAgICAgICBkZXNjcmlwdGlvbj0iVGhlIERNIHdpbGwgbW92ZSB0byBNYW51YWwgUmV2aWV3LiIKICAgICAgICBkZXN0cnVjdGl2ZQogICAgICAgIGNvbmZpcm1MYWJlbD0iUmVqZWN0IgogICAgICAgIHBlbmRpbmc9e3JlamVjdC5zdGF0ZSA9PT0gInBlbmRpbmcifQogICAgICAgIG9uQ2FuY2VsPXsoKSA9PiBzZXRSZWplY3RPcGVuKGZhbHNlKX0KICAgICAgICBvbkNvbmZpcm09e2FzeW5jICgpID0+IHsKICAgICAgICAgIGNvbnN0IHIgPSBhd2FpdCByZWplY3QucnVuKGAvYXBpL2xpbmtlZGluLyR7aWR9L3JlamVjdGAsIHsKICAgICAgICAgICAgYm9keTogcmVqZWN0Tm90ZXMgPyB7IG5vdGVzOiByZWplY3ROb3RlcyB9IDogdW5kZWZpbmVkLAogICAgICAgICAgfSk7CiAgICAgICAgICBpZiAoci5vaykgewogICAgICAgICAgICBzZXRSZWplY3RPcGVuKGZhbHNlKTsKICAgICAgICAgICAgc2V0UmVqZWN0Tm90ZXMoIiIpOwogICAgICAgICAgfQogICAgICAgIH19CiAgICAgID4KICAgICAgICA8dGV4dGFyZWEKICAgICAgICAgIHZhbHVlPXtyZWplY3ROb3Rlc30KICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0UmVqZWN0Tm90ZXMoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgcm93cz17NH0KICAgICAgICAgIHBsYWNlaG9sZGVyPSJXaHkgaXMgdGhpcyBkcmFmdCBiZWluZyByZWplY3RlZD8gKG9wdGlvbmFsKSIKICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctYmcgcHgtMyBweS0yIHRleHQtc20gdGV4dC10ZXh0LXByaW1hcnkgcGxhY2Vob2xkZXI6dGV4dC10ZXh0LW11dGVkIGZvY3VzOmJvcmRlci1icmFuZC1wcmltYXJ5IGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1icmFuZC1wcmltYXJ5IgogICAgICAgIC8+CiAgICAgIDwvQ29uZmlybURpYWxvZz4KICAgIDwvPgogICk7Cn0K
+"use client";
+
+import { useState } from "react";
+import { Check, X, Pencil } from "lucide-react";
+import { useAction } from "@/lib/hooks/useAction";
+import { ConfirmDialog } from "@/components/ui/ConfirmDialog";
+
+export function OutreachActions({
+  id,
+  initialDM,
+}: {
+  id: string;
+  initialDM: string;
+}) {
+  const [editOpen, setEditOpen] = useState(false);
+  const [rejectOpen, setRejectOpen] = useState(false);
+  const [draft, setDraft] = useState(initialDM);
+  const [rejectNotes, setRejectNotes] = useState("");
+  const approve = useAction();
+  const reject = useAction();
+
+  const editedFromOriginal = draft.trim() !== initialDM.trim();
+
+  return (
+    <>
+      <div className="flex flex-wrap justify-end gap-1.5">
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            void approve.run(`/api/linkedin/${id}/approve`);
+          }}
+          disabled={approve.state === "pending" || approve.state === "success"}
+          aria-label="Approve as-is"
+          title="Approve DM as-is"
+          className="inline-flex h-7 w-7 items-center justify-center rounded-md border border-brand-success/40 bg-brand-success/10 text-brand-success hover:bg-brand-success/20 disabled:cursor-not-allowed disabled:opacity-50"
+        >
+          <Check className="h-3.5 w-3.5" />
+        </button>
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            setEditOpen(true);
+          }}
+          aria-label="Edit and approve"
+          title="Edit and approve"
+          className="inline-flex h-7 w-7 items-center justify-center rounded-md border border-brand-info/40 bg-brand-info/10 text-brand-info hover:bg-brand-info/20"
+        >
+          <Pencil className="h-3.5 w-3.5" />
+        </button>
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            setRejectOpen(true);
+          }}
+          aria-label="Reject"
+          title="Reject DM"
+          className="inline-flex h-7 w-7 items-center justify-center rounded-md border border-brand-danger/40 bg-brand-danger/10 text-brand-danger hover:bg-brand-danger/20"
+        >
+          <X className="h-3.5 w-3.5" />
+        </button>
+      </div>
+
+      {(approve.error || reject.error) && (
+        <div className="mt-1 text-xs text-brand-danger">
+          {approve.error || reject.error}
+        </div>
+      )}
+
+      <ConfirmDialog
+        open={editOpen}
+        title="Edit and approve DM"
+        description="Edit the draft below — only your edited copy will be sent."
+        confirmLabel={editedFromOriginal ? "Save & Approve" : "Approve"}
+        pending={approve.state === "pending"}
+        onCancel={() => setEditOpen(false)}
+        onConfirm={async () => {
+          const r = await approve.run(`/api/linkedin/${id}/approve`, {
+            body: editedFromOriginal ? { editedDM: draft } : undefined,
+          });
+          if (r.ok) setEditOpen(false);
+        }}
+      >
+        <textarea
+          value={draft}
+          onChange={(e) => setDraft(e.target.value)}
+          rows={8}
+          className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary placeholder:text-text-muted focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+        />
+      </ConfirmDialog>
+
+      <ConfirmDialog
+        open={rejectOpen}
+        title="Reject DM"
+        description="The DM will move to Manual Review."
+        destructive
+        confirmLabel="Reject"
+        pending={reject.state === "pending"}
+        onCancel={() => setRejectOpen(false)}
+        onConfirm={async () => {
+          const r = await reject.run(`/api/linkedin/${id}/reject`, {
+            body: rejectNotes ? { notes: rejectNotes } : undefined,
+          });
+          if (r.ok) {
+            setRejectOpen(false);
+            setRejectNotes("");
+          }
+        }}
+      >
+        <textarea
+          value={rejectNotes}
+          onChange={(e) => setRejectNotes(e.target.value)}
+          rows={4}
+          placeholder="Why is this draft being rejected? (optional)"
+          className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary placeholder:text-text-muted focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+        />
+      </ConfirmDialog>
+    </>
+  );
+}

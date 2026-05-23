@@ -1,1 +1,188 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgVGFicyB9IGZyb20gIkAvY29tcG9uZW50cy91aS9UYWJzIjsKaW1wb3J0IHsgRGF0YVRhYmxlLCB0eXBlIENvbHVtbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9EYXRhVGFibGUiOwppbXBvcnQgewogIFJldmVudWVCeU1vbnRoQ2hhcnQsCiAgdHlwZSBNb250aGx5UmV2ZW51ZSwKfSBmcm9tICJAL2NvbXBvbmVudHMvcmV2ZW51ZS9SZXZlbnVlQnlNb250aENoYXJ0IjsKaW1wb3J0IHsgU3RhdHVzQmFkZ2UsIHR5cGUgQmFkZ2VUb25lIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL1N0YXR1c0JhZGdlIjsKaW1wb3J0IHsgZm9ybWF0Q3VycmVuY3ksIGZvcm1hdE1vbnRoWWVhciwgZm9ybWF0TnVtYmVyIH0gZnJvbSAiQC9saWIvdXRpbHMvZm9ybWF0IjsKCmV4cG9ydCBpbnRlcmZhY2UgUGF5bWVudFJvdyB7CiAgaWQ6IHN0cmluZzsKICBsZWFkTmFtZTogc3RyaW5nOwogIHNlcnZpY2U6IHN0cmluZyB8IG51bGw7CiAgYW1vdW50OiBudW1iZXIgfCBudWxsOwogIHBheW1lbnREYXRlOiBzdHJpbmcgfCBudWxsOwogIHN0cmlwZVBheW1lbnRJZDogc3RyaW5nOwogIHN0YXR1czogc3RyaW5nIHwgbnVsbDsKfQoKY29uc3QgU1RBVFVTX1RPTkU6IFJlY29yZDxzdHJpbmcsIEJhZGdlVG9uZT4gPSB7CiAgUGFpZDogInN1Y2Nlc3MiLAogIFBlbmRpbmc6ICJ3YXJuaW5nIiwKICBSZWZ1bmRlZDogImRhbmdlciIsCn07CgpmdW5jdGlvbiBwYXltZW50Q29sdW1ucygpOiBDb2x1bW48UGF5bWVudFJvdz5bXSB7CiAgcmV0dXJuIFsKICAgIHsKICAgICAga2V5OiAibGVhZCIsCiAgICAgIGhlYWRlcjogIkxlYWQiLAogICAgICBzb3J0OiAocikgPT4gci5sZWFkTmFtZS50b0xvd2VyQ2FzZSgpLAogICAgICByZW5kZXI6IChyKSA9PiA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIj57ci5sZWFkTmFtZSB8fCAi4oCUIn08L3NwYW4+LAogICAgfSwKICAgIHsKICAgICAga2V5OiAic2VydmljZSIsCiAgICAgIGhlYWRlcjogIlNlcnZpY2UiLAogICAgICBzb3J0OiAocikgPT4gci5zZXJ2aWNlID8/ICIiLAogICAgICBoaWRlT25Nb2JpbGU6IHRydWUsCiAgICAgIHJlbmRlcjogKHIpID0+CiAgICAgICAgci5zZXJ2aWNlID8gKAogICAgICAgICAgPFN0YXR1c0JhZGdlIGxhYmVsPXtyLnNlcnZpY2V9IHRvbmU9ImluZm8iIC8+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZXh0LW11dGVkIj7igJQ8L3NwYW4+CiAgICAgICAgKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogImFtb3VudCIsCiAgICAgIGhlYWRlcjogIkFtb3VudCIsCiAgICAgIHNvcnQ6IChyKSA9PiByLmFtb3VudCwKICAgICAgYWxpZ246ICJyaWdodCIsCiAgICAgIHJlbmRlcjogKHIpID0+ICgKICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRhYnVsYXItbnVtcyBmb250LW1lZGl1bSI+e2Zvcm1hdEN1cnJlbmN5KHIuYW1vdW50KX08L3NwYW4+CiAgICAgICksCiAgICB9LAogICAgewogICAgICBrZXk6ICJwYXltZW50RGF0ZSIsCiAgICAgIGhlYWRlcjogIlBheW1lbnQgRGF0ZSIsCiAgICAgIHNvcnQ6IChyKSA9PiByLnBheW1lbnREYXRlID8/ICIiLAogICAgICByZW5kZXI6IChyKSA9PgogICAgICAgIHIucGF5bWVudERhdGUgPyAoCiAgICAgICAgICBuZXcgRGF0ZShyLnBheW1lbnREYXRlKS50b0xvY2FsZURhdGVTdHJpbmcoKQogICAgICAgICkgOiAoCiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtdGV4dC1tdXRlZCI+4oCUPC9zcGFuPgogICAgICAgICksCiAgICB9LAogICAgewogICAgICBrZXk6ICJzdHJpcGVJZCIsCiAgICAgIGhlYWRlcjogIlN0cmlwZSBQYXltZW50IElEIiwKICAgICAgaGlkZU9uVGFibGV0OiB0cnVlLAogICAgICByZW5kZXI6IChyKSA9PgogICAgICAgIHIuc3RyaXBlUGF5bWVudElkID8gKAogICAgICAgICAgPGNvZGUgY2xhc3NOYW1lPSJyb3VuZGVkIGJnLXN1cmZhY2UtZWxldmF0ZWQgcHgtMS41IHB5LTAuNSB0ZXh0LXhzIj4KICAgICAgICAgICAge3Iuc3RyaXBlUGF5bWVudElkfQogICAgICAgICAgPC9jb2RlPgogICAgICAgICkgOiAoCiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtdGV4dC1tdXRlZCI+4oCUPC9zcGFuPgogICAgICAgICksCiAgICB9LAogICAgewogICAgICBrZXk6ICJzdGF0dXMiLAogICAgICBoZWFkZXI6ICJTdGF0dXMiLAogICAgICBzb3J0OiAocikgPT4gci5zdGF0dXMgPz8gIiIsCiAgICAgIHJlbmRlcjogKHIpID0+CiAgICAgICAgci5zdGF0dXMgPyAoCiAgICAgICAgICA8U3RhdHVzQmFkZ2UgbGFiZWw9e3Iuc3RhdHVzfSB0b25lPXtTVEFUVVNfVE9ORVtyLnN0YXR1c10gPz8gIm5ldXRyYWwifSAvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtdGV4dC1tdXRlZCI+4oCUPC9zcGFuPgogICAgICAgICksCiAgICB9LAogIF07Cn0KCmZ1bmN0aW9uIG1vbnRobHlDb2x1bW5zKCk6IENvbHVtbjxNb250aGx5UmV2ZW51ZT5bXSB7CiAgcmV0dXJuIFsKICAgIHsKICAgICAga2V5OiAibW9udGgiLAogICAgICBoZWFkZXI6ICJNb250aCIsCiAgICAgIHNvcnQ6IChyKSA9PiByLm1vbnRoLAogICAgICByZW5kZXI6IChyKSA9PiAoCiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3aGl0ZXNwYWNlLW5vd3JhcCBmb250LW1lZGl1bSI+CiAgICAgICAgICB7Zm9ybWF0TW9udGhZZWFyKHIubW9udGgpfQogICAgICAgIDwvc3Bhbj4KICAgICAgKSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogImNvdW50IiwKICAgICAgaGVhZGVyOiAiUGF5bWVudHMiLAogICAgICBzb3J0OiAocikgPT4gci5jb3VudCwKICAgICAgYWxpZ246ICJyaWdodCIsCiAgICAgIHJlbmRlcjogKHIpID0+IGZvcm1hdE51bWJlcihyLmNvdW50KSwKICAgIH0sCiAgICB7CiAgICAgIGtleTogInRvdGFsIiwKICAgICAgaGVhZGVyOiAiVG90YWwiLAogICAgICBzb3J0OiAocikgPT4gci50b3RhbCwKICAgICAgYWxpZ246ICJyaWdodCIsCiAgICAgIHJlbmRlcjogKHIpID0+ICgKICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRhYnVsYXItbnVtcyBmb250LW1lZGl1bSB0ZXh0LWJyYW5kLXN1Y2Nlc3MiPgogICAgICAgICAge2Zvcm1hdEN1cnJlbmN5KHIudG90YWwpfQogICAgICAgIDwvc3Bhbj4KICAgICAgKSwKICAgIH0sCiAgXTsKfQoKZXhwb3J0IGZ1bmN0aW9uIFJldmVudWVUYWJzKHsKICBwYXltZW50cywKICBtb250aGx5LAogIGdyYW5kVG90YWwsCn06IHsKICBwYXltZW50czogUGF5bWVudFJvd1tdOwogIG1vbnRobHk6IE1vbnRobHlSZXZlbnVlW107CiAgZ3JhbmRUb3RhbDogbnVtYmVyOwp9KSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1iYXNlbGluZSBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGFiZWwtY2FwcyB0ZXh0LXRleHQtbXV0ZWQiPlRvdGFsIHJldmVudWUgKFBhaWQpPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMSB0ZXh0LTN4bCBmb250LXNlbWlib2xkIHRhYnVsYXItbnVtcyB0ZXh0LWJyYW5kLXN1Y2Nlc3MiPgogICAgICAgICAgICB7Zm9ybWF0Q3VycmVuY3koZ3JhbmRUb3RhbCl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgIHtwYXltZW50cy5sZW5ndGh9IHtwYXltZW50cy5sZW5ndGggPT09IDEgPyAicGF5bWVudCIgOiAicGF5bWVudHMifSDCt3siICJ9CiAgICAgICAgICB7bW9udGhseS5sZW5ndGh9IHttb250aGx5Lmxlbmd0aCA9PT0gMSA/ICJtb250aCIgOiAibW9udGhzIn0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8VGFicwogICAgICAgIHRhYnM9e1sKICAgICAgICAgIHsKICAgICAgICAgICAgaWQ6ICJhbGwiLAogICAgICAgICAgICBsYWJlbDogIkFsbCBQYXltZW50cyIsCiAgICAgICAgICAgIGNvdW50OiBwYXltZW50cy5sZW5ndGgsCiAgICAgICAgICAgIGNvbnRlbnQ6ICgKICAgICAgICAgICAgICA8RGF0YVRhYmxlCiAgICAgICAgICAgICAgICByb3dzPXtwYXltZW50c30KICAgICAgICAgICAgICAgIGNvbHVtbnM9e3BheW1lbnRDb2x1bW5zKCl9CiAgICAgICAgICAgICAgICBzZWFyY2hhYmxlPXsocikgPT4gYCR7ci5sZWFkTmFtZX0gJHtyLnN0cmlwZVBheW1lbnRJZH1gfQogICAgICAgICAgICAgICAgc2VhcmNoUGxhY2Vob2xkZXI9IlNlYXJjaCBieSBsZWFkIG9yIFN0cmlwZSBJROKApiIKICAgICAgICAgICAgICAgIGVtcHR5VGl0bGU9Ik5vIHBheW1lbnRzIHlldCIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICApLAogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgaWQ6ICJtb250aCIsCiAgICAgICAgICAgIGxhYmVsOiAiQnkgTW9udGgiLAogICAgICAgICAgICBjb3VudDogbW9udGhseS5sZW5ndGgsCiAgICAgICAgICAgIGNvbnRlbnQ6ICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICAgICAgICAgIDxSZXZlbnVlQnlNb250aENoYXJ0IGRhdGE9e21vbnRobHl9IC8+CiAgICAgICAgICAgICAgICA8RGF0YVRhYmxlCiAgICAgICAgICAgICAgICAgIHJvd3M9e21vbnRobHl9CiAgICAgICAgICAgICAgICAgIGNvbHVtbnM9e21vbnRobHlDb2x1bW5zKCl9CiAgICAgICAgICAgICAgICAgIHJvd0tleT17KHIpID0+IHIubW9udGh9CiAgICAgICAgICAgICAgICAgIGVtcHR5VGl0bGU9Ik5vIG1vbnRobHkgZGF0YSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICksCiAgICAgICAgICB9LAogICAgICAgIF19CiAgICAgIC8+CiAgICA8L2Rpdj4KICApOwp9Cg==
+"use client";
+
+import { Tabs } from "@/components/ui/Tabs";
+import { DataTable, type Column } from "@/components/ui/DataTable";
+import {
+  RevenueByMonthChart,
+  type MonthlyRevenue,
+} from "@/components/revenue/RevenueByMonthChart";
+import { StatusBadge, type BadgeTone } from "@/components/ui/StatusBadge";
+import { formatCurrency, formatMonthYear, formatNumber } from "@/lib/utils/format";
+
+export interface PaymentRow {
+  id: string;
+  leadName: string;
+  service: string | null;
+  amount: number | null;
+  paymentDate: string | null;
+  stripePaymentId: string;
+  status: string | null;
+}
+
+const STATUS_TONE: Record<string, BadgeTone> = {
+  Paid: "success",
+  Pending: "warning",
+  Refunded: "danger",
+};
+
+function paymentColumns(): Column<PaymentRow>[] {
+  return [
+    {
+      key: "lead",
+      header: "Lead",
+      sort: (r) => r.leadName.toLowerCase(),
+      render: (r) => <span className="font-medium">{r.leadName || "—"}</span>,
+    },
+    {
+      key: "service",
+      header: "Service",
+      sort: (r) => r.service ?? "",
+      hideOnMobile: true,
+      render: (r) =>
+        r.service ? (
+          <StatusBadge label={r.service} tone="info" />
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "amount",
+      header: "Amount",
+      sort: (r) => r.amount,
+      align: "right",
+      render: (r) => (
+        <span className="tabular-nums font-medium">{formatCurrency(r.amount)}</span>
+      ),
+    },
+    {
+      key: "paymentDate",
+      header: "Payment Date",
+      sort: (r) => r.paymentDate ?? "",
+      render: (r) =>
+        r.paymentDate ? (
+          new Date(r.paymentDate).toLocaleDateString()
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "stripeId",
+      header: "Stripe Payment ID",
+      hideOnTablet: true,
+      render: (r) =>
+        r.stripePaymentId ? (
+          <code className="rounded bg-surface-elevated px-1.5 py-0.5 text-xs">
+            {r.stripePaymentId}
+          </code>
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+    {
+      key: "status",
+      header: "Status",
+      sort: (r) => r.status ?? "",
+      render: (r) =>
+        r.status ? (
+          <StatusBadge label={r.status} tone={STATUS_TONE[r.status] ?? "neutral"} />
+        ) : (
+          <span className="text-text-muted">—</span>
+        ),
+    },
+  ];
+}
+
+function monthlyColumns(): Column<MonthlyRevenue>[] {
+  return [
+    {
+      key: "month",
+      header: "Month",
+      sort: (r) => r.month,
+      render: (r) => (
+        <span className="whitespace-nowrap font-medium">
+          {formatMonthYear(r.month)}
+        </span>
+      ),
+    },
+    {
+      key: "count",
+      header: "Payments",
+      sort: (r) => r.count,
+      align: "right",
+      render: (r) => formatNumber(r.count),
+    },
+    {
+      key: "total",
+      header: "Total",
+      sort: (r) => r.total,
+      align: "right",
+      render: (r) => (
+        <span className="tabular-nums font-medium text-brand-success">
+          {formatCurrency(r.total)}
+        </span>
+      ),
+    },
+  ];
+}
+
+export function RevenueTabs({
+  payments,
+  monthly,
+  grandTotal,
+}: {
+  payments: PaymentRow[];
+  monthly: MonthlyRevenue[];
+  grandTotal: number;
+}) {
+  return (
+    <div className="space-y-6">
+      <div className="flex items-baseline justify-between">
+        <div>
+          <div className="label-caps text-text-muted">Total revenue (Paid)</div>
+          <div className="mt-1 text-3xl font-semibold tabular-nums text-brand-success">
+            {formatCurrency(grandTotal)}
+          </div>
+        </div>
+        <div className="text-xs text-text-secondary">
+          {payments.length} {payments.length === 1 ? "payment" : "payments"} ·{" "}
+          {monthly.length} {monthly.length === 1 ? "month" : "months"}
+        </div>
+      </div>
+
+      <Tabs
+        tabs={[
+          {
+            id: "all",
+            label: "All Payments",
+            count: payments.length,
+            content: (
+              <DataTable
+                rows={payments}
+                columns={paymentColumns()}
+                searchable={(r) => `${r.leadName} ${r.stripePaymentId}`}
+                searchPlaceholder="Search by lead or Stripe ID…"
+                emptyTitle="No payments yet"
+              />
+            ),
+          },
+          {
+            id: "month",
+            label: "By Month",
+            count: monthly.length,
+            content: (
+              <div className="space-y-4">
+                <RevenueByMonthChart data={monthly} />
+                <DataTable
+                  rows={monthly}
+                  columns={monthlyColumns()}
+                  rowKey={(r) => r.month}
+                  emptyTitle="No monthly data"
+                />
+              </div>
+            ),
+          },
+        ]}
+      />
+    </div>
+  );
+}
