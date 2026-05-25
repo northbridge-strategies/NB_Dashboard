@@ -69,7 +69,7 @@ export const REPORT_TEMPLATE = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tier I Structural Diagnostic · {{COMPANY_NAME}} · Northbridge Strategies</title>
+<title>{{CLIENT_NAME}} · {{COMPANY_NAME}} — Tier I Structural Diagnostic · Northbridge Strategies</title>
 <style>
   :root {
     --paper:#f7f5ef; --paper-2:#efece4; --paper-3:#e6e2d6;

@@ -378,12 +378,14 @@ Write a JSON object with exactly these keys. Respond with ONLY valid JSON — no
   // 7. Store in Vercel Blob
   const slug = crypto.randomBytes(6).toString("hex");
   const year = new Date().getFullYear();
-  // e.g. "John-Smith-Cascade-Mechanical-2026-a3f9c1"
+  // e.g. "John-Smith-Cascade-Mechanical-2026" — used as the actual filename
   const safeName = `${clientName}-${companyName}`
     .replace(/[^a-zA-Z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .slice(0, 60);
-  const blobPath = `reports/${safeName}-${year}-${slug}/index.html`;
+  const fileName = `${safeName}-Tier-I-Diagnostic-${year}.html`;
+  // Folder is the random slug so the URL stays unguessable; file has the descriptive name
+  const blobPath = `reports/${slug}/${fileName}`;
   const blob = await put(blobPath, html, {
     access: "public",
     contentType: "text/html; charset=utf-8",
