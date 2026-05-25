@@ -390,7 +390,7 @@ Write a JSON object with exactly these keys. Respond with ONLY valid JSON — no
     addRandomSuffix: false,
   });
 
-  // 8. Write URL back to Notion
+  // 8. Write URL back to Notion score record
   await notion.pages.update({
     page_id: score_id,
     properties: {
@@ -400,8 +400,36 @@ Write a JSON object with exactly these keys. Respond with ONLY valid JSON — no
     } as never,
   });
 
-  // 9. Bust caches
-  bust(TAG.scores, TAG.activity);
+  // 9. Append report entry to Lead's "Generated Reports" field
+  // Read existing value first so we can append rather than overwrite
+  try {
+    const leadPage = await notion.pages.retrieve({ page_id: lead_id });
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const existingProp = (leadPage as any)?.properties?.["Generated Reports"];
+    const existingText: string =
+      existingProp?.rich_text?.map((t: { plain_text: string }) => t.plain_text).join("") ?? "";
+    const newEntry = `[${reportId}] ${blob.url}`;
+    const combined = existingText
+      ? `${existingText}\n${newEntry}`
+      : newEntry;
+    // Notion rich_text has a 2000-char limit per block; trim oldest entries if needed
+    const trimmed = combined.length > 1900
+      ? combined.slice(combined.length - 1900)
+      : combined;
+    await notion.pages.update({
+      page_id: lead_id,
+      properties: {
+        "Generated Reports": {
+          rich_text: [{ type: "text", text: { content: trimmed } }],
+        },
+      } as never,
+    });
+  } catch {
+    // Non-fatal — score record already has the URL
+  }
+
+  // 10. Bust caches
+  bust(TAG.scores, TAG.leads, TAG.activity);
 
   return { success: true, report_url: blob.url, report_id: reportId, slug };
 }

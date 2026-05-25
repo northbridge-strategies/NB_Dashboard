@@ -20,6 +20,7 @@ import {
   toneForPriority,
 } from "@/components/ui/StatusBadge";
 import { ScoreSection } from "./_ScoreSection";
+import { ReportsSection } from "./_ReportsSection";
 import { PipelineSection } from "./_PipelineSection";
 import { RevenueSection } from "./_RevenueSection";
 import { OutreachSection } from "./_OutreachSection";
@@ -163,6 +164,7 @@ export default async function LeadDetailPage({
 
       {/* Section cards */}
       <ScoreSection score={latestScore} all={scores} leadId={lead.id} />
+      <ReportsSection scores={scores} leadId={lead.id} />
       <PipelineSection entry={latestPipeline} all={pipeline} leadId={lead.id} />
       <RevenueSection entries={revenue} leadId={lead.id} />
       <OutreachSection entries={outreach} leadId={lead.id} />
