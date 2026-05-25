@@ -377,7 +377,14 @@ Write a JSON object with exactly these keys. Respond with ONLY valid JSON — no
 
   // 7. Store in Vercel Blob
   const slug = crypto.randomBytes(6).toString("hex");
-  const blob = await put(`reports/${slug}/index.html`, html, {
+  const year = new Date().getFullYear();
+  // e.g. "John-Smith-Cascade-Mechanical-2026-a3f9c1"
+  const safeName = `${clientName}-${companyName}`
+    .replace(/[^a-zA-Z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 60);
+  const blobPath = `reports/${safeName}-${year}-${slug}/index.html`;
+  const blob = await put(blobPath, html, {
     access: "public",
     contentType: "text/html; charset=utf-8",
     addRandomSuffix: false,
