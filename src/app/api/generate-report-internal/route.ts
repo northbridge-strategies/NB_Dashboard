@@ -1,10 +1,7 @@
-/**
- * Internal route: called from the dashboard UI (authenticated session).
- * No webhook secret needed — session auth is sufficient.
- */
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth/options";
+import { generateReport } from "@/lib/report/generate";
 
 export async function POST(req: NextRequest) {
   const session = await getServerSession(authOptions);
@@ -17,23 +14,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "lead_id and score_id required" }, { status: 400 });
   }
 
-  // Forward to the main generate-report route internally with the server secret
-  const secret = process.env.REPORT_WEBHOOK_SECRET;
-  if (!secret) {
-    return NextResponse.json({ error: "REPORT_WEBHOOK_SECRET not configured" }, { status: 500 });
+  try {
+    const result = await generateReport(body.lead_id as string, body.score_id as string);
+    return NextResponse.json(result);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    return NextResponse.json({ error: message }, { status: 500 });
   }
-
-  const baseUrl = process.env.NEXTAUTH_URL ?? "http://localhost:3000";
-  const res = await fetch(`${baseUrl}/api/generate-report`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      lead_id: body.lead_id,
-      score_id: body.score_id,
-      secret,
-    }),
-  });
-
-  const data = await res.json();
-  return NextResponse.json(data, { status: res.status });
 }
