@@ -7,12 +7,13 @@ import {
 } from "@/components/ui/StatusBadge";
 import { SectionCard, EmptySection } from "./_SectionCard";
 import { formatRelative } from "@/lib/utils/dates";
+import { GenerateReportButton } from "@/components/scores/GenerateReportButton";
 import type { DiagnosticScore } from "@/lib/notion/scores";
 
 export function ScoreSection({
   score,
   all,
-  leadId: _leadId,
+  leadId,
 }: {
   score: DiagnosticScore | null;
   all: DiagnosticScore[];
@@ -116,22 +117,37 @@ export function ScoreSection({
         {/* Report links */}
         <div className="flex flex-wrap items-center gap-3 border-t border-border pt-4 text-xs">
           {score.reportDraftUrl ? (
-            <a
-              href={score.reportDraftUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-md bg-brand-primary px-3 py-1.5 font-medium text-white transition hover:bg-brand-primary-hover"
-            >
-              <FileText className="h-3.5 w-3.5" />
-              View Report Draft
-            </a>
+            <div className="flex flex-wrap items-center gap-2">
+              <a
+                href={score.reportDraftUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-md bg-brand-primary px-3 py-1.5 font-medium text-white transition hover:bg-brand-primary-hover"
+              >
+                <FileText className="h-3.5 w-3.5" />
+                View Report
+              </a>
+              <GenerateReportButton
+                leadId={leadId}
+                scoreId={score.id}
+              />
+            </div>
           ) : score.reportDraftGenerated ? (
-            <span className="inline-flex items-center gap-1.5 text-text-secondary">
-              <CheckCircle2 className="h-3.5 w-3.5" />
-              Report draft generated
-            </span>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-1.5 text-text-secondary">
+                <CheckCircle2 className="h-3.5 w-3.5" />
+                Report draft generated
+              </span>
+              <GenerateReportButton
+                leadId={leadId}
+                scoreId={score.id}
+              />
+            </div>
           ) : (
-            <span className="text-text-muted">No report draft yet</span>
+            <GenerateReportButton
+              leadId={leadId}
+              scoreId={score.id}
+            />
           )}
           <span className="ml-auto text-text-muted">
             {score.dateCompleted
