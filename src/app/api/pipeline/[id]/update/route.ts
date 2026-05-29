@@ -38,7 +38,9 @@ export async function POST(
     if (err instanceof HttpError) {
       return NextResponse.json({ error: err.message }, { status: err.status });
     }
+    const msg =
+      err instanceof Error ? err.message : "Internal error";
     console.error("[/api/pipeline/[id]/update]", err);
-    return NextResponse.json({ error: "Internal error" }, { status: 500 });
+    return NextResponse.json({ error: msg }, { status: 500 });
   }
 }
