@@ -191,11 +191,7 @@ export async function updatePipelineEntry(
       ? { select: { name: update.callOutcome } }
       : { select: null };
   }
-  if ("nextAction" in update) {
-    properties["Next Action"] = update.nextAction
-      ? { select: { name: update.nextAction } }
-      : { select: null };
-  }
+  // "Next Action" is not a property in the current Notion Pipeline schema — skip it.
   if ("meetingDate" in update) {
     properties["Meeting Date"] = update.meetingDate
       ? { date: { start: update.meetingDate } }

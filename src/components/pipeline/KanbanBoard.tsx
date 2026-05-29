@@ -32,19 +32,10 @@ export interface KanbanLeadInfo extends CardLeadInfo {
 }
 
 const CALL_OUTCOMES = [
-  "Scheduled",
-  "Completed",
+  "Interested-Moving to Purchase",
+  "Needs More Time",
+  "Not a Fit",
   "No Show",
-  "Rescheduled",
-  "Not Interested",
-] as const;
-
-const NEXT_ACTIONS = [
-  "Send Follow-Up",
-  "Book Call",
-  "Send Proposal",
-  "Await Response",
-  "Close",
 ] as const;
 
 type SaveState = "idle" | "saving" | "saved" | "error";
@@ -71,7 +62,6 @@ export function KanbanBoard({
   const [editPriority, setEditPriority] = useState<Priority | "">("");
   const [editMeetingDate, setEditMeetingDate] = useState("");
   const [editCallOutcome, setEditCallOutcome] = useState("");
-  const [editNextAction, setEditNextAction] = useState("");
   const [editNotes, setEditNotes] = useState("");
   const [saveState, setSaveState] = useState<SaveState>("idle");
   const [saveError, setSaveError] = useState<string | null>(null);
@@ -118,7 +108,6 @@ export function KanbanBoard({
     setEditPriority(merged.priority ?? "");
     setEditMeetingDate(merged.meetingDate ?? "");
     setEditCallOutcome(merged.callOutcome ?? "");
-    setEditNextAction(merged.nextAction ?? "");
     setEditNotes(merged.notes ?? "");
     setSaveState("idle");
     setSaveError(null);
@@ -140,7 +129,6 @@ export function KanbanBoard({
     if (editPriority) body.priority = editPriority;
     body.meetingDate = editMeetingDate || null;
     body.callOutcome = editCallOutcome || null;
-    body.nextAction = editNextAction || null;
     body.notes = editNotes;
 
     try {
@@ -163,7 +151,6 @@ export function KanbanBoard({
           priority: (editPriority as Priority) || openEntry.priority,
           meetingDate: editMeetingDate || null,
           callOutcome: editCallOutcome || null,
-          nextAction: editNextAction || null,
           notes: editNotes,
         });
         return next;
@@ -187,7 +174,6 @@ export function KanbanBoard({
       editPriority !== (openEntry.priority ?? "") ||
       editMeetingDate !== (openEntry.meetingDate ?? "") ||
       editCallOutcome !== (openEntry.callOutcome ?? "") ||
-      editNextAction !== (openEntry.nextAction ?? "") ||
       editNotes !== (openEntry.notes ?? ""));
 
   return (
@@ -370,20 +356,6 @@ export function KanbanBoard({
                   <option value="">— none —</option>
                   {CALL_OUTCOMES.map((o) => (
                     <option key={o} value={o}>{o}</option>
-                  ))}
-                </select>
-              </FormField>
-
-              {/* Next Action */}
-              <FormField label="Next Action">
-                <select
-                  value={editNextAction}
-                  onChange={(e) => { setEditNextAction(e.target.value); setSaveState("idle"); }}
-                  className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
-                >
-                  <option value="">— none —</option>
-                  {NEXT_ACTIONS.map((a) => (
-                    <option key={a} value={a}>{a}</option>
                   ))}
                 </select>
               </FormField>

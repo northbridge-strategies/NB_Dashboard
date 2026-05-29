@@ -12,19 +12,10 @@ import type { PipelineEntry } from "@/lib/notion/pipeline";
 import { useRouter } from "next/navigation";
 
 const CALL_OUTCOMES = [
-  "Scheduled",
-  "Completed",
+  "Interested-Moving to Purchase",
+  "Needs More Time",
+  "Not a Fit",
   "No Show",
-  "Rescheduled",
-  "Not Interested",
-] as const;
-
-const NEXT_ACTIONS = [
-  "Send Follow-Up",
-  "Book Call",
-  "Send Proposal",
-  "Await Response",
-  "Close",
 ] as const;
 
 type SaveState = "idle" | "saving" | "saved" | "error";
@@ -46,7 +37,6 @@ export function PipelineSection({
   const [editPriority, setEditPriority] = useState<Priority | "">(initialEntry?.priority ?? "");
   const [editMeetingDate, setEditMeetingDate] = useState(initialEntry?.meetingDate ?? "");
   const [editCallOutcome, setEditCallOutcome] = useState(initialEntry?.callOutcome ?? "");
-  const [editNextAction, setEditNextAction] = useState(initialEntry?.nextAction ?? "");
   const [editNotes, setEditNotes] = useState(initialEntry?.notes ?? "");
   const [saveState, setSaveState] = useState<SaveState>("idle");
   const [saveError, setSaveError] = useState<string | null>(null);
@@ -67,7 +57,6 @@ export function PipelineSection({
     editPriority !== (entry.priority ?? "") ||
     editMeetingDate !== (entry.meetingDate ?? "") ||
     editCallOutcome !== (entry.callOutcome ?? "") ||
-    editNextAction !== (entry.nextAction ?? "") ||
     editNotes !== (entry.notes ?? "");
 
   async function handleSave() {
@@ -78,7 +67,6 @@ export function PipelineSection({
     const body: Record<string, unknown> = {
       meetingDate: editMeetingDate || null,
       callOutcome: editCallOutcome || null,
-      nextAction: editNextAction || null,
       notes: editNotes,
     };
     if (editStage) body.stage = editStage;
@@ -105,7 +93,6 @@ export function PipelineSection({
               priority: (editPriority as Priority) || prev.priority,
               meetingDate: editMeetingDate || null,
               callOutcome: editCallOutcome || null,
-              nextAction: editNextAction || null,
               notes: editNotes,
             }
           : prev,
@@ -208,20 +195,6 @@ export function PipelineSection({
               </select>
             </FormField>
           </div>
-
-          {/* Next Action */}
-          <FormField label="Next Action">
-            <select
-              value={editNextAction}
-              onChange={(e) => { setEditNextAction(e.target.value); setSaveState("idle"); }}
-              className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
-            >
-              <option value="">— none —</option>
-              {NEXT_ACTIONS.map((a) => (
-                <option key={a} value={a}>{a}</option>
-              ))}
-            </select>
-          </FormField>
 
           {/* Notes */}
           <FormField label="Notes">

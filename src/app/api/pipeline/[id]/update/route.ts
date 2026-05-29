@@ -8,8 +8,7 @@ import { ALL_PIPELINE_STAGES, type PipelineStage } from "@/lib/types/domain";
 const bodySchema = z.object({
   stage: z.enum(ALL_PIPELINE_STAGES as [PipelineStage, ...PipelineStage[]]).optional(),
   priority: z.enum(["Hot", "Warm", "Cold"]).optional(),
-  callOutcome: z.string().max(100).nullable().optional(),
-  nextAction: z.string().max(100).nullable().optional(),
+  callOutcome: z.enum(["Interested-Moving to Purchase", "Needs More Time", "Not a Fit", "No Show"]).nullable().optional(),
   meetingDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).nullable().optional(),
   notes: z.string().max(5000).optional(),
 });
