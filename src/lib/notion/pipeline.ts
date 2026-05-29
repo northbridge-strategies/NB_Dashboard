@@ -159,6 +159,57 @@ export const listMeetings = cached(
   { tags: [TAG.pipeline, TAG.leads] },
 );
 
+export interface PipelineUpdate {
+  stage?: PipelineStage;
+  priority?: Priority;
+  callOutcome?: string | null;
+  nextAction?: string | null;
+  meetingDate?: string | null;
+  notes?: string;
+}
+
+/**
+ * Partial update of a Pipeline entry. Only the fields present in `update`
+ * are written; everything else is left untouched.
+ */
+export async function updatePipelineEntry(
+  id: string,
+  update: PipelineUpdate,
+): Promise<void> {
+  const properties: Record<string, unknown> = {};
+
+  if (update.stage !== undefined) {
+    properties["Stage"] = { select: { name: update.stage } };
+    // Stamp Stage Date whenever stage changes
+    properties["Stage Date"] = { date: { start: new Date().toISOString().slice(0, 10) } };
+  }
+  if (update.priority !== undefined) {
+    properties["Priority"] = { select: { name: update.priority } };
+  }
+  if ("callOutcome" in update) {
+    properties["Call Outcome"] = update.callOutcome
+      ? { select: { name: update.callOutcome } }
+      : { select: null };
+  }
+  if ("nextAction" in update) {
+    properties["Next Action"] = update.nextAction
+      ? { select: { name: update.nextAction } }
+      : { select: null };
+  }
+  if ("meetingDate" in update) {
+    properties["Meeting Date"] = update.meetingDate
+      ? { date: { start: update.meetingDate } }
+      : { date: null };
+  }
+  if (update.notes !== undefined) {
+    properties["Notes"] = {
+      rich_text: [{ type: "text", text: { content: update.notes } }],
+    };
+  }
+
+  await notion.pages.update({ page_id: id, properties: properties as never });
+}
+
 export async function getPipelineForLead(leadId: string): Promise<PipelineEntry[]> {
   const res = await notion.databases.query({
     database_id: DB.pipeline,
