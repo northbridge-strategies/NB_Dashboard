@@ -82,6 +82,8 @@ export default async function ChannelsPage({
         revenue: b.revenue,
         conversionRate: total > 0 ? (b.paid / total) * 100 : 0,
         relativeFill: (b.leadIds.size / maxLeads) * 100,
+        cpl: null,
+        cpa: null,
       };
     })
     .sort((a, b) => b.totalLeads - a.totalLeads);

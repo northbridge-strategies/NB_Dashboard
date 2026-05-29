@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { DataTable, type Column } from "@/components/ui/DataTable";
 import { formatCurrency, formatNumber, formatPercent } from "@/lib/utils/format";
@@ -12,6 +13,8 @@ export interface ChannelRow {
   revenue: number;
   conversionRate: number; // percent
   relativeFill: number;   // 0-100, for the visual bar
+  cpl: number | null;     // cost per lead (requires ad spend input)
+  cpa: number | null;     // cost per acquisition
 }
 
 const RANGES: { id: "7" | "30" | "90" | "all"; label: string }[] = [
@@ -30,6 +33,20 @@ export function ChannelsTable({
 }) {
   const router = useRouter();
   const params = useSearchParams();
+  const [adSpend, setAdSpend] = useState<string>("");
+  const adSpendNum = parseFloat(adSpend) || 0;
+
+  // Compute CPL/CPA per channel based on proportional lead volume
+  const totalLeads = rows.reduce((s, r) => s + r.totalLeads, 0);
+  const rowsWithMetrics: ChannelRow[] = rows.map((r) => {
+    if (adSpendNum <= 0 || totalLeads === 0) return { ...r, cpl: null, cpa: null };
+    const channelSpend = (r.totalLeads / totalLeads) * adSpendNum;
+    return {
+      ...r,
+      cpl: r.totalLeads > 0 ? channelSpend / r.totalLeads : null,
+      cpa: r.paid > 0 ? channelSpend / r.paid : null,
+    };
+  });
 
   function setRange(r: typeof range) {
     const q = new URLSearchParams(params?.toString());
@@ -102,6 +119,30 @@ export function ChannelsTable({
         </span>
       ),
     },
+    {
+      key: "cpl",
+      header: "CPL",
+      sort: (r) => r.cpl,
+      align: "right",
+      hideOnTablet: true,
+      render: (r) => (
+        <span className="tabular-nums text-text-secondary">
+          {r.cpl != null ? formatCurrency(r.cpl) : "—"}
+        </span>
+      ),
+    },
+    {
+      key: "cpa",
+      header: "CPA",
+      sort: (r) => r.cpa,
+      align: "right",
+      hideOnTablet: true,
+      render: (r) => (
+        <span className="tabular-nums text-text-secondary">
+          {r.cpa != null ? formatCurrency(r.cpa) : "—"}
+        </span>
+      ),
+    },
   ];
 
   return (
@@ -132,8 +173,30 @@ export function ChannelsTable({
         </div>
       </div>
 
+      {/* Ad spend input */}
+      <div className="flex items-center gap-3 rounded-xl border border-border bg-surface p-4">
+        <div className="flex-1">
+          <label className="label-caps block text-text-muted">Monthly Ad Spend ($)</label>
+          <p className="mt-0.5 text-xs text-text-secondary">
+            Enter total ad spend to calculate CPL and CPA per channel.
+          </p>
+        </div>
+        <div className="relative w-40">
+          <span className="absolute left-3 top-2.5 text-sm text-text-muted">$</span>
+          <input
+            type="number"
+            min="0"
+            step="0.01"
+            value={adSpend}
+            onChange={(e) => setAdSpend(e.target.value)}
+            placeholder="0.00"
+            className="w-full rounded-md border border-border bg-bg py-2 pl-7 pr-3 text-sm text-text-primary placeholder:text-text-muted focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+          />
+        </div>
+      </div>
+
       <DataTable
-        rows={rows}
+        rows={rowsWithMetrics}
         columns={columns}
         rowKey={(r) => r.channel}
         emptyTitle="No leads in this date range"

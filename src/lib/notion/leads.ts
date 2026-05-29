@@ -219,6 +219,24 @@ export async function countLeadsInRange(startDaysAgo: number, endDaysAgo: number
   return count;
 }
 
+/**
+ * Manually advance a lead's Lifecycle State.
+ * Forward-only is enforced at the Make.com and Airtable Automation layers;
+ * the dashboard intentionally does NOT re-enforce it here so Doug can correct
+ * bad state without going to Notion directly.
+ */
+export async function updateLeadLifecycle(
+  id: string,
+  lifecycleState: LifecycleState,
+): Promise<void> {
+  await notion.pages.update({
+    page_id: id,
+    properties: {
+      "Lifecycle State": { select: { name: lifecycleState } },
+    } as never,
+  });
+}
+
 export async function getLead(id: string): Promise<Lead | null> {
   const page = await notion.pages.retrieve({ page_id: id });
   if (!isFullPage(page)) return null;

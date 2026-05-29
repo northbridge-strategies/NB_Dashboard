@@ -8,6 +8,7 @@ import {
 import { SectionCard, EmptySection } from "./_SectionCard";
 import { formatRelative } from "@/lib/utils/dates";
 import { GenerateReportButton } from "@/components/scores/GenerateReportButton";
+import { ReportDeliverButton } from "@/components/scores/ReportDeliverButton";
 import type { DiagnosticScore } from "@/lib/notion/scores";
 
 export function ScoreSection({
@@ -149,11 +150,17 @@ export function ScoreSection({
               scoreId={score.id}
             />
           )}
-          <span className="ml-auto text-text-muted">
-            {score.dateCompleted
-              ? `Completed ${formatRelative(score.dateCompleted)}`
-              : ""}
-          </span>
+          <div className="ml-auto flex items-center gap-3">
+            <ReportDeliverButton
+              scoreId={score.id}
+              delivered={score.reportDelivered}
+            />
+            <span className="text-text-muted">
+              {score.dateCompleted
+                ? `Completed ${formatRelative(score.dateCompleted)}`
+                : ""}
+            </span>
+          </div>
         </div>
       </div>
     </SectionCard>

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { Tabs } from "@/components/ui/Tabs";
 import { DataTable, type Column } from "@/components/ui/DataTable";
 import {
@@ -8,6 +9,8 @@ import {
 } from "@/components/revenue/RevenueByMonthChart";
 import { StatusBadge, type BadgeTone } from "@/components/ui/StatusBadge";
 import { formatCurrency, formatMonthYear, formatNumber } from "@/lib/utils/format";
+
+const API_COST_TARGET = 150; // $/month
 
 export interface PaymentRow {
   id: string;
@@ -129,20 +132,69 @@ export function RevenueTabs({
   payments,
   monthly,
   grandTotal,
+  qualifiedLeads,
 }: {
   payments: PaymentRow[];
   monthly: MonthlyRevenue[];
   grandTotal: number;
+  qualifiedLeads: number;
 }) {
+  const [adSpend, setAdSpend] = useState<string>("");
+  const adSpendNum = parseFloat(adSpend) || 0;
+  const paidCount = payments.filter((p) => p.status === "Paid").length;
+  const cpl = adSpendNum > 0 && qualifiedLeads > 0 ? adSpendNum / qualifiedLeads : null;
+  const cpa = adSpendNum > 0 && paidCount > 0 ? adSpendNum / paidCount : null;
+
   return (
     <div className="space-y-6">
-      <div className="flex items-baseline justify-between">
-        <div>
-          <div className="label-caps text-text-muted">Total revenue (Paid)</div>
-          <div className="mt-1 text-3xl font-semibold tabular-nums text-brand-success">
-            {formatCurrency(grandTotal)}
-          </div>
+      {/* Header stats */}
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+        <MetricTile
+          label="Total Revenue (Paid)"
+          value={formatCurrency(grandTotal)}
+          accent="success"
+        />
+        <MetricTile
+          label="Cost Per Lead (CPL)"
+          value={cpl != null ? formatCurrency(cpl) : "—"}
+          sub={adSpendNum === 0 ? "Enter ad spend below" : undefined}
+        />
+        <MetricTile
+          label="Cost Per Acquisition (CPA)"
+          value={cpa != null ? formatCurrency(cpa) : "—"}
+          sub={adSpendNum === 0 ? "Enter ad spend below" : undefined}
+        />
+        <MetricTile
+          label="API Cost vs Target"
+          value={`$— / $${API_COST_TARGET}`}
+          sub="Tracked by Agent 8 weekly"
+          accent="muted"
+        />
+      </div>
+
+      {/* Ad spend input */}
+      <div className="flex items-center gap-3 rounded-xl border border-border bg-surface p-4">
+        <div className="flex-1">
+          <label className="label-caps block text-text-muted">Monthly Ad Spend ($)</label>
+          <p className="mt-0.5 text-xs text-text-secondary">
+            Enter total ad spend this month to calculate CPL and CPA.
+          </p>
         </div>
+        <div className="relative w-40">
+          <span className="absolute left-3 top-2.5 text-sm text-text-muted">$</span>
+          <input
+            type="number"
+            min="0"
+            step="0.01"
+            value={adSpend}
+            onChange={(e) => setAdSpend(e.target.value)}
+            placeholder="0.00"
+            className="w-full rounded-md border border-border bg-bg py-2 pl-7 pr-3 text-sm text-text-primary placeholder:text-text-muted focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+          />
+        </div>
+      </div>
+
+      <div className="flex items-baseline justify-between">
         <div className="text-xs text-text-secondary">
           {payments.length} {payments.length === 1 ? "payment" : "payments"} ·{" "}
           {monthly.length} {monthly.length === 1 ? "month" : "months"}
@@ -150,6 +202,7 @@ export function RevenueTabs({
       </div>
 
       <Tabs
+        urlParam="tab"
         tabs={[
           {
             id: "all",
@@ -183,6 +236,32 @@ export function RevenueTabs({
           },
         ]}
       />
+    </div>
+  );
+}
+
+function MetricTile({
+  label,
+  value,
+  sub,
+  accent,
+}: {
+  label: string;
+  value: string;
+  sub?: string;
+  accent?: "success" | "muted";
+}) {
+  const valueClass =
+    accent === "success"
+      ? "text-brand-success"
+      : accent === "muted"
+      ? "text-text-muted"
+      : "text-text-primary";
+  return (
+    <div className="rounded-xl border border-border bg-surface p-4">
+      <div className="label-caps text-text-muted">{label}</div>
+      <div className={`mt-2 text-xl font-semibold tabular-nums ${valueClass}`}>{value}</div>
+      {sub && <div className="mt-0.5 text-xs text-text-muted">{sub}</div>}
     </div>
   );
 }

@@ -40,6 +40,11 @@ export default async function RevenuePage() {
     .filter((r) => r.status === "Paid")
     .reduce((acc, r) => acc + (r.amount ?? 0), 0);
 
+  // Qualified = any lead past the "Lead" lifecycle state
+  const qualifiedLeads = leads.filter(
+    (l) => l.lifecycleState && l.lifecycleState !== "Lead",
+  ).length;
+
   return (
     <RevenueTabs
       payments={revenue.map((r) => ({
@@ -53,6 +58,7 @@ export default async function RevenuePage() {
       }))}
       monthly={monthlyRows}
       grandTotal={grandTotal}
+      qualifiedLeads={qualifiedLeads}
     />
   );
 }

@@ -5,6 +5,28 @@ import { HttpError, requireRole } from "@/lib/auth/session";
 import { bust, TAG } from "@/lib/utils/revalidate";
 import { ALL_PIPELINE_STAGES, type PipelineStage } from "@/lib/types/domain";
 
+/**
+ * Fire Agent 6 via Make.com webhook when Doug marks a Call Outcome on a
+ * Call Completed pipeline entry. The webhook payload mirrors what Agent 6
+ * expects: entryId, callOutcome, and the lead's stage.
+ */
+async function triggerAgent6(entryId: string, callOutcome: string, stage: string) {
+  const url = process.env.MAKE_WEBHOOK_URL;
+  if (!url) return;
+  await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      action: "post_call_outcome",
+      entryId,
+      callOutcome,
+      stage,
+    }),
+  }).catch((err) => {
+    console.warn("[pipeline/update] Agent 6 webhook failed:", err);
+  });
+}
+
 const bodySchema = z.object({
   stage: z.enum(ALL_PIPELINE_STAGES as [PipelineStage, ...PipelineStage[]]).optional(),
   priority: z.enum(["Hot", "Warm", "Cold"]).optional(),
@@ -31,6 +53,23 @@ export async function POST(
 
     await updatePipelineEntry(params.id, parsed.data);
     bust(TAG.pipeline, TAG.activity);
+
+    // Trigger Agent 6 when a Call Outcome is set and the stage is Call Completed
+    if (
+      parsed.data.callOutcome &&
+      (parsed.data.stage === "Call Completed" ||
+        // Also fire if the stage wasn't changed but caller passed the current stage as context
+        parsed.data.stage === undefined)
+    ) {
+      // Only fire if callOutcome was explicitly set in this update
+      if ("callOutcome" in parsed.data && parsed.data.callOutcome) {
+        void triggerAgent6(
+          params.id,
+          parsed.data.callOutcome,
+          parsed.data.stage ?? "Call Completed",
+        );
+      }
+    }
 
     return NextResponse.json({ ok: true });
   } catch (err) {

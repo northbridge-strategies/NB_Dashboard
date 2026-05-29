@@ -1,13 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { FileText, Save, Loader2 } from "lucide-react";
+import { FileText, Save, Loader2, CheckCircle, XCircle } from "lucide-react";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import {
   StatusBadge,
   toneForClassification,
 } from "@/components/ui/StatusBadge";
 import { useAction } from "@/lib/hooks/useAction";
+import { ConfirmDialog } from "@/components/ui/ConfirmDialog";
 import { formatRelative } from "@/lib/utils/dates";
 import { EmptyState } from "@/components/ui/states";
 
@@ -43,15 +44,29 @@ export function ManualReviewTable({ rows }: { rows: ManualReviewRow[] }) {
 
 function ManualReviewRowCard({ row }: { row: ManualReviewRow }) {
   const [notes, setNotes] = useState(row.manualReviewNotes);
-  const action = useAction();
+  const [approveOpen, setApproveOpen] = useState(false);
+  const [resolved, setResolved] = useState(false);
+  const saveAction = useAction();
+  const approveAction = useAction();
   const dirty = notes !== row.manualReviewNotes;
 
   async function save() {
     if (!dirty) return;
-    await action.run(`/api/manual-review/${row.id}/notes`, {
+    await saveAction.run(`/api/manual-review/${row.id}/notes`, {
       method: "PATCH",
       body: { notes },
     });
+  }
+
+  if (resolved) {
+    return (
+      <li className="rounded-xl border border-border bg-surface p-4 opacity-60">
+        <div className="flex items-center gap-2 text-sm text-brand-success">
+          <CheckCircle className="h-4 w-4" />
+          <span>{row.leadName} — approved and removed from manual review</span>
+        </div>
+      </li>
+    );
   }
 
   return (
@@ -102,31 +117,63 @@ function ManualReviewRowCard({ row }: { row: ManualReviewRow }) {
           placeholder="Add your reasoning for hand-review…"
           className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary placeholder:text-text-muted focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
         />
-        <div className="flex items-center justify-between text-xs">
-          {action.error ? (
-            <span className="text-brand-danger">{action.error}</span>
-          ) : action.state === "success" && !dirty ? (
-            <span className="text-brand-success">Saved.</span>
-          ) : (
-            <span className="text-text-muted">
-              {dirty ? "Unsaved changes" : "Up to date"}
-            </span>
-          )}
-          <button
-            type="button"
-            onClick={save}
-            disabled={!dirty || action.state === "pending"}
-            className="inline-flex items-center gap-1.5 rounded-md bg-brand-primary px-3 py-1.5 text-xs font-medium text-white transition hover:bg-brand-primary-hover disabled:cursor-not-allowed disabled:opacity-50"
-          >
-            {action.state === "pending" ? (
-              <Loader2 className="h-3.5 w-3.5 animate-spin" />
+        <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
+          <div>
+            {saveAction.error ? (
+              <span className="text-brand-danger">{saveAction.error}</span>
+            ) : saveAction.state === "success" && !dirty ? (
+              <span className="text-brand-success">Saved.</span>
             ) : (
-              <Save className="h-3.5 w-3.5" />
+              <span className="text-text-muted">
+                {dirty ? "Unsaved changes" : "Up to date"}
+              </span>
             )}
-            Save Notes
-          </button>
+          </div>
+          <div className="flex items-center gap-2">
+            {/* Override Approve — exits the record from manual review */}
+            <button
+              type="button"
+              onClick={() => setApproveOpen(true)}
+              className="inline-flex items-center gap-1.5 rounded-md border border-brand-success/40 bg-brand-success/10 px-3 py-1.5 text-xs font-medium text-brand-success transition hover:bg-brand-success/20"
+            >
+              <CheckCircle className="h-3.5 w-3.5" />
+              Override Approve
+            </button>
+            <button
+              type="button"
+              onClick={save}
+              disabled={!dirty || saveAction.state === "pending"}
+              className="inline-flex items-center gap-1.5 rounded-md bg-brand-primary px-3 py-1.5 text-xs font-medium text-white transition hover:bg-brand-primary-hover disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              {saveAction.state === "pending" ? (
+                <Loader2 className="h-3.5 w-3.5 animate-spin" />
+              ) : (
+                <Save className="h-3.5 w-3.5" />
+              )}
+              Save Notes
+            </button>
+          </div>
         </div>
+        {approveAction.error && (
+          <p className="text-xs text-brand-danger">{approveAction.error}</p>
+        )}
       </div>
+
+      <ConfirmDialog
+        open={approveOpen}
+        title="Override approve this draft?"
+        description="This will mark the HITL Action as Approved and remove it from the Manual Review queue. Use this when you've reviewed and edited the report directly."
+        confirmLabel="Approve"
+        pending={approveAction.state === "pending"}
+        onCancel={() => setApproveOpen(false)}
+        onConfirm={async () => {
+          const r = await approveAction.run(`/api/scores/${row.id}/approve`);
+          if (r.ok) {
+            setApproveOpen(false);
+            setResolved(true);
+          }
+        }}
+      />
     </li>
   );
 }

@@ -25,6 +25,7 @@ import { PipelineSection } from "./_PipelineSection";
 import { RevenueSection } from "./_RevenueSection";
 import { OutreachSection } from "./_OutreachSection";
 import { HealthSection } from "./_HealthSection";
+import { LifecycleEditor } from "./_LifecycleEditor";
 import { initials, formatPhone } from "@/lib/utils/format";
 
 export const revalidate = 30;
@@ -152,9 +153,17 @@ export default async function LeadDetailPage({
           </div>
         </div>
 
+        {/* Lifecycle State editor */}
+        <div className="mt-5 border-t border-border pt-4">
+          <LifecycleEditor
+            leadId={lead.id}
+            initialState={lead.lifecycleState}
+          />
+        </div>
+
         {/* Quick stats row */}
         {(lead.revenueRange || lead.lastActivityDate || lead.lastContacted) && (
-          <div className="mt-5 grid grid-cols-1 gap-3 border-t border-border pt-4 text-xs sm:grid-cols-3">
+          <div className="mt-4 grid grid-cols-1 gap-3 border-t border-border pt-4 text-xs sm:grid-cols-3">
             <Field label="Revenue Range" value={lead.revenueRange} />
             <Field label="Last Activity" value={lead.lastActivityDate} />
             <Field label="Last Contacted" value={lead.lastContacted} />
