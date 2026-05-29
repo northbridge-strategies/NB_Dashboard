@@ -2,7 +2,14 @@
 
 import useSWR from "swr";
 import { useMemo, useState } from "react";
-import { ChevronDown, ChevronRight, ExternalLink, RefreshCw } from "lucide-react";
+import {
+  ChevronDown,
+  ChevronRight,
+  ExternalLink,
+  RefreshCw,
+  CheckCircle,
+  RotateCcw,
+} from "lucide-react";
 import {
   StatusBadge,
   toneForSeverity,
@@ -44,7 +51,7 @@ const fetcher = async (url: string): Promise<Snapshot> => {
 };
 
 export function HealthLogTable({ initial }: { initial: Snapshot }) {
-  const { data, isValidating } = useSWR<Snapshot>(
+  const { data, isValidating, mutate } = useSWR<Snapshot>(
     "/api/health/snapshot",
     fetcher,
     {
@@ -61,6 +68,14 @@ export function HealthLogTable({ initial }: { initial: Snapshot }) {
   );
   const [agentFilter, setAgentFilter] = useState<string>("all");
   const [expanded, setExpanded] = useState<string | null>(null);
+  // Track in-flight resolve requests per log id
+  const [resolving, setResolving] = useState<Set<string>>(new Set());
+  // Resolution notes per log id (shown inline when expanded)
+  const [resolutionNotes, setResolutionNotes] = useState<Record<string, string>>({});
+  // Track in-flight agent restart
+  const [restarting, setRestarting] = useState(false);
+  const [restartError, setRestartError] = useState<string | null>(null);
+  const [restartSuccess, setRestartSuccess] = useState<string | null>(null);
 
   const allAgents = useMemo(() => {
     const set = new Set<string>();
@@ -77,6 +92,57 @@ export function HealthLogTable({ initial }: { initial: Snapshot }) {
       return true;
     });
   }, [snapshot, severityFilter, agentFilter]);
+
+  const [resolveErrors, setResolveErrors] = useState<Record<string, string>>({});
+
+  async function handleResolve(logId: string) {
+    setResolving((prev) => new Set(prev).add(logId));
+    setResolveErrors((prev) => { const n = { ...prev }; delete n[logId]; return n; });
+    try {
+      const notes = resolutionNotes[logId]?.trim();
+      const res = await fetch(`/api/health/${logId}/resolve`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(notes ? { resolutionNotes: notes } : {}),
+      });
+      if (!res.ok) {
+        const body = (await res.json().catch(() => ({}))) as { error?: string };
+        throw new Error(body.error ?? "Failed to resolve");
+      }
+      await mutate();
+    } catch (err) {
+      setResolveErrors((prev) => ({ ...prev, [logId]: (err as Error).message }));
+    } finally {
+      setResolving((prev) => {
+        const next = new Set(prev);
+        next.delete(logId);
+        return next;
+      });
+    }
+  }
+
+  async function handleRestartAgent(agent: string) {
+    setRestarting(true);
+    setRestartError(null);
+    setRestartSuccess(null);
+    try {
+      const res = await fetch("/api/system/restart-agent", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ agent }),
+      });
+      if (!res.ok) {
+        const body = (await res.json().catch(() => ({}))) as { error?: string };
+        throw new Error(body.error ?? "Restart failed");
+      }
+      setRestartSuccess(`Restart signal sent for ${agent}`);
+      await mutate();
+    } catch (err) {
+      setRestartError((err as Error).message);
+    } finally {
+      setRestarting(false);
+    }
+  }
 
   return (
     <div className="space-y-4">
@@ -103,6 +169,43 @@ export function HealthLogTable({ initial }: { initial: Snapshot }) {
           tone="success"
         />
       </div>
+
+      {/* Manual Agent Restart */}
+      {allAgents.length > 0 && (
+        <div className="rounded-xl border border-border bg-surface p-4">
+          <div className="mb-3 flex items-center gap-2">
+            <RotateCcw className="h-4 w-4 text-text-muted" />
+            <span className="text-sm font-semibold text-text-primary">
+              Manual Agent Restart
+            </span>
+          </div>
+          <p className="mb-3 text-xs text-text-secondary">
+            Send a restart signal to a specific agent via Make.com. Only visible
+            to Admin users. Use when an agent is stuck or has not recovered
+            after a system resume.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {allAgents.map((agent) => (
+              <button
+                key={agent}
+                type="button"
+                disabled={restarting}
+                onClick={() => void handleRestartAgent(agent)}
+                className="inline-flex items-center gap-1.5 rounded-md border border-border bg-surface-elevated px-3 py-1.5 text-xs font-medium text-text-primary transition hover:border-brand-warning hover:text-brand-warning disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                <RotateCcw className="h-3 w-3" />
+                {agent}
+              </button>
+            ))}
+          </div>
+          {restartError && (
+            <p className="mt-2 text-xs text-brand-danger">{restartError}</p>
+          )}
+          {restartSuccess && (
+            <p className="mt-2 text-xs text-brand-success">{restartSuccess}</p>
+          )}
+        </div>
+      )}
 
       {/* Filters + refresh status */}
       <div className="flex flex-wrap items-center gap-3">
@@ -142,18 +245,21 @@ export function HealthLogTable({ initial }: { initial: Snapshot }) {
         <ul className="divide-y divide-border rounded-xl border border-border bg-surface">
           {filtered.map((log) => (
             <li key={log.id}>
-              <button
-                type="button"
-                onClick={() => setExpanded(expanded === log.id ? null : log.id)}
-                className="flex w-full items-start gap-3 p-4 text-left transition hover:bg-surface-elevated"
-              >
-                <div className="mt-0.5 text-text-muted">
+              <div className="flex w-full items-start gap-3 p-4">
+                {/* Expand toggle */}
+                <button
+                  type="button"
+                  onClick={() => setExpanded(expanded === log.id ? null : log.id)}
+                  className="mt-0.5 shrink-0 text-text-muted transition hover:text-text-primary"
+                  aria-label={expanded === log.id ? "Collapse" : "Expand"}
+                >
                   {expanded === log.id ? (
                     <ChevronDown className="h-4 w-4" />
                   ) : (
                     <ChevronRight className="h-4 w-4" />
                   )}
-                </div>
+                </button>
+
                 <div className="min-w-0 flex-1">
                   <div className="flex flex-wrap items-center gap-2">
                     {log.severity && (
@@ -175,6 +281,7 @@ export function HealthLogTable({ initial }: { initial: Snapshot }) {
                   <div className="mt-1 truncate text-sm font-medium text-text-primary">
                     {log.title || log.errorMessage || "(no message)"}
                   </div>
+
                   {expanded === log.id && (
                     <div className="mt-3 space-y-2 rounded-md border border-border bg-bg/50 p-3 text-xs">
                       {log.errorMessage && (
@@ -196,10 +303,42 @@ export function HealthLogTable({ initial }: { initial: Snapshot }) {
                           </a>
                         )}
                       </div>
+                      <div>
+                        <label className="label-caps mb-1 block text-text-muted">
+                          Resolution notes (optional)
+                        </label>
+                        <textarea
+                          rows={2}
+                          value={resolutionNotes[log.id] ?? ""}
+                          onChange={(e) =>
+                            setResolutionNotes((prev) => ({ ...prev, [log.id]: e.target.value }))
+                          }
+                          placeholder="Describe how this was resolved…"
+                          className="w-full rounded-md border border-border bg-bg px-2 py-1.5 text-xs text-text-primary placeholder:text-text-muted focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+                        />
+                      </div>
+                      {resolveErrors[log.id] && (
+                        <p className="text-brand-danger">{resolveErrors[log.id]}</p>
+                      )}
                     </div>
                   )}
                 </div>
-              </button>
+
+                {/* Mark Resolved button */}
+                <button
+                  type="button"
+                  disabled={resolving.has(log.id)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    void handleResolve(log.id);
+                  }}
+                  title="Mark as resolved"
+                  className="ml-2 inline-flex shrink-0 items-center gap-1.5 rounded-md border border-border bg-surface-elevated px-3 py-1.5 text-xs font-medium text-text-secondary transition hover:border-brand-success hover:text-brand-success disabled:cursor-not-allowed disabled:opacity-50"
+                >
+                  <CheckCircle className="h-3.5 w-3.5" />
+                  {resolving.has(log.id) ? "Resolving…" : "Mark Resolved"}
+                </button>
+              </div>
             </li>
           ))}
         </ul>

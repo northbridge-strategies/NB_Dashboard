@@ -214,8 +214,8 @@ export function KanbanBoard({
             )}
 
             <div className="grid grid-cols-2 gap-4 text-sm">
-              <Field label="Email" value={openLead?.email} />
-              <Field label="Phone" value={openLead?.phone} />
+              <Field label="Email" value={openLead?.email} type="email" />
+              <Field label="Phone" value={openLead?.phone} type="phone" />
               <Field label="Industry" value={openLead?.industry} />
               <Field label="Stage Date" value={openEntry.stageDate} />
               <Field label="Call Outcome" value={openEntry.callOutcome} />
@@ -295,11 +295,30 @@ function FilterSelect({
   );
 }
 
-function Field({ label, value }: { label: string; value: string | null | undefined }) {
+function Field({
+  label,
+  value,
+  type,
+}: {
+  label: string;
+  value: string | null | undefined;
+  type?: "email" | "phone";
+}) {
+  const display = value || "—";
   return (
     <div>
       <div className="label-caps text-text-muted">{label}</div>
-      <div className="text-text-primary">{value || "—"}</div>
+      {value && type === "email" ? (
+        <a href={`mailto:${value}`} className="text-brand-info hover:underline truncate block text-sm">
+          {value}
+        </a>
+      ) : value && type === "phone" ? (
+        <a href={`tel:${value}`} className="text-brand-info hover:underline text-sm">
+          {value}
+        </a>
+      ) : (
+        <div className="text-text-primary text-sm">{display}</div>
+      )}
     </div>
   );
 }

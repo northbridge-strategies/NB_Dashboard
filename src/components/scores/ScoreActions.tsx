@@ -1,11 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { Check, X } from "lucide-react";
+import { Check, X, Loader2 } from "lucide-react";
 import { useAction } from "@/lib/hooks/useAction";
 import { ConfirmDialog } from "@/components/ui/ConfirmDialog";
 
 export function ScoreActions({ id }: { id: string }) {
+  const [approveOpen, setApproveOpen] = useState(false);
   const [rejectOpen, setRejectOpen] = useState(false);
   const [notes, setNotes] = useState("");
   const approve = useAction();
@@ -18,14 +19,18 @@ export function ScoreActions({ id }: { id: string }) {
           type="button"
           onClick={(e) => {
             e.stopPropagation();
-            void approve.run(`/api/scores/${id}/approve`);
+            setApproveOpen(true);
           }}
           disabled={approve.state === "pending" || approve.state === "success"}
           aria-label="Approve"
           title="Approve report"
           className="inline-flex h-7 w-7 items-center justify-center rounded-md border border-brand-success/40 bg-brand-success/10 text-brand-success hover:bg-brand-success/20 disabled:cursor-not-allowed disabled:opacity-50"
         >
-          <Check className="h-3.5 w-3.5" />
+          {approve.state === "pending" ? (
+            <Loader2 className="h-3.5 w-3.5 animate-spin" />
+          ) : (
+            <Check className="h-3.5 w-3.5" />
+          )}
         </button>
         <button
           type="button"
@@ -46,6 +51,19 @@ export function ScoreActions({ id }: { id: string }) {
           {approve.error || reject.error}
         </div>
       )}
+
+      <ConfirmDialog
+        open={approveOpen}
+        title="Approve report draft"
+        description="This will mark the report as approved and send it to the next stage. This action cannot be undone from the dashboard."
+        confirmLabel="Approve"
+        pending={approve.state === "pending"}
+        onCancel={() => setApproveOpen(false)}
+        onConfirm={async () => {
+          const r = await approve.run(`/api/scores/${id}/approve`);
+          if (r.ok) setApproveOpen(false);
+        }}
+      />
 
       <ConfirmDialog
         open={rejectOpen}

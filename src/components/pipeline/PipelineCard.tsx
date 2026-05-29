@@ -1,6 +1,7 @@
 import { CalendarDays, Building } from "lucide-react";
 import {
   StatusBadge,
+  toneForClassification,
   toneForPriority,
 } from "@/components/ui/StatusBadge";
 import type { PipelineEntry } from "@/lib/notion/pipeline";
@@ -65,7 +66,7 @@ export function PipelineCard({
           <StatusBadge label={entry.priority} tone={toneForPriority(entry.priority)} />
         )}
         {lead?.classification && (
-          <StatusBadge label={lead.classification} tone="info" />
+          <StatusBadge label={lead.classification} tone={toneForClassification(lead.classification)} />
         )}
       </div>
 

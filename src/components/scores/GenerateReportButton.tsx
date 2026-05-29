@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { FileText, Loader2, ExternalLink } from "lucide-react";
 
 interface Props {
@@ -10,6 +11,7 @@ interface Props {
 }
 
 export function GenerateReportButton({ leadId, scoreId, onSuccess }: Props) {
+  const router = useRouter();
   const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
   const [reportUrl, setReportUrl] = useState<string | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
@@ -38,6 +40,7 @@ export function GenerateReportButton({ leadId, scoreId, onSuccess }: Props) {
       setReportUrl(data.report_url);
       setStatus("done");
       onSuccess?.(data.report_url);
+      router.refresh();
     } catch (err) {
       setErrorMsg(err instanceof Error ? err.message : "Unknown error");
       setStatus("error");
@@ -62,6 +65,7 @@ export function GenerateReportButton({ leadId, scoreId, onSuccess }: Props) {
   return (
     <div className="flex flex-col gap-1.5">
       <button
+        type="button"
         onClick={handleGenerate}
         disabled={status === "loading"}
         className="inline-flex items-center gap-1.5 rounded-md border border-brand-primary px-3 py-1.5 text-xs font-medium text-brand-primary transition hover:bg-brand-primary hover:text-white disabled:cursor-not-allowed disabled:opacity-60"
@@ -79,7 +83,7 @@ export function GenerateReportButton({ leadId, scoreId, onSuccess }: Props) {
         )}
       </button>
       {status === "error" && errorMsg && (
-        <span className="text-xs text-red-500">{errorMsg}</span>
+        <span className="text-xs text-brand-danger">{errorMsg}</span>
       )}
     </div>
   );

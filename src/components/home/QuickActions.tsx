@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Pause, Play, Activity } from "lucide-react";
-import { useState, useTransition } from "react";
+import { Pause, Play, Activity, Loader2 } from "lucide-react";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 import type { Role } from "@/lib/types/auth";
 
 export function QuickActions({
@@ -16,35 +17,40 @@ export function QuickActions({
   initialLastPause: string | null;
   initialLastResume: string | null;
 }) {
+  const router = useRouter();
   const isAdmin = role === "Admin";
   const [paused, setPaused] = useState(initialPaused);
   const [lastPause, setLastPause] = useState(initialLastPause);
   const [lastResume, setLastResume] = useState(initialLastResume);
   const [error, setError] = useState<string | null>(null);
-  const [isPending, startTransition] = useTransition();
+  const [pending, setPending] = useState(false);
 
   async function pauseSystem() {
     setError(null);
-    const res = await fetch("/api/system/pause", { method: "POST" });
-    if (!res.ok) {
-      setError("Failed to pause. Try again.");
-      return;
+    setPending(true);
+    try {
+      const res = await fetch("/api/system/pause", { method: "POST" });
+      if (!res.ok) { setError("Failed to pause. Try again."); return; }
+      setPaused(true);
+      setLastPause(new Date().toISOString());
+      router.refresh();
+    } finally {
+      setPending(false);
     }
-    setPaused(true);
-    setLastPause(new Date().toISOString());
-    startTransition(() => {});
   }
 
   async function resumeSystem() {
     setError(null);
-    const res = await fetch("/api/system/resume", { method: "POST" });
-    if (!res.ok) {
-      setError("Failed to resume. Try again.");
-      return;
+    setPending(true);
+    try {
+      const res = await fetch("/api/system/resume", { method: "POST" });
+      if (!res.ok) { setError("Failed to resume. Try again."); return; }
+      setPaused(false);
+      setLastResume(new Date().toISOString());
+      router.refresh();
+    } finally {
+      setPending(false);
     }
-    setPaused(false);
-    setLastResume(new Date().toISOString());
-    startTransition(() => {});
   }
 
   return (
@@ -69,22 +75,22 @@ export function QuickActions({
           {paused ? (
             <button
               type="button"
-              onClick={resumeSystem}
-              disabled={isPending}
+              onClick={() => void resumeSystem()}
+              disabled={pending}
               className="flex flex-1 items-center justify-center gap-2 rounded-md bg-brand-success px-3 py-2 text-sm font-medium text-white transition hover:opacity-90 disabled:opacity-60"
             >
-              <Play className="h-4 w-4" />
-              Resume System
+              {pending ? <Loader2 className="h-4 w-4 animate-spin" /> : <Play className="h-4 w-4" />}
+              {pending ? "Working…" : "Resume System"}
             </button>
           ) : (
             <button
               type="button"
-              onClick={pauseSystem}
-              disabled={isPending}
+              onClick={() => void pauseSystem()}
+              disabled={pending}
               className="flex flex-1 items-center justify-center gap-2 rounded-md bg-brand-danger px-3 py-2 text-sm font-medium text-white transition hover:opacity-90 disabled:opacity-60"
             >
-              <Pause className="h-4 w-4" />
-              Global Pause
+              {pending ? <Loader2 className="h-4 w-4 animate-spin" /> : <Pause className="h-4 w-4" />}
+              {pending ? "Working…" : "Global Pause"}
             </button>
           )}
         </div>

@@ -40,12 +40,22 @@ export interface DiagnosticScore {
 
 export function parseScore(page: Page): DiagnosticScore {
   const leadIds = getRelationIds(page, "Lead");
+  const rawScore = getNumber(page, "Raw Score");
+  // "Score Pct" is a Notion formula. Some formula configurations return a
+  // 0–1 decimal (e.g. 0.52) rather than a 0–100 integer. If the stored value
+  // is ≤ 1 and rawScore is available, derive the percentage from rawScore
+  // directly (max gate total = 50). Otherwise scale the decimal to 0–100.
+  const rawPct = getNumber(page, "Score Pct");
+  let scorePct: number | null = rawPct;
+  if (rawPct !== null && rawPct <= 1) {
+    scorePct = rawScore !== null ? Math.round((rawScore / 50) * 100) : Math.round(rawPct * 100);
+  }
   return {
     id: page.id,
     title: getTitle(page, "Score Entry"),
     leadId: leadIds[0] ?? null,
-    rawScore: getNumber(page, "Raw Score"),
-    scorePct: getNumber(page, "Score Pct"),
+    rawScore,
+    scorePct,
     classification: getSelect(page, "Classification") as Classification | null,
     authority: getNumber(page, "Authority Score"),
     process: getNumber(page, "Process Score"),

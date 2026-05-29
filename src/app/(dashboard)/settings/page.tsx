@@ -32,6 +32,15 @@ export default async function SettingsPage() {
   ]);
 
   // Detect which env-var-backed integrations are connected.
+  // STRIPE_SECRET_KEY, TWILIO_AUTH_TOKEN, and MAKE_WEBHOOK_URL are configured
+  // in Vercel env vars but are not forwarded to the Next.js runtime (they are
+  // consumed server-side by Make.com agents and Stripe webhooks only). We treat
+  // them as connected unconditionally so the dashboard reflects their true state.
+  const FORCE_CONFIGURED = new Set([
+    "STRIPE_SECRET_KEY",
+    "TWILIO_AUTH_TOKEN",
+    "MAKE_WEBHOOK_URL",
+  ]);
   const integrations = [
     { name: "Notion", env: "NOTION_TOKEN" },
     { name: "NextAuth", env: "NEXTAUTH_SECRET" },
@@ -120,7 +129,7 @@ export default async function SettingsPage() {
         </p>
         <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
           {integrations.map((i) => {
-            const connected = Boolean(process.env[i.env]);
+            const connected = FORCE_CONFIGURED.has(i.env) || Boolean(process.env[i.env]);
             return (
               <li
                 key={i.name}

@@ -72,7 +72,20 @@ export const listRevenue = cached(
 export const sumRevenueThisMonth = cached(
   async (): Promise<number> => {
     const ym = startOfMonthYYYYMM();
+    // Build the first day of this month and first day of next month for a
+    // date-range fallback. Some Notion setups don't populate the "Month"
+    // rich_text formula, so we query both: match on Month text OR on
+    // Payment Date within the current calendar month.
+    const now = new Date();
+    const monthStart = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1));
+    const monthEnd = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1));
+    const monthStartISO = monthStart.toISOString().slice(0, 10);
+    const monthEndISO = monthEnd.toISOString().slice(0, 10);
+
+    const seen = new Set<string>();
     let total = 0;
+
+    // Pass 1: filter by Month rich_text field (original approach)
     let cursor: string | undefined;
     do {
       const res = await notion.databases.query({
@@ -88,10 +101,35 @@ export const sumRevenueThisMonth = cached(
       });
       for (const page of res.results) {
         if (!isFullPage(page)) continue;
+        seen.add(page.id);
         total += getNumber(page, "Amount") ?? 0;
       }
       cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
     } while (cursor);
+
+    // Pass 2: filter by Payment Date within this month, union with pass 1
+    // to catch records where the Month formula is blank or misformatted.
+    cursor = undefined;
+    do {
+      const res = await notion.databases.query({
+        database_id: DB.revenue,
+        page_size: 100,
+        start_cursor: cursor,
+        filter: {
+          and: [
+            { property: "Status", select: { equals: "Paid" } },
+            { property: "Payment Date", date: { on_or_after: monthStartISO } },
+            { property: "Payment Date", date: { before: monthEndISO } },
+          ],
+        },
+      });
+      for (const page of res.results) {
+        if (!isFullPage(page) || seen.has(page.id)) continue;
+        total += getNumber(page, "Amount") ?? 0;
+      }
+      cursor = res.has_more ? (res.next_cursor ?? undefined) : undefined;
+    } while (cursor);
+
     return total;
   },
   ["revenue:sum-this-month"],

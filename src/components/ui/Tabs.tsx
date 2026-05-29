@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useCallback, useEffect, useState, type ReactNode } from "react";
+import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { cn } from "@/lib/utils/classnames";
 
 export interface TabDef {
@@ -13,13 +14,43 @@ export interface TabDef {
 export function Tabs({
   tabs,
   defaultTab,
+  urlParam,
   className,
 }: {
   tabs: TabDef[];
   defaultTab?: string;
+  /** If provided, the active tab id is synced to this URL search param. */
+  urlParam?: string;
   className?: string;
 }) {
-  const [active, setActive] = useState(defaultTab ?? tabs[0]?.id ?? "");
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const initial = urlParam
+    ? (searchParams.get(urlParam) ?? defaultTab ?? tabs[0]?.id ?? "")
+    : (defaultTab ?? tabs[0]?.id ?? "");
+  const [active, setActive] = useState(initial);
+
+  // Keep state in sync when the URL param changes externally (e.g. back button)
+  useEffect(() => {
+    if (!urlParam) return;
+    const fromUrl = searchParams.get(urlParam);
+    if (fromUrl && fromUrl !== active) setActive(fromUrl);
+  }, [searchParams, urlParam, active]);
+
+  const handleSelect = useCallback(
+    (id: string) => {
+      setActive(id);
+      if (urlParam) {
+        const params = new URLSearchParams(searchParams.toString());
+        params.set(urlParam, id);
+        router.replace(`${pathname}?${params.toString()}`, { scroll: false });
+      }
+    },
+    [urlParam, router, pathname, searchParams],
+  );
+
   const current = tabs.find((t) => t.id === active) ?? tabs[0];
 
   return (
@@ -33,7 +64,7 @@ export function Tabs({
               type="button"
               role="tab"
               aria-selected={isActive}
-              onClick={() => setActive(t.id)}
+              onClick={() => handleSelect(t.id)}
               className={cn(
                 "relative flex items-center gap-2 px-4 py-2 text-sm font-medium transition",
                 isActive

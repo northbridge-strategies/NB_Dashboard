@@ -32,6 +32,11 @@ export interface HealthLog {
 
 export function parseHealth(page: Page): HealthLog {
   const leadIds = getRelationIds(page, "Affected Lead");
+  // Default severity to "Warning" when the Notion field is blank so that
+  // unresolved errors always surface in the severity counter rollup rather
+  // than being silently dropped from every bucket while still counting in
+  // the "total" header.
+  const rawSeverity = getSelect(page, "Severity") as Severity | null;
   return {
     id: page.id,
     title: getTitle(page, "Log Entry"),
@@ -40,7 +45,7 @@ export function parseHealth(page: Page): HealthLog {
     errorMessage: getRichText(page, "Error Message"),
     affectedLeadId: leadIds[0] ?? null,
     affectedRecordUrl: getUrl(page, "Affected Record URL"),
-    severity: getSelect(page, "Severity") as Severity | null,
+    severity: rawSeverity ?? "Warning",
     resolved: getCheckbox(page, "Resolved"),
     resolutionNotes: getRichText(page, "Resolution Notes"),
     timestamp: page.created_time,

@@ -147,6 +147,11 @@ export function AddContentForm() {
               className="w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
             />
           </Field>
+          {action.error && (
+            <p className="rounded-md border border-brand-danger/30 bg-brand-danger/10 px-3 py-2 text-xs text-brand-danger">
+              {action.error}
+            </p>
+          )}
         </div>
       </ConfirmDialog>
     </>

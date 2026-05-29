@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { useState, useMemo } from "react";
 import { FileText, CheckCircle, XCircle } from "lucide-react";
 import { DataTable, type Column } from "@/components/ui/DataTable";
 import { ScoreBar, GateDot } from "@/components/ui/ScoreBar";
@@ -11,6 +12,9 @@ import {
 } from "@/components/ui/StatusBadge";
 import { ScoreActions } from "@/components/scores/ScoreActions";
 import { formatRelative } from "@/lib/utils/dates";
+
+const HITL_OPTIONS = ["All", "Pending", "Approved", "Edited-Approved", "Rejected-Manual Review"] as const;
+type HitlFilter = (typeof HITL_OPTIONS)[number];
 
 export interface ScoreRow {
   id: string;
@@ -35,6 +39,13 @@ export interface ScoreRow {
 
 export function ScoresTable({ rows }: { rows: ScoreRow[] }) {
   const router = useRouter();
+  const [hitlFilter, setHitlFilter] = useState<HitlFilter>("All");
+
+  const filteredRows = useMemo(() => {
+    if (hitlFilter === "All") return rows;
+    return rows.filter((r) => r.hitlAction === hitlFilter);
+  }, [rows, hitlFilter]);
+
   const columns: Column<ScoreRow>[] = [
     {
       key: "lead",
@@ -164,16 +175,41 @@ export function ScoresTable({ rows }: { rows: ScoreRow[] }) {
   ];
 
   return (
-    <DataTable
-      rows={rows}
-      columns={columns}
-      searchable={(r) => `${r.leadName} ${r.company}`}
-      searchPlaceholder="Search by lead or company…"
-      onRowClick={(r) => {
-        if (r.leadId) router.push(`/leads/${r.leadId}`);
-      }}
-      emptyTitle="No scores yet"
-      emptyDescription="Diagnostic Scores will appear as Agent 1 processes qualifier submissions."
-    />
+    <div className="space-y-3">
+      <div className="flex items-center gap-3">
+        <label className="flex items-center gap-2 text-sm">
+          <span className="label-caps text-text-muted">HITL Status</span>
+          <select
+            value={hitlFilter}
+            onChange={(e) => setHitlFilter(e.target.value as HitlFilter)}
+            className="rounded-md border border-border bg-bg px-2 py-1.5 text-text-primary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+          >
+            {HITL_OPTIONS.map((o) => (
+              <option key={o} value={o}>{o}</option>
+            ))}
+          </select>
+        </label>
+        {hitlFilter !== "All" && (
+          <button
+            type="button"
+            onClick={() => setHitlFilter("All")}
+            className="text-xs text-text-muted hover:text-text-primary"
+          >
+            Clear filter
+          </button>
+        )}
+      </div>
+      <DataTable
+        rows={filteredRows}
+        columns={columns}
+        searchable={(r) => `${r.leadName} ${r.company}`}
+        searchPlaceholder="Search by lead or company…"
+        onRowClick={(r) => {
+          if (r.leadId) router.push(`/leads/${r.leadId}`);
+        }}
+        emptyTitle="No scores match"
+        emptyDescription={hitlFilter !== "All" ? `No scores with HITL status "${hitlFilter}".` : "Diagnostic Scores will appear as Agent 1 processes qualifier submissions."}
+      />
+    </div>
   );
 }
