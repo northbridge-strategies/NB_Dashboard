@@ -156,6 +156,7 @@ export const REPORT_TEMPLATE = `<!doctype html>
   .gate-row .avg{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;font-size:13px}
   .gate-row .flag{font-family:var(--mono);font-size:10.5px;letter-spacing:0.06em;text-transform:uppercase;padding:3px 6px;text-align:center;background:var(--sev-1-bg);color:var(--sev-1)}
   .gate-row .flag.warn{background:var(--sev-2-bg);color:var(--sev-2)}
+  .gate-row .flag.ok{background:var(--sev-4-bg);color:var(--sev-4)}
   .gate-row .flag.tot{background:transparent;color:var(--ink);border:1px solid var(--ink)}
   .bar-track{height:4px;background:var(--rule-soft);position:relative;grid-column:1 / -1;margin-top:-2px}
   .bar-fill{height:100%;background:var(--sev-1)}
@@ -254,6 +255,7 @@ export const REPORT_TEMPLATE = `<!doctype html>
   .gate-meta .pill{background:var(--paper-2);padding:3px 8px;color:var(--ink-2)}
   .gate-meta .pill.flag{background:var(--sev-1-bg);color:var(--sev-1)}
   .gate-meta .pill.warn{background:var(--sev-2-bg);color:var(--sev-2)}
+  .gate-meta .pill.ok{background:var(--sev-4-bg);color:var(--sev-4)}
   .gate-summary{margin-top:8px;font-family:var(--serif);font-size:16.5px;line-height:1.55;color:var(--ink-2);max-width:72ch}
   .gate-authority{margin-top:18px;padding:14px 18px;background:var(--paper-2);border-left:3px solid var(--ink);font-size:13.5px;color:var(--ink-2);line-height:1.55}
   .gate-authority strong{font-family:var(--mono);font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink);display:block;margin-bottom:4px}

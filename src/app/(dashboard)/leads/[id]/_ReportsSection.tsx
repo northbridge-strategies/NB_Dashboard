@@ -10,10 +10,12 @@ interface ReportEntry {
 }
 
 function parseReportId(url: string): string | null {
-  // Extract the slug from the blob path: reports/ClientName-...-YEAR-SLUG/index.html
-  // The meaningful label comes from the path segment before /index.html
-  const match = url.match(/reports\/(.+?)\/index\.html/);
-  return match ? match[1] : null;
+  // Blob path format: reports/{slug}/{ClientName}-{CompanyName}-Tier-I-Diagnostic-{year}.html
+  // Extract the descriptive filename and use it as the display label.
+  const match = url.match(/reports\/[^/]+\/(.+?)\.html/);
+  if (!match) return null;
+  // e.g. "John-Smith-Acme-Corp-Tier-I-Diagnostic-2026" → readable label
+  return match[1].replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 function formatDate(iso: string | null): string {

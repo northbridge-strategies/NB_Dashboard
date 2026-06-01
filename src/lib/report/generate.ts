@@ -35,7 +35,9 @@ function gateFlag(score: number | null, gateNum: number): string {
 function gateFlagClass(score: number | null): string {
   if (score == null) return "";
   const avg = score / 2.5;
-  return avg < 2.0 ? "" : "warn";
+  if (avg < 2.0) return "";        // critical red  (.flag — no modifier)
+  if (avg < 2.5) return "warn";    // amber warning (.flag.warn)
+  return "ok";                     // acceptable    (.flag.ok)
 }
 
 function gateBarType(score: number | null): string {
@@ -46,6 +48,7 @@ function gateBarType(score: number | null): string {
 function gateMeta(flag: string): string {
   if (flag === "OVERRIDE" || flag === "TIER III BLOCK") return "flag";
   if (flag.startsWith("BELOW")) return "warn";
+  if (flag === "ACCEPTABLE") return "ok";
   return "";
 }
 
@@ -157,7 +160,6 @@ export async function generateReport(
   const [b1, b2, b3, b4] = activeBand(classification);
   const pctDecimal = (scorePct / 100).toFixed(4);
   const arcC = 2 * Math.PI * 42;
-  const arcDash = `${(arcC * scorePct / 100).toFixed(2)} ${arcC.toFixed(2)}`;
 
   const tier3Status = g5avg < 2.0
     ? "Blocked · G5 < 2.0"
@@ -316,7 +318,6 @@ Write a JSON object with exactly these keys. Respond with ONLY valid JSON — no
     BAND_3_TAG: classification === "Stabilized" ? `★ Current · ${weightedScore}/125` : "Tier III path",
     BAND_4_TAG: classification === "Transfer-Ready" ? `★ Current · ${weightedScore}/125` : "Premium multiple",
     SCORE_ARC_COLOR: arcColor(scorePct),
-    SCORE_ARC_DASHARRAY: arcDash,
     SCORE_PCT_DECIMAL: pctDecimal,
     TIER3_STATUS: tier3Status,
     G1_COMPRESSION: compressionByGate(g1),
