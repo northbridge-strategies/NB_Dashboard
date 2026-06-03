@@ -12,6 +12,7 @@ import {
   Activity,
   AlertTriangle,
   Settings,
+  ClipboardList,
   type LucideIcon,
 } from "lucide-react";
 
@@ -28,7 +29,8 @@ export const NAV_ITEMS: NavItem[] = [
   { href: "/leads", label: "All Leads", icon: Users },
   { href: "/pipeline", label: "Pipeline", icon: ListChecks },
   { href: "/hot-leads", label: "Hot Leads", icon: Flame },
-  { href: "/scores", label: "Diagnostic Scores", icon: FileText },
+  { href: "/scores",        label: "Diagnostic Scores",  icon: FileText },
+  { href: "/scoring",       label: "Live Scoring",        icon: ClipboardList, roles: ["Admin", "Staff"] as Role[] },
   { href: "/revenue", label: "Revenue", icon: DollarSign },
   { href: "/linkedin", label: "LinkedIn Outreach", icon: Briefcase },
   { href: "/brokers", label: "Broker Queue", icon: Building2 },

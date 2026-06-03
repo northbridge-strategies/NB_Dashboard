@@ -20,6 +20,11 @@ function read(name: (typeof REQUIRED)[number]): string {
   return value;
 }
 
+/** Optional — returns null if env var not set (graceful before setup runs) */
+function readOptional(name: string): string | null {
+  return process.env[name] ?? null;
+}
+
 export const DB = {
   leads: read("NOTION_LEADS_DB"),
   scores: read("NOTION_SCORES_DB"),
@@ -32,6 +37,9 @@ export const DB = {
   health: read("NOTION_HEALTH_DB"),
   config: read("NOTION_CONFIG_DB"),
   users: read("NOTION_USERS_DB"),
+  // Phase 2 — Tier I (optional until /api/tier1/setup is run once)
+  tier1Criteria: readOptional("NOTION_TIER1_CRITERIA_DB"),
+  tier1Responses: readOptional("NOTION_TIER1_RESPONSES_DB"),
 } as const;
 
 export type DatabaseKey = keyof typeof DB;

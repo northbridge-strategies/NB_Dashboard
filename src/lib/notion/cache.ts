@@ -19,6 +19,7 @@ export const TAG = {
   config: "notion:config",
   users: "notion:users",
   activity: "notion:activity",
+  tier1: "notion:tier1",
 } as const;
 
 export type Tag = (typeof TAG)[keyof typeof TAG];

@@ -8,6 +8,7 @@ import {
 import { SectionCard, EmptySection } from "./_SectionCard";
 import { formatRelative } from "@/lib/utils/dates";
 import { GenerateReportButton } from "@/components/scores/GenerateReportButton";
+import { GenerateDocxButton } from "@/components/scores/GenerateDocxButton";
 import { ReportDeliverButton } from "@/components/scores/ReportDeliverButton";
 import type { DiagnosticScore } from "@/lib/notion/scores";
 
@@ -128,10 +129,8 @@ export function ScoreSection({
                 <FileText className="h-3.5 w-3.5" />
                 View Report
               </a>
-              <GenerateReportButton
-                leadId={leadId}
-                scoreId={score.id}
-              />
+              <GenerateReportButton leadId={leadId} scoreId={score.id} />
+              <GenerateDocxButton leadId={leadId} scoreId={score.id} />
             </div>
           ) : score.reportDraftGenerated ? (
             <div className="flex flex-wrap items-center gap-2">
@@ -139,16 +138,14 @@ export function ScoreSection({
                 <CheckCircle2 className="h-3.5 w-3.5" />
                 Report draft generated
               </span>
-              <GenerateReportButton
-                leadId={leadId}
-                scoreId={score.id}
-              />
+              <GenerateReportButton leadId={leadId} scoreId={score.id} />
+              <GenerateDocxButton leadId={leadId} scoreId={score.id} />
             </div>
           ) : (
-            <GenerateReportButton
-              leadId={leadId}
-              scoreId={score.id}
-            />
+            <div className="flex flex-wrap items-center gap-2">
+              <GenerateReportButton leadId={leadId} scoreId={score.id} />
+              <GenerateDocxButton leadId={leadId} scoreId={score.id} />
+            </div>
           )}
           <div className="ml-auto flex items-center gap-3">
             <ReportDeliverButton
